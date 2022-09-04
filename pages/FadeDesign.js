@@ -21,11 +21,11 @@ const FadeDesign = () => {
 			
 		  </Grid>
 		  <Grid item xs={8}>
-              <Typography variant="h1">Dashboard UI/UX Solution</Typography>
-                <Typography variant="body1">Publisher, agency, brand and ad campaign management dashboard solution.</Typography>
+              
           <Box>
                     
-               
+         <Typography variant="h1">Dashboard UI/UX Solution</Typography>
+                <Typography variant="body1">Publisher, agency, brand and ad campaign management dashboard solution.</Typography>      
                         
                     
             </Box>
@@ -33,10 +33,10 @@ const FadeDesign = () => {
           <Grid item xs={2}>
 			
 		  </Grid>
-          <Grid item xs={2}>
+          <Grid item xs={1}>
 			
 		  </Grid>
-		  <Grid item xs={8}>
+		  <Grid item xs={10}>
         <Grid container>
 <Grid item xs={12} md={4}><Typography variant="body1"> <Typography variant="h5">Overview </Typography>  Fade Technology solutions needs a dashboard solution for its publishers, brands and agencies to manage ad campaigns.</Typography></Grid>
 <Grid item xs={12} md={4}><Typography variant="h5">The Team &amp; Timeframe</Typography>
@@ -58,7 +58,7 @@ const FadeDesign = () => {
                  
                     
 		  </Grid>
-          <Grid item xs={2}>
+          <Grid item xs={1}>
 			
 		  </Grid>
        
@@ -125,11 +125,38 @@ const FadeDesign = () => {
 			
 		  </Grid>
       <Grid item xs={8} mt={5}>
-      <Typography variant="h5">Activities & Deliverables</Typography>
+      <Typography variant="h5">Activities &amp; Deliverables</Typography>
                     <Typography  variant="h2">Read and Understand the Brief</Typography>
                    <Typography variant="body1">Fade did part of our Double Diamond work for us and we just needed to build on what they provided and begin sketches and low-fidelity wireframing based on the examples.</Typography>
-                    <Typography variant="h4">Design Studio Work</Typography>
+                    
                     {/* <img src="img/designstudio.png" class="img-fluid mt-5 mb-5"> */}
+     
+        </Grid>
+        <Grid item xs={2}>
+			
+		  </Grid> 
+      <Grid item xs={2}>
+			
+		  </Grid>
+      <Grid item xs={8} mt={5}>
+      
+                    
+                    <Typography variant="h4" mb={4}>Design Studio</Typography>
+                    <Image src="/assets/designstudio.png" alt="" height={1080} width={1440} />
+     
+        </Grid>
+        <Grid item xs={2}>
+			
+		  </Grid> 
+      <Grid item xs={2}>
+			
+		  </Grid>
+      <Grid item xs={8} mt={5}>
+      
+                    
+                    <Typography variant="h4" mb={4}>Persona</Typography>
+                    <Typography variant="h2" mb={4}>Meet Pamela Wu</Typography>
+                    <Image src="/assets/fadepersona.png" alt="" height={1080} width={1440} />
      
         </Grid>
         <Grid item xs={2}>

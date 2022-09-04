@@ -38,6 +38,9 @@ a {
 .landingImage{
   z-index:0;
 }
+ul{
+  padding-left:20px;
+}
 .landingText{
   z-index:1;
   position:relative;
