@@ -12,7 +12,7 @@ import { global } from 'styled-jsx/css';
 const Hero = () => {
   return (
    
-<Box container sx={{display:'flex', minHeight: '100vh', width: '100%',  alignItems:'center', justifyItems:'left'}}> 
+<Box container disableGutters={true} sx={{display:'flex', minHeight: '100vh', alignItems:'center', maxwidth:'1440px', justifyItems:'left', }}> 
 <Image className={global.landingImage} src="/assets/bg_new.png" layout='fill' objectFit='cover' objectPosition='center' alt=""/>
 
 <Box className={global.landingText} p={3} sx={{display:'block', }}>

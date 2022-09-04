@@ -1,6 +1,6 @@
 import React from 'react';
 import { styled } from '@mui/material/styles';
-import { Box, Grid, Container } from '@mui/material';
+import { Box, Grid, Container, Item } from '@mui/material';
 import Paper from '@mui/material/Paper';
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
@@ -9,6 +9,8 @@ import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import { Typography } from '@mui/material';
 import Divider from '@mui/material/Divider';
+import Image from 'next/image';
+import FadeJourneyMap from '/assets/FadeJourneyMap.png';
 
 
 const FadeDesign = () => {
@@ -36,8 +38,8 @@ const FadeDesign = () => {
 		  </Grid>
 		  <Grid item xs={8}>
         <Grid container>
-<Grid xs={12} md={4}><Typography variant="body1"> <Typography variant="h5">Overview </Typography>  Fade Technology solutions needs a dashboard solution for its publishers, brands and agencies to manage ad campaigns.</Typography></Grid>
-<Grid xs={12} md={4}><Typography variant="h5">The Team &amp; Timeframe</Typography>
+<Grid item xs={12} md={4}><Typography variant="body1"> <Typography variant="h5">Overview </Typography>  Fade Technology solutions needs a dashboard solution for its publishers, brands and agencies to manage ad campaigns.</Typography></Grid>
+<Grid item xs={12} md={4}><Typography variant="h5">The Team &amp; Timeframe</Typography>
                         <Typography>The project timeframe was a 3 week sprint and we worked with a team of three:</Typography>
                           <ul sx={{marginLeft: '0',}}>
             <li>Jaylon Ballard, UX Researcher</li>
@@ -45,7 +47,7 @@ const FadeDesign = () => {
             <li>Meagan Crowe, Visual Designer</li>
                         </ul> 
                         </Grid>
-<Grid xs={12} md={4} lg={4}>
+<Grid item xs={12} md={4} lg={4}>
 <Typography variant="h5">Tools &amp; Methods Used</Typography>            
                     <ul>
                             
@@ -99,7 +101,7 @@ const FadeDesign = () => {
 		  </Grid>
       <Grid item xs={8} mt={5}>
 
-      {/* <img src="img/FadeinIpad.png"> */}
+      
         </Grid>
         <Grid item xs={2}>
 			
@@ -137,9 +139,12 @@ const FadeDesign = () => {
 			
 		  </Grid>
       <Grid item xs={8} mt={5}>
-
       <Typography variant="h4">Journey Map</Typography>
                 <Typography variant="h2">Prospective Journey Map </Typography>
+                
+                <Image src={FadeJourneyMap} alt="" layout='fill'/>
+                
+                
         </Grid>
         <Grid item xs={2}>
 			
@@ -148,8 +153,9 @@ const FadeDesign = () => {
 			
 		  </Grid>
       <Grid item xs={8} mt={5}>
-
-      <Typography  variant="body1">Here we map the journey of the Account Adminsitrator as he/she interacts with the proposed solution.</Typography>	
+      <Item>
+      <Typography  variant="body1">In the above image we are mapping the journey of the Account Administrator as he/she interacts with the proposed solution.</Typography>	
+        </Item>
         </Grid>
         <Grid item xs={2}>
 			
