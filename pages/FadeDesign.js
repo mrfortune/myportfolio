@@ -10,7 +10,7 @@ import ListItemText from '@mui/material/ListItemText';
 import { Typography } from '@mui/material';
 import Divider from '@mui/material/Divider';
 import Image from 'next/image';
-import FadeJourneyMap from '/assets/FadeJourneyMap.png';
+import FadeJourneyMap from '../public/assets/FadeJourneyMap.png';
 
 
 const FadeDesign = () => {
@@ -142,7 +142,21 @@ const FadeDesign = () => {
       <Typography variant="h4">Journey Map</Typography>
                 <Typography variant="h2">Prospective Journey Map </Typography>
                 
-                <Image src={FadeJourneyMap} alt="" layout='fill'/>
+                
+                
+                
+        </Grid>
+        <Grid item xs={2}>
+			
+		  </Grid> 
+      <Grid item xs={2}>
+			
+		  </Grid>
+      <Grid item xs={8} mt={5} sx={{display:'block', width:'1440', height:'1080'}}>
+      
+                
+                
+                <Image src="/assets/FadeJourneyMap.png" alt="" height={1080} width={1440} />
                 
                 
         </Grid>
@@ -153,9 +167,9 @@ const FadeDesign = () => {
 			
 		  </Grid>
       <Grid item xs={8} mt={5}>
-      <Item>
+      
       <Typography  variant="body1">In the above image we are mapping the journey of the Account Administrator as he/she interacts with the proposed solution.</Typography>	
-        </Item>
+        
         </Grid>
         <Grid item xs={2}>
 			
