@@ -8,7 +8,9 @@ import Button from '@mui/material/Button';
 import Container  from '@mui/material/Container';
 import { Typography } from '@mui/material';
 import { global } from 'styled-jsx/css';
-import { ThemeProvider } from '@emotion/react';
+import lightTheme from '../styles/theme/lightTheme';
+
+
 const Hero = () => {
   return (
    
@@ -17,7 +19,7 @@ const Hero = () => {
 
 <Box p={3} sx={{display:'block', zIndex:1000, }}>
 
-<Typography className={Hero.display} variant="h1"  mb={2} sx={{ width: '40vw', color:'#fff',  }}>
+<Typography className={lightTheme.typography.h1} variant="h1"  mb={2} sx={{ width: '40vw', color:'#fff',  }}>
 Data driven, design-thinking practitioners.
 </Typography>
 <Typography variant="body2" mb={2} sx={{width:'40vw', color:'#fff', fontWeight:'500', }}>
