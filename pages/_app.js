@@ -5,7 +5,7 @@ import { ThemeProvider, CssBaseline } from '@mui/material';
 import createEmotionCache from '../utility/createEmotionCache';
 import lightTheme from '../styles/theme/lightTheme';
 //import '../styles/mystyles.css';
-//import '../styles/globals.css';
+import '../styles/globals.css';
 import '@nextcss/reset'
 import Layout from '../components/layout';
 

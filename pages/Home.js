@@ -27,7 +27,7 @@ const Home = () => {
       </Typography>
 </Box>
 
-<Box display="flex">
+{/* <Box display="flex">
   <Typography variant="h2" pt={4}>
 Projects
   </Typography>
@@ -35,7 +35,7 @@ Projects
     Worked in various roles and capacities for these brands including UX Engineer, Project Manager, Web Producer &amp; Designer, and Design Technologist working from inception to delivery on their digital business initiatives.
   </Typography>
 <Image  sx={{width:'100%',}} height="225" src="/assets/workbanner.png" alt=""/>
-</Box>  
+</Box>   */}
 
 
 <Box display="flex" sx={{paddingBottom:10, paddingTop:10}}>

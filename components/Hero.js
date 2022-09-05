@@ -7,8 +7,8 @@ import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
 import Container  from '@mui/material/Container';
 import { Typography } from '@mui/material';
-//import { global } from 'styled-jsx/css';
-//import lightTheme from '../styles/theme/lightTheme';
+import { global } from 'styled-jsx/css';
+import lightTheme from '../styles/theme/lightTheme';
 
 
 const Hero = () => {
@@ -30,14 +30,7 @@ UX/UI design and engineering practioners who focus on identifying user pain-poin
 Learn More...
 </Button>
   </Box>
-  <style jsx>{`
-        .container {
-          margin: 50px;
-        }
-        h1 {
-          font-size: 4rem;
-        }
-      `}</style>
+
 </Box>
   );
 }
