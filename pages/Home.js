@@ -17,16 +17,17 @@ const Home = () => {
   return(
 <Container disablegutters="true">
   <Hero>
-    </Hero>  
-    <Divider variant="middle" mt={4} mb={4}/>
-<Box display="flex">
-<Typography variant="h2" pt={4} mb={4}>
-  What We Do
-</Typography>
-</Box>
+  </Hero>  
     
-    <Divider variant="middle" />
-<Box mt={10} mb={10} display="flex">
+
+<Stack spacing={2}>
+    <Box display="flex" pt='12' sx={{paddingBottom: 10,}}>
+      <Typography variant="h2">
+        What We Do
+      </Typography>
+</Box>
+
+<Box display="flex">
   <Typography variant="h2" pt={4}>
 Projects
   </Typography>
@@ -34,13 +35,18 @@ Projects
     Worked in various roles and capacities for these brands including UX Engineer, Project Manager, Web Producer &amp; Designer, and Design Technologist working from inception to delivery on their digital business initiatives.
   </Typography>
 <Image  sx={{width:'100%',}} height="225" src="/assets/workbanner.png" alt=""/>
-</Box>
-  <Divider variant="middle" /> 
-  <Box mt={10} mb={10} pt={4} display="flex">
+</Box>  
+
+
+<Box display="flex" sx={{paddingBottom:10, paddingTop:10}}>
     <Typography variant="h2">
 Case Studies
 </Typography>
   </Box>
+</Stack>
+
+  
+
 
 <Stack  display="flex" justifyContent="center" mt={{ xs: 6, sm: 8, lg: 18 }}  sx={{alignItems:'center',}}>
 <Box display="flex" justifyContent="center" mb={{xs: 12, sm: 18, md: 18, lg: 18}} sx={{ alignItems:'center', justifyContent:'center' }}>
