@@ -8,7 +8,7 @@ import { Typography } from "@mui/material";
 
 export default function Home() {
   return (
-    <Box Container>
+    <Box container>
   <Hero>
     </Hero>  
     <Divider variant="middle" mt={4} mb={4}/>

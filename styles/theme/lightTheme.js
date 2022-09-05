@@ -15,31 +15,32 @@ const lightTheme = createTheme({
     width:'40px',
       },
       typography: {
+      
         h1: {
-          fontSize:'3.0 rem',
+          fontSize: '3rem',
           fontWeight: 900,
           color:"#212121",
         },
         h2:{
     fontWeight:500,
-    fontSize:'2.0 rem',
+    fontSize:'2rem',
         },
         h3: {
-    fontSize:'1.7 rem',
+    fontSize:'1.7rem',
         },
         h4: {
-          fontSize:'1.4 rem',
+          fontSize:'1.4rem',
         },
         h5: {
-          fontSize:'1.2 rem',
+          fontSize:'1.2rem',
           textTransform: 'uppercase',
           fontWeight: '500',
             },
         h6:{
-            fontSize:'.99 rem',
+            fontSize:'.99rem',
             },
         body1:{
-            fontSize: '.875 rem',
+            fontSize: '.9rem',
         },
     
         fontFamily: 'Lato', 

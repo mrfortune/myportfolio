@@ -15,7 +15,7 @@ import Image from "next/image";
 
 const Home = () => {
   return(
-<Container disableGutters={true}>
+<Container disablegutters="true">
   <Hero>
     </Hero>  
     <Divider variant="middle" mt={4} mb={4}/>

@@ -37,7 +37,7 @@ const FadeDesign = () => {
 			
 		  </Grid>
 		  <Grid item xs={10}>
-        <Grid container>
+        <Grid container spacing={2}>
 <Grid item xs={12} md={4}><Typography variant="body1"> <Typography variant="h5">Overview </Typography>  Fade Technology solutions needs a dashboard solution for its publishers, brands and agencies to manage ad campaigns.</Typography></Grid>
 <Grid item xs={12} md={4}><Typography variant="h5">The Team &amp; Timeframe</Typography>
                         <Typography>The project timeframe was a 3 week sprint and we worked with a team of three:</Typography>
