@@ -23,6 +23,8 @@ import Slide from '@mui/material/Slide';
 import Diversity3SharpIcon from '@mui/icons-material/Diversity3Sharp';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 import {css} from '@emotion/react';
+import { alpha } from "@mui/material";
+import lightTheme from '../styles/theme/lightTheme';
 
 const drawerWidth = 240;
 const navItems = ['Story', 'Media', 'Contact'];
@@ -106,11 +108,9 @@ function DrawerAppBar(props) {
   const container = window !== undefined ? () => window().document.body : undefined;
 
   return (
-   <Container sx={{display:'flex', alignItems:'center'}}>
-
     <Box sx={{ display: 'flex' }}>  
     <HideOnScroll {...props}>
-      <AppBar component="nav" color="transparent" elevation={0} sx={{width:'1400',}} >
+      <AppBar component="nav" elevation={0} sx={{background: '#fff', }}>
         <Toolbar>
         <Box sx={{ flexGrow: 1, }}>
 <Typography
@@ -124,7 +124,7 @@ function DrawerAppBar(props) {
               display: { xs: 'block', md: 'flex' },
               fontWeight: 700,
               letterSpacing: '.3rem',
-              color: 'inherit',
+              color: 'black',
               textDecoration: 'none',
             }}
           >
@@ -132,11 +132,11 @@ function DrawerAppBar(props) {
           </Typography>
             </Box>
           <IconButton
-            color="inherit"
+            color="primary"
             aria-label="open drawer"
             edge="start"
             onClick={handleDrawerToggle}
-            sx={{ mr: 2, display: { xs:'block', sm: 'block', md: 'none', horizontal: 'right' } }}
+            sx={{ mr: 0, display: { xs:'block', sm: 'block', md: 'none', horizontal: 'right' } }}
           >
             <MenuIcon />
           </IconButton>
@@ -180,7 +180,7 @@ function DrawerAppBar(props) {
       </Box>
 
     </Box>
-    </Container>
+    
   );
 }
 

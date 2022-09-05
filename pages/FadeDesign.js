@@ -66,7 +66,7 @@ const FadeDesign = () => {
       <Grid item xs={2}>
 			
 		  </Grid>
-		  <Grid item xs={8} mt={5}>            
+		  <Grid item xs={8} mt={5} >            
                    <Typography variant="h5">Problem</Typography>
                    <Typography variant="h2">
                    Fade Technology Solutions needs a dashboard
@@ -142,8 +142,9 @@ const FadeDesign = () => {
       
                     
                     <Typography variant="h4" mb={4}>Design Studio</Typography>
+                    <Box sx={{borderRadius: '16px',}}>
                     <Image src="/assets/designstudio.png" alt="" height={1080} width={1440} />
-     
+     </Box>
         </Grid>
         <Grid item xs={2}>
 			

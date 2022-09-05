@@ -2,6 +2,7 @@ import { createTheme } from '@mui/material/styles';
 import { red, pink, green, purple, grey, blue } from '@mui/material/colors';
 
 const lightTheme = createTheme({
+ 
     palette: {
         primary: {
           main: pink['A200'],
@@ -15,7 +16,7 @@ const lightTheme = createTheme({
       },
       typography: {
         h1: {
-          fontSize: '2.48 rem',
+          fontSize:'3.0 rem',
           fontWeight: 900,
           color:"#212121",
         },
@@ -48,6 +49,9 @@ const lightTheme = createTheme({
     backgroundcolor:'transparent',
         },
       },
+    
+
+    
 });
 
 export default lightTheme;
