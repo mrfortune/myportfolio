@@ -110,8 +110,8 @@ function DrawerAppBar(props) {
   return (
     <Box sx={{ display: 'flex' }}>  
     <HideOnScroll {...props}>
-      <AppBar component="nav" elevation={0} sx={{background: '#fff', }}>
-        <Toolbar>
+      <AppBar component="nav" elevation={2} sx={{background: '#def8cc', }}>
+        <Toolbar maxWidth='md' sx={{}}>
         <Box sx={{ flexGrow: 1, }}>
 <Typography
             variant="h6"
@@ -141,7 +141,7 @@ function DrawerAppBar(props) {
             <MenuIcon />
           </IconButton>
           
-          <Box sx={{ display:'flex', display: { xs: 'none', sm: 'none', md:'block', horizontal: 'right' } }}>
+          <Box sx={{ display:'flex', display: { xs: 'none', sm: 'none', md:'block', horizontal: 'right', fontWeight:600, } }}>
 <Button sx={{mr: 1,}}><Link href="/">
   Home
 </Link></Button>
