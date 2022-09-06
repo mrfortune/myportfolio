@@ -20,8 +20,8 @@ const Story = () => {
 <Typography variant="h1">My Story</Typography>
 			<Typography mb={4} variant="h2">Robert S Harris, UX Engineer, Design Thinker &amp; Practioner</Typography>
 		  <Typography mb={2} variant="body1">
-			  I am Robert Harris, and I am a UX Engineer, Designer, 
-			  Researcher, and Architect. I have worked with large brands successfully 
+			  I am a UX engineer, architech, designer and design strategist and thinker.
+		I have worked with large brands successfully 
 			  delivering digital products and solutions for their customers and business. 
 			  I collaborate with cross-functional teams to deliver these solutions. 
   
