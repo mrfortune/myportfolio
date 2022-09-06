@@ -23,7 +23,8 @@ const FadeDesign = () => {
 		  <Grid item xs={8}>
               
           <Box>
-                    
+              <Image alt="Fade Hero">
+                </Image>      
          <Typography variant="h1">Dashboard UI/UX Solution</Typography>
                 <Typography variant="body1">Publisher, agency, brand and ad campaign management dashboard solution.</Typography>      
                         
@@ -38,7 +39,8 @@ const FadeDesign = () => {
 		  </Grid>
 		  <Grid item xs={10}>
         <Grid container spacing={2}>
-<Grid item xs={12} md={4}><Typography variant="body1"> <Typography variant="h5">Overview </Typography>  Fade Technology solutions needs a dashboard solution for its publishers, brands and agencies to manage ad campaigns.</Typography></Grid>
+<Grid item xs={12} md={4}><Typography variant="h5">Overview </Typography>
+<Typography variant="body1">Fade Technology solutions needs a dashboard solution for its publishers, brands and agencies to manage ad campaigns.</Typography></Grid>
 <Grid item xs={12} md={4}><Typography variant="h5">The Team &amp; Timeframe</Typography>
                         <Typography>The project timeframe was a 3 week sprint and we worked with a team of three:</Typography>
                           <ul sx={{marginLeft: '0',}}>
