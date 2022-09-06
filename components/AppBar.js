@@ -61,47 +61,13 @@ function DrawerAppBar(props) {
   };
   
   const drawer = (
-    <Box onClick={handleDrawerToggle} sx={{ textAlign: 'left' }}>
-      <Divider />
-      <ul>
-      <li>
-        <Link href="/">
-          <a>Home</a>
-        </Link>
-      </li>
-      <li>
-        <Link href="/Story">
-          <a>Story</a>
-        </Link>
-      </li>
-      <li>
-        <Link href="/Media">
-          <a>Media</a>
-        </Link>
-      </li>
-      <li>
-        <Link href="/Contact">
-          <a>Contact</a>
-        </Link>
-      </li>
-    </ul>
-      {/* <List sx={{ horizontal: 'right',}}>
-          <ListItem  
-             sx={{ textAlign: 'left',  }}
-          disablePadding>
-            <ListItemButton sx={{ textAlign: 'left', fontSize: '12px', textTransform:'uppercase', color:'black'}}>
-              <ListItemText as Link href="/">Home
-                </ListItemText>
-                <ListItemText>Story
-                </ListItemText>
-                <ListItemText>Media
-                </ListItemText>
-                <ListItemText>Contact
-                </ListItemText>
-            </ListItemButton>
-          </ListItem>
-        ))}
-      </List>  */}
+    <Box onClick={handleDrawerToggle} sx={{ textAlign: 'left', backgroundColor:'#def8cc' }}>
+       <List sx={{ horizontal: 'right',}}>
+       <ListItemButton sx={{ textAlign: 'center' }} href="/">Home</ListItemButton>
+       <ListItemButton sx={{ textAlign: 'center' }} href="/Story">Story</ListItemButton>
+       <ListItemButton sx={{ textAlign: 'center' }} href="/Media">Media</ListItemButton>
+       <ListItemButton sx={{ textAlign: 'center' }} href="/Contact">Contact</ListItemButton>
+      </List>  
     </Box>
   );
 
@@ -110,8 +76,8 @@ function DrawerAppBar(props) {
   return (
     <Box sx={{ display: 'flex' }}>  
     <HideOnScroll {...props}>
-      <AppBar component="nav" elevation={2} sx={{background: '#def8cc', }}>
-        <Toolbar maxWidth='md' sx={{}}>
+      <AppBar component="nav" elevation={2} sx={{background: '#263238' }}>
+        <Toolbar display='flex' sx={{alignItems:'center',}}>
         <Box sx={{ flexGrow: 1, }}>
 <Typography
             variant="h6"
@@ -119,12 +85,12 @@ function DrawerAppBar(props) {
             component="a"
             href="/"
             sx={{
-              flexGrow: 1,
+              flexGrow: 6,
               mr: 2,
               display: { xs: 'block', md: 'flex' },
               fontWeight: 700,
               letterSpacing: '.3rem',
-              color: 'black',
+              color: 'white',
               textDecoration: 'none',
             }}
           >
