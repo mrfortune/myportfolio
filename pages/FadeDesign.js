@@ -226,10 +226,10 @@ const FadeDesign = () => {
         <Grid item xs={1} lg={2}>
 			
 		  </Grid> 
-      <Grid item xs={2}>
+      <Grid item xs={1} lg={2}>
 			
 		  </Grid>
-      <Grid item xs={8} mt={5}>
+      <Grid item xs={10} lg={8} mt={5}>
 
       <Typography variant="h4">2. Comparative Analysis</Typography>
                     
@@ -237,13 +237,13 @@ const FadeDesign = () => {
                     
                 <Typography variant="body1">Fades proposition is a unique technology and although there are similarites in the online ad space they do not have a direct competitor. We next looked at Amazon's Seller Central's dashboard. Their business model is not an advertishing based model but there are similarities in their solutions. This was to gather more data on how these solutions are designed, and to get more inspiration.</Typography>
         </Grid>
-        <Grid item xs={2}>
+        <Grid item xs={1} lg={2}>
 			
 		  </Grid> 
-      <Grid item xs={2}>
+      <Grid item xs={1} lg={2}>
 			
 		  </Grid>
-      <Grid item xs={8} mt={5}>
+      <Grid item xs={10} lg={8} mt={5}>
       <Typography variant="h5">Design</Typography>
                 <Typography variant="h2">Dashboards Are Dynamic</Typography>
                 <Typography variant="body1">Due to the dynamic nature of this platform many site maps were created to show what pages each user would see. Our design had to account for that and the following images will show the maps. Here is the information architecture that we came up with.</Typography>
@@ -260,13 +260,13 @@ const FadeDesign = () => {
                     <img src="img/fadeadmin.png" class="img-fluid border rounded mb-5 mt-5"> */}
      
         </Grid>
-        <Grid item xs={2}>
+        <Grid item xs={1} lg={2}>
 			
 		  </Grid> 
-      <Grid item xs={2}>
+      <Grid item xs={1} lg={2}>
 			
 		  </Grid>
-      <Grid item xs={8} mt={5}>
+      <Grid item xs={10} lg={8} mt={5}>
       <Typography  variant="h4">User Flows</Typography>
                 <Typography  variant="h2">The Happy Paths</Typography>
                 <Typography  variant="body1">Fades user flow was touched on earlier at the journey map but here is a bit more detail showing how users would navigate on the platform. We focused on the primary flow, which is 'Sign-up' for the platform.</Typography>
@@ -277,39 +277,36 @@ const FadeDesign = () => {
                     <img src="img/userflow.jpg" class="img-fluid rounded border mb-5"> */}
      
         </Grid>
-        <Grid item xs={2}>
+        <Grid item xs={1} lg={2}>
 			
 		  </Grid> 
-      <Grid item xs={2}>
+      <Grid item xs={1} lg={2}>
 			
 		  </Grid>
-      <Grid item xs={8} mt={5}>
+      <Grid item xs={10} lg={8} mt={5}>
       <Typography variant="h5">Visual Design</Typography>
             <Typography variant="h2">Simple and Intuitive Dashboard</Typography>
             <Typography variant="body1">A simple and intuitive dashboard with all of the minimal features that Fade needs for its clients. These are the final design that the team and I came up with for Fade's dashboard. Desktop was primary so we did not design a mobile solution </Typography>
      
         </Grid>
-        <Grid item xs={2}>
+        <Grid item xs={1} lg={2}>
 			
 		  </Grid> 
-      <Grid item xs={2}>
+      <Grid item xs={1} lg={2}>
 			
 		  </Grid>
-      <Grid item xs={8} mt={5}>
+      <Grid item xs={10} lg={8} mt={5}>
       <Typography variant="h5">Results & Reflections</Typography>
         
         <Typography variant="h2">Dashboards Are a Challenge</Typography>
-    
-    
-    
     <Typography  variant="body1">Dashboards are a challenging design to take on with many moving parts. This was in many ways a vey challenging project for our team. We started off with no ability to research the user and had to rely on the project brief for all of our research. In many ways we had to abondone the normal UX steps and just work with what we had.</Typography>
     <Typography variant="body1">It turned out that what we had was sufficient and we were able to design by looking at other dashboards and copying their architecture and layout and use Fades business goals and needs provided to us in the project brief.</Typography>
      
         </Grid>
-        <Grid item xs={2}>
+        <Grid item xs={1} lg={2}>
 			
 		  </Grid> 
-      <Grid item xs={2}>
+      <Grid item xs={1} lg={2}>
 			
 		  </Grid>
       <Grid item xs={8} mt={5}>
