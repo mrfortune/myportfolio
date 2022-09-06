@@ -17,10 +17,10 @@ const FadeDesign = () => {
   return (
      <Box container mt={9} sx={{ flexGrow: 1 }}>
 		<Grid container spacing={3}>
-		  <Grid item xs={2}>
+		  <Grid item xs={1} lg={2}>
 			
 		  </Grid>
-		  <Grid item xs={8}>
+		  <Grid item xs={10} lg={8}>
               
           <Box>
               <Image alt="Fade Hero">
@@ -31,13 +31,13 @@ const FadeDesign = () => {
                     
             </Box>
 		  </Grid>
-          <Grid item xs={2}>
+          <Grid item xs={1} lg={2}>
 			
 		  </Grid>
-          <Grid item xs={1}>
+          <Grid item xs={1} lg={2}>
 			
 		  </Grid>
-		  <Grid item xs={10}>
+		  <Grid item xs={10} lg={8}>
         <Grid container spacing={2}>
 <Grid item xs={12} md={4}><Typography variant="h5">Overview </Typography>
 <Typography variant="body1">Fade Technology solutions needs a dashboard solution for its publishers, brands and agencies to manage ad campaigns.</Typography></Grid>
@@ -60,15 +60,15 @@ const FadeDesign = () => {
                  
                     
 		  </Grid>
-          <Grid item xs={1}>
+          <Grid item xs={1} lg={2}>
 			
 		  </Grid>
        
           
-      <Grid item xs={2}>
+      <Grid item xs={1} lg={2}>
 			
 		  </Grid>
-		  <Grid item xs={8} mt={5} >            
+		  <Grid item xs={10} lg={8} mt={5} >            
                    <Typography variant="h5">Problem</Typography>
                    <Typography variant="h2">
                    Fade Technology Solutions needs a dashboard
@@ -78,13 +78,13 @@ const FadeDesign = () => {
                 </Typography>	
           
 		  </Grid>
-          <Grid item xs={2}>
+          <Grid item xs={1} lg={2}>
 			
 		  </Grid>
-      <Grid item xs={2}>
+      <Grid item xs={1} lg={2}>
 			
 		  </Grid>
-		  <Grid item xs={8} mt={5}>            
+		  <Grid item xs={10} lg={8} mt={5}>            
       <Typography variant="h5">Solution Overview</Typography>
                 <Typography variant="h2">How might we...?</Typography>
                 <Typography variant="body1">How might we design a dashboard that allows managment of campaigns, users and assets for Fade Technology Solutions's admins, publishers, agencies and brands? We believe that by creating a centralized hub for clients to manage their
@@ -95,23 +95,23 @@ const FadeDesign = () => {
             </Typography>
           
 		  </Grid>
-          <Grid item xs={2}>
+          <Grid item xs={1} lg={2}>
 			
 		  </Grid>
-      <Grid item xs={2}>
+      <Grid item xs={1} lg={2}>
 			
 		  </Grid>
-      <Grid item xs={8} mt={5}>
+      <Grid item xs={10} lg={8} mt={5}>
 
       
         </Grid>
-        <Grid item xs={2}>
+        <Grid item xs={1} lg={2}>
 			
 		  </Grid>
-      <Grid item xs={2}>
+      <Grid item xs={1} lg={2}>
 			
 		  </Grid>
-      <Grid item xs={8} mt={5}>
+      <Grid item xs={10} lg={8} mt={5}>
       <Typography variant="h5">Approach</Typography>
                     <Typography  variant="h2">Begin with the Project Brief</Typography>
                <Typography variant="body1">
@@ -120,13 +120,13 @@ const FadeDesign = () => {
             We were forced to rely on the project brief and competitive analysis and comparative analysis to inform our final design decisions.</Typography>
      
         </Grid>
-        <Grid item xs={2}>
+        <Grid item xs={1} lg={2}>
 			
 		  </Grid> 
-      <Grid item xs={2}>
+      <Grid item xs={1} lg={2}>
 			
 		  </Grid>
-      <Grid item xs={8} mt={5}>
+      <Grid item xs={10} lg={8} mt={5}>
       <Typography variant="h5">Activities &amp; Deliverables</Typography>
                     <Typography  variant="h2">Read and Understand the Brief</Typography>
                    <Typography variant="body1">Fade did part of our Double Diamond work for us and we just needed to build on what they provided and begin sketches and low-fidelity wireframing based on the examples.</Typography>
@@ -134,13 +134,13 @@ const FadeDesign = () => {
                     {/* <img src="img/designstudio.png" class="img-fluid mt-5 mb-5"> */}
      
         </Grid>
-        <Grid item xs={2}>
+        <Grid item xs={1} lg={2}>
 			
 		  </Grid> 
-      <Grid item xs={2}>
+      <Grid item xs={1} lg={2}>
 			
 		  </Grid>
-      <Grid item xs={8} mt={5}>
+      <Grid item xs={10} lg={8} mt={5}>
       
                     
                     <Typography variant="h4" mb={4}>Design Studio</Typography>
@@ -148,13 +148,13 @@ const FadeDesign = () => {
                     <Image src="/assets/designstudio.png" alt="" height={1080} width={1440} />
      </Box>
         </Grid>
-        <Grid item xs={2}>
+        <Grid item xs={1} lg={2}>
 			
 		  </Grid> 
-      <Grid item xs={2}>
+      <Grid item xs={1} lg={2}>
 			
 		  </Grid>
-      <Grid item xs={8} mt={5}>
+      <Grid item xs={10} lg={8} mt={5}>
       
                     
                     <Typography variant="h4" mb={4}>Persona</Typography>
@@ -162,13 +162,13 @@ const FadeDesign = () => {
                     <Image src="/assets/fadepersona.png" alt="" height={1080} width={1440} />
      
         </Grid>
-        <Grid item xs={2}>
+        <Grid item xs={1} lg={2}>
 			
 		  </Grid> 
-      <Grid item xs={2}>
+      <Grid item xs={1} lg={2}>
 			
 		  </Grid>
-      <Grid item xs={8} mt={5}>
+      <Grid item xs={10} lg={8} mt={5}>
       <Typography variant="h4">Journey Map</Typography>
                 <Typography variant="h2">Prospective Journey Map </Typography>
                 
@@ -176,13 +176,13 @@ const FadeDesign = () => {
                 
                 
         </Grid>
-        <Grid item xs={2}>
+        <Grid item xs={1} lg={2}>
 			
 		  </Grid> 
-      <Grid item xs={2}>
+      <Grid item xs={1} lg={2}>
 			
 		  </Grid>
-      <Grid item xs={8} mt={5} sx={{display:'block', width:'1440', height:'1080'}}>
+      <Grid item xs={10} lg={8} mt={5} sx={{display:'block', width:'1440', height:'1080'}}>
       
                 
                 
@@ -190,24 +190,24 @@ const FadeDesign = () => {
                 
                 
         </Grid>
-        <Grid item xs={2}>
+        <Grid item xs={1} lg={2}>
 			
 		  </Grid> 
-      <Grid item xs={2}>
+      <Grid item xs={1} lg={2}>
 			
 		  </Grid>
-      <Grid item xs={8} mt={5}>
+      <Grid item xs={10} lg={8} mt={5}>
       
       <Typography  variant="body1">In the above image we are mapping the journey of the Account Administrator as he/she interacts with the proposed solution.</Typography>	
         
         </Grid>
-        <Grid item xs={2}>
+        <Grid item xs={1} lg={2}>
 			
 		  </Grid>  
-      <Grid item xs={2}>
+      <Grid item xs={1} lg={2}>
 			
 		  </Grid>
-      <Grid item xs={8} mt={5}>
+      <Grid item xs={10} lg={8} mt={5}>
       <Typography variant="h3">Research</Typography>
     
     <Typography variant="h4">1. Competitive Analysis</Typography>
@@ -223,7 +223,7 @@ const FadeDesign = () => {
     </ul>
      
         </Grid>
-        <Grid item xs={2}>
+        <Grid item xs={1} lg={2}>
 			
 		  </Grid> 
       <Grid item xs={2}>
