@@ -74,10 +74,12 @@ function DrawerAppBar(props) {
   const container = window !== undefined ? () => window().document.body : undefined;
 
   return (
+    
     <Box sx={{ display: 'flex' }}>  
     <HideOnScroll {...props}>
-      <AppBar component="nav" elevation={2} sx={{background: '#263238' }}>
-        <Toolbar display='flex' sx={{alignItems:'center',}}>
+      <AppBar component="nav" elevation={2} sx={{background: '#263238',  }}>
+        <Container maxWidth="lg">
+        <Toolbar display='flex' sx={{maxWidth:'100xw',}}>
         <Box sx={{ flexGrow: 1, }}>
 <Typography
             variant="h6"
@@ -86,7 +88,7 @@ function DrawerAppBar(props) {
             href="/"
             sx={{
               flexGrow: 6,
-              mr: 2,
+              mr: 20,
               display: { xs: 'block', md: 'flex' },
               fontWeight: 700,
               letterSpacing: '.3rem',
@@ -108,13 +110,13 @@ function DrawerAppBar(props) {
           </IconButton>
           
           <Box sx={{ display:'flex', display: { xs: 'none', sm: 'none', md:'block', horizontal: 'right', fontWeight:600, } }}>
-<Button sx={{mr: 1,}}><Link href="/">
+<Button sx={{mr: 1, color:'#fff'}}><Link href="/">
   Home
 </Link></Button>
-<Button sx={{mr:1}}><Link href="/Story">
+<Button sx={{mr:1, color:'#fff'}}><Link href="/Story">
   Story
 </Link></Button>
-<Button sx={{mr:1}}><Link href="/Media">
+<Button sx={{mr:1, color:'#fff'}}><Link href="/Media">
   Media
 </Link>
 </Button>
@@ -124,6 +126,8 @@ function DrawerAppBar(props) {
 </Button>
           </Box> 
         </Toolbar>
+    </Container>
+  
       </AppBar>
       </HideOnScroll>
       <Box component="nav">

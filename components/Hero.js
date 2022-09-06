@@ -13,16 +13,16 @@ import lightTheme from '../styles/theme/lightTheme';
 
 const Hero = () => {
   return (
-   
-<Box container disablegutters="true" sx={{display:'flex', minHeight: '100vh', alignItems:'center', maxwidth:'1440px', justifyItems:'left', }}> 
+   <Container maxWidth="lg">
+<Box container disablegutters="false" sx={{display:'flex', minHeight: '100vh', alignItems:'center', justifyItems:'left', }}> 
 <Image className={global.landingImage} src="/assets/bg_new.png" layout='fill' objectFit='cover' objectPosition='center' alt=""/>
 
 <Box p={3} sx={{display:'block', zIndex:1000, }}>
 
-<Typography  variant="h1"  mb={2} sx={{ width: '55vw', color:'#000',  }}>
+<Typography  variant="h1"  mb={2} sx={{ width: '45vw', color:'#000',  }}>
 Building data-driven experiences for the human design.
 </Typography>
-<Typography variant="body2" mb={2} sx={{width:'50vw', color:'#000', fontWeight:'600', fontSize:'1rem'}}>
+<Typography variant="body2" mb={2} sx={{width:'45vw', color:'#000', fontWeight:'600', fontSize:'1rem'}}>
 
 UX/UI design and engineering practioners who focus on identifying user pain-points and problems and designing solutions that work.
 </Typography>
@@ -32,6 +32,9 @@ Learn More...
   </Box>
 
 </Box>
+
+   </Container>
+
   );
 }
 export default Hero
