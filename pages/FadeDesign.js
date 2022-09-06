@@ -15,12 +15,11 @@ import FadeJourneyMap from '../public/assets/FadeJourneyMap.png';
 
 const FadeDesign = () => {
   return (
-     <Box container mt={9} sx={{ flexGrow: 1 }}>
+    <Container maxWidth="lg">
+<Box mt={9} sx={{ flexGrow: 1 }}>
 		<Grid container spacing={3}>
-		  <Grid item xs={1} lg={2}>
-			
-		  </Grid>
-		  <Grid item xs={10} lg={8}>
+		 
+		  <Grid item xs={12} lg={12}>
               
           <Box>
               <Image alt="Fade Hero">
@@ -31,13 +30,9 @@ const FadeDesign = () => {
                     
             </Box>
 		  </Grid>
-          <Grid item xs={1} lg={2}>
-			
-		  </Grid>
-          <Grid item xs={1} lg={2}>
-			
-		  </Grid>
-		  <Grid item xs={10} lg={8}>
+       
+         
+		  <Grid item xs={12} lg={12}>
         <Grid container spacing={2}>
 <Grid item xs={12} md={4}><Typography variant="h5">Overview </Typography>
 <Typography variant="body1">Fade Technology solutions needs a dashboard solution for its publishers, brands and agencies to manage ad campaigns.</Typography></Grid>
@@ -60,15 +55,11 @@ const FadeDesign = () => {
                  
                     
 		  </Grid>
-          <Grid item xs={1} lg={2}>
-			
-		  </Grid>
+          
        
           
-      <Grid item xs={1} lg={2}>
-			
-		  </Grid>
-		  <Grid item xs={10} lg={8} mt={5} >            
+      
+		  <Grid item xs={12} lg={12} mt={5} >            
                    <Typography variant="h5">Problem</Typography>
                    <Typography variant="h2">
                    Fade Technology Solutions needs a dashboard
@@ -78,13 +69,9 @@ const FadeDesign = () => {
                 </Typography>	
           
 		  </Grid>
-          <Grid item xs={1} lg={2}>
-			
-		  </Grid>
-      <Grid item xs={1} lg={2}>
-			
-		  </Grid>
-		  <Grid item xs={10} lg={8} mt={5}>            
+         
+      
+		  <Grid item xs={12} lg={12} mt={5}>            
       <Typography variant="h5">Solution Overview</Typography>
                 <Typography variant="h2">How might we...?</Typography>
                 <Typography variant="body1">How might we design a dashboard that allows managment of campaigns, users and assets for Fade Technology Solutions's admins, publishers, agencies and brands? We believe that by creating a centralized hub for clients to manage their
@@ -95,23 +82,15 @@ const FadeDesign = () => {
             </Typography>
           
 		  </Grid>
-          <Grid item xs={1} lg={2}>
-			
-		  </Grid>
-      <Grid item xs={1} lg={2}>
-			
-		  </Grid>
-      <Grid item xs={10} lg={8} mt={5}>
+        
+     
+      <Grid item xs={12} lg={12} mt={5}>
 
       
         </Grid>
-        <Grid item xs={1} lg={2}>
-			
-		  </Grid>
-      <Grid item xs={1} lg={2}>
-			
-		  </Grid>
-      <Grid item xs={10} lg={8} mt={5}>
+        
+      
+      <Grid item xs={12} lg={12} mt={5}>
       <Typography variant="h5">Approach</Typography>
                     <Typography  variant="h2">Begin with the Project Brief</Typography>
                <Typography variant="body1">
@@ -120,9 +99,7 @@ const FadeDesign = () => {
             We were forced to rely on the project brief and competitive analysis and comparative analysis to inform our final design decisions.</Typography>
      
         </Grid>
-        <Grid item xs={1} lg={2}>
-			
-		  </Grid> 
+        
       <Grid item xs={1} lg={2}>
 			
 		  </Grid>
@@ -318,6 +295,8 @@ const FadeDesign = () => {
 		  </Grid> 
 		</Grid>
 	  </Box>
+    </Container>
+     
   
     
   )
