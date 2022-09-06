@@ -6,7 +6,7 @@ import Divider from '@mui/material/Divider';
 import { Typography } from "@mui/material";
 import { styled } from '@mui/material/styles';
 import Grid from '@mui/material/Grid';
-
+import { Paper } from '@mui/material';
 
 
 export default function Home() {
@@ -14,28 +14,50 @@ export default function Home() {
     <Box container>
   <Hero>
     </Hero>  
-    <Divider variant="middle" mt={4} mb={4}/>
-   
-     
-  
-<Typography variant="h2" pt={4}>
+  <Box display="flex">
+<Paper square={true} sx={{
+    padding: 4,
+    backgroundColor: "#263238",
+    width:'100%',
+    height:'300px'
+  }}>
+<Typography variant="h2" sx={{color:'#fff', textAlign:'center'}}>
   What We Do
 </Typography>
- 
-    <Divider variant="middle" />
-
-
-  <Typography variant="h2" pt={4}>
+</Paper>
+</Box>
+<Box display="flex">
+<Paper square={true} sx={{
+    padding: 4,
+    backgroundColor: "#263238",
+    width:'100%',
+    height:'300px'
+  }}>
+<Typography variant="h2" pt={4} sx={{color:'#fff',}}>
 Projects
 
   </Typography>
-  <Typography>
+  <Typography sx={{color:'#fff',}}>
     Worked in various roles and capacities for these brands including UX Engineer, Project Manager, Web Producer &amp; Designer, and Design Technologist working from inception to delivery on their digital business initiatives.
-  </Typography>   <Box>
+  </Typography>   
+</Paper>
+
+  </Box>
+   
+     
+
+
+ 
+   
+
+
+  
+  
+  <Box>
 <CardMedia  sx={{width:'100%',}} component="img" height="225" image="/assets/workbanner.png"/>
       </Box> 
  
-  <Divider variant="middle" /> 
+  
   
 <Typography variant="h2">
 Case Studies

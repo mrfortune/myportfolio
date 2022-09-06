@@ -45,9 +45,7 @@ ul{
   z-index:1000;
   position:relative;
 }
-img{
-  border-radius: 20px;;
-}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
