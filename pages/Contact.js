@@ -14,22 +14,27 @@ function Mailto({ email, subject, body, ...props }) {
   
 const Contact = () => {
 	  return(	
-<Container maxWidth="lg" sx={{display:'flex',}}>	  
+<Container maxWidth="lg" sx={{display:'flex', minHeight:'80vh',}}>	  
 
-	<Box mt={15} sx={{ display: 'flex', }}>
+	<Box mt={15} sx={{ display: 'flex', width:'100%', marginLeft:'16px',}}>
 		
-	<Grid container lg={12} spacing={4}>
-<Typography variant="h1">
-Contact Us
-	</Typography>
+	<Grid container lg={12}>
 		<Grid item xs={12}>
+		<Typography variant="h1">
+Contact Us
+	</Typography>	
+		</Grid>
 
-		
-	<Typography mt={2} style={{ textDecoration:'none', color:'pink'}}><Mailto email="rharris@worldshaker.com" subject="Seeking more info" body="Hi, Robert,">
+		<Grid item xs={12} sx={{}}>
+
+		<Typography variant="h4">
+183 Sterling Street, Brooklyn, NY 11225
+		</Typography>
+	<Typography  variant="h4" sx={{ textDecoration:'none', color:'#f50057'}}><Mailto email="rharris@worldshaker.com" subject="Seeking more info" body="Hi, Robert,">
     Send me an email to get more info, or just to say, hi!.
   </Mailto>
   </Typography>
-  <Typography variant="body1">Give me a call: 646.620.4438
+  <Typography variant="h4">Give me a call: 646.620.4438
 
   </Typography>
 	</Grid>
