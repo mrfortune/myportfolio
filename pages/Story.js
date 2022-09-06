@@ -13,10 +13,10 @@ const Story = () => {
 		<Box mt={15} sx={{ flexGrow: 1 }}>
 			<Grid container spacing={2}>
 
-				<Grid item xs={2}>
+				<Grid item xs={1} lg={2}>
 
 				</Grid>
-				<Grid item xs={8}>
+				<Grid item xs={10} lg={8}>
 <Typography variant="h1">My Story</Typography>
 			<Typography mb={4} variant="h2">Robert S Harris, UX Engineer, Design Thinker &amp; Practioner</Typography>
 		  <Typography mb={2} variant="body1">
@@ -41,7 +41,7 @@ const Story = () => {
 	  I am still designing soltuons to problems and who knows may come up with another idea that can shake the world. But, for now, I am happy to share my skills with companies small, medium and large to help them deliver better user experiences to their customers.	  
 		</Typography>
 </Grid>
-<Grid item xs={2}>
+<Grid item xs={1} lg={2}>
 
 </Grid>	
 
