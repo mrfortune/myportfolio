@@ -9,7 +9,7 @@ import Typography from '@mui/material/Typography';
 
 const Story = () => {
 	return(
-		<Container>
+		
 		<Box mt={15} sx={{ flexGrow: 1 }}>
 			<Grid container spacing={2}>
 
@@ -49,7 +49,7 @@ const Story = () => {
 			
 			
 		</Box>
-		</Container>
+		
 	)
 }
 export default Story

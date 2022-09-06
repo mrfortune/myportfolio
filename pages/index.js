@@ -1,9 +1,12 @@
-import { Button, Box, CardActionArea, CardActions, Stack, Card, Container} from '@mui/material';
+import { Button, Box, CardActionArea, CardActions, Stack, Card, Item, Container} from '@mui/material';
 import Hero from '../components/Hero';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Divider from '@mui/material/Divider';
 import { Typography } from "@mui/material";
+import { styled } from '@mui/material/styles';
+import Grid from '@mui/material/Grid';
+
 
 
 export default function Home() {
@@ -12,13 +15,15 @@ export default function Home() {
   <Hero>
     </Hero>  
     <Divider variant="middle" mt={4} mb={4}/>
-    <Container display="flex" pb={4} >
+   
+     
+  
 <Typography variant="h2" pt={4}>
   What We Do
 </Typography>
-    </Container>
+ 
     <Divider variant="middle" />
-<Container pt={10} display="flex">
+
 
   <Typography variant="h2" pt={4}>
 Projects
@@ -29,9 +34,9 @@ Projects
   </Typography>   <Box>
 <CardMedia  sx={{width:'100%',}} component="img" height="225" image="/assets/workbanner.png"/>
       </Box> 
-  </Container>
+ 
   <Divider variant="middle" /> 
-   <Container>
+  
 <Typography variant="h2">
 Case Studies
 </Typography>
@@ -127,7 +132,20 @@ Case Studies
   
     </Box>
 </Stack>
-   </Container>
+ <Grid container spacing={2}>
+        <Grid item xs={8}>
+          
+        </Grid>
+        <Grid item xs={4}>
+        
+        </Grid>
+        <Grid item xs={4}>
+          
+        </Grid>
+        <Grid item xs={8}>
+          
+        </Grid>
+      </Grid>   
 
 </Box>
   )
