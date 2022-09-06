@@ -9,14 +9,10 @@ import Typography from '@mui/material/Typography';
 
 const Story = () => {
 	return(
-		
-		<Box mt={15} sx={{ flexGrow: 1 }}>
-			<Grid container spacing={2}>
-
-				<Grid item xs={1} lg={2}>
-
-				</Grid>
-				<Grid item xs={10} lg={8}>
+		<Container maxWidth="lg">
+		<Box mt={15} mb={12}>
+			<Grid container sx={{marginLeft:'16px'}}>
+				<Grid item xs={11} md={8}lg={9}>
 <Typography variant="h1">Story</Typography>
 			<Typography mt={4}mb={4} variant="h2"><Box component="span" sx={{fontWeight:'bold',}}>Robert S Harris</Box>, UX Engineer, Design Thinking Practioner</Typography>
 		  <Typography mb={2} variant="body1">
@@ -41,7 +37,7 @@ const Story = () => {
 	  I am still designing soltuons to problems and who knows may come up with another idea that can shake the world. But, for now, I am happy to share my skills with companies small, medium and large to help them deliver better user experiences to their customers.	  
 		</Typography>
 </Grid>
-<Grid item xs={1} lg={2}>
+<Grid item xs={1} md={4} lg={3}>
 
 </Grid>	
 
@@ -49,7 +45,7 @@ const Story = () => {
 			
 			
 		</Box>
-		
+		</Container>
 	)
 }
 export default Story

@@ -24,14 +24,13 @@ background-size: cover;
 background-color:transparent!important; */
 min-height:100%;
 }
-.MuiBottomNavigation-root{
-background-color:transparent;
-}
 a {
   color: inherit;
   text-decoration: none;
 }
-
+.MuiPaper-root{
+  border-radius:0px;
+}
 * {
   box-sizing: border-box;
 }
