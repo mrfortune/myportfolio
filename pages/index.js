@@ -15,17 +15,22 @@ export default function Home() {
   <Hero>
     </Hero>  
   <Box display="flex">
-<Paper square={true} sx={{
+    
+      <Paper square={true} sx={{
     padding: 4,
     backgroundColor: "#263238",
     width:'100%',
     height:'auto',
     minHeight:'30vh'
   }}>
+    <Container maxWidth="lg">
 <Typography variant="h2" sx={{color:'#fff', textAlign:'center'}}>
   What We Do
 </Typography>
+</Container>
 </Paper>
+    
+
 </Box>
 <Box display="flex">
 <Paper square={true} sx={{
@@ -34,13 +39,16 @@ export default function Home() {
     width:'100%',
     minHeight:'30vh'
   }}>
-<Typography variant="h2" pt={4} sx={{color:'#fff',}}>
+    <Container maxWidth="lg">
+      <Typography variant="h2" pt={4} sx={{color:'#fff',}}>
 Projects
 
   </Typography>
   <Typography sx={{color:'#fff',}}>
     Worked in various roles and capacities for these brands including UX Engineer, Project Manager, Web Producer &amp; Designer, and Design Technologist working from inception to delivery on their digital business initiatives.
-  </Typography>   
+  </Typography>  
+    </Container>
+ 
 </Paper>
 
   </Box>
@@ -52,9 +60,12 @@ Projects
     width:'100%',
     minHeight:'20vh'
   }}>
+    <Container maxWidth="lg">
 <Typography variant="h2">
 Case Studies
 </Typography>
+    </Container>
+
 </Paper>
 
  </Box>
