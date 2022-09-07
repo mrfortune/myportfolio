@@ -7,7 +7,9 @@ import { Typography } from "@mui/material";
 import { styled } from '@mui/material/styles';
 import Grid from '@mui/material/Grid';
 import { Paper } from '@mui/material';
-
+import Image from 'next/image';
+import ImageList from '@mui/material/ImageList';
+import ImageListItem from '@mui/material/ImageListItem';
 
 export default function Home() {
   return (
@@ -27,6 +29,117 @@ export default function Home() {
 <Typography variant="h2" sx={{color:'#fff', textAlign:'center'}}>
   What We Do
 </Typography>
+<Box container maxWidth="md" sx={{display:'flex',  }}>
+
+      
+        
+          <Image
+            src='/assets/wedosharep.png'
+            srcSet='1x'
+            alt=''
+            width={96}
+            height={96}
+            layout="fixed"
+          />
+     
+          <Image
+            src='/assets/wedomui.png'
+            srcSet=''
+            alt=''
+            width={96}
+            height={96}
+            layout="fixed"
+          />
+        
+          <Image
+            src='/assets/wedomiro.png'
+            width={96}
+            height={96}
+            srcSet='1x'
+            alt=''
+            layout="fixed"
+          />
+      
+          <Image
+            src='/assets/wedoadobe.png'
+            width={96}
+            height={96}
+            srcSet='1x'
+            alt=''
+            layout="fixed"
+            
+          />
+          
+       
+          <Image
+            src='/assets/wedocss.png'
+            width={96}
+            height={96}
+            srcSet='1x'
+            alt=''
+            layout="fixed"
+          />
+          
+       
+          <Image
+            src='/assets/wedohtml.png'
+            width={96}
+            height={96}
+            srcSet='1x'
+            alt=''
+            layout="fixed"
+          />
+          
+        
+          <Image
+            src='/assets/wedojavascript.png'
+            width={96}
+            height={96}
+            srcSet='1x'
+            alt=''
+            layout="fixed"
+          />
+          
+       
+          <Image
+            src='/assets/wedoreact.png'
+            width={96}
+            height={96}
+            srcSet='1x'
+            alt=''
+            layout="fixed"
+          />
+          
+        
+          <Image
+            src='/assets/wedoshopify.png'
+            width={96}
+            height={96}
+            srcSet='1x'
+            alt=''
+            layout="fixed"
+          />
+          
+       
+          <Image
+            src='/assets/wedowrike.png'
+            width={96}
+            height={96}
+            srcSet='1x'
+            alt=''
+            layout="fixed"
+          />
+           <Image
+            src='/assets/wedonext.png'
+            width={96}
+            height={96}
+            srcSet='1x'
+            alt=''
+            layout="fixed"
+          />
+          
+       
+    </Box>
 </Container>
 </Paper>
     
