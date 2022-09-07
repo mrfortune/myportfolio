@@ -26,12 +26,12 @@ export default function Home() {
     minHeight:'30vh'
   }}>
     <Container maxWidth="lg">
-<Typography variant="h2" sx={{color:'#fff', textAlign:'center'}}>
+<Typography variant="h2" mb={6} sx={{color:'#fff', textAlign:'center'}}>
   What We Do
 </Typography>
-<Box container maxWidth="md" sx={{display:'flex',  }}>
+<Box container maxWidth="lg" sx={{display:'flex', width:'100%', alignItems:'center', justifyContent:'center', }}>
 
-      
+      <Box>
         
           <Image
             src='/assets/wedosharep.png'
@@ -138,7 +138,7 @@ export default function Home() {
             layout="fixed"
           />
           
-       
+       </Box>
     </Box>
 </Container>
 </Paper>
