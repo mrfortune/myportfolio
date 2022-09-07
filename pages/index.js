@@ -17,8 +17,7 @@ export default function Home() {
   <Hero>
     </Hero>  
   <Box display="flex">
-    
-      <Paper square={true} sx={{
+    <Paper square={true} className="firstBG" sx={{
     padding: 4,
     backgroundColor: "#263238",
     width:'100%',
