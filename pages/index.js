@@ -13,9 +13,9 @@ import ImageListItem from '@mui/material/ImageListItem';
 
 export default function Home() {
   return (
-    <Box container>
-  <Hero>
-    </Hero>  
+    <Box>
+  {/* <Hero>
+    </Hero>   */}
   <Box display="flex">
     <Paper square={true} className="firstBG" sx={{
     padding: 4,
@@ -28,7 +28,7 @@ export default function Home() {
 <Typography variant="h2" mb={6} sx={{color:'#fff', textAlign:'center'}}>
   What We Do
 </Typography>
-<Box container maxWidth="lg" sx={{display:'flex', width:'100%', alignItems:'center', justifyContent:'center', }}>
+<Box maxWidth="lg" sx={{display:'flex', width:'100%', alignItems:'center', justifyContent:'center', }}>
 
       <Box component="ul" sx={{
     padding: "0 0",

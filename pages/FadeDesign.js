@@ -22,7 +22,7 @@ const FadeDesign = () => {
 		  <Grid item xs={12} lg={12}>
               
           <Box>
-              <Image alt="Fade Hero">
+              <Image alt="Fade Hero" src='/assets/fadehero.jpg' width="100%" height='100%'>
                 </Image>      
          <Typography variant="h1">Dashboard UI/UX Solution</Typography>
                 <Typography variant="body1">Publisher, agency, brand and ad campaign management dashboard solution.</Typography>      
