@@ -31,19 +31,24 @@ export default function Home() {
 </Typography>
 <Box container maxWidth="lg" sx={{display:'flex', width:'100%', alignItems:'center', justifyContent:'center', }}>
 
-      <Box component="ul" >
-      <Box component="li">Item 1</Box>
-  <Box component="li">Item 2</Box>
-          <Image
+      <Box component="ul" sx={{
+    padding: "0 0",
+    listStyle: "none",
+    display: "grid",
+    gap: "30px",
+    gridTemplateColumns: "repeat(3, 1fr)",
+  }} >
+      <Box component="li"><Image
             src='/assets/wedosharep.png'
             srcSet='1x'
             alt=''
             width={96}
             height={96}
             layout="fixed"
-          />
-     
-          <Image
+          /></Box>
+  <Box component="li">
+
+     <Image
             src='/assets/wedomui.png'
             srcSet=''
             alt=''
@@ -51,6 +56,10 @@ export default function Home() {
             height={96}
             layout="fixed"
           />
+  </Box>
+          
+     
+         
         
           <Image
             src='/assets/wedomiro.png'
