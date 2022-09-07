@@ -14,8 +14,8 @@ import ImageListItem from '@mui/material/ImageListItem';
 export default function Home() {
   return (
     <Box>
-  {/* <Hero>
-    </Hero>   */}
+  <Hero>
+    </Hero> 
   <Box display="flex">
     <Paper square={true} className="firstBG" sx={{
     padding: 4,
@@ -30,7 +30,7 @@ export default function Home() {
 </Typography>
 <Box maxWidth="lg" sx={{display:'flex', width:'100%', alignItems:'center', justifyContent:'center', }}>
 
-      <Box component="ul" sx={{
+  <Box component="ul" sx={{
     padding: "0 0",
     listStyle: "none",
     display: "grid",
@@ -44,7 +44,8 @@ export default function Home() {
             width={96}
             height={96}
             layout="fixed"
-          /></Box>
+          />
+          </Box>
   <Box component="li">
 
      <Image

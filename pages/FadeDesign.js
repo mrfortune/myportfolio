@@ -15,7 +15,7 @@ import FadeJourneyMap from '../public/assets/FadeJourneyMap.png';
 
 const FadeDesign = () => {
   return (
-    <Container maxWidth="lg">
+    <Container maxWidth="md">
 <Box mt={9} sx={{ flexGrow: 1 }}>
 		<Grid container spacing={3}>
 		 
@@ -120,9 +120,23 @@ const FadeDesign = () => {
       <Grid item xs={10} lg={8} mt={5}>
       
                     
+                    <Typography variant="h4" mb={4}>Persona</Typography>
+                    <Typography variant="h2" mb={4}>Meet Pamela Wu</Typography>
+                    <Image src="/assets/fadepersona.png" alt="" height={1080} width={1440} />
+     
+        </Grid>
+        <Grid item xs={1} lg={2}>
+			
+		  </Grid> 
+      <Grid item xs={1} lg={2}>
+			
+		  </Grid>
+      <Grid item xs={10} lg={8} mt={5}>
+      
+                    
                     <Typography variant="h4" mb={4}>Design Studio</Typography>
                     <Box sx={{borderRadius: '16px',}}>
-                    <Image src="/assets/designstudio.png" alt="" height={1080} width={1440} />
+                    <Image src="/assets/fadewire1.png" alt="" height={900} width={1280} />
      </Box>
         </Grid>
         <Grid item xs={1} lg={2}>
@@ -134,14 +148,15 @@ const FadeDesign = () => {
       <Grid item xs={10} lg={8} mt={5}>
       
                     
-                    <Typography variant="h4" mb={4}>Persona</Typography>
-                    <Typography variant="h2" mb={4}>Meet Pamela Wu</Typography>
-                    <Image src="/assets/fadepersona.png" alt="" height={1080} width={1440} />
-     
+                    <Typography variant="h4" mb={4}>Design Studio</Typography>
+                    <Box sx={{borderRadius: '16px',}}>
+                    <Image src="/assets/fadewire2.png" alt="" height={1080} width={1440} />
+     </Box>
         </Grid>
         <Grid item xs={1} lg={2}>
 			
 		  </Grid> 
+    
       <Grid item xs={1} lg={2}>
 			
 		  </Grid>
