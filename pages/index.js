@@ -36,7 +36,7 @@ export default function Home() {
     listStyle: "none",
     display: "grid",
     gap: "30px",
-    gridTemplateColumns: "repeat(3, 1fr)",
+    gridTemplateColumns: "repeat(4, 1fr)",
   }} >
       <Box component="li"><Image
             src='/assets/wedosharep.png'
