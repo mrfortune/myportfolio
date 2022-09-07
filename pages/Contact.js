@@ -18,7 +18,7 @@ const Contact = () => {
 
 	<Box mt={15} sx={{ display: 'flex', width:'100%', marginLeft:'16px',}}>
 		
-	<Grid container lg={12}>
+	<Grid container>
 		<Grid item xs={12}>
 		<Typography variant="h1">
 Contact Us
