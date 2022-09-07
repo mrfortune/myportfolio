@@ -31,8 +31,9 @@ export default function Home() {
 </Typography>
 <Box container maxWidth="lg" sx={{display:'flex', width:'100%', alignItems:'center', justifyContent:'center', }}>
 
-      <Box>
-        
+      <Box component="ul" >
+      <Box component="li">Item 1</Box>
+  <Box component="li">Item 2</Box>
           <Image
             src='/assets/wedosharep.png'
             srcSet='1x'
@@ -159,7 +160,20 @@ Projects
   </Typography>
   <Typography sx={{color:'#fff',}}>
     Worked in various roles and capacities for these brands including UX Engineer, Project Manager, Web Producer &amp; Designer, and Design Technologist working from inception to delivery on their digital business initiatives.
-  </Typography>  
+  </Typography> 
+  <Box component="ul" 
+  sx={{
+    padding: "0 0",
+    listStyle: "none",
+    display: "grid",
+    gap: "30px",
+    gridTemplateColumns: "repeat(2, 1fr)",
+  }}
+  >
+      <Box component="li">Item 1</Box>
+  <Box component="li">Item 2</Box>
+
+  </Box> 
     </Container>
  
 </Paper>
