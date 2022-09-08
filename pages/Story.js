@@ -9,7 +9,7 @@ import Typography from '@mui/material/Typography';
 
 const Story = () => {
 	return(
-		<Container maxWidth="lg">
+		<Container maxWidth="md">
 		<Box mt={15} mb={12}>
 			<Grid container sx={{marginLeft:'16px'}}>
 				<Grid item xs={11} md={8} lg={9}>

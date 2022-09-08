@@ -17,7 +17,7 @@ const FadeDesign = () => {
   return (
     <Container maxWidth="md">
 <Box mt={9} sx={{ flexGrow: 1 }}>
-		<Grid container spacing={3}>
+		<Grid container spacing={2}>
 		 
 		  <Grid item xs={12} lg={12}>
               
@@ -100,24 +100,17 @@ const FadeDesign = () => {
      
         </Grid>
         
-      <Grid item xs={1} lg={2}>
-			
-		  </Grid>
-      <Grid item xs={10} lg={8} mt={5}>
+     
+      <Grid item xs={12} lg={12} mt={5}>
       <Typography variant="h5">Activities &amp; Deliverables</Typography>
                     <Typography  variant="h2">Read and Understand the Brief</Typography>
                    <Typography variant="body1">Fade did part of our Double Diamond work for us and we just needed to build on what they provided and begin sketches and low-fidelity wireframing based on the examples.</Typography>
                     
-                    {/* <img src="img/designstudio.png" class="img-fluid mt-5 mb-5"> */}
+                    
      
         </Grid>
-        <Grid item xs={1} lg={2}>
-			
-		  </Grid> 
-      <Grid item xs={1} lg={2}>
-			
-		  </Grid>
-      <Grid item xs={10} lg={8} mt={5}>
+        
+      <Grid item xs={12} lg={12} mt={5}>
       
                     
                     <Typography variant="h4" mb={4}>Persona</Typography>
@@ -125,13 +118,16 @@ const FadeDesign = () => {
                     <Image src="/assets/fadepersona.png" alt="" height={1080} width={1440} />
      
         </Grid>
-        <Grid item xs={1} lg={2}>
-			
-		  </Grid> 
-      <Grid item xs={1} lg={2}>
-			
-		  </Grid>
-      <Grid item xs={10} lg={8} mt={5}>
+       
+      <Grid item xs={12} lg={12} mt={5}>
+      <Typography variant="h4">Journey Map</Typography>
+                <Typography variant="h2">Prospective Journey Map </Typography>
+                <Image src="/assets/FadeJourneyMap.png" alt="" height={1080} width={1440} sx={{borderRadius:'16px',}}/>
+                <Typography  variant="body1">In the above image we are mapping the journey of the Account Administrator as he/she interacts with the proposed solution.</Typography>	 
+        </Grid>
+       
+
+      <Grid item xs={12} lg={12} mt={5}>
       
                     
                     <Typography variant="h4" mb={4}>Design Studio</Typography>
@@ -139,67 +135,17 @@ const FadeDesign = () => {
                     <Image src="/assets/fadewire1.png" alt="" height={900} width={1280} />
      </Box>
         </Grid>
-        <Grid item xs={1} lg={2}>
-			
-		  </Grid> 
-      <Grid item xs={1} lg={2}>
-			
-		  </Grid>
-      <Grid item xs={10} lg={8} mt={5}>
+       
+      <Grid item xs={12} lg={12} mt={5}>
       
                     
-                    <Typography variant="h4" mb={4}>Design Studio</Typography>
+                   
                     <Box sx={{borderRadius: '16px',}}>
                     <Image src="/assets/fadewire2.png" alt="" height={1080} width={1440} />
      </Box>
         </Grid>
-        <Grid item xs={1} lg={2}>
-			
-		  </Grid> 
-    
-      <Grid item xs={1} lg={2}>
-			
-		  </Grid>
-      <Grid item xs={10} lg={8} mt={5}>
-      <Typography variant="h4">Journey Map</Typography>
-                <Typography variant="h2">Prospective Journey Map </Typography>
-                
-                
-                
-                
-        </Grid>
-        <Grid item xs={1} lg={2}>
-			
-		  </Grid> 
-      <Grid item xs={1} lg={2}>
-			
-		  </Grid>
-      <Grid item xs={10} lg={8} mt={5} sx={{display:'block', width:'1440', height:'1080'}}>
-      
-                
-                
-                <Image src="/assets/FadeJourneyMap.png" alt="" height={1080} width={1440} />
-                
-                
-        </Grid>
-        <Grid item xs={1} lg={2}>
-			
-		  </Grid> 
-      <Grid item xs={1} lg={2}>
-			
-		  </Grid>
-      <Grid item xs={10} lg={8} mt={5}>
-      
-      <Typography  variant="body1">In the above image we are mapping the journey of the Account Administrator as he/she interacts with the proposed solution.</Typography>	
         
-        </Grid>
-        <Grid item xs={1} lg={2}>
-			
-		  </Grid>  
-      <Grid item xs={1} lg={2}>
-			
-		  </Grid>
-      <Grid item xs={10} lg={8} mt={5}>
+      <Grid item xs={12} lg={12} mt={5}>
       <Typography variant="h3">Research</Typography>
     
     <Typography variant="h4">1. Competitive Analysis</Typography>
@@ -215,13 +161,8 @@ const FadeDesign = () => {
     </ul>
      
         </Grid>
-        <Grid item xs={1} lg={2}>
-			
-		  </Grid> 
-      <Grid item xs={1} lg={2}>
-			
-		  </Grid>
-      <Grid item xs={10} lg={8} mt={5}>
+       
+      <Grid item xs={12} lg={12} mt={5}>
 
       <Typography variant="h4">2. Comparative Analysis</Typography>
                     
@@ -229,65 +170,34 @@ const FadeDesign = () => {
                     
                 <Typography variant="body1">Fades proposition is a unique technology and although there are similarites in the online ad space they do not have a direct competitor. We next looked at Amazon's Seller Central's dashboard. Their business model is not an advertishing based model but there are similarities in their solutions. This was to gather more data on how these solutions are designed, and to get more inspiration.</Typography>
         </Grid>
-        <Grid item xs={1} lg={2}>
-			
-		  </Grid> 
-      <Grid item xs={1} lg={2}>
-			
-		  </Grid>
-      <Grid item xs={10} lg={8} mt={5}>
+       
+      <Grid item xs={12} lg={12} mt={5}>
       <Typography variant="h5">Design</Typography>
                 <Typography variant="h2">Dashboards Are Dynamic</Typography>
                 <Typography variant="body1">Due to the dynamic nature of this platform many site maps were created to show what pages each user would see. Our design had to account for that and the following images will show the maps. Here is the information architecture that we came up with.</Typography>
                 <Typography variant="h4">Site Maps</Typography>
                 
-                    {/* <img src="img/publishers.png" class="img-fluid border rounded mb-5 mt-5">
-                    
-                        <img src="img/brands.png" class="img-fluid border rounded mb-5 mt-5">	
-                    
-                    
-                    <img src="img/agency.png" class="img-fluid border rounded mb-5 mt-5">	
-                
-            
-                    <img src="img/fadeadmin.png" class="img-fluid border rounded mb-5 mt-5"> */}
+                   
      
         </Grid>
-        <Grid item xs={1} lg={2}>
-			
-		  </Grid> 
-      <Grid item xs={1} lg={2}>
-			
-		  </Grid>
-      <Grid item xs={10} lg={8} mt={5}>
+       
+      <Grid item xs={12} lg={12} mt={5}>
       <Typography  variant="h4">User Flows</Typography>
                 <Typography  variant="h2">The Happy Paths</Typography>
                 <Typography  variant="body1">Fades user flow was touched on earlier at the journey map but here is a bit more detail showing how users would navigate on the platform. We focused on the primary flow, which is 'Sign-up' for the platform.</Typography>
             
-                    {/* <img src="img/signupuserflow.jpg" class="img-fluid rounded border mb-5">
-                    <Typography  variant="body1">Another flow that the user will take.</Typography>
                     
-                    <img src="img/userflow.jpg" class="img-fluid rounded border mb-5"> */}
      
         </Grid>
-        <Grid item xs={1} lg={2}>
-			
-		  </Grid> 
-      <Grid item xs={1} lg={2}>
-			
-		  </Grid>
-      <Grid item xs={10} lg={8} mt={5}>
+       
+      <Grid item xs={12} lg={12} mt={5}>
       <Typography variant="h5">Visual Design</Typography>
             <Typography variant="h2">Simple and Intuitive Dashboard</Typography>
             <Typography variant="body1">A simple and intuitive dashboard with all of the minimal features that Fade needs for its clients. These are the final design that the team and I came up with for Fade's dashboard. Desktop was primary so we did not design a mobile solution </Typography>
      
         </Grid>
-        <Grid item xs={1} lg={2}>
-			
-		  </Grid> 
-      <Grid item xs={1} lg={2}>
-			
-		  </Grid>
-      <Grid item xs={10} lg={8} mt={5}>
+        
+      <Grid item xs={12} lg={12} mt={5}>
       <Typography variant="h5">Results & Reflections</Typography>
         
         <Typography variant="h2">Dashboards Are a Challenge</Typography>
@@ -295,19 +205,13 @@ const FadeDesign = () => {
     <Typography variant="body1">It turned out that what we had was sufficient and we were able to design by looking at other dashboards and copying their architecture and layout and use Fades business goals and needs provided to us in the project brief.</Typography>
      
         </Grid>
-        <Grid item xs={1} lg={2}>
-			
-		  </Grid> 
-      <Grid item xs={1} lg={2}>
-			
-		  </Grid>
-      <Grid item xs={8} mt={5}>
+        
+     
+      <Grid item xs={12} lg={12}mt={5}>
 
      
         </Grid>
-        <Grid item xs={2}>
-			
-		  </Grid> 
+        
 		</Grid>
 	  </Box>
     </Container>

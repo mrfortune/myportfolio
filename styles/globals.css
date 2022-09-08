@@ -32,8 +32,12 @@ a {
   border-radius:0px;
 }
 .firstBG{
-  background: rgb(76,77,75);
-background: radial-gradient(circle, rgba(76,77,75,1) 14%, rgba(0,0,0,1) 84%);
+  background: rgb(117,117,116);
+background: linear-gradient(146deg, rgba(117,117,116,1) 0%, rgba(114,115,113,1) 39%, rgba(0,0,0,1) 100%);
+}
+.caseBG{
+  background: rgb(243,211,243);
+background: linear-gradient(356deg, rgba(243,211,243,1) 0%, rgba(157,114,239,1) 35%, rgba(195,27,243,1) 70%, rgba(83,27,243,1) 100%);
 }
 * {
   box-sizing: border-box;

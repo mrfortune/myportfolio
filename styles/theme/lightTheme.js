@@ -5,7 +5,7 @@ const lightTheme = createTheme({
  
     palette: {
         primary: {
-          main: pink['A400'],
+          main: purple['A400'],
         },
         secondary: {
           main: grey[50],

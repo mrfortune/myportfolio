@@ -19,10 +19,10 @@ const Hero = () => {
 
 <Box p={3} sx={{display:'block', zIndex:1000, }}>
 
-<Typography  variant="h1"  mb={2} sx={{ width: '45vw', color:'#000',  }}>
+<Typography  variant="h1"  mb={2} sx={{ width: '45vw', color:'#fafafa', fontSize:'3.6rem'  }}>
 Data-Driven Design for Humans.
 </Typography>
-<Typography variant="body2" mb={2} sx={{width:'45vw', color:'#000', fontWeight:'600', fontSize:'1rem'}}>
+<Typography variant="body2" mb={2} sx={{width:'45vw', color:'#fafafa', fontWeight:'400', fontSize:'1rem'}}>
 
 UX/UI design and engineering practioners who focus on identifying user pain-points and problems and designing solutions that work.
 </Typography>

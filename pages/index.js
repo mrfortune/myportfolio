@@ -37,7 +37,8 @@ export default function Home() {
     gap: "30px",
     gridTemplateColumns: "repeat(4, 1fr)",
   }} >
-      <Box component="li"><Image
+      <Box component="li">
+        <Image
             src='/assets/wedosharep.png'
             srcSet='1x'
             alt=''
@@ -160,17 +161,20 @@ export default function Home() {
     padding: 4,
     backgroundColor: "#5C69BD",
     width:'100%',
-    minHeight:'30vh'
+    height:'360px',
+    minHeight:'45vh'
   }}>
     <Container maxWidth="lg">
-      <Typography variant="h2" pt={4} sx={{color:'#fff',}}>
+      <Grid container space={2}>
+        <Grid item xs={6} lg={6}>
+      <Typography variant="h2" pt={1} mb={4} sx={{color:'#fff',}}>
 Projects
 
   </Typography>
   <Typography sx={{color:'#fff',}}>
     Worked in various roles and capacities for these brands including UX Engineer, Project Manager, Web Producer &amp; Designer, and Design Technologist working from inception to delivery on their digital business initiatives.
   </Typography> 
-  <Box component="ul" 
+  {/* <Box component="ul" 
   sx={{
     padding: "0 0",
     listStyle: "none",
@@ -182,7 +186,11 @@ Projects
       <Box component="li">Item 1</Box>
   <Box component="li">Item 2</Box>
 
-  </Box> 
+  </Box>  */}
+  </Grid>
+  <Grid item xs={6} lg={6}>
+    </Grid>
+  </Grid>
     </Container>
  
 </Paper>
@@ -190,11 +198,14 @@ Projects
   </Box>
    
 <Box display="flex">
-<Paper square={true} sx={{
+<Paper className="caseBG" square={true} elevate={2} sx={{
     padding: 4,
     backgroundColor: "#eceff1",
     width:'100%',
-    minHeight:'20vh'
+    height:'1440px',
+    minHeight:'20vh',
+    borderTop:'1px',
+    borderTopColor:'#000'
   }}>
     <Container maxWidth="lg">
 <Typography variant="h2">

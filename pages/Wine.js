@@ -12,18 +12,26 @@ import Divider from '@mui/material/Divider';
 
 const Wine = () => {
   return (
-	  <Container>
+	  <Container maxWidth="md">
 <Grid container>
-		  <Grid item xs={2}>
-			
-		  </Grid>
-      <Grid item xs={8} mt={5}>
+		  <Grid item xs={12} lg={12}>
+		  <Typography variant="h5">Overview</Typography>               
+            <Typography variant="body1">BK Wine Cellar is a local wine store in Brooklyn (BK) that does not have a well designed e-commerce website for its customers to be able to view its wine collection, and order wine for delivery.
+            </Typography>
+			<Typography variant="h5">The Team &amp; Timeframe</Typography>
+                <Typography variant="body1">
+            Robert Harris is the UX Researcher, Information Architect, and Visual Designer. The project time frame was a 2 week sprint.
+            </Typography>
 
-     
-        </Grid>
-        <Grid item xs={2}>
-			
-		  </Grid> 
+			<Typography variant="h5">Tools &amp; Methods</Typography>            
+            <ul>
+                    <li>
+                        Closed card-sorting
+                    </li>
+                    <li>Contextual Inquiry </li><li>Competitive &amp; Comparative Analysis</li><li> Miro</li><li> Figma</li><li>Adobe CC</li>
+            </ul>
+		  </Grid>
+      
 
 	  </Grid>
 
