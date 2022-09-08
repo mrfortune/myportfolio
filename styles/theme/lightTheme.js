@@ -16,13 +16,14 @@ const lightTheme = createTheme({
       },
       typography: {
         h1: {
-          fontSize: '3rem',
+          fontSize: '2.5rem',
           fontWeight: 900,
           color:"#212121",
         },
         h2:{
-    fontWeight:500,
+    fontWeight:400,
     fontSize:'2rem',
+    marginBottom:'1rem'
         },
         h3: {
     fontSize:'1.7rem',
@@ -33,13 +34,15 @@ const lightTheme = createTheme({
         h5: {
           fontSize:'1.2rem',
           textTransform: 'uppercase',
-          fontWeight: '500',
+          fontWeight: '600',
+          marginBottom:'2rem',
             },
         h6:{
             fontSize:'.99rem',
             },
         body1:{
             fontSize: '.9rem',
+            marginBottom: '1rem',
         },
     
         fontFamily: 'Lato',
