@@ -75,9 +75,9 @@ function DrawerAppBar(props) {
 
   return (
     
-    <Box sx={{ display: 'flex' }}>  
+    <Box className="firstBG" sx={{ display: 'flex', }}>  
     <HideOnScroll {...props}>
-      <AppBar component="nav" elevation={2} sx={{background: '#263238',  }}>
+      <AppBar component="nav" className="firstBG" elevation={2} sx={{fontSize:'1.8rem'  }}>
         <Container maxWidth="lg">
         <Toolbar display='flex' sx={{maxWidth:'100xw',}}>
         <Box sx={{ flexGrow: 1, }}>
