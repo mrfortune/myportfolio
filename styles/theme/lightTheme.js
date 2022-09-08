@@ -15,7 +15,6 @@ const lightTheme = createTheme({
     width:'40px',
       },
       typography: {
-      
         h1: {
           fontSize: '3rem',
           fontWeight: 900,
@@ -43,7 +42,7 @@ const lightTheme = createTheme({
             fontSize: '.9rem',
         },
     
-        fontFamily: 'Lato', 
+        fontFamily: 'Lato',
       },
       MuiBottomNavigation:{
         styleOverrides:{

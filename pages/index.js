@@ -208,7 +208,7 @@ Projects
     borderTopColor:'#000'
   }}>
     <Container maxWidth="lg">
-<Typography variant="h2">
+<Typography variant="h2" sx={{color:'#fff'}}>
 Case Studies
 </Typography>
     </Container>

@@ -19,7 +19,7 @@ const Hero = () => {
 
 <Box p={3} sx={{display:'block', zIndex:1000, }}>
 
-<Typography  variant="h1"  mb={2} sx={{ width: '45vw', color:'#fafafa', fontSize:'3.6rem'  }}>
+<Typography  variant="h1"  mb={2} sx={{ width: '45vw', color:'#fafafa', fontSize:'3.6rem', }}>
 Data-Driven Design for Humans.
 </Typography>
 <Typography variant="body2" mb={2} sx={{width:'45vw', color:'#fafafa', fontWeight:'400', fontSize:'1rem'}}>
