@@ -61,7 +61,7 @@ function DrawerAppBar(props) {
   };
   
   const drawer = (
-    <Box onClick={handleDrawerToggle} sx={{ textAlign: 'left', backgroundColor:'#def8cc' }}>
+    <Box onClick={handleDrawerToggle} sx={{ textAlign: 'left', fontSize:'1.2rem', color:'#aa00ff', }}>
        <List sx={{ horizontal: 'right',}}>
        <ListItemButton sx={{ textAlign: 'center' }} href="/">Home</ListItemButton>
        <ListItemButton sx={{ textAlign: 'center' }} href="/Story">Story</ListItemButton>
@@ -77,7 +77,7 @@ function DrawerAppBar(props) {
     
     <Box className="firstBG" sx={{ display: 'flex', }}>  
     <HideOnScroll {...props}>
-      <AppBar component="nav" className="firstBG" elevation={2} sx={{fontSize:'1.8rem'  }}>
+      <AppBar component="nav" className="firstBG" elevation={2}>
         <Container maxWidth="lg">
         <Toolbar display='flex' sx={{maxWidth:'100xw',}}>
         <Box sx={{ flexGrow: 1, }}>
@@ -109,7 +109,7 @@ function DrawerAppBar(props) {
             <MenuIcon />
           </IconButton>
           
-          <Box sx={{ display:'flex', display: { xs: 'none', sm: 'none', md:'block', horizontal: 'right', fontWeight:600, } }}>
+          <Box sx={{ display:'flex', display: { xs: 'none', sm: 'none', md:'block', horizontal: 'right', fontSize:'1.8rem', fontWeight:600, } }}>
 <Button sx={{mr: 1, color:'#fff'}}><Link href="/">
   Home
 </Link></Button>
@@ -142,7 +142,7 @@ function DrawerAppBar(props) {
           }}
           sx={{
             display: { xs: 'block', sm: 'block', md:'none', horizontal:'right' },
-            '& .MuiDrawer-paper': { boxSizing: 'border-box', width: drawerWidth },
+            '& .MuiDrawer-paper': { boxSizing: 'border-box', width: drawerWidth, backgroundColor:'#eeeeee',},
           }}
         >
           {drawer}
