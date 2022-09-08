@@ -21,7 +21,7 @@ export default function LabelBottomNavigation() {
    
 //  <BottomNavigation sx={{ backgroundColor:'#000', height:'auto', }} value={value} onChange={handleChange}> 
       
-      <Paper sx={{ bottom: 0, left: 0, right: 0, backgroundColor:'#000', minHeight: '280px', height:'auto',padding:'32px'}} elevation={3}>
+      <Paper className="navBG" sx={{ bottom: 0, left: 0, right: 0, minHeight: '280px', height:'auto',padding:'32px'}} elevation={3}>
 
        <Container maxWidth="md">
          <Grid container spacing={2}>
