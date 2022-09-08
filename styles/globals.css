@@ -38,6 +38,10 @@ background: linear-gradient(356deg, rgba(243,211,243,1) 0%, rgba(157,114,239,1) 
   background: rgb(243,211,243);
 background: linear-gradient(356deg, rgba(243,211,243,1) 0%, rgba(185,152,246,1) 52%, rgba(166,137,249,1) 100%);
 }
+.navBG{
+  background: rgb(11,11,11);
+background: linear-gradient(356deg, rgba(11,11,11,1) 0%, rgba(65,65,65,1) 52%, rgba(42,42,42,1) 100%);
+}
 * {
   box-sizing: border-box;
 }
