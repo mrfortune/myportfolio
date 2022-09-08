@@ -165,7 +165,7 @@ export default function Home() {
     minHeight:'45vh'
   }}>
     <Container maxWidth="lg">
-      <Grid container space={2}>
+      <Grid container spacing={2}>
         <Grid item xs={6} lg={6}>
       <Typography variant="h2" pt={1} mb={4} sx={{color:'#fff',}}>
 Projects

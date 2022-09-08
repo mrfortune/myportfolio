@@ -11,7 +11,7 @@ const Story = () => {
 	return(
 		<Container maxWidth="md">
 		<Box mt={15} mb={12}>
-			<Grid container sx={{marginLeft:'16px'}}>
+			<Grid container  spacing={2} sx={{marginLeft:'16px'}}>
 				<Grid item xs={11} md={8} lg={9}>
 <Typography variant="h1">Story</Typography>
 			<Typography mt={4}mb={4} variant="h2"><Box component="span" sx={{fontWeight:'bold',}}>Robert S Harris</Box>, UX Engineer, Design Thinking Practioner</Typography>

@@ -13,7 +13,7 @@ import Divider from '@mui/material/Divider';
 const Wine = () => {
   return (
 	  <Container maxWidth="md">
-<Grid container>
+<Grid container spacing={2}>
 		  <Grid item xs={12} lg={12}>
 		  <Typography variant="h5">Overview</Typography>               
             <Typography variant="body1">BK Wine Cellar is a local wine store in Brooklyn (BK) that does not have a well designed e-commerce website for its customers to be able to view its wine collection, and order wine for delivery.
