@@ -2,13 +2,13 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Lato';
 }
 html, body{
   min-height:100%;
 }
 a:-webkit-any-link {
+  font-family: 'Lato';
   text-decoration: none;
   cursor: pointer;
   /*color:rgb(48, 48, 238);*/
