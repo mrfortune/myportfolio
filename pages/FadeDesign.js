@@ -15,7 +15,7 @@ import FadeJourneyMap from '../public/assets/FadeJourneyMap.png';
 
 const FadeDesign = () => {
   return (
-    <Container maxWidth="md">
+    <Container maxWidth='md'>
 <Box mt={9} sx={{ flexGrow: 1 }}>
 		<Grid container spacing={2}>
 		 

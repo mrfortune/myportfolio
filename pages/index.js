@@ -11,7 +11,7 @@ import Image from 'next/image';
 
 export default function Home() {
   return (
-    <Box>
+    <Box component='div'>
   <Hero>
     </Hero> 
   <Box display="flex">

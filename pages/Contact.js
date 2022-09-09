@@ -14,7 +14,7 @@ function Mailto({ email, subject, body, ...props }) {
   
 const Contact = () => {
 	  return(	
-<Container maxWidth="lg" sx={{display:'flex', minHeight:'80vh',}}>	  
+<Container maxWidth='lg' sx={{display:'flex', minHeight:'80vh',}}>	  
 
 	<Box mt={15} sx={{ display: 'flex', width:'100%', marginLeft:'16px',}}>
 		

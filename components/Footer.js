@@ -23,7 +23,7 @@ export default function LabelBottomNavigation() {
       
       <Paper className="navBG" sx={{ bottom: 0, left: 0, right: 0, minHeight: '280px', height:'auto',padding:'32px'}} elevation={3}>
 
-       <Container maxWidth="md">
+       <Container maxWidth='md'>
          <Grid container spacing={2}>
 
          <Grid item xs={4} lg={4}>

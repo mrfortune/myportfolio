@@ -9,13 +9,19 @@ import Container  from '@mui/material/Container';
 import { Typography } from '@mui/material';
 import { global } from 'styled-jsx/css';
 import lightTheme from '../styles/theme/lightTheme';
+import {useState, useEffect} from 'react';
+import heroImage from '../public/assets/bg_new.png';
 
 
 const Hero = () => {
+  useEffect(() => {
+console.log('use effect')
+
+});
   return (
-   <Container maxWidth="lg">
-<Box container disablegutters="false" sx={{display:'flex', minHeight: '100vh', alignItems:'center', justifyItems:'left', }}> 
-<Image className={global.landingImage} src="/assets/bg_new.png" layout='fill' objectFit='cover' objectPosition='center' alt=""/>
+   <Container maxWidth='lg'>
+<Box component="div" disablegutters="false" sx={{display:'flex', minHeight: '100vh', alignItems:'center', justifyItems:'left', }}> 
+<Image className={global.landingImage} src={heroImage}  objectFit='cover' layout='fill' objectPosition='center' alt='Hero Image' priority/>
 
 <Box p={3} sx={{display:'block', zIndex:1000, }}>
 

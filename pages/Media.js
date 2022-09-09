@@ -13,8 +13,8 @@ import Divider from '@mui/material/Divider';
 
 const FadeDesign = () => {
   return (
-   <Container>
-     <Box container mt={9} sx={{ flexGrow: 1 }}>
+   <Container maxWidth='md'>
+     <Box component='div' mt={9} sx={{ flexGrow: 1 }}>
 		<Grid container spacing={3}>
 		  <Grid item xs={2}>
 			

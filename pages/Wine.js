@@ -12,7 +12,7 @@ import Divider from '@mui/material/Divider';
 
 const Wine = () => {
   return (
-	  <Container maxWidth="md">
+	  <Container maxWidth='md'>
 <Grid container spacing={2}>
 		  <Grid item xs={12} lg={12}>
 		  <Typography variant="h5">Overview</Typography>               

@@ -13,7 +13,7 @@ import Divider from '@mui/material/Divider';
 
 const Wsgr = () => {
   return (
-	  <Container maxWidth="md">
+	  <Container maxWidth='md'>
 <Grid container spacing={2} mt={15} mb={15}>
 
 		<Grid item xs={12} lg={12} mt={5}>
