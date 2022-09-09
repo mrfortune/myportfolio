@@ -36,9 +36,9 @@ const FadeDesign = () => {
 			
 		  </Grid>
 		  <Grid item xs={8}>
-        <Grid container>
-<Grid xs={12} md={4}><Typography variant="body1"> <Typography variant="h5">Overview </Typography>  Fade Technology solutions needs a dashboard solution for its publishers, brands and agencies to manage ad campaigns.</Typography></Grid>
-<Grid xs={12} md={4}><Typography variant="h5">The Team &amp; Timeframe</Typography>
+        <Grid container spacing={2}>
+<Grid item xs={12} md={4}><Typography variant="body1"> <Typography variant="h5">Overview </Typography>  Fade Technology solutions needs a dashboard solution for its publishers, brands and agencies to manage ad campaigns.</Typography></Grid>
+<Grid item xs={12} md={4}><Typography variant="h5">The Team &amp; Timeframe</Typography>
                         <Typography>The project timeframe was a 3 week sprint and we worked with a team of three:</Typography>
                           <ul sx={{marginLeft: '0',}}>
             <li>Jaylon Ballard, UX Researcher</li>
@@ -46,7 +46,7 @@ const FadeDesign = () => {
             <li>Meagan Crowe, Visual Designer</li>
                         </ul> 
                         </Grid>
-<Grid xs={12} md={4} lg={4}>
+<Grid item xs={12} md={4} lg={4}>
 <Typography variant="h5">Tools &amp; Methods Used</Typography>            
                     <ul>
                             

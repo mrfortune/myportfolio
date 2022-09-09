@@ -4,7 +4,6 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Divider from '@mui/material/Divider';
 import { Typography } from "@mui/material";
-import { styled } from '@mui/material/styles';
 import Grid from '@mui/material/Grid';
 import { Paper } from '@mui/material';
 import Image from 'next/image';
@@ -37,6 +36,16 @@ export default function Home() {
     gap: "30px",
     gridTemplateColumns: "repeat(4, 1fr)",
   }} >
+     <Box component="li">
+        <Image
+            src='/assets/wedofigma.png'
+            srcSet='1x'
+            alt=''
+            width={96}
+            height={96}
+            layout="fixed"
+          />
+          </Box>
       <Box component="li">
         <Image
             src='/assets/wedosharep.png'

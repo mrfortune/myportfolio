@@ -16,7 +16,7 @@ const Wsgr = () => {
 	  <Container maxWidth="md">
 <Grid container spacing={2} mt={15} mb={15}>
 
-		<Grid item xs={12} lg={12}mt={5}>
+		<Grid item xs={12} lg={12} mt={5}>
 		<Typography variant="h1">Improved Dog Rescue and Adoption User Experience.</Typography>
 		<Typography variant="body1">Redesign of West Side German Shepherd Rescue's website better user experience.</Typography>
 	   
