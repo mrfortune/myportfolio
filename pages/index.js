@@ -187,7 +187,7 @@ Projects
     <Image src='/assets/workbanner.png'
     alt=''
     width='640px'
-    height='508px'
+    height='360px'
     layout='responsive'
     >
     </Image>
