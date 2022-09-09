@@ -175,32 +175,19 @@ export default function Home() {
     <Container maxWidth="lg">
       <Grid container spacing={2}>
         <Grid item xs={6} lg={6}>
-      <Typography variant="h2" pt={1} mb={4} sx={{color:'#fff',}}>
+      <Typography variant="h2" mb={4} sx={{color:'#fff',}}>
 Projects
 
   </Typography>
   <Typography sx={{color:'#fff',}}>
     Worked in various roles and capacities for these brands including UX Engineer, Project Manager, Web Producer &amp; Designer, and Design Technologist working from inception to delivery on their digital business initiatives.
   </Typography> 
-  {/* <Box component="ul" 
-  sx={{
-    padding: "0 0",
-    listStyle: "none",
-    display: "grid",
-    gap: "30px",
-    gridTemplateColumns: "repeat(2, 1fr)",
-  }}
-  >
-      <Box component="li">Item 1</Box>
-  <Box component="li">Item 2</Box>
-
-  </Box>  */}
   </Grid>
   <Grid item xs={6} lg={6}>
     <Image src='/assets/workbanner.png'
     alt=''
     width='640px'
-    height='424px'
+    height='508px'
     layout='responsive'
     >
     </Image>
