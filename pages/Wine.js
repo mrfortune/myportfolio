@@ -41,7 +41,7 @@ const Wine = () => {
 			
           <Grid item xs={12} lg={12}>
           <Typography variant="h5">Problem</Typography>
-    <Typography variant="h2" class="mb-1">BK Wine Cellar's Needs a Well Designed Website</Typography>
+    <Typography variant="h2">BK Wine Cellar's Needs a Well Designed Website</Typography>
     <Typography variant="body1">
             Local wine lovers want to be able to search the site – bkwinecellar.com - by region, categories and varietals so that they can easily find and purchase their favorite wine/s and have it delivered.
             </Typography>

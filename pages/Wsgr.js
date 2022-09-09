@@ -136,7 +136,7 @@ const Wsgr = () => {
 						their favorite local wine stores and their sites and apps.</Typography>
 					<Typography variant="h6">Data Gathered:</Typography>
 					
-					<Typography variant="h4" class="mb-3">2. Competitive Analysis</Typography>
+					<Typography variant="h4">2. Competitive Analysis</Typography>
 					</Grid>
 					<Grid item xs={12} lg={12}>
 					<Typography variant="h2">Competitors Have Great Looking Websites</Typography>
@@ -173,9 +173,9 @@ const Wsgr = () => {
 					We began by ddesigning the mobile experience first and then designed the desktop expeience once we settled on the direction that we wanted to go in.</Typography>
 							</Grid>
 							<Grid item xs={12} lg={12}>
-							<Typography variant="h4" class="mt-5">Mobile Version</Typography>
+							<Typography variant="h4">Mobile Version</Typography>
 						{/* <img src="img/wsgrmobileshots.png" class="img-fluid mt-5 mb-5 border rounded"> */}
-						<Typography variant="h4" class="mt-5">Desktop Version</Typography>
+						<Typography variant="h4">Desktop Version</Typography>
 						{/* <img src="img/wsgr-desktop.jpg" class="img-fluid border mt-5 mb-5 rounded"> */}
 							</Grid>
 							<Grid item xs={12} lg={12}>
