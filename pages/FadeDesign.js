@@ -1,12 +1,6 @@
 import React from 'react';
 import { styled } from '@mui/material/styles';
 import { Box, Grid, Container, Item } from '@mui/material';
-import Paper from '@mui/material/Paper';
-import List from '@mui/material/List';
-import ListItem from '@mui/material/ListItem';
-import ListItemAvatar from '@mui/material/ListItemAvatar';
-import ListItemIcon from '@mui/material/ListItemIcon';
-import ListItemText from '@mui/material/ListItemText';
 import { Typography } from '@mui/material';
 import Divider from '@mui/material/Divider';
 import Image from 'next/image';
@@ -34,9 +28,10 @@ const FadeDesign = () => {
          
 		  <Grid item xs={12} lg={12}>
         <Grid container spacing={2}>
-<Grid item xs={12} md={4}><Typography variant="h5">Overview </Typography>
+<Grid item xs={12} sm={4} md={4} lg={4}>
+  <Typography variant="h5">Overview </Typography>
 <Typography variant="body1">Fade Technology solutions needs a dashboard solution for its publishers, brands and agencies to manage ad campaigns.</Typography></Grid>
-<Grid item xs={12} md={4}><Typography variant="h5">The Team &amp; Timeframe</Typography>
+<Grid item xs={12} sm={4} md={4} lg={4}><Typography variant="h5">The Team &amp; Timeframe</Typography>
                         <Typography>The project timeframe was a 3 week sprint and we worked with a team of three:</Typography>
                           <ul sx={{marginLeft: '0',}}>
             <li>Jaylon Ballard, UX Researcher</li>
@@ -44,7 +39,7 @@ const FadeDesign = () => {
             <li>Meagan Crowe, Visual Designer</li>
                         </ul> 
                         </Grid>
-<Grid item xs={12} md={4} lg={4}>
+<Grid item xs={12} sm={4} md={4} lg={4}>
 <Typography variant="h5">Tools &amp; Methods Used</Typography>            
                     <ul>
                             

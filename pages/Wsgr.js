@@ -16,20 +16,20 @@ const Wsgr = () => {
 	  <Container maxWidth='md'>
 <Grid container spacing={2} mt={15} mb={15}>
 
-		<Grid item xs={12} lg={12} mt={5}>
+		<Grid item xs={12} lg={12} md={12}>
 		<Typography variant="h1">Improved Dog Rescue and Adoption User Experience.</Typography>
 		<Typography variant="body1">Redesign of West Side German Shepherd Rescue's website better user experience.</Typography>
 	   
 		  </Grid>
-		  <Grid item xs="12" lg="12">
+		  <Grid item xs={12} lg={12} md={12}>
 			  <Grid container spacing={2}>
-				  <Grid item xs={12} lg={4}>
+				  <Grid item xs={12} sm={4} md={4} lg={4}>
 				  <Typography variant="h3">Overview</Typography>
 					<Typography variant="body1">West Side German Shepherd Rescue's website needs a complete overhaul and look and feel to
 						deliver a better user experience for it's customers.
 					</Typography>
 					  </Grid>
-				  <Grid item xs={12} lg={4}>
+				  <Grid item xs={12} sm={4 }md={4} lg={4}>
 				  <Typography variant="h3">The Team &amp; Timeframe</Typography>
 					<Typography variant="body1">The project time frame was a 2 week sprint.
 					</Typography>
@@ -39,7 +39,7 @@ const Wsgr = () => {
 						<li>Belinda Miller, Lead Visual Designer</li>
 					</ul>
 					  </Grid>
-				  <Grid item xs={12} lg={4}>
+				  <Grid item xs={12} sm={4} md={4} lg={4}>
 				  <Typography variant="h3">Tools &amp; Methods Used</Typography>
 					<ul><li>Affinity Mapping</li>
 					<li>User Interviews</li>

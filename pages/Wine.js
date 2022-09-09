@@ -8,21 +8,26 @@ const Wine = () => {
   return (
 	  <Container maxWidth='md'>
 <Grid container spacing={2} mt={15} mb={15}>
-		  <Grid item xs={12} lg={12}>
+<Grid item xs={12} lg={12} md={12}>
+		<Typography variant="h1">Improved Dog Rescue and Adoption User Experience.</Typography>
+		<Typography variant="body1">Redesign of West Side German Shepherd Rescue's website better user experience.</Typography>
+	   
+		  </Grid>
+		  {/* <Grid item xs={12} lg={12} md={12}>
               <Grid container spacing={2}>
-                  <Grid item xs={12} lg={4}>
+                  <Grid xs={12} sm={4} md={4} lg={4}>
                     <Typography variant="h5">Overview</Typography>               
             <Typography variant="body1">BK Wine Cellar is a local wine store in Brooklyn (BK) that does not have a well designed e-commerce website for its customers to be able to view its wine collection, and order wine for delivery.
             </Typography>  
                   </Grid>
-		  <Grid item xs={12} lg={4}>
+		  <Grid item xs={12} sm={4} md={4} lg={4}>
               <Typography variant="h5">The Team &amp; Timeframe</Typography>
                 <Typography variant="body1">
             Robert Harris is the UX Researcher, Information Architect, and Visual Designer. The project time frame was a 2 week sprint.
             </Typography>
           </Grid>
 			
-<Grid item xs={12} lg={4}>
+<Grid item xs={12} sm={4} md={4} lg={4}>
     <Typography variant="h5">Tools &amp; Methods</Typography>            
             <ul>
                     <li>
@@ -32,7 +37,7 @@ const Wine = () => {
             </ul>
 		  </Grid>
           </Grid>
-</Grid>
+</Grid> */}
 			
           <Grid item xs={12} lg={12}>
           <Typography variant="h5">Problem</Typography>
