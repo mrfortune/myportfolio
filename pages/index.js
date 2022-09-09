@@ -161,7 +161,7 @@ export default function Home() {
     padding: 4,
     backgroundColor: "#5C69BD",
     width:'100%',
-    height:'360px',
+    height:'auto',
     minHeight:'45vh'
   }}>
     <Container maxWidth="lg">
@@ -189,6 +189,13 @@ Projects
   </Box>  */}
   </Grid>
   <Grid item xs={6} lg={6}>
+    <Image src='/assets/workbanner.png'
+    alt=''
+    width='640px'
+    height='424px'
+    layout='responsive'
+    >
+    </Image>
     </Grid>
   </Grid>
     </Container>
