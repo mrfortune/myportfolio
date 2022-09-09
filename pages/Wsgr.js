@@ -73,7 +73,7 @@ const Wsgr = () => {
 				<Typography variant="body1">Our approach to this project was to seek out users who have adopted dogs or are currently adopting dogs and ask them questions about their experience and sites that they used. We also looked at other adoption sites to get an idea of how the competitors sites look.</Typography>
 				  </Grid>
 				  <Grid item xs={12} lg={12}>
-				  <Typography  variant="h5">Activities & Deliverables</Typography>
+				  <Typography  variant="h5">Activities &amp; Deliverables</Typography>
 				
 				<Typography variant="h2">Hours of Reasearch, Architecture and Design</Typography>
 			
