@@ -7,8 +7,7 @@ import { Typography } from "@mui/material";
 import Grid from '@mui/material/Grid';
 import { Paper } from '@mui/material';
 import Image from 'next/image';
-import ImageList from '@mui/material/ImageList';
-import ImageListItem from '@mui/material/ImageListItem';
+
 
 export default function Home() {
   return (
