@@ -9,15 +9,21 @@ const Wine = () => {
 	  <Container maxWidth='md'>
 <Grid container spacing={2} mt={15} mb={15}>
 		  <Grid item xs={12} lg={12}>
-		  <Typography variant="h5">Overview</Typography>               
+              <Grid container spacing={2}>
+                  <Grid item xs={12} lg={4}>
+                    <Typography variant="h5">Overview</Typography>               
             <Typography variant="body1">BK Wine Cellar is a local wine store in Brooklyn (BK) that does not have a well designed e-commerce website for its customers to be able to view its wine collection, and order wine for delivery.
-            </Typography>
-			<Typography variant="h5">The Team &amp; Timeframe</Typography>
+            </Typography>  
+                  </Grid>
+		  <Grid item xs={12} lg={4}>
+              <Typography variant="h5">The Team &amp; Timeframe</Typography>
                 <Typography variant="body1">
             Robert Harris is the UX Researcher, Information Architect, and Visual Designer. The project time frame was a 2 week sprint.
             </Typography>
-
-			<Typography variant="h5">Tools &amp; Methods</Typography>            
+          </Grid>
+			
+<Grid item xs={12} lg={4}>
+    <Typography variant="h5">Tools &amp; Methods</Typography>            
             <ul>
                     <li>
                         Closed card-sorting
@@ -25,6 +31,9 @@ const Wine = () => {
                     <li>Contextual Inquiry </li><li>Competitive &amp; Comparative Analysis</li><li> Miro</li><li> Figma</li><li>Adobe CC</li>
             </ul>
 		  </Grid>
+          </Grid>
+</Grid>
+			
           <Grid item xs={12} lg={12}>
           <Typography variant="h5">Problem</Typography>
     <Typography variant="h2" class="mb-1">BK Wine Cellar's Needs a Well Designed Website</Typography>
@@ -88,6 +97,8 @@ const Wine = () => {
                     <Typography variant="h5">Results &amp; Reflections</Typography>
                     </Grid>
                     <Grid item xs={12} lg={12}>
+                    <Typography variant="h2">Great MVP Continuing to Iterate on the Design</Typography>
+        <Typography variant="body1">I have been able to get this project off to a great start towards getting BK Wine Cellar first design iterations completed. The initial problem has been identified and I am addressing it.</Typography>
                     <Typography variant="body1">
             Local wine lovers want to be able to search the site – bkwinecellar.com - by region, categories and varietals so that they can easily find and purchase their favorite wine/s and have it delivered.
             </Typography>
