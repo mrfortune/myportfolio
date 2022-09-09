@@ -45,19 +45,20 @@ const Wine = () => {
                 My journey of discovery began on Easter Sunday, April 2021, where I organized a dinner party with a group of women ranging in age from 30-45. My first insight was that all of the women ordered their wine form various local wine stores but all of them were order by their mobile phones. 
                 I asked them about their experience with buying wine and how they normally go about the process. We talked about the the websites of local retailers and what they felt about the sites.</Typography>
                   </Grid>
-                  <Grid item><Typography>Persona</Typography>
+                  
+      <Grid item xs={12} lg={12}>
+      <Typography variant="h5">Activities &amp; Deliverables</Typography>
+    <Typography variant="h2">Research Architect, Design, and Iterate</Typography>
+    <Typography variant="body1">BK Wine Cellar's website solution will provide its customers with the ability to search the stores inventory, buy wine and have it delivered.</Typography>
+          </Grid>
+          <Grid item><Typography>Persona</Typography>
                       </Grid>
                       <Grid item><Typography>Journey Map</Typography>
                       </Grid>
-      <Grid item xs={12} lg={12}>
-      <Typography variant="h5">Activities &amp; Deliverables</Typography>
-    <Typography variant="h2">Research Architect, Design, and Iterate.</Typography>
-    <Typography variant="body1">BK Wine Cellar's website solution will provide its customers with the ability to search the stores inventory, buy wine and have it delivered.</Typography>
-          </Grid>
 <Grid item xs={12} lg={12}>
 <Typography variant="h4">3. Closed Card-Sorting</Typography>
     <Typography variant="h2">Tell Us How To Architect</Typography>
-    <Typography variant="body1">The closed card-sort gave me insights on how the navigation should be organized. I gave  users specific categories to place the 75 inventory items into. I designed our navigation, search filters and pages from these insights. The choice of using a closed sort was to limit the categories to how wines are grouped in the industry by professionals.
+    <Typography variant="body1">Through the closed card-sort process users gave me insights into how the navigation should be organized. I gave  users specific wines from multiple countires and categories to place the 75 wines items into. I designed our navigation, search filters and pages from these insights. The choice of using a closed sort was to limit the categories to how wines are grouped in the industry by professionals.
     </Typography>	
     </Grid>
     <Grid item xs={12} lg={12}>
@@ -70,7 +71,7 @@ const Wine = () => {
         </Grid>
         <Grid item xs={12} lg={12}>
         <Typography variant="h4">User Flow</Typography>
-        <Typography variant="body1">I created a user flow that expects to be able to search and/or go directly to the wine varietals, regions and coutries that the customer is looking for. If a user is signed up he/she can see the wines that they bought and repurchase it/them. </Typography>
+        <Typography variant="body1">My assumptions are that our users want to be able to search and/or go directly to the wine varietals, regions and coutries to easily find what wines they are looking to purchase. If a user is signed up he/she can see the wines that they bought and repurchase it/them. </Typography>
                     <Typography variant="body1">No matter what choice the user makes, they will be able now check out and complete their purchase online and select delivery to a selected address.</Typography>
         </Grid>
         <Grid item xs={12} lg={12}>
