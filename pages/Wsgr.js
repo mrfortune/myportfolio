@@ -55,7 +55,7 @@ const Wsgr = () => {
 			</Grid>
 		</Grid>
 		  <Grid item xs={12} lg={12}>
-		  <Typography  variant="h5">Solution Overview</Typography>
+		  <Typography variant="h5">Solution Overview</Typography>
 					
 					<Typography variant="h2">How might we...?</Typography>
 				
@@ -74,6 +74,7 @@ const Wsgr = () => {
 				  </Grid>
 				  <Grid item xs={12} lg={12}>
 				  <Typography  variant="h5">Activities &amp; Deliverables</Typography>
+				  <Image src="/assets/dtprocess.png" alt='' width='1280px' height='215px'></Image>
 				
 				<Typography variant="h2">Hours of Reasearch, Architecture and Design</Typography>
 			
@@ -123,13 +124,8 @@ const Wsgr = () => {
 						<Typography variant="h4">2.User Survey </Typography>
 					<Typography variant="body1">We created a survey and solicited parcipants to participate via social media platforms.</Typography>
 					<Typography variant="h6">Data Gathered</Typography>
-					<ul>
-						<li>Accounts set up with their favorite local wine stores</li>
-						<li>Delivery was preffered method of getting wine</li>
-						<li>Site content was organized and searchable for users/customers</li>
-
-					</ul>
-					<Typography variant="h4">3. Affinity Mapping & Data Synthesis</Typography>
+					
+					<Typography variant="h4">3. Affinity Mapping &amp; Data Synthesis</Typography>
 					<Typography variant="body1">By observing the participants within the context of buying wine at an, and during, I was able
 						to question and observe how they order wine and why they use the method that they use -
 						mobile phone. As people arrived over the 5 or 6 hours that we were gathered we talked about
@@ -142,6 +138,17 @@ const Wsgr = () => {
 					<Typography variant="h2">Competitors Have Great Looking Websites</Typography>
 <Typography variant="body1">A quick search for dog rescue sites and one can see the stark difference between sheprescue.org and other dog rescue sites. We looked at a few but for the study I have only included two.</Typography>
 					</Grid>
+					<Grid item xs={12} lg={12}>
+					<Typography variant="h2">Persona</Typography>
+<Image src="/assets/wsgrpersona.jpg" alt='West Side Persona' height='720px' width='1280px'>
+
+</Image>
+					</Grid>
+					<Grid item xs={12} lg={12}>
+					<Typography variant="h2">Journey Map</Typography>
+
+					</Grid>
+
 					<Grid item xs={12} lg={12}>
 					<Typography  variant="h5">Design</Typography>
 					
