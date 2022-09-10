@@ -21,7 +21,7 @@ const lightTheme = createTheme({
           color:"#212121",
         },
         h2:{
-    fontWeight:400,
+    fontWeight:500,
     fontSize:'2.441rem',
     marginBottom:'1rem'
         },
@@ -34,8 +34,7 @@ const lightTheme = createTheme({
         h5: {
           fontSize:'1.25rem',
           textTransform: 'uppercase',
-          fontWeight: '500',
-          marginBottom:'2rem',
+          fontWeight: '400',
             },
         body1:{
             fontSize: '1rem',
