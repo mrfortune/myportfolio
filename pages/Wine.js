@@ -55,9 +55,7 @@ const Wine = () => {
                   </Grid>
                   
       <Grid item xs={12} lg={12}>
-      <Typography variant="h5">Activities &amp; Deliverables</Typography>
-    <Typography variant="h2">Research Architect, Design, and Iterate</Typography>
-    <Typography variant="body1">BK Wine Cellar's website solution will provide its customers with the ability to search the stores inventory, buy wine and have it delivered.</Typography>
+    
           </Grid>
           <Grid item><Typography>Persona</Typography>
                       </Grid>

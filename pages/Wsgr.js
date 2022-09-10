@@ -56,11 +56,11 @@ const Wsgr = () => {
 		</Grid>
 		  <Grid item xs={12} lg={12}>
 		  <Typography variant="h5">Solution Overview</Typography>
-					
+		  <Typography variant="h2">Problem</Typography>	
 					<Typography variant="h2">How might we...?</Typography>
 				
-				<Typography variant="body1"><b>How might we design an adoption website for West Side German Shepherd Rescue's
-					customer?</b> The challenge was to design and build a user-centered website for West Side German Shepherd
+				<Typography variant="body1">How might we design an adoption website for West Side German Shepherd Rescue's
+					customer? The challenge was to design and build a user-centered website for West Side German Shepherd
 					Rescue that organized the wines in proper categories and provided navigation and search for
 					the user to be able to easily find and purchase wines and have them delivered.
 				</Typography>
@@ -73,10 +73,9 @@ const Wsgr = () => {
 				<Typography variant="body1">Our approach to this project was to seek out users who have adopted dogs or are currently adopting dogs and ask them questions about their experience and sites that they used. We also looked at other adoption sites to get an idea of how the competitors sites look.</Typography>
 				  </Grid>
 				  <Grid item xs={12} lg={12}>
-				  <Typography  variant="h5">Activities &amp; Deliverables</Typography>
 				  <Image src="/assets/dtprocess.png" alt='' width='1280px' height='215px'></Image>
 				
-				<Typography variant="h2">Hours of Reasearch, Architecture and Design</Typography>
+				
 			
 			<Typography variant="body1">West Side German Shepherd Rescue's new website solution will provide its customers with the
 				ability to search for a dog to adopt and submit the adoption application.</Typography>

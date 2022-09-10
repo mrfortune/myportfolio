@@ -16,22 +16,28 @@ const lightTheme = createTheme({
       },
       typography: {
         h1: {
+          fontFamily:'Abril',
           fontSize: '3.052rem',
           fontWeight: 900,
           color:"#212121",
         },
         h2:{
+          fontFamily:'Abril',
     fontWeight:500,
+    fontFamily:'Abril',
     fontSize:'2.441rem',
     marginBottom:'1rem'
         },
         h3: {
+          fontFamily:'Abril',
     fontSize:'1.953rem',
         },
         h4: {
+          fontFamily:'Abril',
           fontSize:'1.563rem',
         },
         h5: {
+          fontFamily:'Abril',
           fontSize:'1.25rem',
           textTransform: 'uppercase',
           fontWeight: '400',

@@ -16,8 +16,8 @@ const FadeDesign = () => {
 		  <Grid item xs={12} lg={12}>
               
           <Box>
-              <Image alt="Fade Hero" src='/assets/fadehero.jpg' width="100%" height='100%'>
-                </Image>      
+              {/* <Image alt="Fade Hero" src='/assets/fadehero.jpg' width="100%" height='100%'>
+                </Image>       */}
          <Typography variant="h1">Dashboard UI/UX Solution</Typography>
                 <Typography variant="body1">Publisher, agency, brand and ad campaign management dashboard solution.</Typography>      
                         
@@ -56,9 +56,6 @@ const FadeDesign = () => {
       
 		  <Grid item xs={12} lg={12} mt={5} >            
                    <Typography variant="h5">Problem</Typography>
-                   <Typography variant="h2">
-                   Fade Technology Solutions needs a dashboard
-                   </Typography>
                    <Typography variant="body1">
                 Fade Technology needs a dashboard for their B2B application so that its publishers, brands, agencies and administrators can manage users and ad campaigns for its clients. 
                 </Typography>	
@@ -67,7 +64,7 @@ const FadeDesign = () => {
          
       
 		  <Grid item xs={12} lg={12} mt={5}>            
-      <Typography variant="h5">Solution Overview</Typography>
+      <Typography variant="h5">Summary &amp; Overview</Typography>
                 <Typography variant="h2">How might we...?</Typography>
                 <Typography variant="body1">How might we design a dashboard that allows managment of campaigns, users and assets for Fade Technology Solutions's admins, publishers, agencies and brands? We believe that by creating a centralized hub for clients to manage their
                 accounts, users will be able to check on their statistics efficiently. We believe
@@ -86,7 +83,7 @@ const FadeDesign = () => {
         
       
       <Grid item xs={12} lg={12} mt={5}>
-      <Typography variant="h5">Approach</Typography>
+      <Typography variant="h5">The Process &amp; Solution</Typography>
                     <Typography  variant="h2">Begin with the Project Brief</Typography>
                <Typography variant="body1">
             The Fade executives and techs came to us with a detailed project brief, inclding how their system worked for publishers, agencies, brands and admins and examples of Facebook Business Suite and Snapchat's Business dashboard. We did not have access to user info, nor could we interview users since their users are their business clients.</Typography>
@@ -97,11 +94,11 @@ const FadeDesign = () => {
         
      
       <Grid item xs={12} lg={12} mt={5}>
-      <Typography variant="h5">Activities &amp; Deliverables</Typography>
+      
                     <Typography  variant="h2">Read and Understand the Brief</Typography>
                    <Typography variant="body1">Fade did part of our Double Diamond work for us and we just needed to build on what they provided and begin sketches and low-fidelity wireframing based on the examples.</Typography>
                     
-                    
+                   <Typography variant="h2" mb={4}>Design Studio</Typography>
      
         </Grid>
         
@@ -131,22 +128,22 @@ const FadeDesign = () => {
 
       <Typography variant="h4">2. Comparative Analysis</Typography>
                     
-                        <Typography variant="h2">Fade's Proposition is a Unique Technology</Typography>
+                        
                     
                 <Typography variant="body1">Fades proposition is a unique technology and although there are similarites in the online ad space they do not have a direct competitor. We next looked at Amazon's Seller Central's dashboard. Their business model is not an advertishing based model but there are similarities in their solutions. This was to gather more data on how these solutions are designed, and to get more inspiration.</Typography>
         </Grid>
         <Grid item xs={12} lg={12} mt={5}>
       
                     
-                    <Typography variant="h4" mb={4}>Persona</Typography>
-                    <Typography variant="h2" mb={4}>Meet Pamela Wu</Typography>
+                    
+                    <Typography variant="h2" mb={4}>Persona:Meet Pamela Wu</Typography>
                     <Image src="/assets/fadepersona.png" alt="" height={1080} width={1440} />
      
         </Grid>
        
       <Grid item xs={12} lg={12} mt={5}>
       <Typography variant="h4">Journey Map</Typography>
-                <Typography variant="h2">Prospective Journey Map </Typography>
+                
                 <Image src="/assets/FadeJourneyMap.png" alt="" height={1080} width={1440} sx={{borderRadius:'16px',}}/>
                 <Typography  variant="body1">In the above image we are mapping the journey of the Account Administrator as he/she interacts with the proposed solution.</Typography>	 
         </Grid>
@@ -162,7 +159,7 @@ const FadeDesign = () => {
         <Grid item xs={12} lg={12} mt={5}>
       
                     
-      <Typography variant="h4" mb={4}>Design Studio</Typography>
+      
       <Box sx={{borderRadius: '16px',}}>
       <Image src="/assets/fadewire1.png" alt="" height={900} width={1280} />
 </Box>
