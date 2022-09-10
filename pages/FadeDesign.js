@@ -105,40 +105,10 @@ const FadeDesign = () => {
      
         </Grid>
         
-      <Grid item xs={12} lg={12} mt={5}>
-      
-                    
-                    <Typography variant="h4" mb={4}>Persona</Typography>
-                    <Typography variant="h2" mb={4}>Meet Pamela Wu</Typography>
-                    <Image src="/assets/fadepersona.png" alt="" height={1080} width={1440} />
      
-        </Grid>
-       
-      <Grid item xs={12} lg={12} mt={5}>
-      <Typography variant="h4">Journey Map</Typography>
-                <Typography variant="h2">Prospective Journey Map </Typography>
-                <Image src="/assets/FadeJourneyMap.png" alt="" height={1080} width={1440} sx={{borderRadius:'16px',}}/>
-                <Typography  variant="body1">In the above image we are mapping the journey of the Account Administrator as he/she interacts with the proposed solution.</Typography>	 
-        </Grid>
        
 
-      <Grid item xs={12} lg={12} mt={5}>
-      
-                    
-                    <Typography variant="h4" mb={4}>Design Studio</Typography>
-                    <Box sx={{borderRadius: '16px',}}>
-                    <Image src="/assets/fadewire1.png" alt="" height={900} width={1280} />
-     </Box>
-        </Grid>
-       
-      <Grid item xs={12} lg={12} mt={5}>
-      
-                    
-                   
-                    <Box sx={{borderRadius: '16px',}}>
-                    <Image src="/assets/fadewire2.png" alt="" height={1080} width={1440} />
-     </Box>
-        </Grid>
+     
         
       <Grid item xs={12} lg={12} mt={5}>
       <Typography variant="h3">Research</Typography>
@@ -165,7 +135,21 @@ const FadeDesign = () => {
                     
                 <Typography variant="body1">Fades proposition is a unique technology and although there are similarites in the online ad space they do not have a direct competitor. We next looked at Amazon's Seller Central's dashboard. Their business model is not an advertishing based model but there are similarities in their solutions. This was to gather more data on how these solutions are designed, and to get more inspiration.</Typography>
         </Grid>
+        <Grid item xs={12} lg={12} mt={5}>
+      
+                    
+                    <Typography variant="h4" mb={4}>Persona</Typography>
+                    <Typography variant="h2" mb={4}>Meet Pamela Wu</Typography>
+                    <Image src="/assets/fadepersona.png" alt="" height={1080} width={1440} />
+     
+        </Grid>
        
+      <Grid item xs={12} lg={12} mt={5}>
+      <Typography variant="h4">Journey Map</Typography>
+                <Typography variant="h2">Prospective Journey Map </Typography>
+                <Image src="/assets/FadeJourneyMap.png" alt="" height={1080} width={1440} sx={{borderRadius:'16px',}}/>
+                <Typography  variant="body1">In the above image we are mapping the journey of the Account Administrator as he/she interacts with the proposed solution.</Typography>	 
+        </Grid>
       <Grid item xs={12} lg={12} mt={5}>
       <Typography variant="h5">Design</Typography>
                 <Typography variant="h2">Dashboards Are Dynamic</Typography>
@@ -175,6 +159,23 @@ const FadeDesign = () => {
                    
      
         </Grid>
+        <Grid item xs={12} lg={12} mt={5}>
+      
+                    
+      <Typography variant="h4" mb={4}>Design Studio</Typography>
+      <Box sx={{borderRadius: '16px',}}>
+      <Image src="/assets/fadewire1.png" alt="" height={900} width={1280} />
+</Box>
+</Grid>
+
+<Grid item xs={12} lg={12} mt={5}>
+
+      
+     
+      <Box sx={{borderRadius: '16px',}}>
+      <Image src="/assets/fadewire2.png" alt="" height={1080} width={1440} />
+</Box>
+</Grid>
        
       <Grid item xs={12} lg={12} mt={5}>
       <Typography  variant="h4">User Flows</Typography>
