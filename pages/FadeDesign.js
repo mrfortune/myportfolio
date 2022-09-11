@@ -84,20 +84,16 @@ const FadeDesign = () => {
       
       <Grid item xs={12} lg={12} mt={5}>
       <Typography variant="h5">The Process &amp; Solution</Typography>
-                    <Typography  variant="h2">Begin with the Project Brief</Typography>
                <Typography variant="body1">
             The Fade executives and techs came to us with a detailed project brief, inclding how their system worked for publishers, agencies, brands and admins and examples of Facebook Business Suite and Snapchat's Business dashboard. We did not have access to user info, nor could we interview users since their users are their business clients.</Typography>
            <Typography variant="body1">
+           <Typography variant="body1">Fade did part of our Double Diamond work for us and we just needed to build on what they provided and begin sketches and low-fidelity wireframing based on the examples.</Typography>
             We were forced to rely on the project brief and competitive analysis and comparative analysis to inform our final design decisions.</Typography>
      
         </Grid>
         
      
       <Grid item xs={12} lg={12} mt={5}>
-      
-                    <Typography  variant="h2">Read and Understand the Brief</Typography>
-                   <Typography variant="body1">Fade did part of our Double Diamond work for us and we just needed to build on what they provided and begin sketches and low-fidelity wireframing based on the examples.</Typography>
-                    
                    <Typography variant="h2" mb={4}>Design Studio</Typography>
      
         </Grid>

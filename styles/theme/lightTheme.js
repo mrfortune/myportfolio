@@ -1,8 +1,8 @@
 import { createTheme } from '@mui/material/styles';
 import { red, pink, green, purple, grey, blue } from '@mui/material/colors';
 
+
 const lightTheme = createTheme({
- 
     palette: {
         primary: {
           main: purple['A400'],
@@ -20,6 +20,19 @@ const lightTheme = createTheme({
           fontSize: '3.052rem',
           fontWeight: 900,
           color:"#212121",
+        },
+        breakpoints: {
+          values: {
+            xs: 0,
+            sm: 425,
+            md: 768,
+            lg: 1024,
+            xl: 1280,
+            '2xl': 1536,
+            '3xl': 1920,
+            '4xl': 2560,
+            '5xl': 3200,
+          },
         },
         h2:{
           fontFamily:'Abril',
