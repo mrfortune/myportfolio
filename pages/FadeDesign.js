@@ -10,15 +10,15 @@ import FadeJourneyMap from '../public/assets/FadeJourneyMap.png';
 const FadeDesign = () => {
   return (
     <Container maxWidth='md'>
-<Box mt={9} sx={{ flexGrow: 1 }}>
+<Box mt={15} sx={{ flexGrow: 1 }}>
 		<Grid container spacing={2}>
 		 
 		  <Grid item xs={12} lg={12}>
               
-          <Box>
+          <Box sx={{textAlign:'center'}}>
               {/* <Image alt="Fade Hero" src='/assets/fadehero.jpg' width="100%" height='100%'>
                 </Image>       */}
-         <Typography variant="h1">Dashboard UI/UX Solution</Typography>
+         <Typography variant="h1"> Dashboard UI/UX Solution</Typography>
                 <Typography variant="body1">Publisher, agency, brand and ad campaign management dashboard solution.</Typography>      
                         
                     
