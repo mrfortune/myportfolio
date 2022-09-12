@@ -19,7 +19,6 @@ const lightTheme = createTheme({
           fontFamily:'Abril',
           fontSize: '3.052rem',
           fontWeight: 900,
-          color:"#212121",
         },
         breakpoints: {
           values: {
@@ -46,7 +45,7 @@ const lightTheme = createTheme({
     fontSize:'1.953rem',
         },
         h4: {
-          fontFamily:'Abril',
+          textTransform:'uppercase',
           fontSize:'1.563rem',
         },
         h5: {
@@ -59,7 +58,11 @@ const lightTheme = createTheme({
             fontSize: '1rem',
             marginBottom: '1rem',
         },
-    
+        body2:{
+          fontSize: '.8rem',
+          marginBottom: '1rem',
+          textTransform:'uppercase',
+      },
         fontFamily: 'Lato',
       },
       MuiBottomNavigation:{

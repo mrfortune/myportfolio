@@ -1,6 +1,6 @@
 import React from 'react';
 import { styled } from '@mui/material/styles';
-import { Box, Grid, Container, Item } from '@mui/material';
+import { Box, Grid, Container, Item, Paper } from '@mui/material';
 import { Typography } from '@mui/material';
 import Divider from '@mui/material/Divider';
 import Image from 'next/image';
@@ -8,86 +8,95 @@ import FadeJourneyMap from '../public/assets/FadeJourneyMap.png';
 
 
 const FadeDesign = () => {
+  
   return (
-    <Container maxWidth='md'>
-<Box mt={15} sx={{ flexGrow: 1 }}>
-		<Grid container spacing={2}>
+    <Container maxWidth='false' disableGutters={true}>
+  <Paper square={true} className="fadeHero" sx={{minHeight:'50vh', color:'#fff'}}>
+        <Box mt={8} p={4} sx={{ flexGrow: 1 }}>
+  <Grid container spacing={2} sx={{display:'flex', justifyItems:'center',}}>
 		 
-		  <Grid item xs={12} lg={12}>
-              
-          <Box sx={{textAlign:'center'}}>
-              {/* <Image alt="Fade Hero" src='/assets/fadehero.jpg' width="100%" height='100%'>
-                </Image>       */}
-         <Typography variant="h1"> Dashboard UI/UX Solution</Typography>
-                <Typography variant="body1">Publisher, agency, brand and ad campaign management dashboard solution.</Typography>      
+     <Grid item xs={12} lg={12}>
+             
+         <Box component="div" sx={{textAlign:'center', height:'120px'}}>
+             {/* <Image alt="Fade Hero" src='/assets/fadehero.jpg' width="100%" height='100%'>
+               </Image>       */}
+        <Typography variant="h1"> Dashboard UI/UX Solution</Typography>
+               <Typography variant="body1">Publisher, agency, brand and ad campaign management dashboard solution.</Typography>      
+                       
+                   
+           </Box>
+            
+     </Grid> 
+     <Divider/>
+     <Grid item xs={12} lg={12}>
+        <Grid container spacing={2} sx={{display:'flex', justifyItems:'center',maxWidth:'1200px',  }}>
+<Grid item xs={12} sm={12} md={3} lg={3}>
+  <Typography variant="body2">Client </Typography>
+<Typography variant="body1">Fade Technology </Typography>
+</Grid>
+<Grid item xs={12} sm={12} md={3} lg={3}><Typography variant="body2">Year</Typography>
+                        <Typography variant="body1">2021</Typography>
+                      
+                        </Grid>
+<Grid item xs={12} sm={12} md={3} lg={3} ><Typography variant="body2">Role</Typography>
                         
-                    
-            </Box>
-		  </Grid>
-       
-         
-		  <Grid item xs={12} lg={12}>
-        <Grid container spacing={2}>
-<Grid item xs={12} sm={4} md={4} lg={4}>
-  <Typography variant="h5">Overview </Typography>
-<Typography variant="body1">Fade Technology solutions needs a dashboard solution for its publishers, brands and agencies to manage ad campaigns.</Typography></Grid>
-<Grid item xs={12} sm={4} md={4} lg={4}><Typography variant="h5">The Team &amp; Timeframe</Typography>
-                        <Typography>The project timeframe was a 3 week sprint and we worked with a team of three:</Typography>
                           <ul sx={{marginLeft: '0',}}>
-            <li>Jaylon Ballard, UX Researcher</li>
-            <li>Robert Harris, Information Architect</li>
-            <li>Meagan Crowe, Visual Designer</li>
+            
+            <li>Information Architect &amp; Research</li>
+            
                         </ul> 
                         </Grid>
-<Grid item xs={12} sm={4} md={4} lg={4}>
-<Typography variant="h5">Tools &amp; Methods Used</Typography>            
-                    <ul>
-                            
-                            <li>Competitive &amp; Comparative Analysis</li><li> Miro</li><li> Figma</li><li>Adobe CC</li>
-                    </ul> 
+
+                        <Grid item xs={12} sm={12} md={3} lg={3} >
+<Typography variant="body2">What I Did</Typography>            
+                   <Typography variant="body1">
+
+
+                   </Typography>
 </Grid>
+
 </Grid>
                  
                     
 		  </Grid>
-          
+     </Grid> 
+     </Box>
+        </Paper>
        
+        <Container maxWidth='md'>
+        <Box maxWidth='md' mt={6}>
           
-      
-		  <Grid item xs={12} lg={12} mt={5} >            
-                   <Typography variant="h5">Problem</Typography>
-                   <Typography variant="body1">
-                Fade Technology needs a dashboard for their B2B application so that its publishers, brands, agencies and administrators can manage users and ad campaigns for its clients. 
-                </Typography>	
-          
-		  </Grid>
-         
-      
-		  <Grid item xs={12} lg={12} mt={5}>            
+		<Grid container spacing={2}>
+    
+      <Grid item xs={12} md={4} lg={4}>            
       <Typography variant="h5">Summary &amp; Overview</Typography>
-                <Typography variant="h2">How might we...?</Typography>
-                <Typography variant="body1">How might we design a dashboard that allows managment of campaigns, users and assets for Fade Technology Solutions's admins, publishers, agencies and brands? We believe that by creating a centralized hub for clients to manage their
+          
+		  </Grid> 
+      <Divider orientation="vertical" flexItem></Divider>  
+		  <Grid item xs={12} lg={4} ml={4} md={4}>            
+      <Typography variant="body1">
+                Fade Technology needed a dashboard for their B2B application so that its publishers, brands, agencies and administrators can manage its users and ad campaigns for its clients. 
+                </Typography>
+                <Typography variant="body2">How might we...?</Typography>
+                <Typography variant="body1">
+                How might we design a dashboard that allows management of campaigns, users and assets for Fade Technology Solutions' admins, publishers, agencies and brands? We believe that by creating a centralized hub for clients to manage their
                 accounts, users will be able to check on their statistics efficiently. We believe
                 this because, through market research, we have found the standard for business
                 management dashboards. We will know this is true when clients have a high
                 success rate on tasks needed to be accomplished.
-            </Typography>
+
+                </Typography>
+              
           
 		  </Grid>
-        
-     
-      <Grid item xs={12} lg={12} mt={5}>
-
-      
-        </Grid>
         
       
       <Grid item xs={12} lg={12} mt={5}>
       <Typography variant="h5">The Process &amp; Solution</Typography>
                <Typography variant="body1">
             The Fade executives and techs came to us with a detailed project brief, inclding how their system worked for publishers, agencies, brands and admins and examples of Facebook Business Suite and Snapchat's Business dashboard. We did not have access to user info, nor could we interview users since their users are their business clients.</Typography>
-           <Typography variant="body1">
-           <Typography variant="body1">Fade did part of our Double Diamond work for us and we just needed to build on what they provided and begin sketches and low-fidelity wireframing based on the examples.</Typography>
+           
+           <Typography variant="body1">Fade did part of our Double Diamond work for us and we just needed to build on what they provided and begin sketches and low-fidelity wireframing based on the examples.
             We were forced to rely on the project brief and competitive analysis and comparative analysis to inform our final design decisions.</Typography>
      
         </Grid>
@@ -203,6 +212,7 @@ const FadeDesign = () => {
         
 		</Grid>
 	  </Box>
+    </Container>
     </Container>
      
   
