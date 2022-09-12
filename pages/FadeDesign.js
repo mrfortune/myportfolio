@@ -28,8 +28,8 @@ const FadeDesign = () => {
             
      </Grid> 
      <Divider/>
-     <Grid item xs={12} lg={12}>
-        <Grid container spacing={2} sx={{display:'flex', justifyItems:'center',maxWidth:'1200px',  }}>
+     <Grid item xs={12} lg={12} sx={{display:'flex', justifyContent:'center',maxWidth:'1200px', alignItems:'center',  }}>
+        <Grid container spacing={2} >
 <Grid item xs={12} sm={12} md={3} lg={3}>
   <Typography variant="body2">Client </Typography>
 <Typography variant="body1">Fade Technology </Typography>
@@ -68,12 +68,12 @@ const FadeDesign = () => {
           
 		<Grid container spacing={2}>
     
-      <Grid item xs={12} md={4} lg={4}>            
+      <Grid item xs={12} pr={1} md={4} lg={4}>            
       <Typography variant="h5">Summary &amp; Overview</Typography>
           
 		  </Grid> 
       <Divider orientation="vertical" flexItem></Divider>  
-		  <Grid item xs={12} lg={4} ml={4} md={4}>            
+		  <Grid item xs={12} lg={6} ml={4} md={6}>            
       <Typography variant="body1">
                 Fade Technology needed a dashboard for their B2B application so that its publishers, brands, agencies and administrators can manage its users and ad campaigns for its clients. 
                 </Typography>
