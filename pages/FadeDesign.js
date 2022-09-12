@@ -109,20 +109,24 @@ const FadeDesign = () => {
                    <Typography variant="h2" mb={4}>Design Studio</Typography>
      
         </Grid>
-        <Grid item xs={12} lg={6}>
+        <Grid item xs={12} lg={4}>
    
      
         </Grid>
-        <Grid item xs={12} lg={6}>
+        <Grid item xs={12} lg={4}>
    
      
    </Grid>
+   <Grid item xs={12} lg={4}>
+   
+     
+   </Grid> 
        
 
      
         
       <Grid item xs={12} lg={12} mt={5}>
-    <Typography variant="h2">1. Competitive Analysis</Typography>
+    <Typography variant="h2">Competitive Analysis</Typography>
     <Typography variant="body1">Campaign managment solutions and administrative dashboards are nothing new. Many companies, such as Amazon, YouTube and Facebook alll have those solutions for their business users. We simply looked at those properties and features and applied it to Fades project brief. </Typography>
     <Typography variant="body1">Fades business model is an advertiser driven model, like Facebook and Youtube, so we focused heavily on their layout and UI components including analytics. Fade has no direct competitors based on their unique offering.</Typography>
     <Typography variant="body2">Observations:</Typography>
@@ -138,7 +142,7 @@ const FadeDesign = () => {
        
       <Grid item xs={12} lg={12} mt={5}>
 
-      <Typography variant="h2">2. Comparative Analysis</Typography>
+      <Typography variant="h2">Comparative Analysis</Typography>
       <Typography variant="body1">Fades proposition is a unique technology and although there are similarites in the online ad space they do not have a direct competitor. We next looked at Amazon's Seller Central's dashboard. Their business model is not an advertishing based model but there are similarities in their solutions. This was to gather more data on how these solutions are designed, and to get more inspiration.</Typography>
         </Grid>
         <Grid item xs={12} lg={12} mt={5}>
