@@ -10,10 +10,10 @@ import FadeJourneyMap from '../public/assets/FadeJourneyMap.png';
 const FadeDesign = () => {
   
   return (
-    <Container maxWidth='false' disableGutters={true}>
+    <Container maxWidth={false} disableGutters={true}>
   <Paper square={true} className="fadeHero" sx={{minHeight:'50vh', color:'#fff'}}>
         <Box mt={8} component="div">
-  <Grid container spacing={2} sx={{display:'flex', justifyItems:'center',}}>
+  <Grid container spacing={0} sx={{display:'flex', justifyItems:'center',}}>
 		 
      <Grid item xs={12} lg={12}>
              
@@ -32,10 +32,10 @@ const FadeDesign = () => {
        <Box component="div" ml={2} maxWidth='md' sx={{width:'1200px'}}>
 
        
-        <Grid container spacing={1} >
+        <Grid container spacing={0} >
 <Grid item xs={12} sm={4} md={3} lg={3}>
   <Typography variant="body2">Client </Typography>
-<Typography variant="body1">Fade Technology </Typography>
+<Typography variant="body1">Fade Technology - fadetechnology.com </Typography>
 </Grid>
 <Grid item xs={12} sm={4} md={3} lg={3}><Typography variant="body2">Year</Typography>
                         <Typography variant="body1">2021</Typography>
@@ -53,7 +53,7 @@ const FadeDesign = () => {
                         <Grid item xs={12} sm={4} md={3} lg={3} >
 <Typography variant="body2">What I Did</Typography>            
                    <Typography variant="body1">
-
+My priciple role was Information Architect and I collaborated on research and visual design. I drew low fidelity sketches in design studio, site map and usability testing.
 
                    </Typography>
 </Grid>
@@ -66,34 +66,56 @@ const FadeDesign = () => {
      </Box>
         </Paper>
        
-        <Container  maxWidth='md'>
        
-          
-		<Grid container mt={6} spacing={2}>
+       
+       <Box component="div"> 
+		<Grid container mt={6} spacing={0}>
     
       <Grid item xs={12} pr={1} md={4} lg={4}>            
-      <Typography variant="h5">Summary &amp; Overview</Typography>
+      <Typography variant="h5">Project Summary</Typography>
           
 		  </Grid> 
-      <Divider orientation="vertical" flexItem></Divider>  
-		  <Grid item xs={12} lg={6} ml={1} md={6}>            
+      
+		  <Grid item xs={12} lg={12} ml={1} md={6}>            
       <Typography variant="body1">
-                Fade Technology needed a dashboard for their B2B application so that its publishers, brands, agencies and administrators can manage its users and ad campaigns for its clients. 
+      Fade Technology is an early-stage startup with a team of entertainment technology,
+payments, and digital leaders from leading companies. Fade Technology provides the
+quickest way to embed the next-generation of shoppable media on the digital publisher
+and streaming service platforms. It is a cloud-based platform that enables digital
+publishers to monetize editorial, sponsored, advertorial, and original video content
+natively. It allows a new commerce experience that lets viewers instantly discover and
+buy products directly from the video on the platform they are on, without redirects.
                 </Typography>
-                <Typography variant="body2">How might we...?</Typography>
+                
+             
+		  </Grid>
+        
+     
+      
+		  <Grid item xs={12} lg={12} ml={1} md={12}>            
+      <Typography variant="h2">
+                The Problem  
+                </Typography>
+                
                 <Typography variant="body1">
-                How might we design a dashboard that allows management of campaigns, users and assets for Fade Technology Solutions' admins, publishers, agencies and brands? We believe that by creating a centralized hub for clients to manage their
-                accounts, users will be able to check on their statistics efficiently. We believe
-                this because, through market research, we have found the standard for business
-                management dashboards. We will know this is true when clients have a high
-                success rate on tasks needed to be accomplished.
+                This project focuses on the customer portal experience, which will include one or more
+of the following:
+<Box component="ul">
+<li>Account Administration</li>
+<li>Campaign Management</li>
+<li>Reporting Dashboards</li>
+</Box>
+The target platform for this project is a responsive website and will be accessible through
+the fade.technology website with URLs: fade.technology/sellerportal;
+fade.technology/publisher; fade.technology/login. This portal will require a secure
+customer environment, with features such as encryption and SSL, which will allow users
+to feel safe when inputting private business information or accessing/uploading sensitive
+documents.
 
                 </Typography>
               
           
 		  </Grid>
-        
-      
       <Grid item xs={12} lg={12} mt={5}>
       <Typography variant="h5">The Process &amp; Solution</Typography>
                <Typography variant="body1">
@@ -162,7 +184,7 @@ const FadeDesign = () => {
         </Grid>
       <Grid item xs={12} lg={12} mt={5}>
       <Typography variant="h5">Design</Typography>
-                <Typography variant="h2">Dashboards Are Dynamic</Typography>
+                <Typography variant="h2">Dashboards are Dynamic</Typography>
                 <Typography variant="body1">Due to the dynamic nature of this platform many site maps were created to show what pages each user would see. Our design had to account for that and the following images will show the maps. Here is the information architecture that we came up with.</Typography>
                 <Typography variant="h2">Site Maps</Typography>
                 
@@ -188,7 +210,7 @@ const FadeDesign = () => {
 </Grid>
        
       <Grid item xs={12} lg={12} mt={5}>
-      <Typography  variant="h4">User Flows</Typography>
+      
                 <Typography  variant="h2">The Happy Paths</Typography>
                 <Typography  variant="body1">Fades user flow was touched on earlier at the journey map but here is a bit more detail showing how users would navigate on the platform. We focused on the primary flow, which is 'Sign-up' for the platform.</Typography>
             
@@ -219,12 +241,8 @@ const FadeDesign = () => {
         </Grid>
         
 		</Grid>
-	  
+	  </Box>
     </Container>
-    </Container>
-     
-  
-    
   )
 }
 

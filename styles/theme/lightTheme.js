@@ -49,10 +49,9 @@ const lightTheme = createTheme({
           fontSize:'1.563rem',
         },
         h5: {
-          fontFamily:'Abril',
           fontSize:'1.25rem',
           textTransform: 'uppercase',
-          fontWeight: '400',
+          fontWeight: '500',
             },
         body1:{
             fontSize: '1rem',
