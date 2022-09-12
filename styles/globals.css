@@ -51,6 +51,7 @@ height:auto;
 background-size: cover;
 width:100%;
 color:whitesmoke;
+min-height:360px;
 }
 * {
   box-sizing: border-box;

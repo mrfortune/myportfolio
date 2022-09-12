@@ -32,16 +32,16 @@ const FadeDesign = () => {
        <Box component="div" ml={2} maxWidth='md' sx={{width:'1200px'}}>
 
        
-        <Grid container spacing={2} >
-<Grid item xs={12} sm={12} md={3} lg={3}>
+        <Grid container spacing={1} >
+<Grid item xs={12} sm={4} md={3} lg={3}>
   <Typography variant="body2">Client </Typography>
 <Typography variant="body1">Fade Technology </Typography>
 </Grid>
-<Grid item xs={12} sm={12} md={3} lg={3}><Typography variant="body2">Year</Typography>
+<Grid item xs={12} sm={4} md={3} lg={3}><Typography variant="body2">Year</Typography>
                         <Typography variant="body1">2021</Typography>
                       
                         </Grid>
-<Grid item xs={12} sm={12} md={3} lg={3} ><Typography variant="body2">Role</Typography>
+<Grid item xs={12} sm={4} md={3} lg={3} ><Typography variant="body2">Role</Typography>
                         
                           <ul sx={{marginLeft: '0',}}>
             
@@ -50,7 +50,7 @@ const FadeDesign = () => {
                         </ul> 
                         </Grid>
 
-                        <Grid item xs={12} sm={12} md={3} lg={3} >
+                        <Grid item xs={12} sm={4} md={3} lg={3} >
 <Typography variant="body2">What I Did</Typography>            
                    <Typography variant="body1">
 
@@ -109,8 +109,14 @@ const FadeDesign = () => {
                    <Typography variant="h2" mb={4}>Design Studio</Typography>
      
         </Grid>
-        
+        <Grid item xs={12} lg={6}>
+   
      
+        </Grid>
+        <Grid item xs={12} lg={6}>
+   
+     
+   </Grid>
        
 
      
