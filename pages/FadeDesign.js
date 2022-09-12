@@ -12,15 +12,15 @@ const FadeDesign = () => {
   return (
     <Container maxWidth='false' disableGutters={true}>
   <Paper square={true} className="fadeHero" sx={{minHeight:'50vh', color:'#fff'}}>
-        <Box mt={8} p={4} sx={{ flexGrow: 1 }}>
+        <Box mt={8} component="div">
   <Grid container spacing={2} sx={{display:'flex', justifyItems:'center',}}>
 		 
      <Grid item xs={12} lg={12}>
              
-         <Box component="div" sx={{textAlign:'center', height:'120px'}}>
+         <Box component="div" mt={4} mb={3} sx={{textAlign:'center', height:'152px'}}>
              {/* <Image alt="Fade Hero" src='/assets/fadehero.jpg' width="100%" height='100%'>
                </Image>       */}
-        <Typography variant="h1"> Dashboard UI/UX Solution</Typography>
+        <Typography variant="h1" sx={{fontSize:'3.0rem',}}> Dashboard UI/UX Solution</Typography>
                <Typography variant="body1">Publisher, agency, brand and ad campaign management dashboard solution.</Typography>      
                        
                    
@@ -28,7 +28,10 @@ const FadeDesign = () => {
             
      </Grid> 
      <Divider/>
-     <Grid item xs={12} lg={12} sx={{display:'flex', justifyContent:'center',maxWidth:'1200px', alignItems:'center',  }}>
+     <Grid item xs={12} lg={12} sx={{display:'flex', justifyContent:'center',   }}>
+       <Box component="div" ml={2} maxWidth='md' sx={{width:'1200px'}}>
+
+       
         <Grid container spacing={2} >
 <Grid item xs={12} sm={12} md={3} lg={3}>
   <Typography variant="body2">Client </Typography>
@@ -57,23 +60,23 @@ const FadeDesign = () => {
 
 </Grid>
                  
-                    
+         </Box>           
 		  </Grid>
      </Grid> 
      </Box>
         </Paper>
        
-        <Container maxWidth='md'>
-        <Box maxWidth='md' mt={6}>
+        <Container  maxWidth='md'>
+       
           
-		<Grid container spacing={2}>
+		<Grid container mt={6} spacing={2}>
     
       <Grid item xs={12} pr={1} md={4} lg={4}>            
       <Typography variant="h5">Summary &amp; Overview</Typography>
           
 		  </Grid> 
       <Divider orientation="vertical" flexItem></Divider>  
-		  <Grid item xs={12} lg={6} ml={4} md={6}>            
+		  <Grid item xs={12} lg={6} ml={1} md={6}>            
       <Typography variant="body1">
                 Fade Technology needed a dashboard for their B2B application so that its publishers, brands, agencies and administrators can manage its users and ad campaigns for its clients. 
                 </Typography>
@@ -113,12 +116,10 @@ const FadeDesign = () => {
      
         
       <Grid item xs={12} lg={12} mt={5}>
-      <Typography variant="h3">Research</Typography>
-    
-    <Typography variant="h4">1. Competitive Analysis</Typography>
+    <Typography variant="h2">1. Competitive Analysis</Typography>
     <Typography variant="body1">Campaign managment solutions and administrative dashboards are nothing new. Many companies, such as Amazon, YouTube and Facebook alll have those solutions for their business users. We simply looked at those properties and features and applied it to Fades project brief. </Typography>
     <Typography variant="body1">Fades business model is an advertiser driven model, like Facebook and Youtube, so we focused heavily on their layout and UI components including analytics. Fade has no direct competitors based on their unique offering.</Typography>
-    <Typography variant="h6">Observations:</Typography>
+    <Typography variant="body2">Observations:</Typography>
     <ul>
     <li>Dashboards all have analytics and charts and features to maipulate the data.</li>
     <li>There are access and privilege levels assigned to users including who has administrative rights.</li>
@@ -131,11 +132,8 @@ const FadeDesign = () => {
        
       <Grid item xs={12} lg={12} mt={5}>
 
-      <Typography variant="h4">2. Comparative Analysis</Typography>
-                    
-                        
-                    
-                <Typography variant="body1">Fades proposition is a unique technology and although there are similarites in the online ad space they do not have a direct competitor. We next looked at Amazon's Seller Central's dashboard. Their business model is not an advertishing based model but there are similarities in their solutions. This was to gather more data on how these solutions are designed, and to get more inspiration.</Typography>
+      <Typography variant="h2">2. Comparative Analysis</Typography>
+      <Typography variant="body1">Fades proposition is a unique technology and although there are similarites in the online ad space they do not have a direct competitor. We next looked at Amazon's Seller Central's dashboard. Their business model is not an advertishing based model but there are similarities in their solutions. This was to gather more data on how these solutions are designed, and to get more inspiration.</Typography>
         </Grid>
         <Grid item xs={12} lg={12} mt={5}>
       
@@ -156,7 +154,7 @@ const FadeDesign = () => {
       <Typography variant="h5">Design</Typography>
                 <Typography variant="h2">Dashboards Are Dynamic</Typography>
                 <Typography variant="body1">Due to the dynamic nature of this platform many site maps were created to show what pages each user would see. Our design had to account for that and the following images will show the maps. Here is the information architecture that we came up with.</Typography>
-                <Typography variant="h4">Site Maps</Typography>
+                <Typography variant="h2">Site Maps</Typography>
                 
                    
      
@@ -211,7 +209,7 @@ const FadeDesign = () => {
         </Grid>
         
 		</Grid>
-	  </Box>
+	  
     </Container>
     </Container>
      
