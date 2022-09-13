@@ -10,38 +10,29 @@ import FadeJourneyMap from '../public/assets/FadeJourneyMap.png';
 const FadeDesign = () => {
   
   return (
-    <Container maxWidth={false} disableGutters={true}>
-  <Paper square={true} className="fadeHero" sx={{minHeight:'50vh', color:'#fff'}}>
-        <Box mt={8} component="div">
-  <Grid container spacing={0} sx={{display:'flex', justifyItems:'center',}}>
-		 
-     <Grid item xs={12} lg={12}>
-             
+    <Container maxWidth={false} mt={0} disableGutters={true}>
+  <Paper square={true} className="fadeHero" mt={-2} sx={{minHeight:'50vh', color:'#fff'}}>
+        <Box mt={8} component="div" display="flex" justifyContent="center" alignItems="center">
+  <Grid container spacing={0}>
+     <Grid item xs={12} lg={12}>   
          <Box component="div" mt={4} mb={3} sx={{textAlign:'center', height:'152px'}}>
-             {/* <Image alt="Fade Hero" src='/assets/fadehero.jpg' width="100%" height='100%'>
-               </Image>       */}
         <Typography variant="h1" sx={{fontSize:'3.0rem',}}> Dashboard UI/UX Solution</Typography>
-               <Typography variant="body1">Publisher, agency, brand and ad campaign management dashboard solution.</Typography>      
-                       
-                   
+               <Typography variant="body1">Publisher, agency, brand and ad campaign management dashboard solution.</Typography>              
            </Box>
             
      </Grid> 
-     <Divider/>
-     <Grid item xs={12} lg={12} sx={{display:'flex', justifyContent:'center',   }}>
-       <Box component="div" ml={2} maxWidth='md' sx={{width:'1200px'}}>
-
-       
-        <Grid container spacing={0} >
-<Grid item xs={12} sm={4} md={3} lg={3}>
+     <Grid item xs={12} lg={12}>
+       <Box component="div" p={6} sx={{flexgrow:'1',}}>     
+        <Grid container spacing={2}>
+<Grid item xs={12} sm={3} md={3} lg={3}>
   <Typography variant="body2">Client </Typography>
 <Typography variant="body1">Fade Technology - fadetechnology.com </Typography>
 </Grid>
-<Grid item xs={12} sm={4} md={3} lg={3}><Typography variant="body2">Year</Typography>
+<Grid item xs={12} sm={3} md={3} lg={3}><Typography variant="body2">Year</Typography>
                         <Typography variant="body1">2021</Typography>
                       
                         </Grid>
-<Grid item xs={12} sm={4} md={3} lg={3} ><Typography variant="body2">Role</Typography>
+<Grid item xs={12} sm={3} md={3} lg={3} ><Typography variant="body2">Role</Typography>
                         
                           <ul sx={{marginLeft: '0',}}>
             
@@ -50,10 +41,10 @@ const FadeDesign = () => {
                         </ul> 
                         </Grid>
 
-                        <Grid item xs={12} sm={4} md={3} lg={3} >
+                        <Grid item xs={12} sm={3} md={3} lg={3} >
 <Typography variant="body2">What I Did</Typography>            
                    <Typography variant="body1">
-My priciple role was Information Architect and I collaborated on research and visual design. I drew low fidelity sketches in design studio, site map and usability testing.
+My priciple role was Information Architect and I collaborated on research and visual design. I drew low fidelity sketches in design studio, designed site maps and conducted usability testing.
 
                    </Typography>
 </Grid>
@@ -68,15 +59,12 @@ My priciple role was Information Architect and I collaborated on research and vi
        
        
        
-       <Box component="div"> 
-		<Grid container mt={6} spacing={0}>
+    <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{ flexGrow: 1, px: 3 }}> 
+		<Grid container mt={6} spacing={0} sx={{ width:'740px',}}>
     
-      <Grid item xs={12} pr={1} md={4} lg={4}>            
-      <Typography variant="h5">Project Summary</Typography>
-          
-		  </Grid> 
-      
-		  <Grid item xs={12} lg={12} ml={1} md={6}>            
+      <Grid item xs={12} md={12} lg={12}>            
+      <Typography variant="h2">About This Project</Typography>
+                     
       <Typography variant="body1">
       Fade Technology is an early-stage startup with a team of entertainment technology,
 payments, and digital leaders from leading companies. Fade Technology provides the
@@ -90,9 +78,11 @@ buy products directly from the video on the platform they are on, without redire
              
 		  </Grid>
         
-     
+     <Grid item xs>
+
+       </Grid>
       
-		  <Grid item xs={12} lg={12} ml={1} md={12}>            
+		  <Grid item xs={12} lg={12} md={12}>            
       <Typography variant="h2">
                 The Problem  
                 </Typography>
@@ -100,11 +90,7 @@ buy products directly from the video on the platform they are on, without redire
                 <Typography variant="body1">
                 This project focuses on the customer portal experience, which will include one or more
 of the following:
-<Box component="ul">
-<li>Account Administration</li>
-<li>Campaign Management</li>
-<li>Reporting Dashboards</li>
-</Box>
+
 The target platform for this project is a responsive website and will be accessible through
 the fade.technology website with URLs: fade.technology/sellerportal;
 fade.technology/publisher; fade.technology/login. This portal will require a secure
@@ -113,6 +99,7 @@ to feel safe when inputting private business information or accessing/uploading 
 documents.
 
                 </Typography>
+                
               
           
 		  </Grid>

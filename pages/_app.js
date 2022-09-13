@@ -18,7 +18,7 @@ const MyApp = (props) => {
   return (
   
     <CacheProvider value={emotionCache}>
-      <ThemeProvider theme={responsiveFontSizes(lightTheme, { breakpoints: ['xs', 'sm', 'md', 'lg', 'xl', '2xl', '3xl', '4xl', '5xl'], factor: 6 })}>
+      <ThemeProvider theme={responsiveFontSizes(lightTheme, { breakpoints: ['xs', 'sm', 'md', 'lg', 'xl', '2xl', '3xl', '4xl', '5xl'], factor: 3 })}>
         <CssBaseline />
         <Layout>
           <Component {...pageProps} />
