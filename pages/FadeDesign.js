@@ -77,10 +77,6 @@ buy products directly from the video on the platform they are on, without redire
                 
              
 		  </Grid>
-        
-     <Grid item xs>
-
-       </Grid>
       
 		  <Grid item xs={12} lg={12} md={12}>            
       <Typography variant="h2">
@@ -114,11 +110,8 @@ documents.
         </Grid>
         
      
-      <Grid item xs={12} lg={12} mt={5}>
-                   <Typography variant="h2" mb={4}>Design Studio</Typography>
-     
-        </Grid>
-        <Grid item xs={12} lg={12}>
+      <Grid item xs={12} lg={12} mt={5} >
+                   <Typography variant="h2">Design Studio</Typography>
    <Typography variant="body1">
 We began our process by sketching low fidelity wireframes with pen and paper.  Since the brief informed us of what the dashboard should look like, based on the examples provided, and the fact that we had no ability to do user research with participants, we jsu started sketching. The resluts were that we got early buyin from the client and we could procede to site-mapping and mid-fidelity wireframing.
    </Typography>
@@ -161,15 +154,16 @@ We began our process by sketching low fidelity wireframes with pen and paper.  S
                     
                     
                     <Typography variant="h2" mb={4}>Persona:Meet Pamela Wu</Typography>
-                    <Image src="/assets/fadepersona.png" alt="" height={1080} width={1440} />
+                    <Image src="/assets/fadepersona.png" alt="" height={1080} width={1440} sx={{borderRadius:'20px',}}/>
      
         </Grid>
        
       <Grid item xs={12} lg={12} mt={5}>
-      <Typography variant="h4">Journey Map</Typography>
-                
-                <Image src="/assets/FadeJourneyMap.png" alt="" height={1080} width={1440} sx={{borderRadius:'16px',}}/>
-                <Typography  variant="body1">In the above image we are mapping the journey of the Account Administrator as he/she interacts with the proposed solution.</Typography>	 
+      <Typography variant="h2">Journey Map</Typography>
+               <Box component="div" sx={{borderRadius: '20px',}}>
+                <Image src="/assets/FadeJourneyMap.png" alt="" height={1080} width={1440}/>
+                <Typography  variant="body1">In the above image we are mapping the journey of the Account Administrator as he/she interacts with the proposed solution.</Typography>
+                </Box>	 
         </Grid>
       <Grid item xs={12} lg={12} mt={5}>
       <Typography variant="h5">Design</Typography>
