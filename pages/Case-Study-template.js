@@ -7,7 +7,7 @@ import Image from 'next/image';
 import FadeJourneyMap from '../public/assets/FadeJourneyMap.png';
 
 
-const FadeDesign = () => {
+const CaseStudyTemplate = () => {
   
   return (
     <Container maxWidth={false} mt={0} disableGutters={true}>
@@ -235,4 +235,4 @@ We began our process by sketching low fidelity wireframes with pen and paper.  S
   )
 }
 
-export default FadeDesign
+export default CaseStudyTemplate

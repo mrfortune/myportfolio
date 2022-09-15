@@ -13,7 +13,7 @@ import Divider from '@mui/material/Divider';
 
 const Wsgr = () => {
   return (
-	  <Container maxWidth='md'>
+	<Container maxWidth={false} mt={0} disableGutters={true}>
 <Grid container spacing={2} mt={15} mb={15}>
 
 		<Grid item xs={12} lg={12} md={12}>
@@ -54,7 +54,9 @@ const Wsgr = () => {
 					  </Grid>
 			</Grid>
 		</Grid>
-		  <Grid item xs={12} lg={12}>
+		</Grid>
+		<Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{ flexGrow: 1, px: 3 }}> 
+		<Grid container mt={6} spacing={0} sx={{ width:'740px',}}>
 		  <Typography variant="h5">Solution Overview</Typography>
 		  <Typography variant="h2">Problem</Typography>	
 					<Typography variant="h2">How might we...?</Typography>
@@ -191,7 +193,7 @@ const Wsgr = () => {
 			<Typography variant="body1">We will continue working on the design by conducting usability testing.
 			</Typography>
 								</Grid>
-</Grid>
+</Box>
 	  </Container>
 	
   )
