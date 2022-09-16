@@ -9,10 +9,11 @@ import FadeJourneyMap from '../public/assets/FadeJourneyMap.png';
 
 
 const commonStyles = {
-  bgcolor: 'background.paper',
+  bgcolor: '#ccc',
   borderColor: 'text.primary',
   m: 1,
-  border: 1,
+  p: 1,
+  border: 0,
 };
 
 const FadeDesign = () => {
@@ -79,7 +80,7 @@ payments, and digital leaders from leading companies. Fade Technology provides t
 quickest way to embed the next-generation of shoppable media on the digital publisher
 and streaming service platforms. It is a cloud-based platform that enables digital
 publishers to monetize editorial, sponsored, advertorial, and original video content
-natively. It allows a new commerce experience that lets viewers instantly discover and
+natively. It allows a new e-commerce experience that lets viewers instantly discover and
 buy products directly from the video on the platform they are on, without redirects.
                 </Typography>
                 
@@ -150,14 +151,18 @@ We began our process by sketching low fidelity wireframes with pen and paper.  S
       <Typography variant="body1">Fades proposition is a unique technology and although there are similarites in the online ad space they do not have a direct competitor. We next looked at Amazon's Seller Central's dashboard. Their business model is not an advertishing based model but there are similarities in their solutions. This was to gather more data on how these solutions are designed, and to get more inspiration.</Typography>
         </Grid>
         <Grid item xs={12} lg={12} md={12} mt={5}>
+        <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{...commonStyles, borderRadius: '16px'}}>     
           <Image src="/assets/comparacampaign.png" width={543} height={182} alt="">
-
           </Image>
+          </Box>
+          
           </Grid>
-          <Grid item xs={12} lg={12} md={12} mt={5}>
+          <Grid item xs={12} lg={12} md={12} mt={5}>   
+          <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{...commonStyles, borderRadius: '16px'}}>  
           <Image src="/assets/comparamanusers.png" width={543} height={182} alt="">
 
 </Image> 
+</Box>
           </Grid>
         
   <Grid item xs={12} lg={12} mt={5}>
@@ -217,7 +222,30 @@ We began our process by sketching low fidelity wireframes with pen and paper.  S
             <Typography variant="body1">A simple and intuitive dashboard with all of the minimal features that Fade needs for its clients. These are the final design that the team and I came up with for Fade's dashboard. Desktop was primary so we did not design a mobile solution </Typography>
      
         </Grid>
-        
+        <Grid item xs={12} lg={12} md={12}>
+        <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{...commonStyles, borderRadius: '16px'}}>     
+          <Image src="/assets/PublisherFlow_FinalWelcome.png" width={900} height={640} alt="">
+          </Image>
+          </Box>
+          </Grid>
+          <Grid item xs={12} lg={12} md={12}>
+        <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{...commonStyles, borderRadius: '16px'}}>     
+          <Image src="/assets/SignUpFlow_FinalSignup.png" width={900} height={640} alt="">
+          </Image>
+          </Box>
+          </Grid>
+        <Grid item xs={12} lg={12} md={12}>
+        <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{...commonStyles, borderRadius: '16px'}}>     
+          <Image src="/assets/PublisherFlow_FinalManageUsers.png" width={900} height={640} alt="">
+          </Image>
+          </Box>
+          </Grid>
+        <Grid item xs={12} lg={12} md={12}>
+        <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{...commonStyles, borderRadius: '16px'}}>     
+          <Image src="/assets/PublisherFlow_FinalOverview.png" width={720} height={1080} alt="">
+          </Image>
+          </Box>
+          </Grid>
       <Grid item xs={12} lg={12} mt={5}>
       <Typography variant="h5">Results & Reflections</Typography>
         
