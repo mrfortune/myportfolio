@@ -4,8 +4,16 @@ import { Box, Grid, Container, Item, Paper } from '@mui/material';
 import { Typography } from '@mui/material';
 import Divider from '@mui/material/Divider';
 import Image from 'next/image';
+import {borders} from '@mui/system';
 import FadeJourneyMap from '../public/assets/FadeJourneyMap.png';
 
+
+const commonStyles = {
+  bgcolor: 'background.paper',
+  borderColor: 'text.primary',
+  m: 1,
+  border: 1,
+};
 
 const FadeDesign = () => {
   
@@ -26,7 +34,7 @@ const FadeDesign = () => {
         <Grid container spacing={2}>
 <Grid item xs={12} sm={3} md={3} lg={3}>
   <Typography variant="body2">Client </Typography>
-<Typography variant="body1">Fade Technology - fadetechnology.com </Typography>
+<Typography variant="body1">Fade Technology - fade.technology </Typography>
 </Grid>
 <Grid item xs={12} sm={3} md={3} lg={3}><Typography variant="body2">Year</Typography>
                         <Typography variant="body1">2021</Typography>
@@ -84,15 +92,8 @@ buy products directly from the video on the platform they are on, without redire
                 </Typography>
                 
                 <Typography variant="body1">
-                This project focuses on the customer portal experience, which will include one or more
-of the following:
-
-The target platform for this project is a responsive website and will be accessible through
-the fade.technology website with URLs: fade.technology/sellerportal;
-fade.technology/publisher; fade.technology/login. This portal will require a secure
-customer environment, with features such as encryption and SSL, which will allow users
-to feel safe when inputting private business information or accessing/uploading sensitive
-documents.
+                Fade Technology Solutions needs an admin UI for their clients so that they can
+easily track and manage their sales data and campaign metrics.
 
                 </Typography>
                 
@@ -117,16 +118,15 @@ We began our process by sketching low fidelity wireframes with pen and paper.  S
    </Typography>
      
         </Grid>
-        <Grid item xs={12} lg={4}>
-   
-     
-   </Grid>
-   <Grid item xs={12} lg={4}>
-   
-     
-   </Grid> 
        
+        <Grid item xs={12} lg={12} md={12} spacing={2}>
+      <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{...commonStyles, borderRadius: '8px'}}>     
+   <Image src="/assets/earlysketches.png" height={560} width={900}  alt="Fade Login">
 
+   </Image>
+     </Box>
+   </Grid>
+   
      
         
       <Grid item xs={12} lg={12} mt={5}>
@@ -144,13 +144,23 @@ We began our process by sketching low fidelity wireframes with pen and paper.  S
      
         </Grid>
        
-      <Grid item xs={12} lg={12} mt={5}>
+      <Grid item xs={12} lg={12} md={12} mt={5}>
 
       <Typography variant="h2">Comparative Analysis</Typography>
       <Typography variant="body1">Fades proposition is a unique technology and although there are similarites in the online ad space they do not have a direct competitor. We next looked at Amazon's Seller Central's dashboard. Their business model is not an advertishing based model but there are similarities in their solutions. This was to gather more data on how these solutions are designed, and to get more inspiration.</Typography>
         </Grid>
-        <Grid item xs={12} lg={12} mt={5}>
-      
+        <Grid item xs={12} lg={12} md={12} mt={5}>
+          <Image src="/assets/comparacampaign.png" width={543} height={182} alt="">
+
+          </Image>
+          </Grid>
+          <Grid item xs={12} lg={12} md={12} mt={5}>
+          <Image src="/assets/comparamanusers.png" width={543} height={182} alt="">
+
+</Image> 
+          </Grid>
+        
+  <Grid item xs={12} lg={12} mt={5}>
                     
                     
                     <Typography variant="h2" mb={4}>Persona:Meet Pamela Wu</Typography>
@@ -162,7 +172,7 @@ We began our process by sketching low fidelity wireframes with pen and paper.  S
       <Typography variant="h2">Journey Map</Typography>
                <Box component="div" sx={{borderRadius: '20px',}}>
                 <Image src="/assets/FadeJourneyMap.png" alt="" height={1080} width={1440}/>
-                <Typography  variant="body1">In the above image we are mapping the journey of the Account Administrator as he/she interacts with the proposed solution.</Typography>
+                <Typography  variant="body1">In the above image we are mapping the journey of the Account Administrator as she interacts with the proposed solution.</Typography>
                 </Box>	 
         </Grid>
       <Grid item xs={12} lg={12} mt={5}>
