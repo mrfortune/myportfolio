@@ -173,14 +173,6 @@ We began our process by sketching low fidelity wireframes with pen and paper.  S
    </Typography>
      
         </Grid>
-       
-        <Grid item xs={12} lg={12} md={12} spacing={2}>
-      <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{...commonStyles, borderRadius: '16px'}}>     
-   <Image src="/assets/earlysketches.png" height={560} width={900}  alt="Fade Login">
-
-   </Image>
-     </Box>
-   </Grid>
       <Grid item xs={12} lg={12} mt={5}>
       
                 <Typography variant="h2">Dashboards are Dynamic</Typography>
@@ -191,22 +183,41 @@ We began our process by sketching low fidelity wireframes with pen and paper.  S
      
         </Grid>
         <Grid item xs={12} lg={12} mt={5}>
+
       
-                    
-      
-      <Box sx={{borderRadius: '16px',}}>
-      <Image src="/assets/fadewire1.png" alt="" height={900} width={1280} />
+     
+      <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{...commonStyles, borderRadius: '16px'}}>
+      <Image src="/assets/FadeB2B_Page_userflow1.png" alt="" height={506} width={900} />
+</Box>
+</Grid>
+<Grid item xs={12} lg={12} mt={5}>
+      <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{...commonStyles, borderRadius: '16px'}}>
+      <Image src="/assets/FadeB2B_Page_userflow2.png" alt="" height={506} width={900} />
 </Box>
 </Grid>
 
 <Grid item xs={12} lg={12} mt={5}>
-
-      
-     
-      <Box sx={{borderRadius: '16px',}}>
-      <Image src="/assets/fadewire2.png" alt="" height={1080} width={1440} />
+      <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{...commonStyles, borderRadius: '16px'}}>
+      <Image src="/assets/FadeB2B_Page_sitemap1.png" alt="" height={506} width={900} />
 </Box>
 </Grid>
+<Grid item xs={12} lg={12} mt={5}>
+      <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{...commonStyles, borderRadius: '16px'}}>
+      <Image src="/assets/FadeB2B_Page_sitemap2.png" alt="" height={506} width={900} />
+</Box>
+</Grid>
+<Grid item xs={12} lg={12} mt={5}>
+      <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{...commonStyles, borderRadius: '16px'}}>
+      <Image src="/assets/FadeB2B_Page_sitemap3.png" alt="" height={506} width={900} />
+</Box>
+</Grid>
+<Grid item xs={12} lg={12} md={12} spacing={2}>
+      <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{...commonStyles, borderRadius: '16px'}}>     
+   <Image src="/assets/earlysketches.png" height={560} width={900}  alt="Fade Login">
+
+   </Image>
+     </Box>
+   </Grid>
        
       <Grid item xs={12} lg={12} mt={5}>
       
