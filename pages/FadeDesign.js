@@ -115,7 +115,7 @@ easily track and manage their sales data and campaign metrics.
       <Grid item xs={12} lg={12} mt={5} >
                    <Typography variant="h2">Design Studio</Typography>
    <Typography variant="body1">
-We began our process by sketching low fidelity wireframes with pen and paper.  Since the brief informed us of what the dashboard should look like, based on the examples provided, and the fact that we had no ability to do user research with participants, we jsu started sketching. The resluts were that we got early buyin from the client and we could procede to site-mapping and mid-fidelity wireframing.
+We began our process by sketching low fidelity wireframes with pen and paper.  Since the brief informed us of what the dashboard should look like, based on the examples provided, and the fact that we had no ability to do user research with participants, we just started sketching. The results were that we got early buyin from the client and we could procede to site-mapping and mid-fidelity wireframing.
    </Typography>
      
         </Grid>
