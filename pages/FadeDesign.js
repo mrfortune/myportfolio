@@ -106,27 +106,13 @@ easily track and manage their sales data and campaign metrics.
                <Typography variant="body1">
             The Fade executives and techs came to us with a detailed project brief, inclding how their system worked for publishers, agencies, brands and admins and examples of Facebook Business Suite and Snapchat's Business dashboard. We did not have access to user info, nor could we interview users since their users are their business clients.</Typography>
            
-           <Typography variant="body1">Fade did part of our Double Diamond work for us and we just needed to build on what they provided and begin sketches and low-fidelity wireframing based on the examples.
-            We were forced to rely on the project brief and competitive analysis and comparative analysis to inform our final design decisions.</Typography>
+           <Typography variant="body1">Fade did part of our Double Diamond work for us and we just needed to build on what they provided and begin with competitive and comparative analysis then moved to sketches and low-fidelity wireframing based on the examples.
+            </Typography>
      
         </Grid>
         
      
-      <Grid item xs={12} lg={12} mt={5} >
-                   <Typography variant="h2">Design Studio</Typography>
-   <Typography variant="body1">
-We began our process by sketching low fidelity wireframes with pen and paper.  Since the brief informed us of what the dashboard should look like, based on the examples provided, and the fact that we had no ability to do user research with participants, we just started sketching. The results were that we got early buyin from the client and we could procede to site-mapping and mid-fidelity wireframing.
-   </Typography>
      
-        </Grid>
-       
-        <Grid item xs={12} lg={12} md={12} spacing={2}>
-      <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{...commonStyles, borderRadius: '16px'}}>     
-   <Image src="/assets/earlysketches.png" height={560} width={900}  alt="Fade Login">
-
-   </Image>
-     </Box>
-   </Grid>
    
      
         
@@ -180,8 +166,23 @@ We began our process by sketching low fidelity wireframes with pen and paper.  S
                 <Typography  variant="body1">In the above image we are mapping the journey of the Account Administrator as she interacts with the proposed solution.</Typography>
                 </Box>	 
         </Grid>
+        <Grid item xs={12} lg={12} mt={5} ><Typography variant="h5">Design</Typography>
+                
+   <Typography variant="body1">
+We began our process by sketching low fidelity wireframes with pen and paper.  Since the brief informed us of what the dashboard should look like, based on the examples provided, and the fact that we had no ability to do user research with participants, we just started sketching. The results were that we got early buyin from the client and we could procede to site-mapping and mid-fidelity wireframing.
+   </Typography>
+     
+        </Grid>
+       
+        <Grid item xs={12} lg={12} md={12} spacing={2}>
+      <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{...commonStyles, borderRadius: '16px'}}>     
+   <Image src="/assets/earlysketches.png" height={560} width={900}  alt="Fade Login">
+
+   </Image>
+     </Box>
+   </Grid>
       <Grid item xs={12} lg={12} mt={5}>
-      <Typography variant="h5">Design</Typography>
+      
                 <Typography variant="h2">Dashboards are Dynamic</Typography>
                 <Typography variant="body1">Due to the dynamic nature of this platform many site maps were created to show what pages each user would see. Our design had to account for that and the following images will show the maps. Here is the information architecture that we came up with.</Typography>
                 <Typography variant="h2">Site Maps</Typography>
