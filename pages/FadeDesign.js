@@ -120,7 +120,7 @@ We began our process by sketching low fidelity wireframes with pen and paper.  S
         </Grid>
        
         <Grid item xs={12} lg={12} md={12} spacing={2}>
-      <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{...commonStyles, borderRadius: '8px'}}>     
+      <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{...commonStyles, borderRadius: '16px'}}>     
    <Image src="/assets/earlysketches.png" height={560} width={900}  alt="Fade Login">
 
    </Image>
@@ -170,7 +170,7 @@ We began our process by sketching low fidelity wireframes with pen and paper.  S
        
       <Grid item xs={12} lg={12} mt={5}>
       <Typography variant="h2">Journey Map</Typography>
-               <Box component="div" sx={{borderRadius: '20px',}}>
+               <Box component="div" sx={{borderRadius: '16px',}}>
                 <Image src="/assets/FadeJourneyMap.png" alt="" height={1080} width={1440}/>
                 <Typography  variant="body1">In the above image we are mapping the journey of the Account Administrator as she interacts with the proposed solution.</Typography>
                 </Box>	 
