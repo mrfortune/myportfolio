@@ -213,6 +213,22 @@ Projects
 <Typography variant="h2" sx={{color:'#fff'}}>
 Case Studies
 </Typography>
+<Grid container spacing={2}>
+  <Grid item xs={12} md={3} lg={3}>
+<Typography>
+  
+</Typography>
+  </Grid>
+<Grid item xs={12} md={9} lg={9}>
+<Image src='/assets/FadeB2B_Page_01.png'
+    alt=''
+    width={900}
+    height={506}
+    layout='responsive'
+    >
+</Image>
+</Grid>
+</Grid>
     </Container>
 
 </Paper>
