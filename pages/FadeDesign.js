@@ -179,10 +179,7 @@ We began our process by sketching low fidelity wireframes with pen and paper.  S
       
                 <Typography variant="h2">Dashboards are Dynamic</Typography>
                 <Typography variant="body1">Due to the dynamic nature of this platform many site maps were created to show what pages each user would see. Our design had to account for that and the following images will show the maps. Here is the information architecture that we came up with.</Typography>
-                <Typography variant="h2">Site Maps</Typography>
                 
-                   
-     
         </Grid>
         <Grid item xs={12} lg={12} mt={5}>
 

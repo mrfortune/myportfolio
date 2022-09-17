@@ -52,11 +52,14 @@ const lightTheme = createTheme({
           fontSize:'1.25rem',
           textTransform: 'uppercase',
           fontWeight: '500',
+          marginBottom:'3rem',
+          textAlign:'center',
             },
         body1:{
             fontSize: '1rem',
             marginBottom: '1rem',
             fontWeight:'400',
+            
         },
         body2:{
           fontSize: '.8rem',
