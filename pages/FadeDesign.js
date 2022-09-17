@@ -184,8 +184,9 @@ We began our process by sketching low fidelity wireframes with pen and paper.  S
         </Grid>
         <Grid item xs={12} lg={12} mt={5}>
 
-      
-     
+        <Typography  variant="h2">The Happy Paths</Typography>
+                <Typography  variant="body1">Fades user flow was touched on earlier at the journey map but here is a bit more detail showing how users would navigate on the platform. We focused on the primary flow, which is 'Sign-up' for the platform. Here is our "happy path":</Typography>
+                <Typography  variant="body1">Here is our "happy path":</Typography> 
       <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{...commonStyles, borderRadius: '16px'}}>
       <Image src="/assets/FadeB2B_Page_userflow1.png" alt="" height={506} width={900} />
 </Box>
@@ -218,15 +219,14 @@ We began our process by sketching low fidelity wireframes with pen and paper.  S
    </Image>
      </Box>
    </Grid>
+   <Grid item xs={12} lg={12} md={12} spacing={2}>
+      <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{...commonStyles, borderRadius: '16px'}}>     
+   <Image src="/assets/midfidelity.png" height={352} width={900}  alt="Fade Login">
+
+   </Image>
+     </Box>
+   </Grid>
        
-      <Grid item xs={12} lg={12} mt={5}>
-      
-                <Typography  variant="h2">The Happy Paths</Typography>
-                <Typography  variant="body1">Fades user flow was touched on earlier at the journey map but here is a bit more detail showing how users would navigate on the platform. We focused on the primary flow, which is 'Sign-up' for the platform.</Typography>
-            
-                    
-     
-        </Grid>
        
       <Grid item xs={12} lg={12} mt={5}>
       <Typography variant="h5">Visual Design</Typography>
