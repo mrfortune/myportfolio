@@ -229,10 +229,10 @@ Case Studies
           alt="Fade Technology"
         />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
+          <Typography gutterBottom variant="h3" component="div">
             Fade Technology Solutions
           </Typography>
-          <Typography variant="body2" color="text.secondary">
+          <Typography variant="body2" color="text.secondary" sx={{textTransform:'none', fontSize:'1rem'}}>
             Lizards are a widespread group of squamate reptiles, with over 6,000
             species, ranging across all continents except Antarctica
           </Typography>
@@ -240,7 +240,7 @@ Case Studies
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button size="small" color="primary">
+        <Button size="small" variant="contained" color="primary">
           <Link href="/FadeDesign"> Read More...</Link>
         </Button>
       </CardActions>
@@ -268,10 +268,10 @@ Case Studies
           alt="Fade Technology"
         />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
+          <Typography gutterBottom variant="h3" component="div">
             Fade Technology Solutions
           </Typography>
-          <Typography variant="body2" color="text.secondary">
+          <Typography variant="body2" color="text.secondary" sx={{textTransform:'none', fontSize:'1rem'}}>
             Lizards are a widespread group of squamate reptiles, with over 6,000
             species, ranging across all continents except Antarctica
           </Typography>
@@ -279,7 +279,7 @@ Case Studies
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button size="small" color="primary">
+        <Button size="small" variant="contained" color="primary">
           <Link href="/FadeDesign"> Read More...</Link>
         </Button>
       </CardActions>
@@ -300,7 +300,7 @@ Case Studies
           alt="Fade Technology"
         />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
+          <Typography gutterBottom variant="h3" component="div" sx={{textTransform:'none', fontSize:'1rem'}}>
             Fade Technology Solutions
           </Typography>
           <Typography variant="body2" color="text.secondary">
@@ -311,7 +311,7 @@ Case Studies
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button size="small" color="primary">
+        <Button size="small" variant="contained" color="primary">
           <Link href="/FadeDesign"> Read More...</Link>
         </Button>
       </CardActions>
