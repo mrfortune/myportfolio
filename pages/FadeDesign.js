@@ -9,7 +9,7 @@ import FadeJourneyMap from '../public/assets/FadeJourneyMap.png';
 
 
 const commonStyles = {
-  bgcolor: '#ccc',
+  bgcolor: '#e7e6e2',
   borderColor: 'text.primary',
   m: 1,
   p: 1,
@@ -155,16 +155,18 @@ easily track and manage their sales data and campaign metrics.
                     
                     
                     <Typography variant="h2" mb={4}>Persona:Meet Pamela Wu</Typography>
-                    <Image src="/assets/fadepersona.png" alt="" height={1080} width={1440} sx={{borderRadius:'20px',}}/>
+                    <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{...commonStyles, borderRadius: '16px'}}>
+                    <Image src="/assets/fadepersona.png" alt="" height={636} width={900} /></Box>
      
         </Grid>
        
       <Grid item xs={12} lg={12} mt={5}>
       <Typography variant="h2">Journey Map</Typography>
-               <Box component="div" sx={{borderRadius: '16px',}}>
-                <Image src="/assets/FadeJourneyMap.png" alt="" height={1080} width={1440}/>
+               <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{...commonStyles, borderRadius: '16px'}}>
+                <Image src="/assets/FadeJourneyMap.png" alt="" height={675} width={900}/>
+                </Box>	
                 <Typography  variant="body1">In the above image we are mapping the journey of the Account Administrator as she interacts with the proposed solution.</Typography>
-                </Box>	 
+                 
         </Grid>
         <Grid item xs={12} lg={12} mt={5} ><Typography variant="h5">Design</Typography>
                 
