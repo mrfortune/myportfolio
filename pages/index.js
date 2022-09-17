@@ -2,11 +2,11 @@ import { Button, Box, CardActionArea, CardActions, Stack, Card, Item, Container}
 import Hero from '../components/Hero';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
-import Divider from '@mui/material/Divider';
 import { Typography } from "@mui/material";
 import Grid from '@mui/material/Grid';
 import { Paper } from '@mui/material';
 import Image from 'next/image';
+import Link from 'next/link';
 
 
 export default function Home() {
@@ -220,13 +220,38 @@ Case Studies
 </Typography>
   </Grid>
 <Grid item xs={12} md={9} lg={9}>
-<Image src='/assets/FadeB2B_Page_01.png'
+<Card sx={{ maxWidth: 900 }}>
+      <CardActionArea>
+        <CardMedia
+          component="img"
+          height="506"
+          image="/assets/FadeB2B_Page_01.png"
+          alt="Fade Technology"
+        />
+        <CardContent>
+          <Typography gutterBottom variant="h5" component="div">
+            Fade Technology Solutions
+          </Typography>
+          <Typography variant="body2" color="text.secondary">
+            Lizards are a widespread group of squamate reptiles, with over 6,000
+            species, ranging across all continents except Antarctica
+          </Typography>
+         
+        </CardContent>
+      </CardActionArea>
+      <CardActions>
+        <Button size="small" color="primary">
+          <Link href="/FadeDesign"> Read More...</Link>
+        </Button>
+      </CardActions>
+    </Card>
+{/* <Image src='/assets/FadeB2B_Page_01.png'
     alt=''
     width={900}
     height={506}
     layout='responsive'
     >
-</Image>
+</Image> */}
 </Grid>
 <Grid item xs={12} md={3} lg={3}>
 <Typography>
@@ -234,13 +259,31 @@ Case Studies
 </Typography>
   </Grid>
 <Grid item xs={12} md={9} lg={9}>
-<Image src='/assets/FadeB2B_Page_01.png'
-    alt=''
-    width={900}
-    height={506}
-    layout='responsive'
-    >
-</Image>
+<Card sx={{ maxWidth: 900 }}>
+      <CardActionArea>
+        <CardMedia
+          component="img"
+          height="506"
+          image="/assets/FadeB2B_Page_01.png"
+          alt="Fade Technology"
+        />
+        <CardContent>
+          <Typography gutterBottom variant="h5" component="div">
+            Fade Technology Solutions
+          </Typography>
+          <Typography variant="body2" color="text.secondary">
+            Lizards are a widespread group of squamate reptiles, with over 6,000
+            species, ranging across all continents except Antarctica
+          </Typography>
+         
+        </CardContent>
+      </CardActionArea>
+      <CardActions>
+        <Button size="small" color="primary">
+          <Link href="/FadeDesign"> Read More...</Link>
+        </Button>
+      </CardActions>
+    </Card>
 </Grid>
 <Grid item xs={12} md={3} lg={3}>
 <Typography>
@@ -248,13 +291,31 @@ Case Studies
 </Typography>
   </Grid>
 <Grid item xs={12} md={9} lg={9}>
-<Image src='/assets/FadeB2B_Page_01.png'
-    alt=''
-    width={900}
-    height={506}
-    layout='responsive'
-    >
-</Image>
+<Card sx={{ maxWidth: 900 }}>
+      <CardActionArea>
+        <CardMedia
+          component="img"
+          height="506"
+          image="/assets/FadeB2B_Page_01.png"
+          alt="Fade Technology"
+        />
+        <CardContent>
+          <Typography gutterBottom variant="h5" component="div">
+            Fade Technology Solutions
+          </Typography>
+          <Typography variant="body2" color="text.secondary">
+            Lizards are a widespread group of squamate reptiles, with over 6,000
+            species, ranging across all continents except Antarctica
+          </Typography>
+         
+        </CardContent>
+      </CardActionArea>
+      <CardActions>
+        <Button size="small" color="primary">
+          <Link href="/FadeDesign"> Read More...</Link>
+        </Button>
+      </CardActions>
+    </Card>
 </Grid>
 </Grid>
     </Container>
