@@ -204,8 +204,8 @@ Projects
     padding: 4,
     backgroundColor: "#eceff1",
     width:'100%',
-    height:'1440px',
-    minHeight:'20vh',
+    minHeight:'1440px',
+    height:'auto',
     borderTop:'1px',
     borderTopColor:'#000'
   }}>
@@ -216,7 +216,35 @@ Case Studies
 <Grid container spacing={2}>
   <Grid item xs={12} md={3} lg={3}>
 <Typography>
-  
+
+</Typography>
+  </Grid>
+<Grid item xs={12} md={9} lg={9}>
+<Image src='/assets/FadeB2B_Page_01.png'
+    alt=''
+    width={900}
+    height={506}
+    layout='responsive'
+    >
+</Image>
+</Grid>
+<Grid item xs={12} md={3} lg={3}>
+<Typography>
+
+</Typography>
+  </Grid>
+<Grid item xs={12} md={9} lg={9}>
+<Image src='/assets/FadeB2B_Page_01.png'
+    alt=''
+    width={900}
+    height={506}
+    layout='responsive'
+    >
+</Image>
+</Grid>
+<Grid item xs={12} md={3} lg={3}>
+<Typography>
+
 </Typography>
   </Grid>
 <Grid item xs={12} md={9} lg={9}>
