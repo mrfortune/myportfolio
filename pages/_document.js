@@ -24,8 +24,19 @@ class MyDocument extends Document {
 
   render() {
     return (
-      <Html>
-        <Head />
+      <Html lang="en">
+        <Head>
+          <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+          />
+          <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+            
+         </link>
+          
+ <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet"></link>
+
+        </Head>
         <body>
           <Main />
           <NextScript />
