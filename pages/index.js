@@ -7,6 +7,7 @@ import Grid from '@mui/material/Grid';
 import { Paper } from '@mui/material';
 import Image from 'next/image';
 import Link from 'next/link';
+import myLoader from '../components/Loader';
 
 
 export default function Home() {
@@ -37,33 +38,35 @@ export default function Home() {
   }} >
      <Box component="li">
         <Image
-            src='/assets/wedofigma.png'
+        loader={myLoader}
+            src='wedofigma.png'
             srcSet='1x'
             alt=''
             width={96}
             height={96}
-            layout="fixed"
+            layout="intrinsic"
           />
           </Box>
       <Box component="li">
         <Image
-            src='/assets/wedosharep.png'
-            srcSet='1x'
+        loader={myLoader}
+            src='wedosharep.png'
             alt=''
             width={96}
             height={96}
-            layout="fixed"
+            layout="intrinsic"
           />
           </Box>
   <Box component="li">
 
      <Image
-            src='/assets/wedomui.png'
+     loader={myLoader}
+            src='wedomui.png'
             srcSet=''
             alt=''
             width={96}
             height={96}
-            layout="fixed"
+            layout="intrinsic"
           />
   </Box>
           
@@ -71,16 +74,17 @@ export default function Home() {
          
         
           <Image
-            src='/assets/wedomiro.png'
+          loader={myLoader}
+            src='wedomiro.png'
             width={96}
             height={96}
-            srcSet='1x'
             alt=''
-            layout="fixed"
+            layout="intrinsic"
           />
       
           <Image
-            src='/assets/wedoadobe.png'
+          loader={myLoader}
+            src='wedoadobe.png'
             width={96}
             height={96}
             srcSet='1x'
@@ -91,7 +95,8 @@ export default function Home() {
           
        
           <Image
-            src='/assets/wedocss.png'
+          loader={myLoader}
+            src='wedocss.png'
             width={96}
             height={96}
             srcSet='1x'
@@ -101,7 +106,8 @@ export default function Home() {
           
        
           <Image
-            src='/assets/wedohtml.png'
+          loader={myLoader}
+            src='wedohtml.png'
             width={96}
             height={96}
             srcSet='1x'
@@ -111,48 +117,46 @@ export default function Home() {
           
         
           <Image
-            src='/assets/wedojavascript.png'
+          loader={myLoader}
+            src='wedojavascript.png'
             width={96}
             height={96}
-            srcSet='1x'
             alt=''
             layout="fixed"
           />
           
        
           <Image
-            src='/assets/wedoreact.png'
+          loader={myLoader}
+            src='wedoreact.png'
             width={96}
             height={96}
-            srcSet='1x'
             alt=''
             layout="fixed"
           />
           
         
           <Image
-            src='/assets/wedoshopify.png'
+          loader={myLoader}
+            src='wedoshopify.png'
             width={96}
             height={96}
-            srcSet='1x'
             alt=''
             layout="fixed"
           />
           
        
           <Image
-            src='/assets/wedowrike.png'
+            src='wedowrike.png'
             width={96}
             height={96}
-            srcSet='1x'
             alt=''
             layout="fixed"
           />
            <Image
-            src='/assets/wedonext.png'
+            src='wedonext.png'
             width={96}
             height={96}
-            srcSet='1x'
             alt=''
             layout="fixed"
           />

@@ -5,6 +5,7 @@ import { Typography } from '@mui/material';
 import Divider from '@mui/material/Divider';
 import Image from 'next/image';
 import {borders} from '@mui/system';
+import myLoader from '../components/Loader';
 
 // const myLoader = ({ src, width, quality }) => {
 //   return `https://worldshaker.imgix.net/${src}?w=${width}&q=${quality || 75}`
