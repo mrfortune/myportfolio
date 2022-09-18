@@ -5,8 +5,10 @@ import { Typography } from '@mui/material';
 import Divider from '@mui/material/Divider';
 import Image from 'next/image';
 import {borders} from '@mui/system';
-import FadeJourneyMap from '../public/assets/FadeJourneyMap.png';
 
+// const myLoader = ({ src, width, quality }) => {
+//   return `https://worldshaker.imgix.net/${src}?w=${width}&q=${quality || 75}`
+// }
 
 const commonStyles = {
   bgcolor: '#e7e6e2',
@@ -138,14 +140,19 @@ easily track and manage their sales data and campaign metrics.
         </Grid>
         <Grid item xs={12} lg={12} md={12} mt={5}>
         <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{...commonStyles, borderRadius: '16px'}}>     
-          <Image src="/assets/comparacampaign.png" width={543} height={182} alt="">
+          <Image 
+          src="comparacampaign.png" 
+          loader={myLoader} 
+          width={543} 
+          height={182} 
+          alt="">
           </Image>
           </Box>
           
           </Grid>
           <Grid item xs={12} lg={12} md={12} mt={5}>   
           <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{...commonStyles, borderRadius: '16px'}}>  
-          <Image src="/assets/comparamanusers.png" width={543} height={182} alt="">
+          <Image loader={myLoader} src="comparamanusers.png" width={543} height={182} alt="">
 
 </Image> 
 </Box>
@@ -156,14 +163,14 @@ easily track and manage their sales data and campaign metrics.
                     
                     <Typography variant="h2" mb={4}>Persona:Meet Pamela Wu</Typography>
                     <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{...commonStyles, borderRadius: '16px'}}>
-                    <Image src="/assets/fadepersona.png" alt="" height={636} width={900} /></Box>
+                    <Image src="fadepersona.png" alt="" height={636} width={900} /></Box>
      
         </Grid>
        
       <Grid item xs={12} lg={12} mt={5}>
       <Typography variant="h2">Journey Map</Typography>
                <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{...commonStyles, borderRadius: '16px'}}>
-                <Image src="/assets/FadeJourneyMap.png" alt="" height={675} width={900}/>
+                <Image loader={myLoader} src="FadeJourneyMap.png" alt="" height={675} width={900}/>
                 </Box>	
                 <Typography  variant="body1">In the above image we are mapping the journey of the Account Administrator as she interacts with the proposed solution.</Typography>
                  
@@ -187,40 +194,40 @@ We began our process by sketching low fidelity wireframes with pen and paper.  S
                 <Typography  variant="body1">Fades user flow was touched on earlier at the journey map but here is a bit more detail showing how users would navigate on the platform. We focused on the primary flow, which is 'Sign-up' for the platform. Here is our "happy path":</Typography>
                 <Typography  variant="body1">Here is our "happy path":</Typography> 
       <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{...commonStyles, borderRadius: '16px'}}>
-      <Image src="/assets/FadeB2B_Page_userflow1.png" alt="" height={506} width={900} />
+      <Image loader={myLoader} src="FadeB2B_Page_userflow1.png" alt="" height={506} width={900} />
 </Box>
 </Grid>
 <Grid item xs={12} lg={12} mt={5}>
       <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{...commonStyles, borderRadius: '16px'}}>
-      <Image src="/assets/FadeB2B_Page_userflow2.png" alt="" height={506} width={900} />
+      <Image loader={myLoader} src="FadeB2B_Page_userflow2.png" alt="" height={506} width={900} />
 </Box>
 </Grid>
 
 <Grid item xs={12} lg={12} mt={5}>
       <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{...commonStyles, borderRadius: '16px'}}>
-      <Image src="/assets/FadeB2B_Page_sitemap1.png" alt="" height={506} width={900} />
+      <Image loader={myLoader} src="FadeB2B_Page_sitemap1.png" alt="" height={506} width={900} />
 </Box>
 </Grid>
 <Grid item xs={12} lg={12} mt={5}>
       <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{...commonStyles, borderRadius: '16px'}}>
-      <Image src="/assets/FadeB2B_Page_sitemap2.png" alt="" height={506} width={900} />
+      <Image loader={myLoader} src="FadeB2B_Page_sitemap2.png" alt="" height={506} width={900} />
 </Box>
 </Grid>
 <Grid item xs={12} lg={12} mt={5}>
       <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{...commonStyles, borderRadius: '16px'}}>
-      <Image src="/assets/FadeB2B_Page_sitemap3.png" alt="" height={506} width={900} />
+      <Image loader={myLoader} src="FadeB2B_Page_sitemap3.png" alt="" height={506} width={900} />
 </Box>
 </Grid>
-<Grid item xs={12} lg={12} md={12} spacing={2}>
+<Grid item xs={12} lg={12} md={12}>
       <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{...commonStyles, borderRadius: '16px'}}>     
-   <Image src="/assets/earlysketches.png" height={560} width={900}  alt="Fade Login">
+   <Image loader={myLoader} src="earlysketches.png" height={560} width={900}  alt="Fade Login">
 
    </Image>
      </Box>
    </Grid>
-   <Grid item xs={12} lg={12} md={12} spacing={2}>
+   <Grid item xs={12} lg={12} md={12}>
       <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{...commonStyles, borderRadius: '16px'}}>     
-   <Image src="/assets/midfidelity.png" height={352} width={900}  alt="Fade Login">
+   <Image loader={myLoader} src="midfidelity.png" height={352} width={900}  alt="Fade Login">
 
    </Image>
      </Box>
@@ -235,25 +242,25 @@ We began our process by sketching low fidelity wireframes with pen and paper.  S
         </Grid>
         <Grid item xs={12} lg={12} md={12}>
         <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{...commonStyles, borderRadius: '16px'}}>     
-          <Image src="/assets/PublisherFlow_FinalWelcome.png" width={900} height={640} alt="">
+          <Image src="PublisherFlow_FinalWelcome.png" width={900} height={640} alt="">
           </Image>
           </Box>
           </Grid>
           <Grid item xs={12} lg={12} md={12}>
         <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{...commonStyles, borderRadius: '16px'}}>     
-          <Image src="/assets/SignUpFlow_FinalSignup.png" width={900} height={640} alt="">
+          <Image loader={myLoader} src="SignUpFlow_FinalSignup.png" width={900} height={640} alt="">
           </Image>
           </Box>
           </Grid>
         <Grid item xs={12} lg={12} md={12}>
         <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{...commonStyles, borderRadius: '16px'}}>     
-          <Image src="/assets/PublisherFlow_FinalManageUsers.png" width={900} height={640} alt="">
+          <Image loader={myLoader} src="PublisherFlow_FinalManageUsers.png" width={900} height={640} alt="">
           </Image>
           </Box>
           </Grid>
         <Grid item xs={12} lg={12} md={12}>
         <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{...commonStyles, borderRadius: '16px'}}>     
-          <Image src="/assets/PublisherFlow_FinalOverview.png" width={720} height={1080} alt="">
+          <Image loader={myLoader} src="PublisherFlow_FinalOverview.png" width={720} height={1080} alt="">
           </Image>
           </Box>
           </Grid>
