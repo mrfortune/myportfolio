@@ -271,12 +271,12 @@ Case Studies
         <CardMedia
           component="img"
           height="506"
-          image="/assets/FadeB2B_Page_01.png"
-          alt="Fade Technology"
+          image="/assets/wgsr_home.png"
+          alt="West Side German Sheperd Rescue"
         />
         <CardContent>
           <Typography gutterBottom variant="h3" component="div">
-            Fade Technology Solutions
+            West-Side German Sheperd Rescue
           </Typography>
           <Typography variant="body2" color="text.secondary" sx={{textTransform:'none', fontSize:'1rem'}}>
             Lizards are a widespread group of squamate reptiles, with over 6,000
@@ -287,7 +287,7 @@ Case Studies
       </CardActionArea>
       <CardActions>
         <Button size="small" variant="contained" color="primary">
-          <Link href="/FadeDesign"> Read More...</Link>
+          <Link href="/west-side-german-shepherd"> Read More...</Link>
         </Button>
       </CardActions>
     </Card>
