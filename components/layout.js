@@ -6,12 +6,12 @@ export default function Layout({ children }) {
     return (
       <>
         <Head>
-          <title>Layouts Example</title>
+          <title>WorldShaker Interactive:UI/UX</title>
         </Head>
         <DrawerAppBar/>
         <main>{children}</main>
+  <LabelBottomNavigation/>
 
-<LabelBottomNavigation/>
       </>
     )
   }

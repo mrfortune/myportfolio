@@ -5,18 +5,16 @@ import { ThemeProvider, CssBaseline, createTheme, responsiveFontSizes } from '@m
 import createEmotionCache from '../utility/createEmotionCache';
 import lightTheme from '../styles/theme/lightTheme';
 import '../styles/globals.css';
-import '@nextcss/reset'
-import Layout from '../components/layout';
+import '@nextcss/reset';
+import Layout from '../components/Layout';
 
 // let lightTheme = createTheme();
 // lightTheme = responsiveFontSizes(lightTheme);
 
 const clientSideEmotionCache = createEmotionCache();
 const MyApp = (props) => {
-  const { Component, emotionCache = clientSideEmotionCache, pageProps } = props;
-
+const { Component, emotionCache = clientSideEmotionCache, pageProps } = props;
   return (
-  
     <CacheProvider value={emotionCache}>
       <ThemeProvider theme={responsiveFontSizes(lightTheme, { breakpoints: ['xs', 'sm', 'md', 'lg', 'xl', '2xl', '3xl', '4xl', '5xl'], factor: 3 })}>
         <CssBaseline />
