@@ -7,6 +7,7 @@ import Grid from '@mui/material/Grid';
 import { Paper } from '@mui/material';
 import Image from 'next/image';
 import Link from 'next/link';
+import { border } from '@mui/system';
 import myLoader from '../components/Loader';
 
 
@@ -188,10 +189,12 @@ Projects
   </Typography> 
   </Grid>
   <Grid item xs={6} lg={6}>
-    <Image src='/assets/workbanner.png'
+    <Image 
+    loader={myLoader}
+    src='workbanner.png'
     alt=''
-    width='640px'
-    height='360px'
+    width={640}
+    height={360}
     layout='responsive'
     >
     </Image>
