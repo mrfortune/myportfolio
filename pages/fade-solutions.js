@@ -7,10 +7,6 @@ import Image from 'next/image';
 import {borders} from '@mui/system';
 import myLoader from '../components/Loader';
 
-// const myLoader = ({ src, width, quality }) => {
-//   return `https://worldshaker.imgix.net/${src}?w=${width}&q=${quality || 75}`
-// }
-
 const commonStyles = {
   bgcolor: '#e7e6e2',
   borderColor: 'text.primary',
@@ -20,7 +16,6 @@ const commonStyles = {
 };
 
 const FadeDesign = () => {
-  
   return (
     <Container maxWidth={false} mt={0} disableGutters={true}>
   <Paper square={true} className="fadeHero" mt={0} sx={{minHeight:'50vh', color:'#fff'}}>
@@ -267,7 +262,7 @@ We began our process by sketching low fidelity wireframes with pen and paper.  S
           </Grid>
           <Grid item xs={12} lg={12} md={12}>
             <Typography variant="h2">Usability Testing</Typography>
-            
+
             </Grid>
       <Grid item xs={12} lg={12} mt={5}>
       <Typography variant="h5">Results & Reflections</Typography>
