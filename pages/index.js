@@ -241,7 +241,7 @@ Case Studies
       </CardActionArea>
       <CardActions>
         <Button size="small" variant="contained" color="primary">
-          <Link href="/FadeDesign"> Read More...</Link>
+          <Link href="/fade-solutions"> Read More...</Link>
         </Button>
       </CardActions>
     </Card>

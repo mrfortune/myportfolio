@@ -4,7 +4,7 @@ import DrawerAppBar from './AppBar';
 
 export default function Layout({ children }) {
     return (
-      <>
+      <div>
         <Head>
           <title>WorldShaker Interactive:UI/UX</title>
         </Head>
@@ -12,7 +12,7 @@ export default function Layout({ children }) {
         <main>{children}</main>
   <LabelBottomNavigation/>
 
-      </>
+      </div>
     )
   }
   

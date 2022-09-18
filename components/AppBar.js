@@ -113,14 +113,14 @@ function DrawerAppBar(props) {
 <Button sx={{mr: 1, color:'#fff'}}><Link href="/">
   Home
 </Link></Button>
-<Button sx={{mr:1, color:'#fff'}}><Link href="/Story">
+<Button sx={{mr:1, color:'#fff'}}><Link href="/story">
   Story
 </Link></Button>
-<Button sx={{mr:1, color:'#fff'}}><Link href="/Media">
+<Button sx={{mr:1, color:'#fff'}}><Link href="/media">
   Media
 </Link>
 </Button>
-<Button variant="contained"><Link href="/Contact">
+<Button variant="contained"><Link href="/contact">
   Contact
 </Link>
 </Button>
