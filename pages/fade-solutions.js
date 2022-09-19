@@ -69,7 +69,7 @@ My priciple role was Information Architect and I collaborated on research and vi
     <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{ flexGrow: 1, px: 3 }}> 
 		<Grid container mt={6} spacing={0} sx={{ width:'740px',}}>
     
-      <Grid item xs={12} md={12} lg={12}>            
+      <Grid item xs={12} md={12} lg={12} mb={8}>            
       <Typography variant="h2">About This Project</Typography>
                      
       <Typography variant="body1">
@@ -85,7 +85,7 @@ buy products directly from the video on the platform they are on, without redire
              
 		  </Grid>
       
-		  <Grid item xs={12} lg={12} md={12}>            
+		  <Grid item xs={12} lg={12} md={12} mb={8}>            
       <Typography variant="h2">
                 The Problem  
                 </Typography>
@@ -99,7 +99,7 @@ easily track and manage their sales data and campaign metrics.
               
           
 		  </Grid>
-      <Grid item xs={12} lg={12} mt={5}>
+      <Grid item xs={12} lg={12} mt={8}>
       <Typography variant="h5">The Process &amp; Solution</Typography>
                <Typography variant="body1">
             The Fade executives and techs came to us with a detailed project brief, inclding how their system worked for publishers, agencies, brands and admins and examples of Facebook Business Suite and Snapchat's Business dashboard. We did not have access to user info, nor could we interview users since their users are their business clients.</Typography>
@@ -109,12 +109,7 @@ easily track and manage their sales data and campaign metrics.
      
         </Grid>
         
-     
-     
-   
-     
-        
-      <Grid item xs={12} lg={12} mt={5}>
+      <Grid item xs={12} lg={12} mb={8}>
     <Typography variant="h2">Competitive Analysis</Typography>
     <Typography variant="body1">Campaign managment solutions and administrative dashboards are nothing new. Many companies, such as Amazon, YouTube and Facebook alll have those solutions for their business users. We simply looked at those properties and features and applied it to Fades project brief. </Typography>
     <Typography variant="body1">Fades business model is an advertiser driven B2B model not for consumers, so we focused heavily on their layout and UI components including analytics. Fade has no direct competitors based on their unique offering.</Typography>
@@ -129,12 +124,12 @@ easily track and manage their sales data and campaign metrics.
      
         </Grid>
        
-      <Grid item xs={12} lg={12} md={12} mt={5}>
+      <Grid item xs={12} lg={12} md={12} mb={8}>
 
       <Typography variant="h2">Comparative Analysis</Typography>
       <Typography variant="body1">Fades proposition is a unique technology and although there are similarites in the online ad space they do not have a direct competitor. We next looked at Amazon's Seller Central's dashboard. Their business model is not an advertishing based model but there are similarities in their solutions. This was to gather more data on how these solutions are designed, and to get more inspiration.</Typography>
         </Grid>
-        <Grid item xs={12} lg={12} md={12} mt={5}>
+        <Grid item xs={12} lg={12} md={12} mb={8}>
         <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{...commonStyles, borderRadius: '16px'}}>     
           <Image 
           src="comparacampaign.png" 
@@ -146,7 +141,7 @@ easily track and manage their sales data and campaign metrics.
           </Box>
           
           </Grid>
-          <Grid item xs={12} lg={12} md={12} mt={5}>   
+          <Grid item xs={12} lg={12} md={12} mb={8}>   
           <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{...commonStyles, borderRadius: '16px'}}>  
           <Image loader={myLoader} src="comparamanusers.png" width={543} height={182} alt="">
 
@@ -154,7 +149,7 @@ easily track and manage their sales data and campaign metrics.
 </Box>
           </Grid>
         
-  <Grid item xs={12} lg={12} mt={5}>
+  <Grid item xs={12} lg={12} mb={8}>
                     
                     
                     <Typography variant="h2" mb={4}>Persona:Meet Pamela Wu</Typography>
@@ -163,28 +158,29 @@ easily track and manage their sales data and campaign metrics.
      
         </Grid>
        
-      <Grid item xs={12} lg={12} mt={5}>
+      <Grid item xs={12} lg={12} mb={8}>
       <Typography variant="h2">Journey Map</Typography>
+      <Typography  variant="body1">In the image below we map the user journey of the Account Administrator as she interacts with the proposed solution.</Typography>
                <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{...commonStyles, borderRadius: '16px'}}>
                 <Image loader={myLoader} src="FadeJourneyMap.png" alt="" height={675} width={900}/>
                 </Box>	
-                <Typography  variant="body1">In the above image we are mapping the journey of the Account Administrator as she interacts with the proposed solution.</Typography>
+                
                  
         </Grid>
-        <Grid item xs={12} lg={12} mt={5} ><Typography variant="h5">Design</Typography>
+        <Grid item xs={12} lg={12} mb={8} ><Typography variant="h5">Design</Typography>
                 
    <Typography variant="body1">
 We began our process by sketching low fidelity wireframes with pen and paper.  Since the brief informed us of what the dashboard should look like, based on the examples provided, and the fact that we had no ability to do user research with participants, we just started sketching. The results were that we got early buyin from the client and we could procede to site-mapping and mid-fidelity wireframing.
    </Typography>
      
         </Grid>
-      <Grid item xs={12} lg={12} mt={5}>
+      <Grid item xs={12} lg={12} mb={8}>
       
                 <Typography variant="h2">Dashboards are Dynamic</Typography>
                 <Typography variant="body1">Due to the dynamic nature of this platform many site maps were created to show what pages each user would see. Our design had to account for that and the following images will show the maps. Here is the information architecture that we came up with.</Typography>
                 
         </Grid>
-        <Grid item xs={12} lg={12} mt={5}>
+        <Grid item xs={12} lg={12} mb={8}>
 
         <Typography  variant="h2">The Happy Paths</Typography>
                 <Typography  variant="body1">Fades user flow was touched on earlier at the journey map but here is a bit more detail showing how users would navigate on the platform. We focused on the primary flow, which is 'Sign-up' for the platform. Here is our "happy path":</Typography>
@@ -193,35 +189,35 @@ We began our process by sketching low fidelity wireframes with pen and paper.  S
       <Image loader={myLoader} src="FadeB2B_Page_userflow1.png" alt="" height={506} width={900} />
 </Box>
 </Grid>
-<Grid item xs={12} lg={12} mt={5}>
+<Grid item xs={12} lg={12} mb={8}>
       <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{...commonStyles, borderRadius: '16px'}}>
       <Image loader={myLoader} src="FadeB2B_Page_userflow2.png" alt="" height={506} width={900} />
 </Box>
 </Grid>
 
-<Grid item xs={12} lg={12} mt={5}>
+<Grid item xs={12} lg={12} mb={8}>
       <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{...commonStyles, borderRadius: '16px'}}>
       <Image loader={myLoader} src="FadeB2B_Page_sitemap1.png" alt="" height={506} width={900} />
 </Box>
 </Grid>
-<Grid item xs={12} lg={12} mt={5}>
+<Grid item xs={12} lg={12} mb={8}>
       <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{...commonStyles, borderRadius: '16px'}}>
       <Image loader={myLoader} src="FadeB2B_Page_sitemap2.png" alt="" height={506} width={900} />
 </Box>
 </Grid>
-<Grid item xs={12} lg={12} mt={5}>
+<Grid item xs={12} lg={12} mb={8}>
       <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{...commonStyles, borderRadius: '16px'}}>
       <Image loader={myLoader} src="FadeB2B_Page_sitemap3.png" alt="" height={506} width={900} />
 </Box>
 </Grid>
-<Grid item xs={12} lg={12} md={12}>
+<Grid item xs={12} lg={12} md={12} mb={8}>
       <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{...commonStyles, borderRadius: '16px'}}>     
    <Image loader={myLoader} src="earlysketches.png" height={560} width={900}  alt="Fade Login">
 
    </Image>
      </Box>
    </Grid>
-   <Grid item xs={12} lg={12} md={12}>
+   <Grid item xs={12} lg={12} md={12} mb={8}>
       <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{...commonStyles, borderRadius: '16px'}}>     
    <Image loader={myLoader} src="midfidelity.png" height={352} width={900}  alt="Fade Login">
 
@@ -231,55 +227,49 @@ We began our process by sketching low fidelity wireframes with pen and paper.  S
    </Grid>
    
        
-      <Grid item xs={12} lg={12} mt={5}>
+      <Grid item xs={12} lg={12} mb={8}>
       <Typography variant="h5">Visual Design</Typography>
             <Typography variant="h2">Simple and Intuitive Dashboard</Typography>
             <Typography variant="body1">A simple and intuitive dashboard with all of the minimal features that Fade needs for its clients. These are the final design that the team and I came up with for Fade's dashboard. Desktop was primary so we did not design a mobile solution </Typography>
      
         </Grid>
-        <Grid item xs={12} lg={12} md={12}>
+        <Grid item xs={12} lg={12} md={12} mb={8}>
         <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{...commonStyles, borderRadius: '16px'}}>     
           <Image src="PublisherFlow_FinalWelcome.png" width={900} height={640} alt="">
           </Image>
           </Box>
           </Grid>
-          <Grid item xs={12} lg={12} md={12}>
+          <Grid item xs={12} lg={12} md={12} mb={8}>
         <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{...commonStyles, borderRadius: '16px'}}>     
           <Image loader={myLoader} src="SignUpFlow_FinalSignup.png" width={900} height={640} alt="">
           </Image>
           </Box>
           </Grid>
-        <Grid item xs={12} lg={12} md={12}>
+        <Grid item xs={12} lg={12} md={12} mb={8}>
         <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{...commonStyles, borderRadius: '16px'}}>     
           <Image loader={myLoader} src="PublisherFlow_FinalManageUsers.png" width={900} height={640} alt="">
           </Image>
           </Box>
           </Grid>
-        <Grid item xs={12} lg={12} md={12}>
+        <Grid item xs={12} lg={12} md={12} mb={8}>
         <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{...commonStyles, borderRadius: '16px'}}>     
           <Image loader={myLoader} src="PublisherFlow_FinalOverview.png" width={720} height={1080} alt="">
           </Image>
           </Box>
           </Grid>
-          <Grid item xs={12} lg={12} md={12}>
-            <Typography variant="h2">Usability Testing</Typography>
+          <Grid item xs={12} lg={12} md={12} mb={8}>
+            <Typography variant="h2">Usability-Testing</Typography>
             <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{...commonStyles, borderRadius: '16px'}}>     
           <img loader={myLoader} src="assets/FadeUsabilityTest_LoriMarion_2.gif" width={640} height={377} alt=""/>
           
           </Box>
             </Grid>
-      <Grid item xs={12} lg={12} mt={5}>
+      <Grid item xs={12} lg={12} mb={8}>
       <Typography variant="h5">Results & Reflections</Typography>
         
         <Typography variant="h2">Dashboards Are a Challenge</Typography>
     <Typography  variant="body1">Dashboards are a challenging design to take on with many moving parts. This was in many ways a vey challenging project for our team. We started off with no ability to research the user and had to rely on the project brief for all of our research. In many ways we had to abondone the normal UX steps and just work with what we had.</Typography>
     <Typography variant="body1">It turned out that what we had was sufficient and we were able to design by looking at other dashboards and copying their architecture and layout and use Fades business goals and needs provided to us in the project brief.</Typography>
-     
-        </Grid>
-        
-     
-      <Grid item xs={12} lg={12}mt={5}>
-
      
         </Grid>
         

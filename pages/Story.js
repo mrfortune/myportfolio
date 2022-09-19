@@ -16,7 +16,7 @@ const Story = () => {
 				<Grid item xs={11} md={8} lg={9}>
 <Typography variant="h1">Story</Typography>
 			<Typography mt={4}mb={4} variant="h2"><Box component="span" sx={{fontWeight:'bold',}}>Robert S. Harris</Box></Typography>
-			<Typography variant="body2">UX Engineer &amp; Designer | Design Thinking Practioner | Aspiring Product Manager</Typography>
+			<Typography variant="body2" sx={{textTransform:'lowercase',}}>UX Engineer &amp; Designer | Design Thinking Practioner | Aspiring Product Manager</Typography>
 		  <Typography mb={2} variant="body1">
 			  I am a UX engineer, architech, designer and design strategist and thinker.
 		I have worked with large brands successfully 

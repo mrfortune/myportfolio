@@ -10,6 +10,13 @@ import Link from 'next/link';
 import { border } from '@mui/system';
 import myLoader from '../components/Loader';
 
+const commonStyles = {
+  bgcolor: '#e7e6e2',
+  borderColor: 'text.primary',
+  m: 1,
+  p: 0,
+  border: 1,
+};
 
 export default function Home() {
   return (
@@ -227,7 +234,8 @@ Case Studies
 </Typography>
   </Grid>
 <Grid item xs={12} md={7} lg={7}>
-<Card sx={{ maxWidth: 640 }}>
+  <Box sx={{borderRadius: 2}}>
+<Card variant="outlined"  sx={{ maxWidth: 640, borderRadius: 2}}>
       <CardActionArea>
         <CardMedia
           component="img"
@@ -252,6 +260,7 @@ Case Studies
         </Button>
       </CardActions>
     </Card>
+    </Box>
 {/* <Image src='/assets/FadeB2B_Page_01.png'
     alt=''
     width={900}
