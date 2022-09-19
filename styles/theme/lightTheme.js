@@ -35,7 +35,7 @@ const lightTheme = createTheme({
         },
         h2:{
           fontFamily:'Abril',
-    fontWeight:600,
+    fontWeight:700,
     fontFamily:'Abril',
     fontSize:'2.441rem',
     marginBottom:'1rem'

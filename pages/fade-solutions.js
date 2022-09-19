@@ -227,8 +227,9 @@ We began our process by sketching low fidelity wireframes with pen and paper.  S
 
    </Image>
      </Box>
+     
    </Grid>
-       
+   
        
       <Grid item xs={12} lg={12} mt={5}>
       <Typography variant="h5">Visual Design</Typography>
@@ -262,7 +263,10 @@ We began our process by sketching low fidelity wireframes with pen and paper.  S
           </Grid>
           <Grid item xs={12} lg={12} md={12}>
             <Typography variant="h2">Usability Testing</Typography>
-
+            <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{...commonStyles, borderRadius: '16px'}}>     
+          <img loader={myLoader} src="assets/FadeUsabilityTest_LoriMarion_2.gif" width={640} height={377} alt=""/>
+          
+          </Box>
             </Grid>
       <Grid item xs={12} lg={12} mt={5}>
       <Typography variant="h5">Results & Reflections</Typography>
