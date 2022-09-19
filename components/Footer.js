@@ -80,8 +80,8 @@ export default function LabelBottomNavigation() {
       <Link href="http://linkedin.com/in/robertsharris">
         <a><LinkedIn fontSize="large"/></a>
         </Link>
-      <Link><Facebook fontSize="large"/></Link>
-      <Link><Instagram fontSize="large"/></Link>
+      <Link href="/"><Facebook fontSize="large"/></Link>
+      <Link href="/"><Instagram fontSize="large"/></Link>
       </Box>
     </Grid>
     

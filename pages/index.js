@@ -221,12 +221,12 @@ Projects
 Case Studies
 </Typography>
 <Grid container spacing={2}>
-  <Grid item xs={12} md={3} lg={3}>
+  <Grid item xs={12} md={5} lg={5}>
 <Typography>
 
 </Typography>
   </Grid>
-<Grid item xs={12} md={9} lg={9}>
+<Grid item xs={12} md={7} lg={7}>
 <Card sx={{ maxWidth: 640 }}>
       <CardActionArea>
         <CardMedia
@@ -260,12 +260,12 @@ Case Studies
     >
 </Image> */}
 </Grid>
-<Grid item xs={12} md={3} lg={3}>
+<Grid item xs={12} md={5} lg={5}>
 <Typography>
 
 </Typography>
   </Grid>
-<Grid item xs={12} md={9} lg={9}>
+<Grid item xs={12} md={7} lg={7}>
 <Card sx={{ maxWidth: 640 }}>
       <CardActionArea>
         <CardMedia
@@ -292,12 +292,12 @@ Case Studies
       </CardActions>
     </Card>
 </Grid>
-<Grid item xs={12} md={3} lg={3}>
+<Grid item xs={12} md={5} lg={5}>
 <Typography>
 
 </Typography>
   </Grid>
-<Grid item xs={12} md={9} lg={9}>
+<Grid item xs={12} md={7} lg={7}>
 <Card sx={{ maxWidth: 640 }}>
       <CardActionArea>
         <CardMedia
