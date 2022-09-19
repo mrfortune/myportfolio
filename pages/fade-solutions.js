@@ -267,9 +267,10 @@ We began our process by sketching low fidelity wireframes with pen and paper.  S
       <Grid item xs={12} lg={12} mb={8}>
       <Typography variant="h5">Results & Reflections</Typography>
         
-        <Typography variant="h2">Dashboards Are a Challenge</Typography>
-    <Typography  variant="body1">Dashboards are a challenging design to take on with many moving parts. This was in many ways a vey challenging project for our team. We started off with no ability to research the user and had to rely on the project brief for all of our research. In many ways we had to abondone the normal UX steps and just work with what we had.</Typography>
-    <Typography variant="body1">It turned out that what we had was sufficient and we were able to design by looking at other dashboards and copying their architecture and layout and use Fades business goals and needs provided to us in the project brief.</Typography>
+        <Typography variant="h2">Work with What You Have</Typography>
+    <Typography  variant="body1">Dashboards are a challenging undertaking due to the data-visulization features and figuring out the best user experience for those components. In this particualr project we had to rely on the brief which gave us a lot of information to begin designing our solution and we were then able to validate our assumptions by usability-testing.</Typography>
+    
+    <Typography variant="body1"></Typography>
      
         </Grid>
         
