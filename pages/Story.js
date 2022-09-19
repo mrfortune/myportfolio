@@ -7,6 +7,7 @@ import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
 
 
+
 const Story = () => {
 	return(
 		<Container maxWidth="md">
@@ -14,7 +15,8 @@ const Story = () => {
 			<Grid container  spacing={2} sx={{marginLeft:'16px'}}>
 				<Grid item xs={11} md={8} lg={9}>
 <Typography variant="h1">Story</Typography>
-			<Typography mt={4}mb={4} variant="h2"><Box component="span" sx={{fontWeight:'bold',}}>Robert S Harris</Box>, UX Engineer, Design Thinking Practioner</Typography>
+			<Typography mt={4}mb={4} variant="h2"><Box component="span" sx={{fontWeight:'bold',}}>Robert S. Harris</Box></Typography>
+			<Typography variant="body2">UX Engineer &amp; Designer | Design Thinking Practioner | Aspiring Product Manager</Typography>
 		  <Typography mb={2} variant="body1">
 			  I am a UX engineer, architech, designer and design strategist and thinker.
 		I have worked with large brands successfully 

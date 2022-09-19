@@ -227,11 +227,11 @@ Case Studies
 </Typography>
   </Grid>
 <Grid item xs={12} md={9} lg={9}>
-<Card sx={{ maxWidth: 900 }}>
+<Card sx={{ maxWidth: 640 }}>
       <CardActionArea>
         <CardMedia
           component="img"
-          height="506"
+          height="360"
           image="/assets/FadeB2B_Page_01.png"
           alt="Fade Technology"
         />
@@ -266,17 +266,17 @@ Case Studies
 </Typography>
   </Grid>
 <Grid item xs={12} md={9} lg={9}>
-<Card sx={{ maxWidth: 900 }}>
+<Card sx={{ maxWidth: 640 }}>
       <CardActionArea>
         <CardMedia
           component="img"
-          height="506"
+          height="360"
           image="/assets/wgsr_home.png"
           alt="West Side German Sheperd Rescue"
         />
         <CardContent>
           <Typography gutterBottom variant="h3" component="div">
-            West-Side German Sheperd Rescue
+            West-Side German Shepherd Rescue
           </Typography>
           <Typography variant="body2" color="text.secondary" sx={{textTransform:'none', fontSize:'1rem'}}>
             Lizards are a widespread group of squamate reptiles, with over 6,000
@@ -298,11 +298,11 @@ Case Studies
 </Typography>
   </Grid>
 <Grid item xs={12} md={9} lg={9}>
-<Card sx={{ maxWidth: 900 }}>
+<Card sx={{ maxWidth: 640 }}>
       <CardActionArea>
         <CardMedia
           component="img"
-          height="506"
+          height="360"
           image="/assets/FadeB2B_Page_01.png"
           alt="Fade Technology"
         />

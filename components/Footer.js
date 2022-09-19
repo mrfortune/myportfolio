@@ -71,14 +71,17 @@ export default function LabelBottomNavigation() {
     <Grid item xs={4} lg={4}>
     <Box
       sx={{
+        color:'#fff',
         '& > :not(style)': {
-          m: 2,
+          mr: 2,
         },
       }}
     >
-      <LinkedIn color="primary" fontSize="large"/>
-      <Facebook color="primary" fontSize="large"/>
-      <Instagram color="primary" fontSize="large"/>
+      <Link href="http://linkedin.com/in/robertsharris">
+        <a><LinkedIn fontSize="large"/></a>
+        </Link>
+      <Link><Facebook fontSize="large"/></Link>
+      <Link><Instagram fontSize="large"/></Link>
       </Box>
     </Grid>
     
