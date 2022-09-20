@@ -10,7 +10,7 @@ import Typography from '@mui/material/Typography';
 
 const Story = () => {
 	return(
-		<Box component="div" mt={20} direction="row" display='flex' justifyContent='center'>
+		<Box component="div" mt={15} direction="row" display='flex' justifyContent='center'>
 	
 			<Grid container spacing={2} sx={{paddingLeft:'16px', maxWidth: 'md'}}>
 				<Grid item xs={11} md={8} lg={9}>

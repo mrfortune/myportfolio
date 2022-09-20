@@ -19,6 +19,12 @@ const lightTheme = createTheme({
           fontFamily:'Abril',
           fontSize: '3.052rem',
           fontWeight: 900,
+          '@media (max-width:500px)': {
+            fontSize: '2.4rem',
+          },
+          '@media (max-width:900px)': {
+            fontSize: '3.0rem',
+          }, 
         },
         breakpoints: {
           values: {
@@ -34,9 +40,8 @@ const lightTheme = createTheme({
           },
         },
         h2:{
-          fontFamily:'Abril',
+          // fontFamily:'Abril',
     fontWeight:700,
-    fontFamily:'Abril',
     fontSize:'2.441rem',
     marginBottom:'1rem'
         },
