@@ -17,16 +17,14 @@ function Mailto({ email, subject, body, ...props }) {
   }
   
 const Contact = () => {
-	  return(	
-<Box component="div" className={global.Contact} direction="row" display='flex' justifyContent='center'>	  
-
-	<Box mt={15} mb={15}>
-		<Typography variant="h1" mb={8}>
+	  return(		
+	<Box className="contact" component="div" display="flex" mt={15} justifyContent="center" alignItems="center">
+	<Grid container spacing={2} sx={{maxWidth:'md'}}>
+	<Grid item xs={12} sm={12} md={12} lg={12} sx={{textAlign:'left'}}>
+	<Typography variant="h1">
 Contact Us
 	</Typography>
-	<Box component="div" display="flex" mt={0} justifyContent="left" alignItems="left">
-	<Grid container spacing={2} sx={{height:'40vh'}}>
-		
+	</Grid>	
 	<Grid item xs={12} sm={12} md={12} lg={12} sx={{textAlign:'left'}}>
 
 		<Typography variant="body1">183 Sterling Street</Typography> 
@@ -41,10 +39,7 @@ Contact Us
 	
 	</Grid>
 	</Box>
-	
-	
-	  </Box> 
-</Box>
+
 	  )
   }
 export default Contact
