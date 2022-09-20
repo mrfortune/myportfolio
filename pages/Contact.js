@@ -18,7 +18,7 @@ function Mailto({ email, subject, body, ...props }) {
   
 const Contact = () => {
 	  return(	
-<Container maxWidth='md' className={global.Contact}>	  
+<Box component="div" className={global.Contact} direction="row" display='flex' justifyContent='center'>	  
 
 	<Box mt={15} mb={15}>
 		<Typography variant="h1" mb={8}>
@@ -44,7 +44,7 @@ Contact Us
 	
 	
 	  </Box> 
-</Container>
+</Box>
 	  )
   }
 export default Contact

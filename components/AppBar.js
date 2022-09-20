@@ -78,16 +78,16 @@ function DrawerAppBar(props) {
     <Box className="navBG" sx={{ display: 'flex', }}>  
     <HideOnScroll {...props}>
       <AppBar component="nav" className="navBG" elevation={2}>
-        <Box component="div" sx={{maxWidth:'lg'}}>
-        <Toolbar display='flex' sx={{maxWidth:'100vw', paddingRight:'0px', paddingLeft:'0px'}}>
-        <Box sx={{ flexGrow: 1, }}>
+        <Box component="div" direction="row" display='flex' justifyContent='center'>
+        <Toolbar display='flex' sx={{maxWidth:'lg', width:'1200px'}}>
+        <Box sx={{ flexGrow: 10, }}>
 <Typography
             variant="h6"
             noWrap
             component="a"
             href="/"
             sx={{
-              flexGrow: 6,
+              flexGrow: 10,
               mr: 16,
               display: { xs: 'block', md: 'flex' },
               fontWeight: 700,

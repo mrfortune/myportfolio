@@ -17,7 +17,7 @@ const commonStyles = {
 
 const FadeDesign = () => {
   return (
-    <Container maxWidth={false} mt={0} disableGutters={true}>
+    <Box component="div">
   <Paper square={true} className="fadeHero" mt={0} sx={{minHeight:'50vh', color:'#fff'}}>
         <Box mt={8} component="div" display="flex" justifyContent="center" alignItems="center">
   <Grid container spacing={0}>
@@ -274,7 +274,7 @@ We began our process by sketching low fidelity wireframes with pen and paper.  S
         
 		</Grid>
 	  </Box>
-    </Container>
+    </Box>
   )
 }
 

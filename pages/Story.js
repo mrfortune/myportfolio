@@ -32,7 +32,7 @@ const Story = () => {
 	  My degree in business trained me to think about marketing, management, statistics, and the challenges involved with succeeding in business. I learned to develop websites, and then I learned online video production, photography and how to translate compositions into code. 
 	  </Typography>
 	  <Typography mb={2} variant="body1">
-	  WorldShaker Interactive was founded to solve a problem that my cousin and I had identified, wrote a complete business plan for and designed a mock-up. Our plan did not get funded but I see it everytime I visit SoundCloud. I'm not saying that they stole our plan, but their business model for artists is basically what we had developed. Glad to see that our idea proved to be a solution for many independent artists and other users. 
+	  WorldShaker Interactive was founded to solve a problem that my cousin and I had identified, wrote a complete business plan for and designed a mock-up. Our plan did not get funded but I see it everytime I visit SoundCloud. I'm not saying that they stole our plan, but their business model for artists is basically what we had developed. Glad to see that our assumptions proved to be right and a solution for many independent artists and users to enjoy unsigned artists. 
   
 	  </Typography>
 	  <Typography mb={2} variant="body1">
