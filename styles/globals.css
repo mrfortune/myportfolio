@@ -14,6 +14,16 @@ a:-webkit-any-link {
   cursor: pointer;
   /*color:rgb(48, 48, 238);*/
 }
+
+.MuiToolbar-root{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.contact{
+  display: flex;
+  height: calc(100vh - 248px);
+  background-color: white;
+}
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;

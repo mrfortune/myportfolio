@@ -10,11 +10,12 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import { Paper } from '@mui/material';
-import {Container, Box, Grid} from '@mui/material';
+import {Container, Box, Grid, Typography} from '@mui/material';
 import Link from 'next/link';
 import LinkedIn from '@mui/icons-material/LinkedIn';
 import Facebook from '@mui/icons-material/Facebook';
 import { Instagram } from '@mui/icons-material';
+import DownloadForOfflineIcon from '@mui/icons-material/DownloadForOffline';
 
 export default function LabelBottomNavigation() {
   const [value, setValue] = React.useState('recents');
@@ -27,12 +28,10 @@ export default function LabelBottomNavigation() {
    
 //  <BottomNavigation sx={{ backgroundColor:'#000', height:'auto', }} value={value} onChange={handleChange}> 
       
-      <Paper className="navBG" sx={{ bottom: 0, left: 0, right: 0, minHeight: '280px', height:'auto',padding:'32px'}} elevation={3}>
+      <Box component="div" className="navBG" pt={2} direction="row" display='flex' justifyContent='center' height="192px">
+         <Grid container spacing={2} sx={{maxWidth:'lg', paddingLeft:'16px'}}>
 
-       <Container maxWidth='md'>
-         <Grid container spacing={2}>
-
-         <Grid item xs={4} lg={4}>
+         <Grid item xs={4} lg={4} >
        <Box component="ul" sx={{
     padding: "0 0",
     listStyle: "none",
@@ -51,7 +50,7 @@ export default function LabelBottomNavigation() {
     </Box>
     </Box>
     </Grid>
-    <Grid item xs={4} lg={4}>
+    <Grid item xs={4} lg={4} >
        <Box component="ul" sx={{
     padding: "0 0",
     listStyle: "none",
@@ -71,6 +70,7 @@ export default function LabelBottomNavigation() {
     <Grid item xs={4} lg={4}>
     <Box
       sx={{
+        width:'160px',
         color:'#fff',
         '& > :not(style)': {
           mr: 2,
@@ -84,11 +84,13 @@ export default function LabelBottomNavigation() {
       <Link href="/"><Instagram fontSize="large"/></Link>
       </Box>
     </Grid>
-    
+    <Grid item xs={12} lg={12} md={12} sm={12} sx={{bottom: 0, left: 0, right: 0,}}>
+<Typography variant="caption" display="block" gutterBottom color='#fff' align='center'>&copy; 2022 WorldShaker Interactive, Inc. All rights reserved.</Typography>
+      </Grid>
       {/* <BottomNavigationAction label="Folder" value="folder" icon={<FolderIcon />} /> */}
        </Grid>
-      </Container>
-   </Paper> 
+      
+   </Box> 
   //  </BottomNavigation>
     
   );

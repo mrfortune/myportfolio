@@ -10,13 +10,13 @@ import Typography from '@mui/material/Typography';
 
 const Story = () => {
 	return(
-		<Container maxWidth="md">
-		<Box mt={15} mb={12}>
-			<Grid container  spacing={2} sx={{marginLeft:'16px'}}>
+		<Box component="div" mt={20} direction="row" display='flex' justifyContent='center'>
+	
+			<Grid container spacing={2} sx={{paddingLeft:'16px', maxWidth: 'md'}}>
 				<Grid item xs={11} md={8} lg={9}>
-<Typography variant="h1">Story</Typography>
-			<Typography mt={4}mb={4} variant="h2"><Box component="span" sx={{fontWeight:'bold',}}>Robert S. Harris</Box></Typography>
-			<Typography variant="body2" sx={{textTransform:'lowercase',}}>UX Engineer &amp; Designer | Design Thinking Practioner | Aspiring Product Manager</Typography>
+<Typography variant="h1" mb={6}>Story</Typography>
+			<Typography variant="h2"><Box component="span" sx={{fontWeight:'bold',}}>Robert S. Harris</Box></Typography>
+			<Typography variant="subtitle1" sx={{textTransform:'lowercase',}}>UX Engineer &amp; Designer | Design Thinking Practioner | Aspiring Product Manager</Typography>
 		  <Typography mb={2} variant="body1">
 			  I am a UX engineer, architech, designer and design strategist and thinker.
 		I have worked with large brands successfully 
@@ -47,7 +47,7 @@ const Story = () => {
 			
 			
 		</Box>
-		</Container>
+		
 	)
 }
 export default Story

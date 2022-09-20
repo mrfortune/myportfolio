@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { CacheProvider } from '@emotion/react';
-import { ThemeProvider, CssBaseline, createTheme, responsiveFontSizes } from '@mui/material';
+import { ThemeProvider, CssBaseline, createTheme, Container, responsiveFontSizes } from '@mui/material';
 //import createEmotionCache from '../utility/createEmotionCache';
 import lightTheme from '../styles/theme/lightTheme';
 import '../styles/globals.css';
@@ -36,12 +36,14 @@ import Layout from '../components/Layout';
 
 function MyApp({ Component, pageProps}){
   return(
+
     <ThemeProvider theme={responsiveFontSizes(lightTheme, { breakpoints: ['xs', 'sm', 'md', 'lg', 'xl', '2xl', '3xl', '4xl', '5xl'], factor: 5 })}>
   <CssBaseline />
   <Layout>
  <Component {...pageProps} />
   </Layout>
   </ThemeProvider>
+  
   )
 }
 

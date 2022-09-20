@@ -20,8 +20,7 @@ console.log('use effect')
 
 });
   return (
-   <Container maxWidth='lg'>
-<Box component="div" disablegutters="false" sx={{display:'flex', minHeight: '100vh', alignItems:'center', justifyItems:'left', }}> 
+<Box component="div" disablegutters="true" sx={{display:'flex', minHeight: '100vh', alignItems:'center', justifyItems:'left', maxWidth:'lg', }}> 
 <Image className={global.landingImage} loader={myLoader} src='bg_new.png'  objectFit='cover' layout='fill' objectPosition='center' alt='Hero Image' priority/>
 
 <Box p={3} sx={{display:'block', zIndex:1000, }}>
@@ -39,8 +38,6 @@ Learn More...
   </Box>
 
 </Box>
-
-   </Container>
 
   );
 }

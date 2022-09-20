@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import LabelBottomNavigation from './Footer';
 import DrawerAppBar from './AppBar';
+import {Container} from '@mui/material';
 
 
 export default function Layout({ children }) {
@@ -10,8 +11,11 @@ export default function Layout({ children }) {
           <title>WorldShaker Interactive:UI/UX</title>
         </Head>
         <DrawerAppBar/>
-        <main>{children}</main>
-  <LabelBottomNavigation/>
+       
+        <main> <Container maxWidth={false} disableGutters={true}>{children}</Container></main>
+      
+        <footer><LabelBottomNavigation/></footer>
+  
 
       </div>
     )

@@ -20,7 +20,7 @@ const commonStyles = {
 
 export default function Home() {
   return (
-    <Box component='div'>
+    <>
   <Hero>
     </Hero> 
   <Box display="flex">
@@ -31,7 +31,7 @@ export default function Home() {
     height:'auto',
     minHeight:'30vh'
   }}>
-    <Container maxWidth="lg">
+    <Box component="div" sx={{maxWidth:'md'}}>
 <Typography variant="h2" mb={6} sx={{color:'#fff', textAlign:'center'}}>
   What We Do
 </Typography>
@@ -171,7 +171,7 @@ export default function Home() {
           
        </Box>
     </Box>
-</Container>
+</Box>
 </Paper>
     
 
@@ -184,7 +184,7 @@ export default function Home() {
     height:'auto',
     minHeight:'45vh'
   }}>
-    <Container maxWidth="lg">
+    <Box component='div' maxWidth="md">
       <Grid container spacing={2}>
         <Grid item xs={6} lg={6}>
       <Typography variant="h2" mb={4} sx={{color:'#fff',}}>
@@ -207,7 +207,7 @@ Projects
     </Image>
     </Grid>
   </Grid>
-    </Container>
+    </Box>
  
 </Paper>
 
@@ -223,7 +223,7 @@ Projects
     borderTop:'1px',
     borderTopColor:'#000'
   }}>
-    <Container maxWidth="lg">
+    <Box component="div" sx={{maxWidth:'md'}}>
 <Typography variant="h2" sx={{color:'#fff'}}>
 Case Studies
 </Typography>
@@ -334,13 +334,13 @@ Case Studies
     </Card>
 </Grid>
 </Grid>
-    </Container>
+    </Box>
 
 </Paper>
 
  </Box>
   
-  
-</Box>
+ </> 
+
   )
 };

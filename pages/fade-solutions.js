@@ -99,8 +99,12 @@ easily track and manage their sales data and campaign metrics.
               
           
 		  </Grid>
-      <Grid item xs={12} lg={12} mt={8}>
+      <Grid item xs={12} sm={12} lg={12} md={12} >
       <Typography variant="h5">The Process &amp; Solution</Typography>
+      
+        </Grid>
+      <Grid item xs={12} lg={12} md={12} mb={8}>
+      <Typography variant="h2">The Project Brief</Typography>
                <Typography variant="body1">
             The Fade executives and techs came to us with a detailed project brief, inclding how their system worked for publishers, agencies, brands and admins and examples of Facebook Business Suite and Snapchat's Business dashboard. We did not have access to user info, nor could we interview users since their users are their business clients.</Typography>
            
@@ -174,12 +178,6 @@ We began our process by sketching low fidelity wireframes with pen and paper.  S
    </Typography>
      
         </Grid>
-      <Grid item xs={12} lg={12} mb={8}>
-      
-                <Typography variant="h2">Dashboards are Dynamic</Typography>
-                <Typography variant="body1">Due to the dynamic nature of this platform many site maps were created to show what pages each user would see. Our design had to account for that and the following images will show the maps. Here is the information architecture that we came up with.</Typography>
-                
-        </Grid>
         <Grid item xs={12} lg={12} mb={8}>
 
         <Typography  variant="h2">The Happy Paths</Typography>
@@ -210,7 +208,11 @@ We began our process by sketching low fidelity wireframes with pen and paper.  S
       <Image loader={myLoader} src="FadeB2B_Page_sitemap3.png" alt="" height={506} width={900} />
 </Box>
 </Grid>
-<Grid item xs={12} lg={12} md={12} mb={8}>
+
+   
+       
+      <Grid item xs={12} lg={12} mb={8}>
+      <Typography variant="h5">Visual Design</Typography><Grid item xs={12} lg={12} md={12} mb={8}>
       <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{...commonStyles, borderRadius: '16px'}}>     
    <Image loader={myLoader} src="earlysketches.png" height={560} width={900}  alt="Fade Login">
 
@@ -225,10 +227,6 @@ We began our process by sketching low fidelity wireframes with pen and paper.  S
      </Box>
      
    </Grid>
-   
-       
-      <Grid item xs={12} lg={12} mb={8}>
-      <Typography variant="h5">Visual Design</Typography>
             <Typography variant="h2">Simple and Intuitive Dashboard</Typography>
             <Typography variant="body1">A simple and intuitive dashboard with all of the minimal features that Fade needs for its clients. These are the final design that the team and I came up with for Fade's dashboard. Desktop was primary so we did not design a mobile solution </Typography>
      
