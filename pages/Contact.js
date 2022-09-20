@@ -18,15 +18,13 @@ function Mailto({ email, subject, body, ...props }) {
   
 const Contact = () => {
 	  return(		
-	<Box className="contact" component="div" display="flex" mt={15} justifyContent="center" alignItems="center">
-	<Grid container spacing={2} sx={{maxWidth:'md'}}>
-	<Grid item xs={12} sm={12} md={12} lg={12} sx={{textAlign:'left'}}>
-	<Typography variant="h1">
+	<Box className="contact" component="div" direction="row" display="flex" mt={15} mb={2} justifyContent="center" sx={{minHeight:'300px'}}>
+	<Grid container spacing={2} sx={{maxWidth:'lg', marginLeft: '0', }}>
+	
+	<Grid item xs={12} sm={12} md={12} lg={12}>
+<Typography variant="h1" mb={6}>
 Contact Us
 	</Typography>
-	</Grid>	
-	<Grid item xs={12} sm={12} md={12} lg={12} sx={{textAlign:'left'}}>
-
 		<Typography variant="body1">183 Sterling Street</Typography> 
 <Typography variant="body1">Brooklyn, NY 11225</Typography>
 <Typography variant="body1">

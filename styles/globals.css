@@ -29,7 +29,6 @@ a {
 .contact{
   display: flex;
   height: calc(100vh - 248px);
-  background-color: white;
 }
 .MuiPaper-root{
   border-radius:0px;
