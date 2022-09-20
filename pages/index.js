@@ -237,8 +237,8 @@ Case Studies
 </Typography>
   </Grid>
 <Grid item xs={12} md={7} lg={7}>
-  <Box component="div">
-<Card variant="outlined"  sx={{ maxWidth: 640,}}>
+  <Box component="div" borderRadius="25%">
+<Card variant="outlined" sx={{ maxWidth: 640, border:'1'}}>
       <CardActionArea>
         <CardMedia
           component="img"

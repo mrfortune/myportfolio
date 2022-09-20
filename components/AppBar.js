@@ -25,11 +25,15 @@ import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 import {css} from '@emotion/react';
 import { alpha } from "@mui/material";
 import lightTheme from '../styles/theme/lightTheme';
+import { useRouter } from 'next/router';
+
 
 const drawerWidth = 240;
 const navItems = ['Story', 'Media', 'Contact'];
 
 function DrawerAppBar(props) {
+  const router = useRouter();
+  const currentRoute = router.pathname;
   const { window } = props;
   const [mobileOpen, setMobileOpen] = React.useState(false);
 
@@ -74,7 +78,7 @@ function DrawerAppBar(props) {
   const container = window !== undefined ? () => window().document.body : undefined;
 
   return (
-    
+   
     <Box className="navBG" sx={{ display: 'flex', }}>  
     <HideOnScroll {...props}>
       <AppBar component="nav" className="navBG" elevation={2}>
@@ -111,17 +115,34 @@ function DrawerAppBar(props) {
           
           <Box sx={{ display:'flex', display: { xs: 'none', sm: 'none', md:'block', horizontal: 'right', fontSize:'1.8rem', fontWeight:600, } }}>
 <Button sx={{mr: 1, color:'#fff'}}><Link href="/">
-  Home
-</Link></Button>
-<Button sx={{mr:1, color:'#fff'}}><Link href="/story">
-  Story
-</Link></Button>
-<Button sx={{mr:1, color:'#fff'}}><Link href="/media">
-  Media
+  
+<a className={router.pathname == "/" ? "active" : ""}>Home</a>
 </Link>
 </Button>
-<Button variant="contained"><Link href="/contact">
-  Contact
+<Button sx={{mr:1, color:'#fff'}}><Link href="/story">
+<a className={currentRoute === "/story" 
+       ? "active" 
+       : "non-active"}>
+       Story 
+     </a>
+</Link>
+</Button>
+<Button sx={{mr:1, color:'#fff'}}><Link href="/media">
+<a className={currentRoute === "/media" 
+       ? "active" 
+       : "non-active"}>
+        Media 
+     </a>
+</Link>
+</Button>
+<Button variant="contained">
+  <Link href="/contact">
+  <a className={currentRoute === "/contact" 
+       ? "active" 
+       : "non-active"}>
+         Contact
+     </a>
+  
 </Link>
 </Button>
           </Box> 
