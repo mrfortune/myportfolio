@@ -20,15 +20,14 @@ console.log('use effect')
 
 });
   return (
-<Box component="div" disablegutters="true" sx={{display:'flex', minHeight: '100vh', alignItems:'center', justifyItems:'left', maxWidth:'lg', }}> 
-<Image className={global.landingImage} loader={myLoader} src='bg_new.png'  objectFit='cover' layout='fill' objectPosition='center' alt='Hero Image' priority/>
-
-<Box p={3} sx={{display:'block', zIndex:1000, }}>
-
-<Typography  variant="h1"  mb={2} sx={{ width: '45vw', color:'#fafafa', fontSize:'3.6rem', }}>
+<Box component="div" direction="row" display='flex' justifyContent='center' className="homeHero"> 
+<Grid container spacing={2} sx={{maxWidth:'lg'}}>
+<Grid item xs={12} sm={12} md={12} lg={12} xl={12} >
+<Box p={3} className="landingText" sx={{display:'block', zIndex:1000, }}>
+<Typography  variant="h1"  mb={2} sx={{ width: '48vw', color:'#fafafa', fontSize:'3.6rem', }}>
 Data-Driven Design for Humans.
 </Typography>
-<Typography variant="body2" mb={2} sx={{width:'45vw', color:'#fafafa', fontWeight:'400', fontSize:'1rem'}}>
+<Typography variant="body2" mb={2} sx={{width:'56vw', color:'#fafafa', fontWeight:'400', fontSize:'1rem', textTransform:'capitalize'}}>
 
 UX/UI design and engineering practioners who focus on identifying user pain-points and problems and designing solutions that work.
 </Typography>
@@ -36,6 +35,11 @@ UX/UI design and engineering practioners who focus on identifying user pain-poin
 Learn More...
 </Button>
   </Box>
+</Grid>
+</Grid>
+
+
+
 
 </Box>
 

@@ -23,7 +23,6 @@ export default function Home() {
     <>
   <Hero>
     </Hero> 
-  <Box display="flex">
     <Paper square={true} className="workBG" sx={{
     padding: 4,
     backgroundColor: "#263238",
@@ -31,13 +30,15 @@ export default function Home() {
     height:'auto',
     minHeight:'30vh'
   }}>
-    <Box component="div" sx={{maxWidth:'md'}}>
-<Typography variant="h2" mb={6} sx={{color:'#fff', textAlign:'center'}}>
+    <Box direction="row" display='flex' justifyContent='center' component="div">
+     <Grid container spacing={2} sx={{maxWidth:'md'}}>
+       <Grid item xs={12} md={12} md={12} lg={12}>
+         <Typography variant="h2" mb={6} sx={{color:'#fff', textAlign:'center'}}>
   What We Do
 </Typography>
-<Box maxWidth="lg" sx={{display:'flex', width:'100%', alignItems:'center', justifyContent:'center', }}>
-
-  <Box component="ul" sx={{
+       </Grid>
+       <Grid item xs={12} md={12} md={12} lg={12}>
+       <Box component="ul" sx={{
     padding: "0 0",
     listStyle: "none",
     display: "grid",
@@ -87,7 +88,7 @@ export default function Home() {
             width={96}
             height={96}
             alt=''
-            layout="intrinsic"
+            layout="fixed"
           />
       
           <Image
@@ -168,15 +169,19 @@ export default function Home() {
             alt=''
             layout="fixed"
           />
-          
+        
        </Box>
-    </Box>
+   
+         </Grid> 
+</Grid>
 </Box>
+
+
+  
 </Paper>
     
 
-</Box>
-<Box display="flex">
+
 <Paper square={true} className="firstBG" sx={{
     padding: 4,
     backgroundColor: "#5C69BD",
@@ -184,8 +189,8 @@ export default function Home() {
     height:'auto',
     minHeight:'45vh'
   }}>
-    <Box component='div' maxWidth="md">
-      <Grid container spacing={2}>
+    <Box component='div' direction="row" display='flex' justifyContent='center'>
+      <Grid container spacing={2} sx={{maxWidth:'md'}}>
         <Grid item xs={6} lg={6}>
       <Typography variant="h2" mb={4} sx={{color:'#fff',}}>
 Projects
@@ -211,9 +216,8 @@ Projects
  
 </Paper>
 
-  </Box>
    
-<Box display="flex">
+
 <Paper className="caseBG" square={true} elevate={2} sx={{
     padding: 4,
     backgroundColor: "#eceff1",
@@ -223,19 +227,18 @@ Projects
     borderTop:'1px',
     borderTopColor:'#000'
   }}>
-    <Box component="div" sx={{maxWidth:'md'}}>
+    <Box component="div" direction="row" display='flex' justifyContent='center'>
+      
+
+<Grid container spacing={2} sx={{maxWidth:'md'}}>
+  <Grid item xs={12} sm={12} md={12} lg={12}>
 <Typography variant="h2" sx={{color:'#fff'}}>
 Case Studies
 </Typography>
-<Grid container spacing={2}>
-  <Grid item xs={12} md={5} lg={5}>
-<Typography>
-
-</Typography>
   </Grid>
 <Grid item xs={12} md={7} lg={7}>
-  <Box sx={{borderRadius: 2}}>
-<Card variant="outlined"  sx={{ maxWidth: 640, borderRadius: 2}}>
+  <Box component="div">
+<Card variant="outlined"  sx={{ maxWidth: 640,}}>
       <CardActionArea>
         <CardMedia
           component="img"
@@ -337,8 +340,6 @@ Case Studies
     </Box>
 
 </Paper>
-
- </Box>
   
  </> 
 
