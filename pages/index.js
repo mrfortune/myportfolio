@@ -33,7 +33,7 @@ export default function Home() {
     <Box direction="row" display='flex' justifyContent='center' component="div">
      <Grid container spacing={2} sx={{maxWidth:'md'}}>
        <Grid item xs={12} md={12} md={12} lg={12}>
-         <Typography variant="h2" mb={6} sx={{color:'#fff', textAlign:'center'}}>
+         <Typography variant="h2" mb={6} sx={{color:'#000', textAlign:'center'}}>
   What We Do
 </Typography>
        </Grid>
@@ -42,7 +42,7 @@ export default function Home() {
     padding: "0 0",
     listStyle: "none",
     display: "grid",
-    gap: "30px",
+    gap: "16px",
     gridTemplateColumns: "repeat(4, 1fr)",
   }} >
      <Box component="li">
@@ -85,8 +85,8 @@ export default function Home() {
           <Image
           loader={myLoader}
             src='wedomiro.png'
-            width={96}
-            height={96}
+            width={88}
+            height={88}
             alt=''
             layout="fixed"
           />

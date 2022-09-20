@@ -27,7 +27,7 @@ console.log('use effect')
 <Typography  variant="h1"  mb={2} sx={{ width: '48vw', color:'#fafafa', fontSize:'3.6rem', }}>
 Data-Driven Design for Humans.
 </Typography>
-<Typography variant="body2" mb={2} sx={{width:'56vw', color:'#fafafa', fontWeight:'400', fontSize:'1rem', textTransform:'capitalize'}}>
+<Typography variant="body2" mb={3} sx={{width:'48vw', color:'#fafafa', fontWeight:'400', fontSize:'1rem', textTransform:'none'}}>
 
 UX/UI design and engineering practioners who focus on identifying user pain-points and problems and designing solutions that work.
 </Typography>
