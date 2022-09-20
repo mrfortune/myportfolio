@@ -16,9 +16,9 @@ const lightTheme = createTheme({
       },
       typography: {
         h1: {
-          fontFamily:'Abril',
+          fontFamily:'Merriweather',
           fontSize: '3.052rem',
-          fontWeight: 900,
+          fontWeight: 800,
           '@media (max-width:500px)': {
             fontSize: '2.4rem',
           },
@@ -40,8 +40,8 @@ const lightTheme = createTheme({
           },
         },
         h2:{
-          // fontFamily:'Abril',
-    fontWeight:700,
+          fontFamily:'Merriweather',
+    fontWeight:400,
     fontSize:'2.441rem',
     marginBottom:'1rem'
         },
