@@ -5,23 +5,31 @@ import Container from '@mui/material/Container';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
+import DownloadIcon from '@mui/icons-material/Download';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import Link from 'next/link';
 
 
 
 const Story = () => {
 	return(
-		<Box component="div" mt={15} direction="row" display='flex' justifyContent='center'>
+		<Box component="div" mt={15} mb={15} direction="row" display='flex' justifyContent='center'>
 	
 			<Grid container spacing={2} sx={{paddingLeft:'16px', maxWidth: 'md'}}>
 				<Grid item xs={11} md={8} lg={9}>
 <Typography variant="h1" mb={6}>Story</Typography>
 			<Typography variant="h2"><Box component="span" sx={{fontWeight:'bold',}}>Robert S. Harris</Box></Typography>
-			<Typography variant="subtitle1" sx={{textTransform:'lowercase',}}>UX Engineer &amp; Designer | Design Thinking Practioner | Aspiring Product Manager</Typography>
+			<Typography variant="subtitle1" mb={1} sx={{textTransform:'none', fontWeight:'600',}}>UX Engineer &amp; Designer | Design Thinking Practioner | Aspiring Product Manager</Typography>
+			<Box component="span" display='flex' alignItems='center' sx={{
+        '& > :not(style)': {
+          mr: 1,
+        },
+      }}><Link href="/" ><DownloadIcon sx={{ fontSize: 40 }}/></Link><Link href="/"><LinkedInIcon sx={{ fontSize: 40 }}/></Link></Box>
 		  <Typography mb={2} variant="body1">
 			  I am a UX engineer, architech, designer and design strategist and thinker.
-		I have worked with large brands successfully 
+		I have worked for large brands successfully identifying user problems and
 			  delivering digital products and solutions for their customers and business. 
-			  I collaborate with cross-functional teams to deliver these solutions. 
+			  I have collaborated with cross-functional teams to deliver these solutions. 
   
 	  </Typography>
 	  <Typography mb={2} variant="body1">

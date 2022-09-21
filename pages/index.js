@@ -45,7 +45,7 @@ export default function Home() {
     padding: "0 0",
     listStyle: "none",
     display: "grid",
-    gap: "16px",
+    gap: "8px",
     gridTemplateColumns: "repeat(4, 1fr)",
   }} >
      <Box component="li">
@@ -56,7 +56,7 @@ export default function Home() {
             alt=''
             width={96}
             height={96}
-            layout="intrinsic"
+            layout="fixed"
           />
           </Box>
       <Box component="li">
@@ -66,7 +66,7 @@ export default function Home() {
             alt=''
             width={96}
             height={96}
-            layout="intrinsic"
+            layout="fixed"
           />
           </Box>
   <Box component="li">
@@ -78,13 +78,9 @@ export default function Home() {
             alt=''
             width={96}
             height={96}
-            layout="intrinsic"
+            layout="fixed"
           />
   </Box>
-          
-     
-         
-        
           <Image
           loader={myLoader}
             src='wedomiro.png'
