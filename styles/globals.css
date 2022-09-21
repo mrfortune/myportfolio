@@ -99,7 +99,8 @@ height:auto;
 background-size: cover;
 width:100vw;
 color:whitesmoke;
-min-height:100vh;
+position:relative;
+min-height:100%;
 }
 * {
   box-sizing: border-box;
@@ -114,11 +115,12 @@ ul{
   padding-left:20px;
 }
 .landingText{
-  z-index:1000;
-  position:relative;
+  z-index:1;
   padding:16px;
-  top:192px;
-  height:auto;
+  position:absolute;
+  top:40%;
+  min-width:20vw;
+  width:50vw;
 }
 
 @media (prefers-color-scheme: dark) {

@@ -23,11 +23,11 @@ console.log('use effect')
 <Box component="div" direction="row" display='flex' justifyContent='center' className="homeHero"> 
 <Grid container spacing={2} sx={{maxWidth:'lg'}}>
 <Grid item xs={12} sm={12} md={12} lg={12} xl={12} >
-<Box p={3} className="landingText" sx={{display:'block', zIndex:1000, }}>
-<Typography  variant="h1"  mb={2} sx={{ width: '48vw', color:'#fafafa', fontSize:'3.6rem', }}>
+<Box p={3} className="landingText">
+<Typography  variant="h1"  mb={2} sx={{ color:'#fafafa', fontSize:'3.6rem', }}>
 Data-Driven Design for Humans.
 </Typography>
-<Typography variant="body2" mb={3} sx={{width:'48vw', color:'#fafafa', fontWeight:'400', fontSize:'1rem', textTransform:'none'}}>
+<Typography variant="body2" mb={4} sx={{color:'#fafafa', fontWeight:'400', fontSize:'1rem', textTransform:'none'}}>
 
 UX/UI design and engineering practioners who focus on identifying user pain-points and problems and designing solutions that work.
 </Typography>

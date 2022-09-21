@@ -21,9 +21,12 @@ const commonStyles = {
 export default function Home() {
   return (
     <>
+    <Box component="div" sx={{display:'block', height:'100vh'}}>
   <Hero>
     </Hero> 
-    <Paper square={true} className="workBG" sx={{
+    </Box>
+    <Box component="div">
+          <Paper square={true} className="workBG" sx={{
     padding: 4,
     backgroundColor: "#263238",
     width:'100%',
@@ -179,7 +182,11 @@ export default function Home() {
 
   
 </Paper>
+    </Box>
+
     
+
+<Box component="div">
 
 
 <Paper square={true} className="firstBG" sx={{
@@ -216,7 +223,9 @@ Projects
  
 </Paper>
 
-   
+</Box>
+<Box component="div">
+
 
 <Paper className="caseBG" square={true} elevate={2} sx={{
     padding: 4,
@@ -340,7 +349,7 @@ Case Studies
     </Box>
 
 </Paper>
-  
+  </Box>
  </> 
 
   )

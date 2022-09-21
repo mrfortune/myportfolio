@@ -30,6 +30,9 @@ const lightTheme = createTheme({
           fontSize: '3.052rem',
           fontWeight: 800,
           '@media (max-width:500px)': {
+            fontSize: '1.2rem',
+          },
+          '@media (max-width:720px)': {
             fontSize: '2.4rem',
           },
           '@media (max-width:900px)': {
