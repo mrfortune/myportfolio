@@ -39,6 +39,9 @@ export default function LabelBottomNavigation() {
     gap: "8px",
     color:'#fff',
   }} >
+    <Box component="li">
+        <Typography variant="h3">Pages</Typography>
+    </Box>
       <Box component="li">
         <Link href="/">Home</Link>
     </Box>
@@ -58,6 +61,9 @@ export default function LabelBottomNavigation() {
     gap: "8px",
     color:'#fff',
   }} >
+    <Box component="li">
+        <Typography variant="h3">Resources</Typography>
+    </Box>
       <Box component="li">
         <Link href="/">Terms</Link>
     </Box>
@@ -68,6 +74,9 @@ export default function LabelBottomNavigation() {
     </Box>
     </Grid>
     <Grid item xs={4} lg={4}>
+    <Box component="div">
+        <Typography variant="h3" sx={{color:'#fff'}}>Sharing</Typography>
+    </Box>
     <Box
       sx={{
         width:'160px',
