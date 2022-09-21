@@ -84,6 +84,7 @@ const lightTheme = createTheme({
           fontSize: '.8rem',
           marginBottom: '1rem',
           textTransform:'uppercase',
+          fontWeight:700,
       },
         fontFamily: 'Lato',
       },

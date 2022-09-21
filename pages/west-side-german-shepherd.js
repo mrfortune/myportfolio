@@ -5,18 +5,19 @@ import { Typography } from '@mui/material';
 import Divider from '@mui/material/Divider';
 import Image from 'next/image';
 import FadeJourneyMap from '../public/assets/FadeJourneyMap.png';
+import myLoader from '../components/Loader';
 
 
 const WestSide = () => {
   
   return (
     <Container maxWidth={false} mt={0} disableGutters={true}>
-  <Paper square={true} className="fadeHero" mt={0} sx={{minHeight:'50vh', color:'#fff'}}>
+  <Paper square={true} className="wgsrHero" mt={0} sx={{minHeight:'50vh', color:'#fff'}}>
         <Box mt={8} component="div" display="flex" justifyContent="center" alignItems="center">
   <Grid container spacing={0}>
      <Grid item xs={12} lg={12}>   
          <Box component="div" mt={4} mb={3} sx={{textAlign:'center', height:'152px'}}>
-        <Typography variant="h1" sx={{fontSize:'3.0rem',}}> Dashboard UI/UX Solution</Typography>
+        <Typography variant="h1" mb={3} sx={{fontSize:'3.0rem',}}>WGSR User Experience &amp; Website Redesign</Typography>
                <Typography variant="body1">Publisher, agency, brand and ad campaign management dashboard solution.</Typography>              
            </Box>
             
@@ -26,19 +27,20 @@ const WestSide = () => {
         <Grid container spacing={2}>
 <Grid item xs={12} sm={3} md={3} lg={3}>
   <Typography variant="body2">Client </Typography>
-<Typography variant="body1">Fade Technology - fadetechnology.com </Typography>
+<Typography variant="body1">West Side German Shepherd Rescue - sheprescue.org </Typography>
 </Grid>
 <Grid item xs={12} sm={3} md={3} lg={3}><Typography variant="body2">Year</Typography>
                         <Typography variant="body1">2021</Typography>
                       
                         </Grid>
 <Grid item xs={12} sm={3} md={3} lg={3} ><Typography variant="body2">Role</Typography>
-                        
-                          <ul sx={{marginLeft: '0',}}>
+                        <Box component="ul" sx={{marginLeft: '0',}}>
+                          
             
-            <li>Information Architect &amp; Research</li>
+            <li>Information Architect</li>
             
-                        </ul> 
+            
+                        </Box>
                         </Grid>
 
                         <Grid item xs={12} sm={3} md={3} lg={3} >
@@ -65,7 +67,6 @@ My priciple role was Information Architect and I collaborated on research and vi
       <Grid item xs={12} md={12} lg={12}>            
       <Typography variant="h5">Solution Overview</Typography>
 		  <Typography variant="h2">Problem</Typography>	
-					<Typography variant="h2">How might we...?</Typography>
 				
 				<Typography variant="body1">How might we design an adoption website for West Side German Shepherd Rescue's
 					customer? The challenge was to design and build a user-centered website for West Side German Shepherd
@@ -102,21 +103,19 @@ My priciple role was Information Architect and I collaborated on research and vi
      
       <Grid item xs={12} lg={12} mt={5}>
                   
-      <Typography variant="h3">Research</Typography>
-<Typography variant="h4">Persona</Typography>
+      <Typography variant="h2">Research</Typography>
 			
-				<Typography variant="h2">Dog Lover Looking to Adopt a German Shepherd</Typography>
 				<Typography variant="body1">Our persona - Carol Olsen - is the summary of the users that we researched who use websites to adopt dogs and plan to or have adopted dogs in the past.</Typography>
 					  </Grid>
-					  <Grid item xs={12} lg={12}>
-					  <Typography variant="h4">1. User Interviews</Typography>
+					  <Grid item xs={12} md={12} lg={12}>
+					  <Typography variant="h2">1. User Interviews</Typography>
 						<Typography variant="body1">By observing the participants within the context of buying wine at an, and during, I was able
 							to question and observe how they order wine and why they use the method that they use -
 							mobile phone. As people arrived over the 5 or 6 hours that we were gathered we talked about
 							their favorite local wine stores and their sites and apps.</Typography>
 							<Typography variant="h6">Interview Questions:</Typography>
         </Grid>
-        <Grid item xs={12} lg={4}>
+        <Grid item xs={12} md={12} lg={12}>
         <ul>
 						<li>1. Tell me about your experience of finding and adopting your dog online.<ul>
 								<li>a. Website used</li>
@@ -142,19 +141,18 @@ My priciple role was Information Architect and I collaborated on research and vi
 					</ul>
      
    </Grid>
-   <Grid item xs={12} lg={4}>
-   <Typography variant="h4">2.User Survey </Typography>
+   <Grid item xs={12} sm={12} lg={12}>
+   <Typography variant="h2">2.User Survey </Typography>
 					<Typography variant="body1">We created a survey and solicited parcipants to participate via social media platforms.</Typography>
-					<Typography variant="h6">Data Gathered</Typography>
-					
-					<Typography variant="h4">3. Affinity Mapping &amp; Data Synthesis</Typography>
+				
+					<Typography variant="h2">3. Affinity Mapping &amp; Data Synthesis</Typography>
 					<Typography variant="body1">By observing the participants within the context of buying wine at an, and during, I was able
 						to question and observe how they order wine and why they use the method that they use -
 						mobile phone. As people arrived over the 5 or 6 hours that we were gathered we talked about
 						their favorite local wine stores and their sites and apps.</Typography>
-					<Typography variant="h6">Data Gathered:</Typography>
+				
 					
-					<Typography variant="h4">2. Competitive Analysis</Typography>
+					<Typography variant="h2">2. Competitive Analysis</Typography>
      
    </Grid> 
        
@@ -167,14 +165,14 @@ My priciple role was Information Architect and I collaborated on research and vi
      
         </Grid>
        
-      <Grid item xs={12} lg={12} mt={5}>
+      <Grid item xs={12} md={12} lg={12} mt={5}>
       <Typography variant="h2">Persona</Typography>
-<Image src="/assets/wsgrpersona.jpg" alt='West Side Persona' height='720px' width='1280px'>
+<Image loader={myLoader} src="wsgrpersona.jpg" alt='West Side Persona' height='720px' width='1280px'>
 
 </Image>
       
         </Grid>
-        <Grid item xs={12} lg={12} mt={5}>
+        <Grid item xs={12} md={12} lg={12} mt={5}>
       
         <Typography variant="h2">Journey Map</Typography>
                     
@@ -186,15 +184,14 @@ My priciple role was Information Architect and I collaborated on research and vi
       <Typography  variant="h5">Design</Typography>
 					
 					<Typography variant="h2">Design for Search, Dog Bio and Adoption Application</Typography>
-        </Grid>
-      <Grid item xs={12} lg={12} mt={5}>
+      
      
       <Typography variant="body1">Here is the new information architecture that we came up with based on the insights gathered. We eliminated a few pages that made no sense and consolidated that information into other pages.</Typography>     
                    
      
         </Grid>
         <Grid item xs={12} lg={12} mt={5}>
-        <Typography variant="h4">User Flow</Typography>
+        <Typography variant="h2">User Flow</Typography>
 				<Typography variant="body1">We created a user flow that expects to be able to search and/or go directly to the wine
 					varietals, regions and coutries that the customer is looking for. If a user is signed up
 					he/she can see the wines that they bought and repurchase it/them. </Typography>
@@ -228,12 +225,12 @@ My priciple role was Information Architect and I collaborated on research and vi
         </Grid>
        
       <Grid item xs={12} lg={12} mt={5}>
-      <Typography variant="h4">Mobile Version</Typography>
+      <Typography variant="h2">Mobile Version</Typography>
      
         </Grid>
         
       <Grid item xs={12} lg={12} mt={5}>
-      <Typography variant="h4">Desktop Version</Typography>
+      <Typography variant="h2">Desktop Version</Typography>
      
         </Grid>
         
