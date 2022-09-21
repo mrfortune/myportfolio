@@ -60,11 +60,11 @@ const lightTheme = createTheme({
     marginBottom:'1rem'
         },
         h3: {
-          fontFamily:'Abril',
+          fontFamily:'Merriweather',
     fontSize:'1.953rem',
         },
         h4: {
-          textTransform:'uppercase',
+          fontFamily:'Merriweather',
           fontSize:'1.563rem',
         },
         h5: {

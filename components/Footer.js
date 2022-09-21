@@ -39,8 +39,8 @@ export default function LabelBottomNavigation() {
     gap: "8px",
     color:'#fff',
   }} >
-    <Box component="li">
-        <Typography variant="h3">Pages</Typography>
+    <Box component="li" mb={2}>
+        <Typography variant="h4">Pages</Typography>
     </Box>
       <Box component="li">
         <Link href="/">Home</Link>
@@ -61,8 +61,8 @@ export default function LabelBottomNavigation() {
     gap: "8px",
     color:'#fff',
   }} >
-    <Box component="li">
-        <Typography variant="h3">Resources</Typography>
+    <Box component="li" mb={2}>
+        <Typography variant="h4">Resources</Typography>
     </Box>
       <Box component="li">
         <Link href="/">Terms</Link>
@@ -74,8 +74,8 @@ export default function LabelBottomNavigation() {
     </Box>
     </Grid>
     <Grid item xs={4} lg={4}>
-    <Box component="div">
-        <Typography variant="h3" sx={{color:'#fff'}}>Sharing</Typography>
+    <Box component="div" mb={2}>
+        <Typography variant="h4" sx={{color:'#fff'}}>Sharing</Typography>
     </Box>
     <Box
       sx={{
@@ -89,8 +89,8 @@ export default function LabelBottomNavigation() {
       <Link href="http://linkedin.com/in/robertsharris">
         <a><LinkedIn fontSize="large"/></a>
         </Link>
-      <Link href="/"><Facebook fontSize="large"/></Link>
-      <Link href="/"><Instagram fontSize="large"/></Link>
+      <Link href="/"><a><Facebook fontSize="large"/></a></Link>
+      <Link href="/"><a><Instagram fontSize="large"/></a></Link>
       </Box>
     </Grid>
     <Grid item xs={12} lg={12} md={12} sm={12} sx={{bottom: 0, left: 0, right: 0,}}>
