@@ -21,11 +21,11 @@ const commonStyles = {
 export default function Home() {
   return (
     <>
-    <Box component="div" sx={{display:'block', height:'100vh'}}>
+    <Box component="div" sx={{display:'block', width:'100%', minHeight:'100vh'}}>
   <Hero>
     </Hero> 
     </Box>
-    <Box component="div">
+    <Box component="div" sx={{width:'100%', minHeight:'30vh'}}>
           <Paper square={true} className="workBG" sx={{
     padding: 4,
     backgroundColor: "#263238",

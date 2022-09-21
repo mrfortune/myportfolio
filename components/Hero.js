@@ -20,10 +20,8 @@ console.log('use effect')
 
 });
   return (
-<Box component="div" direction="row" display='flex' justifyContent='center' className="homeHero"> 
-<Grid container spacing={2} sx={{maxWidth:'lg'}}>
-<Grid item xs={12} sm={12} md={12} lg={12} xl={12} >
-<Box p={3} className="landingText">
+<Box component="div" className="homeHero" padding={0}> 
+<Box p={2}  height="100%" display="flex" flexDirection="column" justifyContent="center" alignItems="left" sx={{width:'50vw'}}>
 <Typography  variant="h1"  mb={2} sx={{ color:'#fafafa', fontSize:'3.6rem', }}>
 Data-Driven Design for Humans.
 </Typography>
@@ -31,16 +29,10 @@ Data-Driven Design for Humans.
 
 UX/UI design and engineering practioners who focus on identifying user pain-points and problems and designing solutions that work.
 </Typography>
-<Button color="primary" variant="contained">
+<Button color="primary" variant="contained" sx={{width:'134px', }}>
 Learn More...
 </Button>
   </Box>
-</Grid>
-</Grid>
-
-
-
-
 </Box>
 
   );

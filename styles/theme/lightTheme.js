@@ -25,6 +25,19 @@ const lightTheme = createTheme({
       //         },
       // },
       typography: {
+        breakpoints: {
+          values: {
+            xs: 0,
+            sm: 425,
+            md: 768,
+            lg: 1024,
+            xl: 1280,
+            '2xl': 1536,
+            '3xl': 1920,
+            '4xl': 2560,
+            '5xl': 3200,
+          },
+        },
         h1: {
           fontFamily:'Merriweather',
           fontSize: '3.052rem',
@@ -39,19 +52,7 @@ const lightTheme = createTheme({
             fontSize: '3.0rem',
           }, 
         },
-        breakpoints: {
-          values: {
-            xs: 0,
-            sm: 425,
-            md: 768,
-            lg: 1024,
-            xl: 1280,
-            '2xl': 1536,
-            '3xl': 1920,
-            '4xl': 2560,
-            '5xl': 3200,
-          },
-        },
+        
         h2:{
           fontFamily:'Merriweather',
     fontWeight:400,
