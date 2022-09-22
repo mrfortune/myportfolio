@@ -81,9 +81,36 @@ height:auto;
 background-size: cover;
 width:100%;
 color:whitesmoke;
-min-height:360px;
+min-height:180px;
 }
 .wgsrHero{
+  /*background: rgb(11,11,11);*/
+background-image: linear-gradient(to bottom, rgba(11,11,11,.8) 0%, rgba(65,65,65,.81) 52%, rgba(42,42,42,.81) 100%),
+url('/assets/wgsr_hero.png');
+height:auto;
+background-size: cover;
+width:100%;
+color:whitesmoke;
+min-height:270px;
+}
+.fade{
+  border-radius: 16px;
+  color:'#fff';
+  background: rgb(11,11,11);
+background: linear-gradient(356deg, rgba(11,11,11,1) 0%, rgba(65,65,65,1) 52%, rgba(11,11,11,1) 100%);
+}
+.fadeHome{
+/* background-image: linear-gradient(to bottom, rgba(11,11,11,.2) 0%, rgba(65,65,65,.3) 52%, rgba(42,42,42,.5) 100%),
+url('/assets/FadeB2B_Page_01.png'); */
+background-image: url('/assets/FadeB2B_Page_01.png');
+height:auto;
+background-size: cover;
+width:100%;
+color:whitesmoke;
+min-height:270px;
+
+}
+.wgsrHome{
   /*background: rgb(11,11,11);*/
 background-image: linear-gradient(to bottom, rgba(11,11,11,.8) 0%, rgba(65,65,65,.81) 52%, rgba(42,42,42,.81) 100%),
 url('/assets/wgsr_hero.png');
@@ -94,7 +121,7 @@ color:whitesmoke;
 min-height:360px;
 }
 .homeHero{
-  background-image: linear-gradient(to bottom, rgba(11,11,11,.8) 0%, rgba(65,65,65,.9) 52%, rgba(42,42,42,.9) 100%),
+  background-image: linear-gradient(to bottom, rgba(37, 7, 7, 0.6) 0%, rgba(65,65,65,.7) 52%, rgba(42,42,42,.8) 100%),
   url('/assets/bg_new.png');
 color:whitesmoke;
 position:relative;

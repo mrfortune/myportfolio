@@ -7,7 +7,6 @@ import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
 import Container  from '@mui/material/Container';
 import { Typography } from '@mui/material';
-import { global } from 'styled-jsx/css';
 import lightTheme from '../styles/theme/lightTheme';
 import {useState, useEffect} from 'react';
 import heroImage from '../public/assets/bg_new.png';
@@ -29,7 +28,7 @@ Data-Driven Design for Humans.
 
 UX/UI design and engineering practioners who focus on identifying user pain-points and problems and designing solutions that work.
 </Typography>
-<Button color="primary" variant="contained" sx={{width:'134px', }}>
+<Button color="primary" variant="contained" size="large" sx={{width:'160px', }}>
 Learn More...
 </Button>
   </Box>
