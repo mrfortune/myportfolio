@@ -241,9 +241,9 @@ Projects
 Case Studies
 </Typography>
   </Grid>
-<Grid item xs={12} md={7} lg={7}>
-  <Box component="div" borderRadius="25%">
-<Card variant="outlined" sx={{ maxWidth: 640, border:'1'}}>
+<Grid item xs={12} md={12} lg={12}>
+  <Box component="div">
+<Card className="fade">
       <CardActionArea>
         <CardMedia
           component="img"
@@ -277,13 +277,9 @@ Case Studies
     >
 </Image> */}
 </Grid>
-<Grid item xs={12} md={5} lg={5}>
-<Typography>
 
-</Typography>
-  </Grid>
-<Grid item xs={12} md={7} lg={7}>
-<Card sx={{ maxWidth: 640 }}>
+<Grid item xs={12} md={12} lg={12}>
+<Card>
       <CardActionArea>
         <CardMedia
           component="img"
@@ -309,13 +305,9 @@ Case Studies
       </CardActions>
     </Card>
 </Grid>
-<Grid item xs={12} md={5} lg={5}>
-<Typography>
 
-</Typography>
-  </Grid>
-<Grid item xs={12} md={7} lg={7}>
-<Card sx={{ maxWidth: 640 }}>
+<Grid item xs={12} md={1} lg={12}>
+<Card>
       <CardActionArea>
         <CardMedia
           component="img"

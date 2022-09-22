@@ -94,6 +94,11 @@ color:whitesmoke;
 min-height:270px;
 }
 .fade{
+  background: #464545; 
+	border: solid #242323 1px; 
+	box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)  ; 
+	-webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)  ; 
+	-moz-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)  ; 
   border-radius: 16px;
   color:'#fff';
   background: rgb(11,11,11);
