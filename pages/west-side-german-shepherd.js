@@ -65,11 +65,21 @@ My priciple role was Information Architect and I collaborated on research and vi
 		<Grid container mt={6} spacing={0} sx={{ width:'740px',}}>
     
       <Grid item xs={12} md={12} lg={12}>            
-      <Typography variant="h5">Solution Overview</Typography>
-		  <Typography variant="h2">Problem</Typography>	
+  
+
+      <Typography variant="h2">About This Project</Typography>	
 				
-				<Typography variant="body1">How might we design an adoption website for West Side German Shepherd Rescue's
-					customer? The challenge was to design and build a user-centered website for West Side German Shepherd
+				<Typography variant="body1">Our team was tasked with designing a new feature(s) and/or improve an existing feature(s) for our assigned
+client(West Side German Shepherd Rescue -shepresue.org), to create a delightful experience for the persona(s) we defined through research. 
+
+				</Typography> 
+		  <Typography variant="h2">The Problem</Typography>	
+				<Typography variant="body1">
+        German shepherd lovers need a more personable and updated way to select an animal rescue in order to find a german shepherd to add to her family.
+
+          </Typography>
+				<Typography variant="body1">How might we design an updated experience of sheprescue.org for that delivers a more personable experience for their
+					customers? The challenge was to design and build a user-centered website for West Side German Shepherd
 					Rescue that organized the wines in proper categories and provided navigation and search for
 					the user to be able to easily find and purchase wines and have them delivered.
 				</Typography> 
@@ -82,18 +92,16 @@ My priciple role was Information Architect and I collaborated on research and vi
        </Grid>
       
 		  <Grid item xs={12} lg={12} md={12}>            
-      <Typography  variant="h5">Approach</Typography>
+      <Typography  variant="h5">THE PROCESS & SOLUTION</Typography>
 					
-					<Typography variant="h2">Seek Users Who Have or Are Adopting Dogs
+					{/* <Typography variant="h2">Seek Users Who Have or Are Adopting Dogs
 					</Typography>
-				<Typography variant="body1">Our approach to this project was to seek out users who have adopted dogs or are currently adopting dogs and ask them questions about their experience and sites that they used. We also looked at other adoption sites to get an idea of how the competitors sites look.</Typography>      
+				<Typography variant="body1">Our approach to this project was to seek out users who have adopted dogs or are currently adopting dogs and ask them questions about their experience and sites that they used. We also looked at other adoption sites to get an idea of how the competitors sites look.</Typography>       */}
               
           
 		  </Grid>
       <Grid item xs={12} lg={12} mt={5}>
       <Image src="/assets/dtprocess.png" alt='' width='1280px' height='215px'></Image>
-				
-				
 			
         <Typography variant="body1">West Side German Shepherd Rescue's new website solution will provide its customers with the
           ability to search for a dog to adopt and submit the adoption application.</Typography>
@@ -105,14 +113,13 @@ My priciple role was Information Architect and I collaborated on research and vi
                   
       <Typography variant="h2">Research</Typography>
 			
-				<Typography variant="body1">Our persona - Carol Olsen - is the summary of the users that we researched who use websites to adopt dogs and plan to or have adopted dogs in the past.</Typography>
+				<Typography variant="body1">
+          Our research process consiuted of user surveys, heuristic analysyt, competitive analysis, comparative analysis.
+        </Typography>
 					  </Grid>
 					  <Grid item xs={12} md={12} lg={12}>
 					  <Typography variant="h2">1. User Interviews</Typography>
-						<Typography variant="body1">By observing the participants within the context of buying wine at an, and during, I was able
-							to question and observe how they order wine and why they use the method that they use -
-							mobile phone. As people arrived over the 5 or 6 hours that we were gathered we talked about
-							their favorite local wine stores and their sites and apps.</Typography>
+
 							<Typography variant="h6">Interview Questions:</Typography>
         </Grid>
         <Grid item xs={12} md={12} lg={12}>
@@ -146,10 +153,7 @@ My priciple role was Information Architect and I collaborated on research and vi
 					<Typography variant="body1">We created a survey and solicited parcipants to participate via social media platforms.</Typography>
 				
 					<Typography variant="h2">3. Affinity Mapping &amp; Data Synthesis</Typography>
-					<Typography variant="body1">By observing the participants within the context of buying wine at an, and during, I was able
-						to question and observe how they order wine and why they use the method that they use -
-						mobile phone. As people arrived over the 5 or 6 hours that we were gathered we talked about
-						their favorite local wine stores and their sites and apps.</Typography>
+					<Typography variant="body1"></Typography>
 				
 					
 					<Typography variant="h2">2. Competitive Analysis</Typography>
