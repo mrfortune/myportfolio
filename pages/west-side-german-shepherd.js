@@ -4,7 +4,6 @@ import { Box, Grid, Container, Item, Paper } from '@mui/material';
 import { Typography } from '@mui/material';
 import Divider from '@mui/material/Divider';
 import Image from 'next/image';
-import FadeJourneyMap from '../public/assets/FadeJourneyMap.png';
 import myLoader from '../components/Loader';
 
 
@@ -91,7 +90,7 @@ client(West Side German Shepherd Rescue -shepresue.org), to create a delightful 
 
        </Grid>
       
-		  <Grid item xs={12} lg={12} md={12}>            
+		  <Grid item xs={12} lg={12} md={12} mb={5}>            
       <Typography  variant="h5">THE PROCESS & SOLUTION</Typography>
 					
 					{/* <Typography variant="h2">Seek Users Who Have or Are Adopting Dogs
@@ -100,7 +99,7 @@ client(West Side German Shepherd Rescue -shepresue.org), to create a delightful 
               
           
 		  </Grid>
-      <Grid item xs={12} lg={12} mt={5}>
+      <Grid item xs={12} lg={12} md={12} mb={8}>
       <Image src="/assets/dtprocess.png" alt='' width='1280px' height='215px'></Image>
 			
         <Typography variant="body1">West Side German Shepherd Rescue's new website solution will provide its customers with the
@@ -109,7 +108,7 @@ client(West Side German Shepherd Rescue -shepresue.org), to create a delightful 
         </Grid>
         
      
-      <Grid item xs={12} lg={12} mt={5}>
+      <Grid item xs={12} lg={12} mb={8}>
                   
       <Typography variant="h2">Research</Typography>
 			
@@ -117,12 +116,9 @@ client(West Side German Shepherd Rescue -shepresue.org), to create a delightful 
           Our research process consiuted of user surveys, heuristic analysyt, competitive analysis, comparative analysis.
         </Typography>
 					  </Grid>
-					  <Grid item xs={12} md={12} lg={12}>
-					  <Typography variant="h2">1. User Interviews</Typography>
+					  <Grid item xs={12} md={12} lg={12} mb={8}>
+					  <Typography variant="h2">1. User Interviews Questions</Typography>
 
-							<Typography variant="h6">Interview Questions:</Typography>
-        </Grid>
-        <Grid item xs={12} md={12} lg={12}>
         <ul>
 						<li>1. Tell me about your experience of finding and adopting your dog online.<ul>
 								<li>a. Website used</li>
@@ -148,30 +144,29 @@ client(West Side German Shepherd Rescue -shepresue.org), to create a delightful 
 					</ul>
      
    </Grid>
-   <Grid item xs={12} sm={12} lg={12}>
+   <Grid item xs={12} sm={12} lg={12} mb={8}>
    <Typography variant="h2">2.User Survey </Typography>
 					<Typography variant="body1">We created a survey and solicited parcipants to participate via social media platforms.</Typography>
-				
-					<Typography variant="h2">3. Affinity Mapping &amp; Data Synthesis</Typography>
-					<Typography variant="body1"></Typography>
-				
-					
-					<Typography variant="h2">2. Competitive Analysis</Typography>
-     
-   </Grid> 
-       
-
-     
-        
-      <Grid item xs={12} lg={12} mt={5}>
-      <Typography variant="h2">Competitors Have Great Looking Websites</Typography>
+			</Grid> 
+      <Grid item xs={12} lg={12} mb={8}>
+      <Typography variant="h2">2. Competitive Analysis</Typography>
 <Typography variant="body1">A quick search for dog rescue sites and one can see the stark difference between sheprescue.org and other dog rescue sites. We looked at a few but for the study I have only included two.</Typography>
      
         </Grid>
-       
-      <Grid item xs={12} md={12} lg={12} mt={5}>
+         <Grid item xs={12} sm={12} md={12} lg={12} mb={8}>	
+					<Typography variant="h2">3. Affinity Mapping &amp; Data Synthesis</Typography>
+					<Typography variant="body1">
+
+          </Typography>
+<Box component="div" className="imageBorderradius">
+          <Image loader={myLoader} className="imageBorderradius" src="WGSRAffinity-Map.png" width={900} height={506} alt=""></Image>
+          </Box>
+				</Grid>
+					
+      <Grid item xs={12} sm={12} md={12} lg={12} mb={8}>
       <Typography variant="h2">Persona</Typography>
-<Image loader={myLoader} src="wsgrpersona.jpg" alt='West Side Persona' height='720px' width='1280px'>
+      
+<Image loader={myLoader} className="imageBorderradius" src="wsgrpersona.jpg" alt='West Side Persona' height='720px' width='1280px'>
 
 </Image>
       

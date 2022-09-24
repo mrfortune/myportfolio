@@ -113,6 +113,11 @@ background-size: cover;
 width:100%;
 color:whitesmoke;
 min-height:270px;
+}
+.imageBorderradius{
+border-radius:16px;
+padding:16px;
+border:8px solid #ccc;
 
 }
 .wgsrHome{
