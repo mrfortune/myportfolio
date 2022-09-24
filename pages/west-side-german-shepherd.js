@@ -60,10 +60,10 @@ My priciple role was Information Architect and I collaborated on research and vi
        
        
        
-    <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{ flexGrow: 1, px: 3 }}> 
+    <Box component="div" display="flex" justifyContent="center" alignItems="center" mb={15} sx={{ flexGrow: 1, px: 3 }}> 
 		<Grid container mt={6} spacing={0} sx={{ width:'740px',}}>
     
-      <Grid item xs={12} md={12} lg={12}>            
+      <Grid item xs={12} md={12} lg={12} mb={8}>            
   
 
       <Typography variant="h2">About This Project</Typography>	
@@ -190,13 +190,16 @@ client(West Side German Shepherd Rescue -shepresue.org), to create a delightful 
      
         </Grid>
         <Grid item xs={12} lg={12} mt={5}>
+      <Typography  variant="h5">Sketches</Typography>
+        
+                  
+        </Grid>
+        <Grid item xs={12} lg={12} mt={5}>
         <Typography variant="h2">User Flow</Typography>
-				<Typography variant="body1">We created a user flow that expects to be able to search and/or go directly to the wine
-					varietals, regions and coutries that the customer is looking for. If a user is signed up
-					he/she can see the wines that they bought and repurchase it/them. </Typography>
-				<Typography variant="body1">No matter what choice the user makes, they will be able now check out and complete their
-					purchase online and select delivery to a selected address.</Typography>
-                    
+				<Typography variant="body1"> </Typography>
+          <Image loader={myLoader} className="imageBorderradius" src="WGSRUser-Flow.png" alt='West Side User Flow' height='610px' width='900px'>
+				 </Image> 
+				
       
       
 
