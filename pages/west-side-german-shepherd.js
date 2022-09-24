@@ -171,7 +171,7 @@ client(West Side German Shepherd Rescue -shepresue.org), to create a delightful 
 </Image>
       
         </Grid>
-        <Grid item xs={12} md={12} lg={12} mt={5}>
+        <Grid item xs={12} md={12} lg={12} mb={8}>
       
         <Typography variant="h2">Journey Map</Typography>
                     
@@ -179,7 +179,7 @@ client(West Side German Shepherd Rescue -shepresue.org), to create a delightful 
      
         </Grid>
        
-      <Grid item xs={12} lg={12} mt={5}>
+      <Grid item xs={12} lg={12} mb={8}>
       <Typography  variant="h5">Design</Typography>
 					
 					<Typography variant="h2">Design for Search, Dog Bio and Adoption Application</Typography>
@@ -190,7 +190,7 @@ client(West Side German Shepherd Rescue -shepresue.org), to create a delightful 
      
         </Grid>
         
-        <Grid item xs={12} lg={12} mt={5}>
+        <Grid item xs={12} lg={12} mb={8}>
         <Typography variant="h2">User Flow</Typography>
 				<Typography variant="body1"> </Typography>
         <Box component="div" className="imageBorderradius">
@@ -199,30 +199,41 @@ client(West Side German Shepherd Rescue -shepresue.org), to create a delightful 
          </Box>
 			
 </Grid>
-<Grid item xs={12} lg={12} mt={5}>
+<Grid item xs={12} lg={12} mb={8}>
       <Typography  variant="h2">Site Map</Typography>  
       <Box component="div" className="imageBorderradius">
           <Image loader={myLoader} className="imageBorderradius" src="wgsrsitemapPresentation.png" alt='West Side Sitemap' height='526px' width='900px'>
 				 </Image> 
          </Box>        
         </Grid>
-<Grid item xs={12} lg={12} mt={5}>
-      <Typography  variant="h2">Sketches</Typography>          
+<Grid item xs={12} lg={12} mb={8}>
+      <Typography  variant="h2">Sketches</Typography> 
+      <Box component="div" className="imageBorderradius" mb={6}>
+      <Image loader={myLoader} className="imageBorderradius" src="wgsrsketcheshome.png" alt='West Side Sitemap' height='506px' width='900px'>
+				 </Image> 
+         </Box> 
+         <Box component="div" className="imageBorderradius" mb={6}>
+      <Image loader={myLoader} className="imageBorderradius" src="wgsrsketchesDogs.png" alt='West Side Sitemap' height='506px' width='900px'>
+				 </Image> 
+         </Box> 
+         <Box component="div" className="imageBorderradius" mb={6}>
+      <Image loader={myLoader} className="imageBorderradius" src="wgsrsketchesMobileMenu.png" alt='West Side Sitemap' height='506px' width='900px'>
+				 </Image> 
+         </Box>  
+         <Box component="div" className="imageBorderradius" mb={6}>
+      <Image loader={myLoader} className="imageBorderradius" src="wgsrsketchesDesktop.png" alt='West Side Sitemap' height='506px' width='900px'>
+				 </Image> 
+         </Box>          
         </Grid>
-<Grid item xs={12} lg={12} mt={5}>
+<Grid item xs={12} lg={12} mb={8}>
 <Typography  variant="h5">Visual Design</Typography>
 				<Typography variant="h2">Let's Get Some Wireframes Done</Typography>
 				<Typography variant="body1">The visual design incorporates all of the UI elements and functionality found in other
 						e-commerce wine sites. We have incorporated search and faceted search to help users select
-						wine by ratings, price, region and country.</Typography>
-      
-     
-     
+						wine by ratings, price, region and country.</Typography> 
 </Grid>
        
-      <Grid item xs={12} lg={12} mt={5}>
-      
-               
+      <Grid item xs={12} lg={12} mt={5}>      
       <Typography variant="h2">Easily Find the Dog You Like and Apply to Adopt</Typography>
 				<Typography variant="body1">We began this process with some low-fidelity sketches and wireframes and we quickly turned those in mid-fidelity wireframes.
 					We began by ddesigning the mobile experience first and then designed the desktop expeience once we settled on the direction that we wanted to go in.</Typography> 
