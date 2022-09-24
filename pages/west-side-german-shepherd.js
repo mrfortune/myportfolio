@@ -189,22 +189,26 @@ client(West Side German Shepherd Rescue -shepresue.org), to create a delightful 
                    
      
         </Grid>
-        <Grid item xs={12} lg={12} mt={5}>
-      <Typography  variant="h5">Sketches</Typography>
         
-                  
-        </Grid>
         <Grid item xs={12} lg={12} mt={5}>
         <Typography variant="h2">User Flow</Typography>
 				<Typography variant="body1"> </Typography>
+        <Box component="div" className="imageBorderradius">
           <Image loader={myLoader} className="imageBorderradius" src="WGSRUser-Flow.png" alt='West Side User Flow' height='610px' width='900px'>
 				 </Image> 
-				
-      
-      
-
+         </Box>
+			
 </Grid>
-
+<Grid item xs={12} lg={12} mt={5}>
+      <Typography  variant="h2">Site Map</Typography>  
+      <Box component="div" className="imageBorderradius">
+          <Image loader={myLoader} className="imageBorderradius" src="wgsrsitemapPresentation.png" alt='West Side Sitemap' height='526px' width='900px'>
+				 </Image> 
+         </Box>        
+        </Grid>
+<Grid item xs={12} lg={12} mt={5}>
+      <Typography  variant="h2">Sketches</Typography>          
+        </Grid>
 <Grid item xs={12} lg={12} mt={5}>
 <Typography  variant="h5">Visual Design</Typography>
 				<Typography variant="h2">Let's Get Some Wireframes Done</Typography>
