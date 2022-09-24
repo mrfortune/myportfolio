@@ -149,12 +149,12 @@ client(West Side German Shepherd Rescue -shepresue.org), to create a delightful 
 					<Typography variant="body1">We created a survey and solicited parcipants to participate via social media platforms.</Typography>
 			</Grid> 
       <Grid item xs={12} lg={12} mb={8}>
-      <Typography variant="h2">2. Competitive Analysis</Typography>
+      <Typography variant="h2">3. Competitive Analysis</Typography>
 <Typography variant="body1">A quick search for dog rescue sites and one can see the stark difference between sheprescue.org and other dog rescue sites. We looked at a few but for the study I have only included two.</Typography>
      
         </Grid>
          <Grid item xs={12} sm={12} md={12} lg={12} mb={8}>	
-					<Typography variant="h2">3. Affinity Mapping &amp; Data Synthesis</Typography>
+					<Typography variant="h2">4. Affinity Mapping &amp; Data Synthesis</Typography>
 					<Typography variant="body1">
 
           </Typography>
