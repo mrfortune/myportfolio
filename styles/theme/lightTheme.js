@@ -77,7 +77,7 @@ const lightTheme = createTheme({
         body1:{
             fontSize: '1rem',
             marginBottom: '1rem',
-            fontWeight:'400',
+            fontWeight:'600',
             
         },
         body2:{

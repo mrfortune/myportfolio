@@ -45,7 +45,7 @@ const WestSide = () => {
                         <Grid item xs={12} sm={3} md={3} lg={3} >
 <Typography variant="body2">What I Did</Typography>            
                    <Typography variant="body1">
-My priciple role was Information Architect and I collaborated on research and visual design. I drew low fidelity sketches in design studio, designed site maps and conducted usability testing.
+My priciple role was Information Architect and I collaborated on research and visual design. I drew low fidelity sketches with pencil and paper, designed site maps and conducted usability testing.
 
                    </Typography>
 </Grid>
@@ -92,18 +92,12 @@ client(West Side German Shepherd Rescue -shepresue.org), to create a delightful 
       
 		  <Grid item xs={12} lg={12} md={12} mb={5}>            
       <Typography  variant="h5">THE PROCESS & SOLUTION</Typography>
-					
-					{/* <Typography variant="h2">Seek Users Who Have or Are Adopting Dogs
-					</Typography>
-				<Typography variant="body1">Our approach to this project was to seek out users who have adopted dogs or are currently adopting dogs and ask them questions about their experience and sites that they used. We also looked at other adoption sites to get an idea of how the competitors sites look.</Typography>       */}
-              
-          
+					 
 		  </Grid>
       <Grid item xs={12} lg={12} md={12} mb={8}>
-      <Image src="/assets/dtprocess.png" alt='' width='1280px' height='215px'></Image>
+      <Image loader={myLoader} src="dtprocess.png" alt='' width='1280px' height='215px'></Image>
 			
-        <Typography variant="body1">West Side German Shepherd Rescue's new website solution will provide its customers with the
-          ability to search for a dog to adopt and submit the adoption application.</Typography>
+        
      
         </Grid>
         
@@ -118,8 +112,8 @@ client(West Side German Shepherd Rescue -shepresue.org), to create a delightful 
 					  </Grid>
 					  <Grid item xs={12} md={12} lg={12} mb={8}>
 					  <Typography variant="h2">1. User Interviews Questions</Typography>
-
-        <ul>
+<Box component="ul">
+      
 						<li>1. Tell me about your experience of finding and adopting your dog online.<ul>
 								<li>a. Website used</li>
 								<li>b. Timeline (from first search to adoption)</li>
@@ -141,8 +135,8 @@ client(West Side German Shepherd Rescue -shepresue.org), to create a delightful 
 						<li>Have you ever volunteered with or donated to a shelter or rescue? How was that
 							experience?</li>
 						<li>Have you ever/would you ever consider hosting a foster dog? Elaborate.</li>
-					</ul>
-     
+					
+     </Box>
    </Grid>
    <Grid item xs={12} sm={12} lg={12} mb={8}>
    <Typography variant="h2">2.User Survey </Typography>

@@ -21,10 +21,10 @@ const commonStyles = {
 export default function Home() {
   return (
     <>
-    <Box component="div" sx={{display:'block', width:'100%', minHeight:'100vh'}}>
+    {/* <Box component="div" sx={{display:'block', width:'100%', minHeight:'100vh'}}> */}
   <Hero>
     </Hero> 
-    </Box>
+    {/* </Box> */}
     <Box component="div" sx={{width:'100%', minHeight:'30vh'}}>
           <Paper square={true} className="workBG" sx={{
     padding: 4,
@@ -36,7 +36,7 @@ export default function Home() {
     <Box direction="row" display='flex' justifyContent='center' component="div">
      <Grid container spacing={2} sx={{maxWidth:'md'}}>
        <Grid item xs={12} md={12} md={12} lg={12}>
-         <Typography variant="h2" mb={6} sx={{color:'#000', textAlign:'center'}}>
+         <Typography variant="h2" mb={6} sx={{color:'#000', textAlign:'left'}}>
   What We Do
 </Typography>
        </Grid>
@@ -241,14 +241,14 @@ Projects
 Case Studies
 </Typography>
   </Grid>
-<Grid item xs={12} md={12} lg={12}>
-  <Box component="div">
-<Card className="fade">
+<Grid item xs={12} md={12} lg={12} mb={8}>
+  <Box component="div" direction="row" display='flex' justifyContent='center'>
+<Card className="fade" sx={{maxWidth:640}}>
       <CardActionArea>
         <CardMedia
           component="img"
           height="360"
-          image="/assets/FadeB2B_Page_01.png"
+          //image="/assets/FadeB2B_Page_01.png"
           alt="Fade Technology"
         />
         <CardContent>
@@ -278,8 +278,9 @@ Case Studies
 </Image> */}
 </Grid>
 
-<Grid item xs={12} md={12} lg={12}>
-<Card>
+<Grid item xs={12} md={12} lg={12} mb={8}>
+<Box component="div" direction="row" display='flex' justifyContent='center'>
+<Card className="fade" sx={{maxWidth:640}}>
       <CardActionArea>
         <CardMedia
           component="img"
@@ -304,10 +305,12 @@ Case Studies
         </Button>
       </CardActions>
     </Card>
+    </Box>
 </Grid>
 
-<Grid item xs={12} md={1} lg={12}>
-<Card>
+<Grid item xs={12} md={12} lg={12}>
+<Box component="div" direction="row" display='flex' justifyContent='center'>
+<Card className="fade" sx={{maxWidth:640}}>
       <CardActionArea>
         <CardMedia
           component="img"
@@ -332,6 +335,7 @@ Case Studies
         </Button>
       </CardActions>
     </Card>
+    </Box>
 </Grid>
 </Grid>
     </Box>
