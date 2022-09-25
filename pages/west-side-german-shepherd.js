@@ -150,7 +150,7 @@ client(West Side German Shepherd Rescue -shepresue.org), to create a delightful 
 			</Grid> 
       <Grid item xs={12} lg={12} mb={8}>
       <Typography variant="h2">3. Competitive Analysis</Typography>
-<Typography variant="body1">A quick search for dog rescue sites and one can see the stark difference between sheprescue.org and other dog rescue sites. We looked at a few but for the study I have only included two.</Typography>
+<Typography variant="body1">We searched for dog rescue sites and one can see the stark differences between sheprescue.org and the other dog rescue or pet sites sites. We looked at a few but for the study I have only included two.</Typography>
 <Box component="div" mb={6}>
           <Image loader={myLoader} src="WGSRCompetitive-Analysis-1.png" className="imageBorderradius" alt='West Side Competitive Analysis 1' height='695px' width='900px'>
 				 </Image> 
@@ -170,11 +170,20 @@ client(West Side German Shepherd Rescue -shepresue.org), to create a delightful 
         </Grid>
         <Grid item xs={12} lg={12} mb={8}>
       <Typography variant="h2">3. Comparative Analysis</Typography>
+      <Typography variant="body1">We also looked at sites that are not competitor and gatehred a few insights on the visuals and layout of those sites. We focused onthe mobile versions of those sites for our analysis.</Typography>
+<Typography variant="body1">A few takeaways:</Typography>
+<Box component="ul">
+  <li>Don't include entire global navigation, but do include some dropdowns</li>
+<li>Lots of small text links, looks very similar to desktop footer
+-social media links are Gap branded and easy to understand
+-dropdowns easy to spot</li>
+<li></li>
+</Box>
       <Box component="div" mb={6}>
           <Image loader={myLoader}  src="WGSRComparative-Analysis-1.png" className="imageBorderradius" alt='West Side User Flow' height='695px' width='900px'>
 				 </Image> 
          </Box>
-<Typography variant="body1">A quick search for dog rescue sites and one can see the stark difference between sheprescue.org and other dog rescue sites. We looked at a few but for the study I have only included two.</Typography>
+
      
         </Grid>
          <Grid item xs={12} sm={12} md={12} lg={12} mb={8}>	
