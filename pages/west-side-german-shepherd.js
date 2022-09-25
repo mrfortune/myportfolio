@@ -151,25 +151,29 @@ client(West Side German Shepherd Rescue -shepresue.org), to create a delightful 
       <Grid item xs={12} lg={12} mb={8}>
       <Typography variant="h2">3. Competitive Analysis</Typography>
 <Typography variant="body1">A quick search for dog rescue sites and one can see the stark difference between sheprescue.org and other dog rescue sites. We looked at a few but for the study I have only included two.</Typography>
-<Box component="div" className="imageBorderradius">
-          <Image loader={myLoader} className="imageBorderradius" src="WGSRCompetitive-Analysis-1.png" alt='West Side User Flow' height='695px' width='900px'>
+<Box component="div" mb={6}>
+          <Image loader={myLoader} src="WGSRCompetitive-Analysis-1.png" className="imageBorderradius" alt='West Side Competitive Analysis 1' height='695px' width='900px'>
 				 </Image> 
          </Box>
-         <Box component="div" className="imageBorderradius">
-          <Image loader={myLoader} className="imageBorderradius" src="WGSRCompetitive-Analysis-2.png" alt='West Side User Flow' height='695px' width='900px'>
+         <Box component="div" mb={6}>
+          <Image loader={myLoader} src="WGSRCompetitive-Analysis-2.png" className="imageBorderradius"alt='West Side User Flow' height='695px' width='900px'>
 				 </Image> 
          </Box>
-         <Box component="div" className="imageBorderradius">
-          <Image loader={myLoader} className="imageBorderradius" src="WGSRCompetitive-Analysis-3.png" alt='West Side User Flow' height='695px' width='900px'>
+         <Box component="div" mb={6}>
+          <Image loader={myLoader} src="WGSRCompetitive-Analysis-3.png" className="imageBorderradius" alt='West Side User Flow' height='695px' width='900px'>
 				 </Image> 
          </Box>
-         <Box component="div" className="imageBorderradius">
-          <Image loader={myLoader} className="imageBorderradius" src="WGSRCompetitive-Analysis-4.png" alt='West Side User Flow' height='695px' width='900px'>
+         <Box component="div" mb={6}>
+          <Image loader={myLoader}  src="WGSRCompetitive-Analysis-4.png" className="imageBorderradius" alt='West Side User Flow' height='695px' width='900px'>
 				 </Image> 
          </Box> 
         </Grid>
         <Grid item xs={12} lg={12} mb={8}>
       <Typography variant="h2">3. Comparative Analysis</Typography>
+      <Box component="div" mb={6}>
+          <Image loader={myLoader}  src="WGSRComparative-Analysis-4.png" className="imageBorderradius" alt='West Side User Flow' height='695px' width='900px'>
+				 </Image> 
+         </Box>
 <Typography variant="body1">A quick search for dog rescue sites and one can see the stark difference between sheprescue.org and other dog rescue sites. We looked at a few but for the study I have only included two.</Typography>
      
         </Grid>
