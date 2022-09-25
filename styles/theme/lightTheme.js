@@ -11,6 +11,9 @@ const lightTheme = createTheme({
           main: grey[50],
         },
       },
+      body:{
+backgroundcolor:'#000',
+      },
       logo:{
     width:'40px',
       },

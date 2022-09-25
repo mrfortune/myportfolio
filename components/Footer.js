@@ -28,8 +28,8 @@ export default function LabelBottomNavigation() {
    
 //  <BottomNavigation sx={{ backgroundColor:'#000', height:'auto', }} value={value} onChange={handleChange}> 
       
-      <Box component="div" className="navBG" pt={2} direction="row" display='flex' justifyContent='center' height="192px">
-         <Grid container spacing={2} sx={{maxWidth:'lg', paddingLeft:'16px'}}>
+      <Box component="div" className="navBG" pt={2} direction="row" display='flex' alignItems='center' justifyContent='center' height="192px">
+         <Grid container spacing={2} sx={{maxWidth:'md', paddingLeft:'16px'}}>
 
          <Grid item xs={4} lg={4} >
        <Box component="ul" sx={{

@@ -19,9 +19,12 @@ a:-webkit-any-link {
 
 body {
   margin: 0;
+  background: rgb(253,252,252);
+background: linear-gradient(180deg, rgba(253,252,252,1) 0%, rgba(254,254,254,1) 52%, rgba(248,248,248,1) 100%);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 min-height:100%;
+background-attachment: fixed;
 }
 nav a{
   color:azure;
@@ -93,12 +96,12 @@ width:100%;
 color:whitesmoke;
 min-height:270px;
 }
-.fade{
-  background: #464545; 
-	border: solid #242323 1px; 
-	box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.5)  ; 
-	-webkit-box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.5)  ; 
-	-moz-box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.5)  ; 
+.cardBorder{
+  background: #b4b3b3; 
+	border: solid #b1b0b0 1px; 
+	box-shadow: 2px 2px 16px rgba(197, 196, 196, 0.5)  ; 
+	-webkit-box-shadow: 2px 2px 16px rgba(151, 149, 149, 0.5)  ; 
+	-moz-box-shadow: 2px 2px 16px rgba(177, 175, 175, 0.5)  ; 
   border-radius: 16px;
   color:'#fff';
   background: rgb(250, 249, 249);
@@ -140,6 +143,11 @@ padding: 16px;
     min-height: 640px;
     /* display: block; */
     background-size: cover;
+}
+.pageBg{
+  background: rgb(255,252,252);
+background: linear-gradient(180deg, rgba(255,252,252,1) 0%, rgba(228,228,228,1) 52%, rgba(163,162,162,1) 100%);
+height:100%;
 }
 * {
   box-sizing: border-box;

@@ -7,6 +7,10 @@ import Grid from '@mui/material/Grid';
 import { Paper } from '@mui/material';
 import Image from 'next/image';
 import Link from 'next/link';
+import IconButton from '@mui/material/IconButton';
+import SkipPreviousIcon from '@mui/icons-material/SkipPrevious';
+import PlayArrowIcon from '@mui/icons-material/PlayArrow';
+import SkipNextIcon from '@mui/icons-material/SkipNext';
 import { border } from '@mui/system';
 import myLoader from '../components/Loader';
 
@@ -25,7 +29,8 @@ export default function Home() {
   {/* <Hero>
     </Hero>  */}
     {/* </Box> */}
-    <Box component="div" className="homeHero" padding={0}height="100%" Box direction="row" display='flex' alignItems='center' justifyContent='center' component="div"> 
+ 
+    <Box component="div" className="homeHero" padding={0} mb={8} height="100%" direction="row" display='flex' alignItems='center' justifyContent='center' component="div"> 
 <Box p={2}  sx={{maxWidth:'md'}}>
 {/* <Grid container mt={6} maxWidth='md' spacing={0} sx={{ width:'900px',}}>
     
@@ -46,18 +51,18 @@ Learn More...
 </Grid> */}
   </Box>
 </Box>
-    <Box component="div" sx={{width:'100%', minHeight:'30vh'}}>
-          <Paper square={true} className="workBG" sx={{
+    
+          {/* <Paper square={true} className="workBG" sx={{
     padding: 4,
     backgroundColor: "#263238",
     width:'100%',
     height:'auto',
     minHeight:'30vh'
-  }}>
-    <Box direction="row" display='flex' justifyContent='center' component="div">
-     <Grid container spacing={2} sx={{maxWidth:'md'}}>
+  }}> */}
+    <Box direction="row" display='flex' ml={2} justifyContent='center' component="div">
+     <Grid container spacing={2} mb={8} sx={{maxWidth:'md'}}>
        <Grid item xs={12} md={12} md={12} lg={12}>
-         <Typography variant="h2" mb={6} sx={{color:'#000', textAlign:'left'}}>
+         <Typography variant="h2" mb={6} sx={{color:'#333', textAlign:'left'}}>
   What We Do
 </Typography>
        </Grid>
@@ -194,29 +199,28 @@ Learn More...
    
          </Grid> 
 </Grid>
-</Box>
 
 
   
-</Paper>
+{/* </Paper> */}
     </Box>
 
     
 
-<Box component="div">
 
 
-<Paper square={true} className="firstBG" sx={{
+
+{/* <Paper square={true} className="firstBG" sx={{
     padding: 4,
     backgroundColor: "#5C69BD",
     width:'100%',
     height:'auto',
     minHeight:'45vh'
-  }}>
-    <Box component='div' direction="row" display='flex' justifyContent='center'>
+  }}> */}
+    <Box component='div' direction="row" display='flex' ml={2} justifyContent='center'>
       <Grid container spacing={2} sx={{maxWidth:'md'}}>
         <Grid item xs={6} lg={6}>
-      <Typography variant="h2" mb={4} sx={{color:'#fff',}}>
+      <Typography variant="h2" mb={4} sx={{color:'#333',}}>
 Projects
 
   </Typography>
@@ -238,13 +242,12 @@ Projects
   </Grid>
     </Box>
  
-</Paper>
-
-</Box>
-<Box component="div">
+{/* </Paper> */}
 
 
-<Paper className="caseBG" square={true} elevate={2} sx={{
+
+
+{/* <Paper className="caseBG" square={true} elevate={2} sx={{
     padding: 4,
     backgroundColor: "#eceff1",
     width:'100%',
@@ -252,19 +255,41 @@ Projects
     height:'auto',
     borderTop:'1px',
     borderTopColor:'#000'
-  }}>
-    <Box component="div" direction="row" display='flex' justifyContent='center'>
+  }}> */}
+    <Box component="div" direction="row" ml={2} mr={2} display='flex' justifyContent='center'>
       
 
 <Grid container spacing={2} sx={{maxWidth:'md'}}>
-  <Grid item xs={12} sm={12} md={12} lg={12}>
-<Typography variant="h2" sx={{color:'#fff'}}>
+  <Grid item xs={12} sm={12} md={12} lg={12} spacing={2}>
+<Typography variant="h2" sx={{color:'#333'}}>
 Case Studies
 </Typography>
   </Grid>
 <Grid item xs={12} md={12} lg={12} mb={8}>
-  <Box component="div" direction="row" display='flex' justifyContent='center'>
-<Card className="fade" sx={{maxWidth:640}}>
+  {/* <Box component="div" direction="row" display='flex' justifyContent='center'> */}
+
+  <Card className="cardBorder" sx={{ display: 'flex', maxWidth:'md' }}>
+      <Box sx={{ display: 'flex', flexDirection: 'column', width:'60%' }}>
+        <CardContent sx={{ flex: '1 0 auto',  }}>
+          <Typography component="div" variant="h3">
+            Fade Technology Solutions
+          </Typography>
+          <Typography variant="subtitle1" color="text.secondary" component="div">
+            Case study of UI/UX dewsign for Fade Technology dashboard.
+          </Typography>
+        </CardContent>
+        {/* <Box sx={{ display: 'flex', alignItems: 'center', pl: 1, pb: 1 }}>
+          
+        </Box> */}
+      </Box>
+      <CardMedia
+        component="img"
+        sx={{ width: '40%', height:'240px' }}
+        image="/assets/FadeB2B_Page_01.png"
+        alt="Live from space album cover"
+      />
+    </Card>
+{/* <Card className="fade" sx={{maxWidth:'md'}}>
       <CardActionArea>
         <CardMedia
           component="img"
@@ -288,8 +313,8 @@ Case Studies
           <Link href="/fade-solutions"> Read More...</Link>
         </Button>
       </CardActions>
-    </Card>
-    </Box>
+    </Card> */}
+    {/* </Box> */}
 {/* <Image src='/assets/FadeB2B_Page_01.png'
     alt=''
     width={900}
@@ -300,8 +325,30 @@ Case Studies
 </Grid>
 
 <Grid item xs={12} md={12} lg={12} mb={8}>
+
 <Box component="div" direction="row" display='flex' justifyContent='center'>
-<Card className="fade" sx={{maxWidth:640}}>
+<Card className="cardBorder" sx={{ display: 'flex', maxWidth:'md' }}>
+      <Box sx={{ display: 'flex', flexDirection: 'column', width:'60%' }}>
+        <CardContent sx={{ flex: '1 0 auto',  }}>
+          <Typography component="div" variant="h3">
+            Fade Technology Solutions
+          </Typography>
+          <Typography variant="subtitle1" color="text.secondary" component="div">
+            Case study of UI/UX dewsign for Fade Technology dashboard.
+          </Typography>
+        </CardContent>
+        {/* <Box sx={{ display: 'flex', alignItems: 'center', pl: 1, pb: 1 }}>
+          
+        </Box> */}
+      </Box>
+      <CardMedia
+        component="img"
+        sx={{ width: '40%', height:'240px' }}
+        image="/assets/wgsr_home.png"
+        alt="Live from space album cover"
+      />
+    </Card>
+{/* <Card className="fade" sx={{maxWidth:'md'}}>
       <CardActionArea>
         <CardMedia
           component="img"
@@ -325,44 +372,21 @@ Case Studies
           <Link href="/west-side-german-shepherd"> Read More...</Link>
         </Button>
       </CardActions>
-    </Card>
+    </Card> */}
     </Box>
 </Grid>
 
 <Grid item xs={12} md={12} lg={12}>
 <Box component="div" direction="row" display='flex' justifyContent='center'>
-<Card className="fade" sx={{maxWidth:640}}>
-      <CardActionArea>
-        <CardMedia
-          component="img"
-          height="360"
-          image="/assets/FadeB2B_Page_01.png"
-          alt="Fade Technology"
-        />
-        <CardContent>
-          <Typography gutterBottom variant="h3" component="div" sx={{textTransform:'none', fontSize:'1rem'}}>
-            Fade Technology Solutions
-          </Typography>
-          <Typography variant="body2" color="text.secondary">
-            Lizards are a widespread group of squamate reptiles, with over 6,000
-            species, ranging across all continents except Antarctica
-          </Typography>
-         
-        </CardContent>
-      </CardActionArea>
-      <CardActions>
-        <Button size="small" variant="contained" color="primary">
-          <Link href="/FadeDesign"> Read More...</Link>
-        </Button>
-      </CardActions>
-    </Card>
+
     </Box>
 </Grid>
 </Grid>
     </Box>
 
-</Paper>
-  </Box>
+{/* </Paper> */}
+
+ 
  </> 
 
   )
