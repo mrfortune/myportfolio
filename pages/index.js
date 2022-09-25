@@ -22,9 +22,30 @@ export default function Home() {
   return (
     <>
     {/* <Box component="div" sx={{display:'block', width:'100%', minHeight:'100vh'}}> */}
-  <Hero>
-    </Hero> 
+  {/* <Hero>
+    </Hero>  */}
     {/* </Box> */}
+    <Box component="div" className="homeHero" padding={0}height="100%" Box direction="row" display='flex' alignItems='center' justifyContent='center' component="div"> 
+<Box p={2}  sx={{maxWidth:'md'}}>
+{/* <Grid container mt={6} maxWidth='md' spacing={0} sx={{ width:'900px',}}>
+    
+    <Grid item xs={12} md={12} lg={12} mb={8}>   */}
+    <Box component="div" sx={{width:'60%'}}>
+<Typography  variant="h1"  mb={2} sx={{ color:'#fafafa', fontSize:'3.0rem', }}>
+Data-Driven Design for Humans.
+</Typography>
+<Typography variant="body2" mb={4} sx={{color:'#fafafa', fontWeight:'400', fontSize:'1rem', textTransform:'none'}}>
+
+UX/UI design and engineering practioners who focus on identifying user pain-points and problems and designing solutions that work.
+</Typography>
+<Button color="primary" variant="contained" size="large" sx={{width:'160px', }}>
+Learn More...
+</Button>
+</Box>
+{/* </Grid>
+</Grid> */}
+  </Box>
+</Box>
     <Box component="div" sx={{width:'100%', minHeight:'30vh'}}>
           <Paper square={true} className="workBG" sx={{
     padding: 4,

@@ -136,9 +136,9 @@ color:whitesmoke;
 position:relative;
 padding: 16px;
     height: 100vh;
-    max-height: 1280px;
+    max-height: 1080px;
     min-height: 640px;
-    display: block;
+    /* display: block; */
     background-size: cover;
 }
 * {

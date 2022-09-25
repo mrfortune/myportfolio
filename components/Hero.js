@@ -20,7 +20,10 @@ console.log('use effect')
 });
   return (
 <Box component="div" className="homeHero" padding={0}> 
-<Box p={2}  height="100%" display="flex" flexDirection="column" justifyContent="center" alignItems="left" sx={{width:'50vw'}}>
+<Box p={2}  height="100%" display="flex" flexDirection="column" justifyContent="center" alignItems="left" sx={{ flexGrow: 1, px: 3 }}>
+<Grid container mt={6} maxWidth='md' spacing={0} sx={{ width:'900px',}}>
+    
+    <Grid item xs={12} md={12} lg={12} mb={8}>  
 <Typography  variant="h1"  mb={2} sx={{ color:'#fafafa', fontSize:'3.6rem', }}>
 Data-Driven Design for Humans.
 </Typography>
@@ -31,6 +34,8 @@ UX/UI design and engineering practioners who focus on identifying user pain-poin
 <Button color="primary" variant="contained" size="large" sx={{width:'160px', }}>
 Learn More...
 </Button>
+</Grid>
+</Grid>
   </Box>
 </Box>
 

@@ -83,7 +83,7 @@ function DrawerAppBar(props) {
     <HideOnScroll {...props}>
       <AppBar component="nav" className="navBG" elevation={2}>
         <Box component="div" direction="row" display='flex' justifyContent='center'>
-        <Toolbar display='flex' sx={{maxWidth:'lg', width:'1200px'}}>
+        <Toolbar display='flex' sx={{maxWidth:'md', width:'1200px'}}>
         <Box sx={{ flexGrow: 10, }}>
 <Typography
             variant="h6"
