@@ -22,7 +22,7 @@ const Contact = () => {
 	<Grid container spacing={2} sx={{maxWidth:'md', marginLeft: '0', }}>
 	
 	<Grid item xs={12} sm={12} md={12} lg={12}>
-<Typography variant="h1" mb={6}>
+<Typography variant="h1" className="header" mb={6}>
 Contact Us
 	</Typography>
 		<Typography variant="body1">183 Sterling Street</Typography> 

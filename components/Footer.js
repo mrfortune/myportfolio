@@ -28,10 +28,10 @@ export default function LabelBottomNavigation() {
    
 //  <BottomNavigation sx={{ backgroundColor:'#000', height:'auto', }} value={value} onChange={handleChange}> 
       
-      <Box component="div" className="navBG" pt={2} direction="row" display='flex' alignItems='center' justifyContent='center' height="192px">
-         <Grid container spacing={2} sx={{maxWidth:'md', paddingLeft:'16px'}}>
+      <Box component="div" className="navBG" pl={2} mr={2} pt={2} direction="row" display='flex' alignItems='center' justifyContent='center' height="200px">
+         <Grid container spacing={2} sx={{maxWidth:'md', }}>
 
-         <Grid item xs={4} lg={4} >
+         <Grid item xs={4} sm={4} lg={4} md={4}>
        <Box component="ul" sx={{
     padding: "0 0",
     listStyle: "none",
@@ -40,7 +40,7 @@ export default function LabelBottomNavigation() {
     color:'#fff',
   }} >
     <Box component="li" mb={2}>
-        <Typography variant="h4">Pages</Typography>
+        <Typography variant="h4" className="header">Pages</Typography>
     </Box>
       <Box component="li">
         <Link href="/">Home</Link>
@@ -62,7 +62,7 @@ export default function LabelBottomNavigation() {
     color:'#fff',
   }} >
     <Box component="li" mb={2}>
-        <Typography variant="h4">Resources</Typography>
+        <Typography variant="h4" className="header">Resources</Typography>
     </Box>
       <Box component="li">
         <Link href="/">Terms</Link>
@@ -75,7 +75,7 @@ export default function LabelBottomNavigation() {
     </Grid>
     <Grid item xs={4} lg={4}>
     <Box component="div" mb={2}>
-        <Typography variant="h4" sx={{color:'#fff'}}>Sharing</Typography>
+        <Typography variant="h4" className="header" sx={{color:'#fff'}}>Sharing</Typography>
     </Box>
     <Box
       sx={{

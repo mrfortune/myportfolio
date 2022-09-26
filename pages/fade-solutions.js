@@ -23,16 +23,16 @@ const FadeDesign = () => {
   <Grid container spacing={0}>
      <Grid item xs={12} lg={12}>   
          <Box component="div" mt={4} mb={3} sx={{textAlign:'center', height:'152px'}}>
-        <Typography variant="h1" sx={{fontSize:'3.0rem',}}> Dashboard UI/UX Solution</Typography>
-               <Typography variant="body1">Publisher, agency, brand and ad campaign management dashboard solution.</Typography>              
+        <Typography variant="h1" className="header"> Dashboard UI/UX Solution</Typography>
+               <Typography variant="body1" className="body1">Publisher, agency, brand and ad campaign management dashboard solution.</Typography>              
            </Box>
             
      </Grid> 
-     <Grid item xs={12} lg={12}>
-       <Box component="div" p={6} sx={{flexgrow:'1',}}>     
-        <Grid container spacing={2}>
+     <Grid item xs={12} lg={12} >
+       <Box component="div" p={6} display="flex" justifyContent="center" alignItems="center" sx={{flexgrow:'1',}}>     
+        <Grid container spacing={2} sx={{maxWidth:'md'}}>
 <Grid item xs={12} sm={3} md={3} lg={3}>
-  <Typography variant="body2">Client </Typography>
+  <Typography variant="body2" className="body2">Client </Typography>
 <Typography variant="body1">Fade Technology - fade.technology </Typography>
 </Grid>
 <Grid item xs={12} sm={3} md={3} lg={3}><Typography variant="body2">Year</Typography>
@@ -86,7 +86,7 @@ buy products directly from the video on the platform they are on, without redire
 		  </Grid>
       
 		  <Grid item xs={12} lg={12} md={12} mb={8}>            
-      <Typography variant="h2">
+      <Typography variant="h2" className="header">
                 The Problem  
                 </Typography>
                 
@@ -104,7 +104,7 @@ easily track and manage their sales data and campaign metrics.
       
         </Grid>
       <Grid item xs={12} lg={12} md={12} mb={8}>
-      <Typography variant="h2">The Project Brief</Typography>
+      <Typography variant="h2" className="header">The Project Brief</Typography>
                <Typography variant="body1">
             The Fade executives and techs came to us with a detailed project brief, inclding how their system worked for publishers, agencies, brands and admins and examples of Facebook Business Suite and Snapchat's Business dashboard. We did not have access to user info, nor could we interview users since their users are their business clients.</Typography>
            
@@ -114,7 +114,7 @@ easily track and manage their sales data and campaign metrics.
         </Grid>
         
       <Grid item xs={12} lg={12} mb={8}>
-    <Typography variant="h2">Competitive Analysis</Typography>
+    <Typography variant="h2" className="header">Competitive Analysis</Typography>
     <Typography variant="body1">Campaign managment solutions and administrative dashboards are nothing new. Many companies, such as Amazon, YouTube and Facebook alll have those solutions for their business users. We simply looked at those properties and features and applied it to Fades project brief. </Typography>
     <Typography variant="body1">Fades business model is an advertiser driven B2B model not for consumers, so we focused heavily on their layout and UI components including analytics. Fade has no direct competitors based on their unique offering.</Typography>
     <Typography variant="body2">Observations:</Typography>
@@ -130,7 +130,7 @@ easily track and manage their sales data and campaign metrics.
        
       <Grid item xs={12} lg={12} md={12} mb={8}>
 
-      <Typography variant="h2">Comparative Analysis</Typography>
+      <Typography variant="h2" className="header">Comparative Analysis</Typography>
       <Typography variant="body1">Fades proposition is a unique technology and although there are similarites in the online ad space they do not have a direct competitor. We next looked at Amazon's Seller Central's dashboard. Their business model is not an advertishing based model but there are similarities in their solutions. This was to gather more data on how these solutions are designed, and to get more inspiration.</Typography>
         </Grid>
         <Grid item xs={12} lg={12} md={12} mb={8}>
@@ -156,14 +156,14 @@ easily track and manage their sales data and campaign metrics.
   <Grid item xs={12} lg={12} mb={8}>
                     
                     
-                    <Typography variant="h2" mb={4}>Persona:Meet Pamela Wu</Typography>
+                    <Typography variant="h2" className="header" mb={4}>Persona:Meet Pamela Wu</Typography>
                     <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{...commonStyles, borderRadius: '16px'}}>
                     <Image src="fadepersona.png" alt="" height={636} width={900} /></Box>
      
         </Grid>
        
       <Grid item xs={12} lg={12} mb={8}>
-      <Typography variant="h2">Journey Map</Typography>
+      <Typography variant="h2" className="header">Journey Map</Typography>
       <Typography  variant="body1">In the image below we map the user journey of the Account Administrator as she interacts with the proposed solution.</Typography>
                <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{...commonStyles, borderRadius: '16px'}}>
                 <Image loader={myLoader} src="FadeJourneyMap.png" alt="" height={675} width={900}/>
@@ -180,7 +180,7 @@ We began our process by sketching low fidelity wireframes with pen and paper.  S
         </Grid>
         <Grid item xs={12} lg={12} mb={8}>
 
-        <Typography  variant="h2">The Happy Paths</Typography>
+        <Typography  variant="h2" className="header">The Happy Paths</Typography>
                 <Typography  variant="body1">Fades user flow was touched on earlier at the journey map but here is a bit more detail showing how users would navigate on the platform. We focused on the primary flow, which is 'Sign-up' for the platform. Here is our "happy path":</Typography>
                 <Typography  variant="body1">Here is our "happy path":</Typography> 
       <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{...commonStyles, borderRadius: '16px'}}>
@@ -227,7 +227,7 @@ We began our process by sketching low fidelity wireframes with pen and paper.  S
      </Box>
      
    </Grid>
-            <Typography variant="h2">Simple and Intuitive Dashboard</Typography>
+            <Typography variant="h2" className="header">Simple and Intuitive Dashboard</Typography>
             <Typography variant="body1">A simple and intuitive dashboard with all of the minimal features that Fade needs for its clients. These are the final design that the team and I came up with for Fade's dashboard. Desktop was primary so we did not design a mobile solution </Typography>
      
         </Grid>
@@ -256,7 +256,7 @@ We began our process by sketching low fidelity wireframes with pen and paper.  S
           </Box>
           </Grid>
           <Grid item xs={12} lg={12} md={12} mb={8}>
-            <Typography variant="h2">Usability-Testing</Typography>
+            <Typography variant="h2" className="header">Usability-Testing</Typography>
             <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{...commonStyles, borderRadius: '16px'}}>     
           <img loader={myLoader} src="assets/FadeUsabilityTest_LoriMarion_2.gif" width={640} height={377} alt=""/>
           
@@ -265,7 +265,7 @@ We began our process by sketching low fidelity wireframes with pen and paper.  S
       <Grid item xs={12} lg={12} mb={8}>
       <Typography variant="h5">Results & Reflections</Typography>
         
-        <Typography variant="h2">Work with What You Have</Typography>
+        <Typography variant="h2" className="header">Work With What You Have</Typography>
     <Typography  variant="body1">Dashboards are a challenging undertaking due to the data-visulization features and figuring out the best user experience for those components. In this particualr project we had to rely on the brief which gave us a lot of information to begin designing our solution and we were then able to validate our assumptions by usability-testing.</Typography>
     
     <Typography variant="body1"></Typography>

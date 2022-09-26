@@ -68,9 +68,9 @@ function DrawerAppBar(props) {
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'left', fontSize:'1.2rem', color:'#aa00ff', }}>
        <List sx={{ horizontal: 'right',}}>
        <ListItemButton sx={{ textAlign: 'center' }} href="/">Home</ListItemButton>
-       <ListItemButton sx={{ textAlign: 'center' }} href="/Story">Story</ListItemButton>
-       <ListItemButton sx={{ textAlign: 'center' }} href="/Media">Media</ListItemButton>
-       <ListItemButton sx={{ textAlign: 'center' }} href="/Contact">Contact</ListItemButton>
+       <ListItemButton sx={{ textAlign: 'center' }} href="/story">Story</ListItemButton>
+       <ListItemButton sx={{ textAlign: 'center' }} href="/media">Media</ListItemButton>
+       <ListItemButton sx={{ textAlign: 'center' }} href="/contact">Contact</ListItemButton>
       </List>  
     </Box>
   );
