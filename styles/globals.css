@@ -153,6 +153,7 @@ color:whitesmoke;
 min-height:360px;
 }
 .homeHero{
+  background-color:#b1b0b0;
   background-image: linear-gradient(to bottom, rgba(37, 7, 7, 0.6) 0%, rgba(65,65,65,.7) 52%, rgba(42,42,42,.8) 100%),
   url('/assets/bg_new.png');
 color:whitesmoke;
@@ -200,9 +201,12 @@ height:100%;
 .landingImage{
   z-index:0;
 }
-ul{
-  padding-left:24px;
+ul.ulStyle{
+  padding-left:.6rem;
   list-style-type: circle;
+}
+ul.ulStyle li{
+  margin-bottom:1rem;
 }
 .landingText{
   /* z-index:1;

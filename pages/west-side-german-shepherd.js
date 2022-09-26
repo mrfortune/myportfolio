@@ -33,7 +33,7 @@ const WestSide = () => {
                       
                         </Grid>
 <Grid item xs={12} sm={3} md={3} lg={3} ><Typography variant="body2">Role</Typography>
-                        <Box component="ul" sx={{marginLeft: '0',}}>
+                        <Box component="ul" className="ulStyle" sx={{marginLeft: '0',}}>
                           
             
             <li>Information Architect</li>
@@ -113,7 +113,7 @@ client(West Side German Shepherd Rescue -shepresue.org), to create a delightful 
 					  </Grid>
 					  <Grid item xs={12} md={12} lg={12} mb={8}>
 					  <Typography variant="h2" className="header">1. User Interviews Questions</Typography>
-<Box component="ul" mb={6} sx={{}}>
+<Box component="ul" className="ulStyle" cmb={6} sx={{}}>
       
 						<li>1. Tell me about your experience of finding and adopting your dog online.<ul>
 								<li>a. Website used</li>

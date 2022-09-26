@@ -65,7 +65,7 @@ backgroundcolor:'#000',
           fontSize:'1.125rem',
           textTransform: 'uppercase',
           fontWeight: '500',
-          marginBottom:'3rem',
+          marginBottom:'5rem',
           textAlign:'center',
             },
         body1:{

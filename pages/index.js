@@ -91,13 +91,13 @@ Case Studies
 </Typography>
   </Grid>
 <Grid item xs={12} md={12} lg={12} mb={8}>
-  <Card className="cardBorder" sx={{ display: 'flex', maxWidth:'md' }}>
+  <Card className="cardBorder" sx={{ display: 'flex', maxWidth:'md', minWidth:'xs' }}>
       <Box sx={{ display: 'flex', flexDirection: 'column', width:'40%' }}>
         <CardContent sx={{ flex: '1 0 auto',  }}>
           <Typography component="div" variant="h4" className="header">
             Fade Technology Solutions
           </Typography>
-          <Typography variant="subtitle1" className="subtitle1" color="text.secondary" component="div">
+          <Typography variant="subtitle1" className="subtitle1" color="text.secondary" component="div" sx={{marginBottom:'7.5rem'}}>
             Explore the process of designing a B2B dashboard.
           </Typography>
           <CardActions  sx={{marginLeft:'0', paddingLeft:'0'}}>
@@ -109,10 +109,11 @@ Case Studies
        
       </Box>
       <CardMedia
+      loader={myLoader}
         component="img"
         sx={{ width: '60%', height:'auto' }}
-        image="/assets/FadeB2B_Page_01.png"
-        alt="Live from space album cover"
+        image="FadeB2B_Page_01.png"
+        alt="Fade Technology Solutions"
       />
       
     </Card>
@@ -128,7 +129,7 @@ Case Studies
           <Typography component="div" variant="h4" className="header">
            West Side German Shepherd Rescue
           </Typography>
-          <Typography variant="subtitle1" className="subtitle1" color="text.secondary" component="div">
+          <Typography variant="subtitle1" className="subtitle1" color="text.secondary" component="div" sx={{marginBottom:'7.5rem'}}>
             Let's walk through the dog adoption process.
           </Typography>
           <CardActions  sx={{marginLeft:'0', paddingLeft:'0'}}>
@@ -140,10 +141,11 @@ Case Studies
     
       </Box>
       <CardMedia
+      loader={myLoader}
         component="img"
         sx={{ width: '60%', height:'auto' }}
-        image="/assets/wgsr_home.png"
-        alt="Live from space album cover"
+        image="wgsr_home.png"
+        alt="WGSR"
       />
     </Card>
 

@@ -41,11 +41,11 @@ const FadeDesign = () => {
                         </Grid>
 <Grid item xs={12} sm={3} md={3} lg={3} ><Typography variant="body2">Role</Typography>
                         
-                          <ul sx={{marginLeft: '0',}}>
+                          <Box component="ul" className="ulStyle" sx={{marginLeft: '0',}}>
             
             <li>Information Architect &amp; Research</li>
             
-                        </ul> 
+                        </Box> 
                         </Grid>
 
                         <Grid item xs={12} sm={3} md={3} lg={3} >
@@ -67,7 +67,7 @@ My priciple role was Information Architect and I collaborated on research and vi
        
        
     <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{ flexGrow: 1, px: 3 }}> 
-		<Grid container mt={6} spacing={0} sx={{ width:'740px',}}>
+		<Grid container mt={6} spacing={0} sx={{ maxWidth:'md',}}>
     
       <Grid item xs={12} md={12} lg={12} mb={8}>            
       <Typography variant="h2">About This Project</Typography>
@@ -118,13 +118,13 @@ easily track and manage their sales data and campaign metrics.
     <Typography variant="body1">Campaign managment solutions and administrative dashboards are nothing new. Many companies, such as Amazon, YouTube and Facebook alll have those solutions for their business users. We simply looked at those properties and features and applied it to Fades project brief. </Typography>
     <Typography variant="body1">Fades business model is an advertiser driven B2B model not for consumers, so we focused heavily on their layout and UI components including analytics. Fade has no direct competitors based on their unique offering.</Typography>
     <Typography variant="body2">Observations:</Typography>
-    <ul>
+    <Box component="ul" className="ulStyle">
     <li>Dashboards all have analytics and charts and features to analyse the data.</li>
     <li>There are access and privilege levels assigned to users including who has administrative rights.</li>
     <li>Administrators invite users to the platform.</li>
     <li>Security protocols are put in place to prevent unauthorized access of the platform.</li>
     <li>Campaign management features such as 'Create a Campaign', 'Start/Stop a Campaign'.</li>	
-    </ul>
+    </Box>
      
         </Grid>
        

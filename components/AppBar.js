@@ -65,7 +65,7 @@ function DrawerAppBar(props) {
   };
   
   const drawer = (
-    <Box onClick={handleDrawerToggle} sx={{ textAlign: 'left', fontSize:'1.2rem', color:'#aa00ff', }}>
+    <Box onClick={handleDrawerToggle} sx={{ textAlign: 'left', fontSize:'1rem', color:'#aa00ff', }}>
        <List sx={{ horizontal: 'right',}}>
        <ListItemButton sx={{ textAlign: 'center' }} href="/">Home</ListItemButton>
        <ListItemButton sx={{ textAlign: 'center' }} href="/story">Story</ListItemButton>
@@ -83,7 +83,7 @@ function DrawerAppBar(props) {
     <HideOnScroll {...props}>
       <AppBar component="nav" className="navBG" elevation={2}>
         <Box component="div" direction="row" display='flex' justifyContent='center'>
-        <Toolbar display='flex' sx={{maxWidth:'md', width:'1200px'}}>
+        <Toolbar display='flex' sx={{maxWidth:'md', width:'1200px', minHeight:{xs:'64px', sm:'64px' }}}>
         <Box sx={{ flexGrow: 10, }}>
 <Typography
             variant="h6"
