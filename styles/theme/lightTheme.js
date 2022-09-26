@@ -43,26 +43,26 @@ backgroundcolor:'#000',
         },
         h1: {
           fontFamily:'Merriweather',
-          fontSize: '3.052rem',
+          fontSize: '1.802rem',
           fontWeight: 800,
         },
         
         h2:{
           fontFamily:'Merriweather',
     fontWeight:400,
-    fontSize:'2.441rem',
+    fontSize:'1.602rem',
     marginBottom:'1rem'
         },
         h3: {
           fontFamily:'Merriweather',
-    fontSize:'1.953rem',
+    fontSize:'1.424rem',
         },
         h4: {
           fontFamily:'Merriweather',
-          fontSize:'1.563rem',
+          fontSize:'1.266rem',
         },
         h5: {
-          fontSize:'1.25rem',
+          fontSize:'1.125rem',
           textTransform: 'uppercase',
           fontWeight: '500',
           marginBottom:'3rem',
