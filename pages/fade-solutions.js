@@ -134,20 +134,21 @@ easily track and manage their sales data and campaign metrics.
       <Typography variant="body1">Fades proposition is a unique technology and although there are similarites in the online ad space they do not have a direct competitor. We next looked at Amazon's Seller Central's dashboard. Their business model is not an advertishing based model but there are similarities in their solutions. This was to gather more data on how these solutions are designed, and to get more inspiration.</Typography>
         </Grid>
         <Grid item xs={12} lg={12} md={12} mb={8}>
-        <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{...commonStyles, borderRadius: '16px'}}>     
+        <Box component="div" className="imageBorderradius" display="flex" justifyContent="center" alignItems="center">     
           <Image 
+          className="imageBorderradius"
           src="comparacampaign.png" 
           loader={myLoader} 
-          width={543} 
-          height={182} 
+          width='543px'
+          height='182px' 
           alt="">
           </Image>
           </Box>
           
           </Grid>
           <Grid item xs={12} lg={12} md={12} mb={8}>   
-          <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{...commonStyles, borderRadius: '16px'}}>  
-          <Image loader={myLoader} src="comparamanusers.png" width={543} height={182} alt="">
+          <Box component="div" display="flex" justifyContent="center" className="imageBorderradius" alignItems="center">  
+          <Image loader={myLoader} src="comparamanusers.png" width='543px' height='182px' alt="">
 
 </Image> 
 </Box>
@@ -157,71 +158,72 @@ easily track and manage their sales data and campaign metrics.
                     
                     
                     <Typography variant="h2" className="header" mb={4}>Persona:Meet Pamela Wu</Typography>
-                    <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{...commonStyles, borderRadius: '16px'}}>
-                    <Image src="fadepersona.png" alt="" height={636} width={900} /></Box>
+                    <Box component="div" display="flex" justifyContent="center" className="imageBorderradius" alignItems="center">
+                    <Image src="fadepersona.png" className="imageBorderradius" alt="" height='636px' width='900px' /></Box>
      
         </Grid>
        
-      <Grid item xs={12} lg={12} mb={8}>
+      <Grid item xs={12} sm={12} md={12} lg={12} mb={8}>
       <Typography variant="h2" className="header">Journey Map</Typography>
       <Typography  variant="body1">In the image below we map the user journey of the Account Administrator as she interacts with the proposed solution.</Typography>
-               <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{...commonStyles, borderRadius: '16px'}}>
-                <Image loader={myLoader} src="FadeJourneyMap.png" alt="" height={675} width={900}/>
+               <Box component="div" display="flex" justifyContent="center" alignItems="center" className="imageBorderradius">
+                <Image loader={myLoader} src="FadeJourneyMap.png" className="imageBorderradius" alt="" height='675px' width='900px'/>
                 </Box>	
                 
                  
         </Grid>
-        <Grid item xs={12} lg={12} mb={8} ><Typography variant="h5">Design</Typography>
+        <Grid item xs={12} sm={12} md={12} lg={12} mb={8} >
+          <Typography variant="h5">Design</Typography>
                 
    <Typography variant="body1">
 We began our process by sketching low fidelity wireframes with pen and paper.  Since the brief informed us of what the dashboard should look like, based on the examples provided, and the fact that we had no ability to do user research with participants, we just started sketching. The results were that we got early buyin from the client and we could procede to site-mapping and mid-fidelity wireframing.
    </Typography>
      
         </Grid>
-        <Grid item xs={12} lg={12} mb={8}>
+        <Grid item xs={12} sm={12} md={12} lg={12} mb={8}>
 
-        <Typography  variant="h2" className="header">The Happy Paths</Typography>
-                <Typography  variant="body1">Fades user flow was touched on earlier at the journey map but here is a bit more detail showing how users would navigate on the platform. We focused on the primary flow, which is 'Sign-up' for the platform. Here is our "happy path":</Typography>
-                <Typography  variant="body1">Here is our "happy path":</Typography> 
-      <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{...commonStyles, borderRadius: '16px'}}>
-      <Image loader={myLoader} src="FadeB2B_Page_userflow1.png" alt="" height={506} width={900} />
+        <Typography  variant="h2" className="header">User Flows</Typography>
+                <Typography  variant="body1">Fades user flow was touched on earlier at the journey map but here is a bit more detail showing how users would navigate on the platform. We focused on the primary flow, which is the 'Sign-Up' process for the platform. Below are the user flows that we designed.</Typography>
+              
+      <Box component="div" display="flex" justifyContent="center" className="imageBorderradius" alignItems="center">
+      <Image loader={myLoader} src="FadeB2B_Page_userflow1.png" alt="" className="imageBorderradius" height='506px' width='900px' />
 </Box>
 </Grid>
-<Grid item xs={12} lg={12} mb={8}>
-      <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{...commonStyles, borderRadius: '16px'}}>
-      <Image loader={myLoader} src="FadeB2B_Page_userflow2.png" alt="" height={506} width={900} />
+<Grid item xs={12} sm={12} md={12} lg={12} mb={8}>
+      <Box component="div" display="flex" justifyContent="center" alignItems="center" className="imageBorderradius">
+      <Image loader={myLoader} src="FadeB2B_Page_userflow2.png" className="imageBorderradius" alt="" height='506px' width='900px' />
 </Box>
 </Grid>
 
-<Grid item xs={12} lg={12} mb={8}>
-      <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{...commonStyles, borderRadius: '16px'}}>
-      <Image loader={myLoader} src="FadeB2B_Page_sitemap1.png" alt="" height={506} width={900} />
+<Grid item xs={12} sm={12} md={12} lg={12} mb={8}>
+      <Box component="div" display="flex" justifyContent="center" className="imageBorderradius" alignItems="center">
+      <Image loader={myLoader} src="FadeB2B_Page_sitemap1.png" alt="" className="imageBorderradius" height={506} width={900} />
 </Box>
 </Grid>
-<Grid item xs={12} lg={12} mb={8}>
-      <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{...commonStyles, borderRadius: '16px'}}>
-      <Image loader={myLoader} src="FadeB2B_Page_sitemap2.png" alt="" height={506} width={900} />
+<Grid item xs={12} sm={12} md={12} lg={12} mb={8}>
+      <Box component="div" display="flex" justifyContent="center" alignItems="center" className="imageBorderradius">
+      <Image loader={myLoader} src="FadeB2B_Page_sitemap2.png" alt="" className="imageBorderradius" height={506} width={900} />
 </Box>
 </Grid>
-<Grid item xs={12} lg={12} mb={8}>
-      <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{...commonStyles, borderRadius: '16px'}}>
-      <Image loader={myLoader} src="FadeB2B_Page_sitemap3.png" alt="" height={506} width={900} />
+<Grid item xs={12} sm={12} md={12} lg={12} mb={8}>
+      <Box component="div" display="flex" justifyContent="center" alignItems="center" className="imageBorderradius">
+      <Image loader={myLoader} src="FadeB2B_Page_sitemap3.png" alt="" className="imageBorderradius" height={506} width={900} />
 </Box>
 </Grid>
 
    
        
-      <Grid item xs={12} lg={12} mb={8}>
+      <Grid item xs={12} sm={12} md={12} lg={12} mb={8}>
       <Typography variant="h5">Visual Design</Typography><Grid item xs={12} lg={12} md={12} mb={8}>
-      <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{...commonStyles, borderRadius: '16px'}}>     
-   <Image loader={myLoader} src="earlysketches.png" height={560} width={900}  alt="Fade Login">
+      <Box component="div" display="flex" justifyContent="center" alignItems="center" className="imageBorderradius">     
+   <Image loader={myLoader} src="earlysketches.png" height={560} width={900}  className="imageBorderradius" alt="Fade Login">
 
    </Image>
      </Box>
    </Grid>
-   <Grid item xs={12} lg={12} md={12} mb={8}>
-      <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{...commonStyles, borderRadius: '16px'}}>     
-   <Image loader={myLoader} src="midfidelity.png" height={352} width={900}  alt="Fade Login">
+   <Grid item xs={12} sm={12} md={12} lg={12} mb={8}>
+      <Box component="div" display="flex" justifyContent="center" alignItems="center" className="imageBorderradius">     
+   <Image loader={myLoader} src="midfidelity.png" height={352} width={900}  className="imageBorderradius" alt="Fade Login">
 
    </Image>
      </Box>
@@ -231,38 +233,38 @@ We began our process by sketching low fidelity wireframes with pen and paper.  S
             <Typography variant="body1">A simple and intuitive dashboard with all of the minimal features that Fade needs for its clients. These are the final design that the team and I came up with for Fade's dashboard. Desktop was primary so we did not design a mobile solution </Typography>
      
         </Grid>
-        <Grid item xs={12} lg={12} md={12} mb={8}>
-        <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{...commonStyles, borderRadius: '16px'}}>     
-          <Image src="PublisherFlow_FinalWelcome.png" width={900} height={640} alt="">
+        <Grid item xs={12} sm={12} md={12} lg={12} mb={8}>
+        <Box component="div" display="flex" justifyContent="center" alignItems="center" className="imageBorderradius">     
+          <Image src="PublisherFlow_FinalWelcome.png" width={900} height={640} alt="" className="imageBorderradius">
           </Image>
           </Box>
           </Grid>
-          <Grid item xs={12} lg={12} md={12} mb={8}>
-        <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{...commonStyles, borderRadius: '16px'}}>     
-          <Image loader={myLoader} src="SignUpFlow_FinalSignup.png" width={900} height={640} alt="">
+          <Grid item xs={12} sm={12} md={12} lg={12} mb={8}>
+        <Box component="div" display="flex" justifyContent="center" alignItems="center" className="imageBorderradius">     
+          <Image loader={myLoader} src="SignUpFlow_FinalSignup.png" width={900} height={640} alt="" className="imageBorderradius">
           </Image>
           </Box>
           </Grid>
-        <Grid item xs={12} lg={12} md={12} mb={8}>
-        <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{...commonStyles, borderRadius: '16px'}}>     
-          <Image loader={myLoader} src="PublisherFlow_FinalManageUsers.png" width={900} height={640} alt="">
+        <Grid item xs={12} sm={12} md={12} lg={12} mb={8}>
+        <Box component="div" display="flex" justifyContent="center" alignItems="center" className="imageBorderradius">     
+          <Image loader={myLoader} src="PublisherFlow_FinalManageUsers.png" className="imageBorderradius" width={900} height={640} alt="">
           </Image>
           </Box>
           </Grid>
-        <Grid item xs={12} lg={12} md={12} mb={8}>
-        <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{...commonStyles, borderRadius: '16px'}}>     
-          <Image loader={myLoader} src="PublisherFlow_FinalOverview.png" width={720} height={1080} alt="">
+        <Grid item xs={12} sm={12} md={12} lg={12} mb={8}>
+        <Box component="div" display="flex" justifyContent="center" alignItems="center" className="imageBorderradius">     
+          <Image loader={myLoader} src="PublisherFlow_FinalOverview.png" width={720} height={1080} className="imageBorderradius" alt="">
           </Image>
           </Box>
           </Grid>
-          <Grid item xs={12} lg={12} md={12} mb={8}>
+          <Grid item xs={12} sm={12} md={12} lg={12} mb={8}>
             <Typography variant="h2" className="header">Usability-Testing</Typography>
-            <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{...commonStyles, borderRadius: '16px'}}>     
+            <Box component="div" display="flex" justifyContent="center" alignItems="center" className="imageBorderradius">     
           <img loader={myLoader} src="assets/FadeUsabilityTest_LoriMarion_2.gif" width={640} height={377} alt=""/>
           
           </Box>
             </Grid>
-      <Grid item xs={12} lg={12} mb={8}>
+      <Grid item xs={12} sm={12} md={12} lg={12} mb={8}>
       <Typography variant="h5">Results & Reflections</Typography>
         
         <Typography variant="h2" className="header">Work With What You Have</Typography>

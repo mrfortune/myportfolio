@@ -113,7 +113,7 @@ client(West Side German Shepherd Rescue -shepresue.org), to create a delightful 
 					  </Grid>
 					  <Grid item xs={12} md={12} lg={12} mb={8}>
 					  <Typography variant="h2" className="header">1. User Interviews Questions</Typography>
-<Box component="ul">
+<Box component="ul" mb={6} sx={{}}>
       
 						<li>1. Tell me about your experience of finding and adopting your dog online.<ul>
 								<li>a. Website used</li>
@@ -199,13 +199,13 @@ client(West Side German Shepherd Rescue -shepresue.org), to create a delightful 
 </Image>
       
         </Grid>
-        <Grid item xs={12} md={12} lg={12} mb={8}>
+        {/* <Grid item xs={12} md={12} lg={12} mb={8}>
       
         <Typography variant="h2" className="header">Journey Map</Typography>
                     
                   
      
-        </Grid>
+        </Grid> */}
        
       <Grid item xs={12} lg={12} mb={8}>
       <Typography  variant="h5" className="header">Design</Typography>
