@@ -112,7 +112,7 @@ Case Studies
       loader={myLoader}
         component="img"
         sx={{ width: '60%', height:'auto' }}
-        image="FadeB2B_Page_01.png"
+        image="/assets/FadeB2B_Page_01.png"
         alt="Fade Technology Solutions"
       />
       
@@ -144,7 +144,7 @@ Case Studies
       loader={myLoader}
         component="img"
         sx={{ width: '60%', height:'auto' }}
-        image="wgsr_home.png"
+        image="/assets/wgsr_home.png"
         alt="WGSR"
       />
     </Card>
