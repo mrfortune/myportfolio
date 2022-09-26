@@ -51,7 +51,7 @@ backgroundcolor:'#000',
           fontFamily:'Merriweather',
     fontWeight:400,
     fontSize:'1.602rem',
-    marginBottom:'1rem'
+    marginBottom:'1.75rem'
         },
         h3: {
           fontFamily:'Merriweather',
@@ -70,7 +70,7 @@ backgroundcolor:'#000',
             },
         body1:{
             fontSize: '1rem',
-            marginBottom: '1rem',
+            marginBottom: '1.5rem',
             fontWeight:'500',
             
         },
