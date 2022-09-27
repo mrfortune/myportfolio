@@ -14,18 +14,11 @@ import SkipNextIcon from '@mui/icons-material/SkipNext';
 import { border } from '@mui/system';
 import myLoader from '../components/Loader';
 
-const commonStyles = {
-  bgcolor: '#e7e6e2',
-  borderColor: 'text.primary',
-  m: 1,
-  p: 0,
-  border: 1,
-};
 
 export default function Home() {
   return (
     <>
-    <Box component="div" className="homeHero" padding={0}  mb={10} height='100%' direction="row" display='flex' alignItems='center' justifyContent='center' component="div"> 
+    <Box component="div" className="homeHero" padding={0}  mb={10} height='100%' direction="row" display='flex' alignItems='center' justifyContent='center'> 
 <Box p={2}  sx={{maxWidth:'md'}}>
 
     <Box component="div" sx={{width:'60%'}}>
@@ -45,14 +38,14 @@ Learn More...
 </Box>
     
           
-    <Box direction="row" mb={10} mb={8} display='flex' ml={2} justifyContent='center' component="div">
+    <Box direction="row" mb={8} display='flex' ml={2} justifyContent='center' component="div">
      <Grid container spacing={2}  sx={{maxWidth:'md'}}>
-       <Grid item xs={12} md={12} md={12} lg={12}>
+       <Grid item xs={12} sm={12} md={12}  lg={12}>
          <Typography variant="h2" className="header" sx={{color:'#333', textAlign:'left'}}>
   What We Do
 </Typography>
        </Grid>
-       <Grid item xs={12} md={12} md={12} lg={12}>
+       <Grid item xs={12} md={12} sm={12} lg={12}>
       <Box component="div" ml={0} className="whatWeDo" height='100%' display='flex' sx={{}}>
 
       </Box>
@@ -70,7 +63,7 @@ Learn More...
 Projects
 
   </Typography>
-  <Typography variant="body1" className="body1">
+  <Typography variant="body1" className="pbody1">
     Worked as a UX Engineer, Project Manager, Web Producer &amp; Designer, and Design Technologist for these brands.
   </Typography>  
   </Grid>
@@ -97,7 +90,7 @@ Case Studies
           <Typography component="div" variant="h4" className="header">
             Fade Technology Solutions
           </Typography>
-          <Typography variant="subtitle1" className="subtitle1" color="text.secondary" component="div" sx={{marginBottom:'7.5rem'}}>
+          <Typography variant="subtitle1" className="mysubtitle1" color="text.secondary" component="div" sx={{marginBottom:'7.5rem'}}>
             Explore the process of designing a B2B dashboard.
           </Typography>
           <CardActions  sx={{marginLeft:'0', paddingLeft:'0'}}>

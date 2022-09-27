@@ -48,7 +48,7 @@ nav .contactButton:hover{
 h1.header {
   font-size: clamp(1.602rem, -0.875rem + 5.267vw, 1.802rem);
 }
-p.body1{
+p.pbody1{
   font-size: clamp(1rem, -0.875rem + 5.267vw, 1.02rem); 
 }
 h2.header{
@@ -63,7 +63,7 @@ h4.header{
 h5.header{
   font-size: clamp(1.07rem, -0.875rem + 5.267vw, 1.125rem);  
 }
-.subtitle1{
+.mysubtitle1{
   font-size: clamp(1rem, -0.875rem + 5.267vw, 1.02rem); 
 }
 a {
