@@ -36,9 +36,15 @@ nav .active{
   color: #d500f9;
   font-weight:800;
 }
-nav .contactButton .active{
-color:darkgrey;
+nav button a:hover{
+color:rgb(127, 127, 129);
 }
+nav .contactButton .active{
+color:rgb(68, 67, 67);
+}
+nav .contactButton:hover{
+  background-color: none;
+  }
 h1.header {
   font-size: clamp(1.602rem, -0.875rem + 5.267vw, 1.802rem);
 }
