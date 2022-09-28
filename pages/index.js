@@ -30,7 +30,7 @@ Data-Driven Design for Humans.
 UX/UI design and engineering practioners who focus on identifying user pain-points and problems and designing solutions that work.
 </Typography>
 <Button color="primary" variant="contained" size="large" sx={{width:'160px', }}>
-Learn More...
+<Link href="/story">Learn More...</Link>
 </Button>
 </Box>
 
