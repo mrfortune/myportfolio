@@ -23,8 +23,8 @@ const FadeDesign = () => {
   <Grid container spacing={0}>
      <Grid item xs={12} lg={12}>   
          <Box component="div" mt={4} mb={3} sx={{textAlign:'center', height:'152px'}}>
-        <Typography variant="h1" className="header"> Dashboard UI/UX Solution</Typography>
-               <Typography variant="body1" className="body1">Publisher, agency, brand and ad campaign management dashboard solution.</Typography>              
+        <Typography variant="h1" className="header"> Data Analytics &amp; UX Done Well</Typography>
+               <Typography variant="body1" className="body1">Publishers and brands ad campaign management and data visualization dashboard solution.</Typography>              
            </Box>
             
      </Grid> 
@@ -80,11 +80,8 @@ and streaming service platforms. It is a cloud-based platform that enables digit
 publishers to monetize editorial, sponsored, advertorial, and original video content
 natively. It allows a new e-commerce experience that lets viewers instantly discover and
 buy products directly from the video on the platform they are on, without redirects.
-                </Typography>
-                
-             
+                </Typography>    
 		  </Grid>
-      
 		  <Grid item xs={12} lg={12} md={12} mb={8}>            
       <Typography variant="h2" className="header">
                 The Problem  

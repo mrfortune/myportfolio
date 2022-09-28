@@ -69,7 +69,7 @@ function DrawerAppBar(props) {
        <List sx={{ horizontal: 'right',}}>
        <ListItemButton sx={{ textAlign: 'center' }} href="/">Home</ListItemButton>
        <ListItemButton sx={{ textAlign: 'center' }} href="/story">Story</ListItemButton>
-       <ListItemButton sx={{ textAlign: 'center' }} href="/media">Media</ListItemButton>
+       {/* <ListItemButton sx={{ textAlign: 'center' }} href="/media">Media</ListItemButton> */}
        <ListItemButton sx={{ textAlign: 'center' }} href="/contact">Contact</ListItemButton>
       </List>  
     </Box>
@@ -119,7 +119,7 @@ function DrawerAppBar(props) {
 <a className={router.pathname == "/" ? "active" : ""}>Home</a>
 </Link>
 </Button>
-<Button sx={{mr:1, color:'#fff'}}><Link href="/story">
+<Button sx={{mr:3, color:'#fff'}}><Link href="/story">
 <a className={currentRoute === "/story" 
        ? "active" 
        : "non-active"}>
@@ -127,14 +127,14 @@ function DrawerAppBar(props) {
      </a>
 </Link>
 </Button>
-<Button sx={{mr:1, color:'#fff'}}><Link href="/media">
+{/* <Button sx={{mr:1, color:'#fff'}}><Link href="/media">
 <a className={currentRoute === "/media" 
        ? "active" 
        : "non-active"}>
         Media 
      </a>
 </Link>
-</Button>
+</Button> */}
 <Button className="contactButton" variant="contained">
   <Link href="/contact">
   <a className={currentRoute === "/contact" 

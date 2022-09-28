@@ -46,25 +46,28 @@ nav .contactButton:hover{
   background-color: none;
   }
 h1.header {
-  font-size: clamp(1.602rem, -0.875rem + 5.267vw, 1.802rem);
+  font-size: clamp(1.502rem, -.1026rem + 1.233, 1.802rem);
 }
 p.pbody1{
-  font-size: clamp(1rem, -0.875rem + 5.267vw, 1.02rem); 
+  font-size: clamp(1rem, -.1026rem + 1.233vw, 1.02rem); 
 }
 h2.header{
-  font-size: clamp(1.424rem, -0.875rem + 5.267vw, 1.602rem);  
+  font-size: clamp(1.324rem, -.1026rem + 1.233vw, 1.602rem);  
 }
 h3.header{
-  font-size: clamp(1.266rem, -0.875rem + 5.267vw, 1.424rem);  
+  font-size: clamp(1.266rem, -.1026rem + 1.233vw, 1.424rem);  
+}
+.MuiTypography-h3 h3.cardHeader{
+  font-size: clamp(1rem, -.239rem + 3.189vw, 1.424rem);  
 }
 h4.header{
-  font-size: clamp(1.125rem, -0.875rem + 5.267vw, 1.266rem);  
+  font-size: clamp(1.025rem, -.1026rem + 1.233vw, 1.266rem);  
 }
 h5.header{
-  font-size: clamp(1.07rem, -0.875rem + 5.267vw, 1.125rem);  
+  font-size: clamp(1.00rem, -.1026rem + 1.233vw, 1.125rem);  
 }
 .mysubtitle1{
-  font-size: clamp(1rem, -0.875rem + 5.267vw, 1.02rem); 
+  font-size: clamp(1rem, -.1026rem + 1.233vw, 1.02rem); 
 }
 a {
   color: inherit;
@@ -127,20 +130,14 @@ min-height:270px;
 	box-shadow: 2px 2px 16px rgba(197, 196, 196, 0.5)  ; 
 	-webkit-box-shadow: 2px 2px 16px rgba(151, 149, 149, 0.5)  ; 
 	-moz-box-shadow: 2px 2px 16px rgba(177, 175, 175, 0.5)  ; 
-  border-radius: 16px;
+  border-radius: 4px;
   color:'#fff';
   background: rgb(250, 249, 249);
 /*background: linear-gradient(356deg, rgba(11,11,11,1) 0%, rgba(65,65,65,1) 52%, rgba(11,11,11,1) 100%);*/
 }
 .fadeHome{
-/* background-image: linear-gradient(to bottom, rgba(11,11,11,.2) 0%, rgba(65,65,65,.3) 52%, rgba(42,42,42,.5) 100%),
-url('/assets/FadeB2B_Page_01.png'); */
-/*background-image: url('/assets/FadeB2B_Page_01.png');*/
-height:auto;
 background-size: cover;
-width:100%;
 color:whitesmoke;
-min-height:270px;
 }
 .imageBorderradius{
 border-radius:10px;
@@ -192,6 +189,14 @@ color:black;
 min-height:clamp(0px, 56.25vw, 60vh) !important;
 /* max-height:506px; */
 max-width:900px; 
+}
+.fadeCard{
+  background-image: url('/assets/fadecardImage.png');
+/* height:clamp(0px, 56.25vw, 300px) !important; */
+/* min-height:clamp(0px, 66.25vw, 20vh) !important; */
+background-repeat:no-repeat;
+background-position: center;
+background-size:cover;
 }
 .pageBg{
   background: rgb(255,252,252);

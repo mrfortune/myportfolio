@@ -84,14 +84,14 @@ Case Studies
 </Typography>
   </Grid>
 <Grid item xs={12} md={12} lg={12} mb={8}>
-  <Card className="cardBorder" sx={{ display: 'flex', maxWidth:'md', minWidth:'xs' }}>
-      <Box sx={{ display: 'flex', flexDirection: 'column', width:'40%' }}>
+  <Card className="cardBorder" maxHeight='225px' sx={{ display: 'flex',}}>
+      <Box p={1} sx={{ display: 'flex', flexDirection: 'column', width:'66.66%' }}>
         <CardContent sx={{ flex: '1 0 auto',  }}>
-          <Typography component="div" variant="h4" className="header">
+          <Typography component="div" variant="h3" className="cardHeader">
             Fade Technology Solutions
           </Typography>
-          <Typography variant="subtitle1" className="mysubtitle1" color="text.secondary" component="div" sx={{marginBottom:'7.5rem'}}>
-            Explore the process of designing a B2B dashboard.
+          <Typography variant="subtitle1" color="text.secondary" mb={3} component="div" >
+            Explore the process of designing a B2B dashboard with data-visualization and ad campaign management tools.
           </Typography>
           <CardActions  sx={{marginLeft:'0', paddingLeft:'0'}}>
         <Button size="small" variant="text" color="primary">
@@ -104,26 +104,24 @@ Case Studies
       <CardMedia
       loader={myLoader}
         component="img"
-        sx={{ width: '60%', height:'auto' }}
-        image="/assets/FadeB2B_Page_01.png"
+        sx={{ width:300 }}
+        background-size = 'cover'
+        image="/assets/fadecardImage.png"
         alt="Fade Technology Solutions"
       />
-      
     </Card>
 
 </Grid>
 
 <Grid item xs={12} md={12} lg={12} mb={8}>
-
-<Box component="div" direction="row" display='flex' justifyContent='center'>
-<Card className="cardBorder" sx={{ display: 'flex', maxWidth:'md' }}>
-      <Box sx={{ display: 'flex', flexDirection: 'column', width:'40%' }}>
+<Card className="cardBorder" maxHeight='225px' sx={{ display: 'flex',}}>
+<Box p={1} sx={{ display: 'flex', flexDirection: 'column', width:'66.66%' }}>
         <CardContent sx={{ flex: '1 0 auto',  }}>
-          <Typography component="div" variant="h4" className="header">
+          <Typography component="div" variant="h3" className="cardHeader">
            West Side German Shepherd Rescue
           </Typography>
-          <Typography variant="subtitle1" className="subtitle1" color="text.secondary" component="div" sx={{marginBottom:'7.5rem'}}>
-            Let's walk through the dog adoption process.
+          <Typography variant="subtitle1"  color="text.secondary" component="div" mb={3} >
+            Let's walk through the dog adoption process that we explored and the assumptions, insights, and final design of sheprescue.org.
           </Typography>
           <CardActions  sx={{marginLeft:'0', paddingLeft:'0'}}>
           <Button size="small" variant="text" color="primary">
@@ -133,23 +131,19 @@ Case Studies
         </CardContent>
     
       </Box>
+     
       <CardMedia
       loader={myLoader}
-        component="img"
-        sx={{ width: '60%', height:'auto' }}
-        image="/assets/wgsr_home.png"
+      component="img"
+      sx={{ width:300 }}
+        image="/assets/wgsrcardimage.png"
         alt="WGSR"
       />
+      
     </Card>
 
-    </Box>
 </Grid>
 
-<Grid item xs={12} md={12} lg={12}>
-<Box component="div" direction="row" display='flex' justifyContent='center'>
-
-    </Box>
-</Grid>
 </Grid>
     </Box>
 
