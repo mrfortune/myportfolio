@@ -84,7 +84,7 @@ Case Studies
 </Typography>
   </Grid>
 <Grid item xs={12} md={12} lg={12} mb={8}>
-  <Card className="cardBorder" maxHeight='225px' sx={{ display: 'flex',}}>
+  <Card className="cardBorder"  sx={{ display: 'flex',}}>
       <Box p={1} sx={{ display: 'flex', flexDirection: 'column', width:'66.66%' }}>
         <CardContent sx={{ flex: '1 0 auto',  }}>
           <Typography component="div" variant="h3" className="cardHeader">
@@ -93,11 +93,11 @@ Case Studies
           <Typography variant="subtitle1" color="text.secondary" mb={3} component="div" >
             Explore the process of designing a B2B dashboard with data-visualization and ad campaign management tools.
           </Typography>
-          <CardActions  sx={{marginLeft:'0', paddingLeft:'0'}}>
+          
         <Button size="small" variant="text" color="primary">
           <Link href="/fade-solutions"> Read More...</Link>
         </Button>
-      </CardActions>
+     
         </CardContent>
        
       </Box>
@@ -114,7 +114,7 @@ Case Studies
 </Grid>
 
 <Grid item xs={12} md={12} lg={12} mb={8}>
-<Card className="cardBorder" maxHeight='225px' sx={{ display: 'flex',}}>
+<Card className="cardBorder" sx={{ display: 'flex',}}>
 <Box p={1} sx={{ display: 'flex', flexDirection: 'column', width:'66.66%' }}>
         <CardContent sx={{ flex: '1 0 auto',  }}>
           <Typography component="div" variant="h3" className="cardHeader">
@@ -123,11 +123,11 @@ Case Studies
           <Typography variant="subtitle1"  color="text.secondary" component="div" mb={3} >
             Let's walk through the dog adoption process that we explored and the assumptions, insights, and final design of sheprescue.org.
           </Typography>
-          <CardActions  sx={{marginLeft:'0', paddingLeft:'0'}}>
+          
           <Button size="small" variant="text" color="primary">
           <Link href="/west-side-german-shepherd"> Read More...</Link>
         </Button>
-        </CardActions>
+       
         </CardContent>
     
       </Box>

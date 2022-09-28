@@ -67,10 +67,9 @@ function DrawerAppBar(props) {
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'left', fontSize:'1rem', color:'#aa00ff', }}>
        <List sx={{ horizontal: 'right',}}>
-       <ListItemButton sx={{ textAlign: 'center' }} href="/">Home</ListItemButton>
-       <ListItemButton sx={{ textAlign: 'center' }} href="/story">Story</ListItemButton>
-       {/* <ListItemButton sx={{ textAlign: 'center' }} href="/media">Media</ListItemButton> */}
-       <ListItemButton sx={{ textAlign: 'center' }} href="/contact">Contact</ListItemButton>
+       <Link href="/"><ListItemButton sx={{ textAlign: 'center' }}>Home</ListItemButton></Link>
+       <Link href="/story"><ListItemButton sx={{ textAlign: 'center' }}>Story</ListItemButton></Link>
+       <Link href="/contact"><ListItemButton sx={{ textAlign: 'center' }}>Contact</ListItemButton></Link>
       </List>  
     </Box>
   );
@@ -79,9 +78,9 @@ function DrawerAppBar(props) {
 
   return (
    
-    <Box className="navBG" sx={{ display: 'flex', }}>  
+    <Box sx={{ display: 'flex', }}>  
     <HideOnScroll {...props}>
-      <AppBar component="nav" position="static" className="navBG" elevation={2} sx={{width:'100%'}}>
+      <AppBar component="nav" position="fixed" className="navBG" elevation={2} sx={{width:'100%'}}>
       <Box component="div" direction="row" display='flex' alignItems='center' justifyContent='center'>
         <Toolbar display='flex' sx={{ minHeight:{xs:'64px', sm:'64px', width: "100%",
       maxWidth: '900px',
@@ -129,14 +128,6 @@ function DrawerAppBar(props) {
      </a>
 </Link>
 </Button>
-{/* <Button sx={{mr:1, color:'#fff'}}><Link href="/media">
-<a className={currentRoute === "/media" 
-       ? "active" 
-       : "non-active"}>
-        Media 
-     </a>
-</Link>
-</Button> */}
 <Button className="contactButton" variant="contained">
   <Link href="/contact">
   <a className={currentRoute === "/contact" 

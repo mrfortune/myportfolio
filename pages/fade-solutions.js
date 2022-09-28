@@ -23,7 +23,7 @@ const FadeDesign = () => {
   <Grid container spacing={0}>
      <Grid item xs={12} lg={12}>   
          <Box component="div" mt={4} mb={3} sx={{textAlign:'center', height:'152px'}}>
-        <Typography variant="h1" className="header"> Data Analytics &amp; UX Done Well</Typography>
+        <Typography variant="h1"> Data Analytics &amp; UX Done Well</Typography>
                <Typography variant="body1" className="body1">Publishers and brands ad campaign management and data visualization dashboard solution.</Typography>              
            </Box>
             

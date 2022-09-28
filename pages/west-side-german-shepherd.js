@@ -16,7 +16,7 @@ const WestSide = () => {
   <Grid container spacing={0}>
      <Grid item xs={12} lg={12}>   
          <Box component="div" mt={4} mb={3} sx={{textAlign:'center', height:'152px'}}>
-        <Typography variant="h1" className="header" mb={3} sx={{fontSize:'3.0rem',}}>WGSR User Experience &amp; Website Redesign</Typography>
+        <Typography variant="h1" className="header" mb={3}>WGSR User Experience &amp; Website Redesign</Typography>
                <Typography variant="body1">A complete redesign and improved user experience for West Side German Shepher Rescue.</Typography>              
            </Box>
             
