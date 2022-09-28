@@ -12,9 +12,9 @@ export default function Layout({ children }) {
         </Head>
         <DrawerAppBar/>
        
-        <main> <Container maxWidth={false} disableGutters={true}>{children}</Container></main>
+        <main><Container maxWidth={false} disableGutters={true}>{children}</Container></main>
       
-        <footer><LabelBottomNavigation/></footer>
+        <LabelBottomNavigation/> 
   
 
       </div>

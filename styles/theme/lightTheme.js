@@ -50,12 +50,12 @@ backgroundcolor:'#000',
         h2:{
           fontFamily:'Merriweather',
     fontWeight:400,
-    // fontSize:'1.602rem',
+    fontSize:'1.602rem',
     marginBottom:'1.75rem'
         },
         h3: {
           fontFamily:'Merriweather',
-    // fontSize:'1.424rem',
+    fontSize:'1.424rem',
         },
         h4: {
           fontFamily:'Merriweather',

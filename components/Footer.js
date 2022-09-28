@@ -9,6 +9,7 @@ import LocationOnIcon from '@mui/icons-material/LocationOn';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookIcon from '@mui/icons-material/Facebook';
+import BottomNavigation from '@mui/material/BottomNavigation';
 import { Paper } from '@mui/material';
 import {Container, Box, Grid, Typography} from '@mui/material';
 import Link from 'next/link';
@@ -25,11 +26,11 @@ export default function LabelBottomNavigation() {
   };
 
   return (
-   
-//  <BottomNavigation sx={{ backgroundColor:'#000', height:'auto', }} value={value} onChange={handleChange}> 
+    <Paper className="navBG"  sx={{ bottom: 0, left: 0, right: 0 }} elevation={3}>
+  <BottomNavigation sx={{ height:'auto', }} value={value} onChange={handleChange}> 
       
-      <Box component="div" className="navBG" pl={2} pr={0} mr={0} pt={2} direction="row" display='flex' alignItems='center' justifyContent='center' height="200px">
-         <Grid container spacing={2} sx={{maxWidth:'md', }}>
+      <Box component="div" pr={0} pl={1} mr={0} pt={2} direction="row" display='flex' alignItems='center' justifyContent='center' height="200px" sx={{width:'100%'}}>
+         <Grid container spacing={1} sx={{maxWidth:'md', }}>
 
          <Grid item xs={4} sm={4} lg={4} md={4}>
        <Box component="ul" sx={{
@@ -37,10 +38,10 @@ export default function LabelBottomNavigation() {
     listStyle: "none",
     display: "grid",
     gap: "8px",
-    color:'#fff',
+    color:'#333',
   }} >
     <Box component="li" mb={2}>
-        <Typography variant="h4" className="header">Pages</Typography>
+        <Typography variant="h4">Pages</Typography>
     </Box>
       <Box component="li">
         <Link href="/">Home</Link>
@@ -59,7 +60,7 @@ export default function LabelBottomNavigation() {
     listStyle: "none",
     display: "grid",
     gap: "8px",
-    color:'#fff',
+    color:'#333',
   }} >
     <Box component="li" mb={2}>
         <Typography variant="h4" className="header">Resources</Typography>
@@ -75,32 +76,32 @@ export default function LabelBottomNavigation() {
     </Grid>
     <Grid item xs={4} lg={4}>
     <Box component="div" mb={2}>
-        <Typography variant="h4" className="header" sx={{color:'#fff'}}>Sharing</Typography>
+        <Typography variant="h4" className="header" sx={{color:'#333'}}>Sharing</Typography>
     </Box>
     <Box
       sx={{
-        width:'160px',
-        color:'#fff',
+        width:'160',
+        color:'#333',
         '& > :not(style)': {
-          mr: 2,
+          mr: 1,
         },
       }}
     >
       <Link href="http://linkedin.com/in/robertsharris">
-        <a><LinkedIn fontSize="large"/></a>
+        <a><LinkedIn fontSize="medium"/></a>
         </Link>
-      <Link href="/"><a><Facebook fontSize="large"/></a></Link>
-      <Link href="/"><a><Instagram fontSize="large"/></a></Link>
+      <Link href="/"><a><Facebook fontSize="medium"/></a></Link>
+      <Link href="/"><a><Instagram fontSize="medium"/></a></Link>
       </Box>
     </Grid>
-    <Grid item xs={12} lg={12} md={12} sm={12} sx={{bottom: 0, left: 0, right: 0,}}>
-<Typography variant="caption" display="block" gutterBottom color='#fff' align='center'>&copy; 2022 WorldShaker Interactive, Inc. All rights reserved.</Typography>
-      </Grid>
+    {/* <Grid item xs={12} lg={12} md={12} sm={12} sx={{bottom: 0, left: 0, right: 0,}}>
+<Typography variant="caption" display="block" gutterBottom color='#333' align='center'>&copy; 2022 WorldShaker Interactive, Inc. All rights reserved.</Typography>
+      </Grid> */}
       {/* <BottomNavigationAction label="Folder" value="folder" icon={<FolderIcon />} /> */}
        </Grid>
       
    </Box> 
-  //  </BottomNavigation>
-    
+  </BottomNavigation>
+    </Paper>
   );
 }

@@ -18,7 +18,7 @@ import myLoader from '../components/Loader';
 export default function Home() {
   return (
     <>
-    <Box component="div" className="homeHero" padding={0}  mb={10} height='100%' direction="row" display='flex' alignItems='center' justifyContent='center'> 
+    <Box component="div" className="homeHero" padding={0}  mb={10}  direction="row" display='flex' alignItems='center' justifyContent='center'> 
 <Box p={2}  sx={{maxWidth:'md'}}>
 
     <Box component="div" sx={{width:'60%'}}>
