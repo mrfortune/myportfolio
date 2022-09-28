@@ -37,13 +37,15 @@ nav .active{
 }
 nav button a:hover{
 color:rgb(127, 127, 129);
+font-weight:600;
 }
 nav .contactButton .active{
-color:rgb(68, 67, 67);
+color:rgb(248, 247, 248);
+font-weight:600;
 }
 nav .contactButton:hover{
   background-color: none;
-  }
+}
 .MuiTypography-h1 {
   font-size: clamp(1.502rem, -.1026rem + 1.233, 1.802rem);
 }

@@ -47,10 +47,10 @@ export default function LabelBottomNavigation() {
         <Link href="/">Home</Link>
     </Box>
     <Box component="li">
-        <Link href="/Story">Story</Link>
+        <Link href="/story">Story</Link>
     </Box>
     <Box component="li">
-        <Link href="/Contact">Contact</Link>
+        <Link href="/contact">Contact</Link>
     </Box>
     </Box>
     </Grid>

@@ -11,9 +11,18 @@ const lightTheme = createTheme({
           main: grey[50],
         },
       },
+      overrides: {
+        MuiCssBaseline: {
+          '@global': {
       body:{
-backgroundcolor:'#000',
+        background: '#fff',
+background: 'linear-gradient(180deg, #fff 0%, #ffc 52%, #ffd 100%)',
+backgroundRepeat: "no-repeat",
+backgroundAttachment: "fixed",
       },
+    },
+  },
+},
       logo:{
     width:'40px',
       },
