@@ -24,7 +24,7 @@ const Story = () => {
         '& > :not(style)': {
           mr: 1,
         },
-      }}><Link href="/" ><DownloadIcon sx={{ fontSize: 40 }}/></Link><Link href="/"><LinkedInIcon sx={{ fontSize: 40 }}/></Link></Box>
+      }}><Link href="/" ><DownloadIcon sx={{ fontSize: 40 }}/></Link><Link href="RH-UX.pdf"><LinkedInIcon sx={{ fontSize: 40 }}/></Link></Box>
 		  <Typography mb={2} variant="body1">
 			  I am a UX engineer, architech, designer and design strategist and thinker.
 		I have worked for large brands successfully identifying user problems and
