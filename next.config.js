@@ -12,7 +12,6 @@ module.exports = {
   loader:'imgix',
   path:'https://worldshaker.imgix.net/',
 }, 
- trailingSlash:true,
  exportPathMap: async function (
   defaultPathMap,
   { dev, dir, outDir, distDir, buildId }
