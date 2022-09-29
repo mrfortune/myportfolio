@@ -5,7 +5,7 @@ import { red, pink, green, purple, grey, blue } from '@mui/material/colors';
 const lightTheme = createTheme({
     palette: {
         primary: {
-          main: purple['A400'],
+          main: purple['A700'],
         },
         secondary: {
           main: grey[50],
@@ -15,8 +15,8 @@ const lightTheme = createTheme({
         MuiCssBaseline: {
           '@global': {
       body:{
-        background: '#fff',
-background: 'linear-gradient(180deg, #fff 0%, #ffc 52%, #ffd 100%)',
+        background: 'rgb(242,242,242)',
+background: 'linear-gradient(180deg, rgba(242,242,242,1) 0%, rgba(209,209,209,1) 33%, rgba(195,195,195,1) 100%);',
 backgroundRepeat: "no-repeat",
 backgroundAttachment: "fixed",
       },
