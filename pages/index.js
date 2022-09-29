@@ -104,6 +104,8 @@ Case Studies
       <CardMedia
       loader={myLoader}
         component="img"
+        height="225"
+        width="300"
         sx={{ width:300 }}
         background-size = 'cover'
         image="/assets/fadecardImage.png"
@@ -135,6 +137,8 @@ Case Studies
       <CardMedia
       loader={myLoader}
       component="img"
+      width="300"
+      height="225"
       sx={{ width:300 }}
         image="/assets/wgsrcardimage.png"
         alt="WGSR"
