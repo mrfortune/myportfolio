@@ -178,16 +178,21 @@ background-position:center;
 .whatWeDo{
   background-image:url('/assets/whatwedologosbg.png');
   background-repeat:no-repeat;
-    background-position:center;
-  background-size: cover;
-  min-height:clamp(0px, 56.25vw, 50vh) !important;
+  background-position:center;
+  background-size: contain;
+  min-height:clamp(100px, 57.25vw, 320px) !important; 
+  width:100%;
+  height:auto;
+
 }
 .ourProjects{
   background-image: url('/assets/workbannerbg.png');
 background-repeat:no-repeat;
 background-position: center;
-background-size: cover;
-min-height:clamp(0px, 56.25vw, 60vh) !important;
+background-size: contain;
+height:auto;
+min-height:clamp(100px, 57.25vw, 320px) !important;
+width:100%;
 }
 .fadeCard{
   background-image: url('/assets/fadecardImage.png');

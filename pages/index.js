@@ -39,7 +39,7 @@ UX/UI design and engineering practioners who focus on identifying user pain-poin
     <Box direction="row" mb={8} display='flex' ml={2} justifyContent='center' component="div">
      <Grid container spacing={2}  sx={{maxWidth:'md'}}>
        <Grid item xs={12} sm={12} md={12}  lg={12}>
-         <Typography variant="h2" className="header" sx={{color:'#333', textAlign:'left'}}>
+         <Typography variant="h2"  sx={{color:'#333', textAlign:'left'}}>
   What We Do
 </Typography>
        </Grid>
@@ -57,11 +57,11 @@ UX/UI design and engineering practioners who focus on identifying user pain-poin
     <Box component='div' direction="row" mb={10} display='flex' ml={2} justifyContent='center'>
       <Grid container spacing={2} sx={{maxWidth:'md'}}>
         <Grid item xs={12} sm={12} md={12} lg={12}>
-      <Typography variant="h2" mb={4} sx={{color:'#333',}}>
+      <Typography variant="h2" mb={4} sx={{color:'#333', textAlign:'left'}}>
 Projects
 
   </Typography>
-  <Typography variant="body1" className="pbody1">
+  <Typography variant="body1">
     Worked as a UX Engineer, Project Manager, Web Producer &amp; Designer, and Design Technologist for these brands.
   </Typography>  
   </Grid>
