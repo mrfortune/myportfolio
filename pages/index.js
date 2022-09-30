@@ -44,7 +44,7 @@ UX/UI design and engineering practioners who focus on identifying user pain-poin
 </Typography>
        </Grid>
        <Grid item xs={12} md={12} sm={12} lg={12}>
-      <Box component="div" ml={0} className="whatWeDo" height='100%' display='flex' sx={{}}>
+      <Box component="div" ml={0} className="whatWeDo" height='100%' display='flex'>
 
       </Box>
    
@@ -57,7 +57,7 @@ UX/UI design and engineering practioners who focus on identifying user pain-poin
     <Box component='div' direction="row" mb={10} display='flex' ml={2} justifyContent='center'>
       <Grid container spacing={2} sx={{maxWidth:'md'}}>
         <Grid item xs={12} sm={12} md={12} lg={12}>
-      <Typography variant="h2" className="header" mb={4} sx={{color:'#333',}}>
+      <Typography variant="h2" mb={4} sx={{color:'#333',}}>
 Projects
 
   </Typography>
@@ -66,7 +66,7 @@ Projects
   </Typography>  
   </Grid>
   <Grid item xs={12} md={12} lg={12}>
-    <Box component="div" className="ourProjects">
+    <Box component="div" ml={0} className="ourProjects" height='100%' display='flex'>
   
   </Box>
   </Grid>
@@ -77,7 +77,7 @@ Projects
 <Box component="div" direction="row" ml={2} mr={2} display='flex' justifyContent='center'>
 <Grid container spacing={2} sx={{maxWidth:'md'}}>
   <Grid item xs={12} sm={12} md={12} lg={12} spacing={2}>
-<Typography variant="h2" className="header" sx={{color:'#333'}}>
+<Typography variant="h2" sx={{color:'#333'}}>
 Case Studies
 </Typography>
   </Grid>
