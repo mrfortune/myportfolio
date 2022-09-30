@@ -257,7 +257,7 @@ We began our process by sketching low fidelity wireframes with pen and paper.  S
           <Grid item xs={12} sm={12} md={12} lg={12} mb={8}>
             <Typography variant="h2" className="header">Usability-Testing</Typography>
             <Box component="div" display="flex" justifyContent="center" alignItems="center" className="imageBorderradius">     
-          <img loader={myLoader} src="assets/FadeUsabilityTest_LoriMarion_2.gif" width={640} height={377} alt=""/>
+          <img  src="/assets/FadeUsabilityTest_LoriMarion_2.gif" width={640} height={377} alt="Usability Testing"/>
           
           </Box>
             </Grid>
