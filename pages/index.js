@@ -21,20 +21,18 @@ export default function Home() {
 <Box component="div" className="homeHero" padding={0}  mb={10}  direction="row" display='flex' alignItems='center' justifyContent='center'> 
 <Box component="div" p={2}  sx={{maxWidth:'md'}}>
 
-<Box component="div" sx={{width:'60%', height:'30vh'}}>
-<Typography  variant="h1"  mb={2} sx={{ color:'#fafafa',}}>
+<Box component="div" sx={{display:'block', width:'60%', height:'30vh'}}>
+<Typography  variant="h1"  mb={2} sx={{color:'#fafafa',}}>
 Data-Driven Design for Humans.
 </Typography>
-<Typography variant="body2" className="body1" mb={4} sx={{color:'#fafafa', fontWeight:'400', textTransform:'none'}}>
-
+<Typography variant="body1" mb={2} sx={{color:'#fafafa', fontWeight:'400', textTransform:'none'}}>
 UX/UI design and engineering practioners who focus on identifying user pain-points and problems and designing solutions that work.
 </Typography>
 <Button color="primary" variant="contained" size="large" sx={{width:'160px', }}>
 <Link href="/story">Learn More...</Link>
 </Button>
 </Box>
-
-  </Box>
+</Box>
 </Box>
     
           
