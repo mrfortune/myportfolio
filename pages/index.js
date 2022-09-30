@@ -21,7 +21,7 @@ export default function Home() {
 <Box component="div" className="homeHero" padding={0}  mb={10}  direction="row" display='flex' alignItems='center' justifyContent='center'> 
 <Box component="div" p={2}  sx={{maxWidth:'md'}}>
 
-<Box component="div" sx={{width:'60%'}}>
+<Box component="div" sx={{width:'60%', height:'30vh'}}>
 <Typography  variant="h1"  mb={2} sx={{ color:'#fafafa',}}>
 Data-Driven Design for Humans.
 </Typography>

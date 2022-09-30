@@ -19,8 +19,8 @@ const FadeDesign = () => {
   return (
     <Box component="div">
   <Paper square={true} className="fadeHero" mt={0} sx={{minHeight:'50vh', color:'#fff'}}>
-        <Box mt={8} component="div" display="flex" justifyContent="center" alignItems="center">
-  <Grid container spacing={0}>
+        <Box mt={8} ml={2} mr={2} component="div" display="flex" justifyContent="center" alignItems="center">
+  <Grid container spacing={2}>
      <Grid item xs={12} lg={12}>   
          <Box component="div" mt={4} mb={3} sx={{textAlign:'center', height:'152px'}}>
         <Typography variant="h1"> Data Analytics &amp; UX Done Well</Typography>
@@ -28,8 +28,8 @@ const FadeDesign = () => {
            </Box>
             
      </Grid> 
-     <Grid item xs={12} lg={12} >
-       <Box component="div" p={6} display="flex" justifyContent="center" alignItems="center" sx={{flexgrow:'1',}}>     
+     <Grid item xs={12} lg={12}>
+       <Box component="div" ml={0} p={2} display="flex" justifyContent="center" alignItems="center">     
         <Grid container spacing={2} sx={{maxWidth:'md'}}>
 <Grid item xs={12} sm={3} md={3} lg={3}>
   <Typography variant="body2" className="body2">Client </Typography>
@@ -69,7 +69,8 @@ My priciple role was Information Architect and I collaborated on research and vi
     <Box component="div" display="flex" justifyContent="center" alignItems="center" sx={{ flexGrow: 1, px: 3 }}> 
 		<Grid container mt={6} spacing={0} sx={{ maxWidth:'md',}}>
     
-      <Grid item xs={12} md={12} lg={12} mb={8}>            
+      <Grid item xs={12} md={12} lg={12} mb={8}> 
+      <Typography variant="h5">Overview</Typography>           
       <Typography variant="h2">About This Project</Typography>
                      
       <Typography variant="body1">

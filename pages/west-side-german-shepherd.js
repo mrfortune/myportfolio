@@ -12,8 +12,8 @@ const WestSide = () => {
   return (
     <Container maxWidth={false} mt={0} disableGutters={true}>
   <Paper square={true} className="wgsrHero" mt={0} sx={{minHeight:'50vh', color:'#fff'}}>
-        <Box mt={8} component="div" display="flex" justifyContent="center" alignItems="center">
-  <Grid container spacing={0}>
+        <Box mt={8} component="div" ml={2} display="flex" justifyContent="center" alignItems="center">
+  <Grid container spacing={2}>
      <Grid item xs={12} lg={12}>   
          <Box component="div" mt={4} mb={3} sx={{textAlign:'center', height:'152px'}}>
         <Typography variant="h1" className="header" mb={3}>WGSR User Experience &amp; Website Redesign</Typography>
@@ -22,7 +22,7 @@ const WestSide = () => {
             
      </Grid> 
      <Grid item xs={12} lg={12}>
-       <Box component="div" p={6} display="flex" justifyContent="center" alignItems="center" sx={{flexgrow:'1',}}>     
+       <Box component="div" p={2} display="flex" justifyContent="center" alignItems="center" sx={{flexgrow:'1',}}>     
         <Grid container spacing={2} sx={{maxWidth:'md'}}>
 <Grid item xs={12} sm={3} md={3} lg={3} >
   <Typography variant="body2">Client </Typography>
@@ -65,7 +65,7 @@ My priciple role was Information Architect and I collaborated on research and vi
     
       <Grid item xs={12} md={12} lg={12} mb={8}>            
   
-<Typography variant="h5" className="header">Overview</Typography>
+<Typography variant="h5">Overview</Typography>
       <Typography variant="h2" className="header">About This Project</Typography>	
 				
 				<Typography variant="body1">Our team was tasked with designing a new feature(s) and/or improve an existing feature(s) for our assigned
@@ -86,10 +86,6 @@ client(West Side German Shepherd Rescue -shepresue.org), to create a delightful 
                 
              
 		  </Grid>
-        
-     <Grid item xs>
-
-       </Grid>
       
 		  <Grid item xs={12} lg={12} md={12} mb={5}>            
       <Typography  variant="h5">THE PROCESS & SOLUTION</Typography>
