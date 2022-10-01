@@ -256,7 +256,8 @@ We began our process by sketching low fidelity wireframes with pen and paper.  S
           </Box>
           </Grid>
           <Grid item xs={12} sm={12} md={12} lg={12} mb={8}>
-            <Typography variant="h2" className="header">Usability-Testing</Typography>
+            <Typography variant="h2">Usability Testing</Typography>
+            <Typography variant="body1">Finally, we conducted qualitative usability testing sessions with our clients to identify problems in our prototype, uncover opportunities and to discover users' behaviors and preferences. We worked from user testing scripts and guided our users to perform specific tasks. We conducted our sessions via Zoom and recorded the sessions.</Typography>
             <Box component="div" display="flex" justifyContent="center" alignItems="center" className="imageBorderradius">     
           <img  src="/assets/FadeUsabilityTest_LoriMarion_2.gif" width={640} height={377} alt="Usability Testing"/>
           
