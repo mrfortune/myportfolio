@@ -14,10 +14,10 @@ import ImageListItem from '@mui/material/ImageListItem';
 
 export default function StandardImageList() {
   return (
-    <Box className="contact"component="div" mt={15}>
+     <Box component="div" padding={0}  mt={15} mb={10}  direction="row" display='flex' alignItems='center' justifyContent='center'>
 <Grid container spacing={2} sx={{maxWidth:'md'}}>
   <Grid item>
-    <ImageList sx={{ width: 500, height: 450 }} cols={3} rowHeight={164}>
+    <ImageList sx={{ width: 900, height: 550 }} cols={4} rowHeight={164}>
       {itemData.map((item) => (
         <ImageListItem key={item.img}>
           <img
