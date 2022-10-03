@@ -15,21 +15,23 @@ const Story = () => {
 	return(
 		<Box component="div" mt={15} mb={15} direction="row" display='flex' justifyContent='center'>
 	
-			<Grid container spacing={2} sx={{paddingLeft:'16px', maxWidth: 'md'}}>
+			<Grid container pl={1} spacing={2} sx={{paddingLeft:'16px', maxWidth: 'md'}}>
 				<Grid item xs={11} md={8} lg={9}>
 <Typography variant="h1" className="header" mb={6}>Story</Typography>
 			<Typography variant="h2" mb={2}><Box component="span" sx={{fontWeight:'400', }}>Robert S. Harris</Box></Typography>
 			<Typography variant="subtitle1" mb={1} sx={{textTransform:'none', fontWeight:'600',}}>UX Engineer &amp; Designer | Design Thinking Practitioner | Aspiring Product Manager</Typography>
-			<Box component="span" display='flex' alignItems='center' sx={{
+			<Box component="span"  display='flex' alignItems='center' sx={{
         '& > :not(style)': {
           mr: 1,
         },
       }}><Link href="RH-UX.pdf" ><a><DownloadIcon sx={{ fontSize: 40 }}/></a></Link><Link href="http://linkedin.com/in/robertsharris"><a><LinkedInIcon sx={{ fontSize: 40 }}/></a></Link></Box>
-		  <Typography mb={2} variant="body1">
-			  I am a UX engineer, architech, designer and design strategist and thinker.
-		I have worked for large brands successfully identifying user problems and
-			  delivering digital products and solutions for their customers and business. 
-			  I have collaborated with cross-functional teams to deliver these solutions. 
+		  </Grid>
+		  <Grid item mt={2} xs={11} md={8} lg={9}>
+			  <Typography mb={2} variant="body1">
+			  I am a UX engineer, architech, designer and design thinking practitioner.
+		I have worked for large brands successfully identifying user problems and pain-points and
+			  delivering products and solutions for their customers and accomplishing business goals. 
+			  I work in collaboration with stakeholders, and cross-functional teams to deliver and launch solutions. 
   
 	  </Typography>
 	  <Typography mb={2} variant="body1">
@@ -46,12 +48,13 @@ const Story = () => {
 	  <Typography mb={2} variant="body1">
 	  I am still designing soltuons to problems and who knows may come up with another idea that can shake the world. But, for now, I am happy to share my skills with companies small, medium and large to help them deliver better user experiences to their customers.	  
 		</Typography>
+		</Grid>
 </Grid>
 <Grid item xs={1} md={4} lg={3}>
 
 </Grid>	
 
-			</Grid>
+		
 			
 			
 		</Box>
