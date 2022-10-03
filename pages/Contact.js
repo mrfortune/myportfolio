@@ -25,8 +25,8 @@ const Contact = () => {
 <Typography variant="h1" className="header" mb={6}>
 Contact Us
 	</Typography>
-		<Typography variant="body1">183 Sterling Street</Typography> 
-<Typography variant="body1">Brooklyn, NY 11225</Typography>
+		<Typography variant="body1" mb={1}>183 Sterling Street</Typography> 
+<Typography variant="body1" mb={1}>Brooklyn, NY 11225</Typography>
 <Typography variant="body1">
 	 Cell: 1.646.620.4438</Typography>
   <Typography color='primary' varian='button' sx={{ textDecoration:'none', }}><Mailto email="rharris@worldshaker.com" subject="Available to Discuss a new Project" body="Hi Robert,">
