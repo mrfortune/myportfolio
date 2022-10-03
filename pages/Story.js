@@ -19,7 +19,7 @@ const Story = () => {
 				<Grid item xs={11} md={8} lg={9}>
 <Typography variant="h1" className="header" mb={6}>Story</Typography>
 			<Typography variant="h2" mb={2}><Box component="span" sx={{fontWeight:'400', }}>Robert S. Harris</Box></Typography>
-			<Typography variant="subtitle1" mb={1} sx={{textTransform:'none', fontWeight:'600',}}>UX Engineer &amp; Designer | Design Thinking Practioner | Aspiring Product Manager</Typography>
+			<Typography variant="subtitle1" mb={1} sx={{textTransform:'none', fontWeight:'600',}}>UX Engineer &amp; Designer | Design Thinking Practitioner | Aspiring Product Manager</Typography>
 			<Box component="span" display='flex' alignItems='center' sx={{
         '& > :not(style)': {
           mr: 1,
