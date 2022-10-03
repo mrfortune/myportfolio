@@ -17,7 +17,8 @@ import myLoader from '../components/Loader';
 
 export default function Home() {
   return (
-    <>
+    <div>
+
 <Box component="div" className="homeHero" padding={0}  mb={10}  direction="row" display='flex' alignItems='center' justifyContent='center'> 
 <Box component="div" p={2}  sx={{maxWidth:'md'}}>
 
@@ -76,7 +77,7 @@ Projects
  
 <Box component="div" direction="row" ml={2} mr={2} display='flex' justifyContent='center'>
 <Grid container spacing={2} sx={{maxWidth:'md'}}>
-  <Grid item xs={12} sm={12} md={12} lg={12} spacing={2}>
+  <Grid item xs={12} sm={12} md={12} lg={12}>
 <Typography variant="h2" sx={{color:'#333'}}>
 Case Studies
 </Typography>
@@ -100,7 +101,6 @@ Case Studies
        
       </Box>
       <CardMedia
-      loader={myLoader}
         component="img"
         height="225"
         width="300"
@@ -133,7 +133,6 @@ Case Studies
       </Box>
      
       <CardMedia
-      loader={myLoader}
       component="img"
       width="300"
       height="225"
@@ -152,7 +151,7 @@ Case Studies
 
 
  
- </> 
+ </div>
 
   )
 };
