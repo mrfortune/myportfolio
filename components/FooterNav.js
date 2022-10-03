@@ -76,6 +76,9 @@ const FooterNav = () => {
       <Link href="/"><a><Instagram fontSize="medium"/></a></Link>
       </Box>
     </Grid>
+    <Grid item xs={12} sm={12} lg={12} md={12}>
+      <Typography variant="body1" mt={2} sx={{fontSize:'9px', }}>&copy; 2022 WorldShaker, Interactive, Inc. All rights reserved.</Typography>
+      </Grid>
        </Grid>
       
    </Box> 
