@@ -9,11 +9,17 @@ import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import { Typography } from '@mui/material';
 import Divider from '@mui/material/Divider';
+import Head from 'next/head';
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 
 export default function StandardImageList() {
   return (
+    <div>
+    <Head>
+<title>Media</title>
+
+    </Head>
      <Box component="div" padding={0}  mt={15} mb={10}  direction="row" display='flex' alignItems='center' justifyContent='center'>
 <Grid container spacing={2} sx={{maxWidth:'md'}}>
   <Grid item>
@@ -32,6 +38,7 @@ export default function StandardImageList() {
     </Grid>
     </Grid>
     </Box>
+    </div>
   );
 }
 
