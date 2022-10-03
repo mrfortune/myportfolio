@@ -9,9 +9,9 @@ import { Instagram } from '@mui/icons-material';
 const FooterNav = () => {
   return (
     <div>
-<Paper className="navBG"  square={true} sx={{ bottom: 0, left: 0, right: 0, color:'#fff' }} elevation={3}>
+<Paper className="navBG" square={true} sx={{ bottom: 0, left: 0, right: 0, color:'#fff' }} elevation={3}>
   
-      <Box component="div" pr={0} pl={1} mr={0} pt={2} direction="row" display='flex' alignItems='center' justifyContent='center' height="200px" sx={{width:'100%'}}>
+      <Box component="div" pb={2} pr={0} pl={1} mr={0} pt={2} direction="row" display='flex' alignItems='center' justifyContent='center' height="224px" sx={{width:'100%'}}>
          <Grid container spacing={1} sx={{maxWidth:'md', }}>
 
          <Grid item xs={4} sm={4} lg={4} md={4}>
